@@ -1,11 +1,12 @@
 /* ============================================
    GM CONSULTING SRL — Main JavaScript
+   Tech-Enabled Risk Architecture
    ============================================ */
 
 document.addEventListener('DOMContentLoaded', function () {
 
     // --- Navbar scroll effect ---
-    const navbar = document.getElementById('navbar');
+    var navbar = document.getElementById('navbar');
 
     function handleNavbarScroll() {
         if (window.scrollY > 60) {
@@ -19,8 +20,8 @@ document.addEventListener('DOMContentLoaded', function () {
     handleNavbarScroll();
 
     // --- Mobile menu toggle ---
-    const navToggle = document.getElementById('navToggle');
-    const navMenu = document.getElementById('navMenu');
+    var navToggle = document.getElementById('navToggle');
+    var navMenu = document.getElementById('navMenu');
 
     navToggle.addEventListener('click', function () {
         navToggle.classList.toggle('active');
@@ -63,7 +64,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 }
             });
         }, {
-            threshold: 0.15,
+            threshold: 0.1,
             rootMargin: '0px 0px -40px 0px'
         });
 
@@ -71,82 +72,40 @@ document.addEventListener('DOMContentLoaded', function () {
             observer.observe(el);
         });
     } else {
-        // Fallback for old browsers
         revealElements.forEach(function (el) {
             el.classList.add('visible');
-        });
-    }
-
-    // --- Animated counter for stats ---
-    var statNumbers = document.querySelectorAll('.stat-number[data-target]');
-
-    function animateCounter(el) {
-        var target = parseInt(el.getAttribute('data-target'), 10);
-        var duration = 2000;
-        var startTime = null;
-
-        function step(timestamp) {
-            if (!startTime) startTime = timestamp;
-            var progress = Math.min((timestamp - startTime) / duration, 1);
-            // Ease-out cubic
-            var eased = 1 - Math.pow(1 - progress, 3);
-            el.textContent = Math.floor(eased * target);
-            if (progress < 1) {
-                requestAnimationFrame(step);
-            } else {
-                el.textContent = target;
-            }
-        }
-
-        requestAnimationFrame(step);
-    }
-
-    if ('IntersectionObserver' in window) {
-        var counterObserver = new IntersectionObserver(function (entries) {
-            entries.forEach(function (entry) {
-                if (entry.isIntersecting) {
-                    animateCounter(entry.target);
-                    counterObserver.unobserve(entry.target);
-                }
-            });
-        }, { threshold: 0.5 });
-
-        statNumbers.forEach(function (el) {
-            counterObserver.observe(el);
-        });
-    } else {
-        statNumbers.forEach(function (el) {
-            el.textContent = el.getAttribute('data-target');
         });
     }
 
     // --- Contact form handling ---
     var contactForm = document.getElementById('contactForm');
 
-    contactForm.addEventListener('submit', function (e) {
-        e.preventDefault();
+    if (contactForm) {
+        contactForm.addEventListener('submit', function (e) {
+            e.preventDefault();
 
-        var btn = contactForm.querySelector('button[type="submit"]');
-        var originalText = btn.textContent;
-        btn.textContent = 'Invio in corso...';
-        btn.disabled = true;
+            var btn = contactForm.querySelector('button[type="submit"]');
+            var originalText = btn.textContent;
+            btn.textContent = 'Invio in corso...';
+            btn.disabled = true;
 
-        // Simulate form submission (replace with actual endpoint)
-        setTimeout(function () {
-            btn.textContent = 'Richiesta Inviata!';
-            btn.style.background = '#22c55e';
-            btn.style.borderColor = '#22c55e';
-
-            contactForm.reset();
-
+            // Simulate form submission (replace with actual endpoint)
             setTimeout(function () {
-                btn.textContent = originalText;
-                btn.style.background = '';
-                btn.style.borderColor = '';
-                btn.disabled = false;
-            }, 3000);
-        }, 1200);
-    });
+                btn.textContent = 'Assessment Inviato!';
+                btn.style.background = '#16A34A';
+                btn.style.borderColor = '#16A34A';
+
+                contactForm.reset();
+
+                setTimeout(function () {
+                    btn.textContent = originalText;
+                    btn.style.background = '';
+                    btn.style.borderColor = '';
+                    btn.disabled = false;
+                }, 3000);
+            }, 1200);
+        });
+    }
 
     // --- Active nav link on scroll ---
     var sections = document.querySelectorAll('section[id]');

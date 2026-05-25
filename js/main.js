@@ -77,25 +77,25 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 
-    // --- Contact form handling ---
-    var contactForm = document.getElementById('contactForm');
+    // --- Form handling (works for both pages) ---
+    function setupForm(formId) {
+        var form = document.getElementById(formId);
+        if (!form) return;
 
-    if (contactForm) {
-        contactForm.addEventListener('submit', function (e) {
+        form.addEventListener('submit', function (e) {
             e.preventDefault();
 
-            var btn = contactForm.querySelector('button[type="submit"]');
+            var btn = form.querySelector('button[type="submit"]');
             var originalText = btn.textContent;
             btn.textContent = 'Invio in corso...';
             btn.disabled = true;
 
-            // Simulate form submission (replace with actual endpoint)
             setTimeout(function () {
-                btn.textContent = 'Assessment Inviato!';
+                btn.textContent = 'Richiesta Inviata!';
                 btn.style.background = '#16A34A';
                 btn.style.borderColor = '#16A34A';
 
-                contactForm.reset();
+                form.reset();
 
                 setTimeout(function () {
                     btn.textContent = originalText;
@@ -106,6 +106,9 @@ document.addEventListener('DOMContentLoaded', function () {
             }, 1200);
         });
     }
+
+    setupForm('contactForm');
+    setupForm('complianceForm');
 
     // --- Active nav link on scroll ---
     var sections = document.querySelectorAll('section[id]');

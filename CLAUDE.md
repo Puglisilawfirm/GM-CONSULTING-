@@ -16,8 +16,9 @@ This file provides context and conventions for AI assistants (Claude, etc.) work
 GM-CONSULTING-/
 ├── CLAUDE.md              # AI assistant guide (this file)
 ├── index.html             # Main single-page website
+├── compliance.html        # Area Compliance & Certificazioni ISO/UNI
 ├── css/
-│   └── style.css          # All styles (premium gold/dark theme)
+│   └── style.css          # All styles (premium black + gold theme)
 ├── js/
 │   └── main.js            # Interactivity (scroll, animations, form)
 └── assets/
@@ -27,8 +28,8 @@ GM-CONSULTING-/
 ## Brand Identity
 
 - **Primary Color (Gold):** `#C8A951` — used for accents, CTAs, highlights
-- **Dark Background:** `#1A1A2E` — hero, Sistema GM section, footer
-- **White/Off-white:** `#FFFFFF` / `#FAFAFA` — content sections
+- **Black Background:** `#000000` / `#050505` / `#0D0D0D` — all dark sections (pure black, NOT navy blue)
+- **Off-white:** `#F7F7F5` — used sparingly; the site is dark-first premium
 - **Display Font:** Playfair Display (headings) — authority and precision
 - **Body Font:** Inter (text) — clean readability
 - **Mono Font:** JetBrains Mono (labels, tech tags, section labels) — technical credibility

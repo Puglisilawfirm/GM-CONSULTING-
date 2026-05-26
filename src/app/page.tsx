@@ -1,304 +1,454 @@
 import type { Metadata } from "next"
 import Link from "next/link"
-import { Shield, Cog, TrendingUp, Network, Monitor, HeartPulse } from "lucide-react"
-import { Hero } from "@/components/ui/Hero"
-import { SectionHeader } from "@/components/ui/SectionHeader"
-import { CTAButton } from "@/components/ui/CTAButton"
+import { ArrowRight } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "GM Consulting S.r.l. — Consulenza direzionale, compliance, automazione",
-  description:
-    "Consulenza direzionale, architettura di compliance e automazione dei processi. Interventi strutturati con artefatti verificabili e misurabili.",
-  alternates: { canonical: "https://www.gmconsulting.one" },
+  title: "GM Consulting S.r.l. — Architettura di rischio per imprese complesse",
+  description: "Società di consulenza italiana specializzata in compliance strategica, governance, finanza-controllo, legal tech, automazione di processo e healthcare/emergency management. Sei aree integrate, otto standard presidiati, prodotti verticali in continua evoluzione. Catania, dal 2002.",
+  alternates: { canonical: "https://www.gmconsulting.one/" },
+  openGraph: {
+    title: "GM Consulting — Architettura di rischio. Tecnicamente abilitata.",
+    description: "Sei aree di intervento integrate, otto standard di compliance presidiati. Consulenza professionale per imprese e organizzazioni complesse, in convenzione con Studio Legale Avv. Maria Puglisi.",
+    type: "website",
+    locale: "it_IT",
+    siteName: "GM Consulting",
+    images: [{ url: "/logo-gmconsulting-512.png", width: 512, height: 512, alt: "GM Consulting S.r.l." }],
+  },
 }
 
 const areas = [
   {
-    icon: Shield,
+    number: "01",
+    total: "06",
     title: "Compliance Strategica & Business Planning",
-    description:
-      "Architettura di compliance integrata nella pianificazione strategica. Business plan costruiti per resistere a ispezioni e contenziosi.",
-    anchor: "compliance-strategica",
+    description: "Modelli di organizzazione, gestione e controllo ex D.Lgs. 231/2001 integrati con la pianificazione strategica e il business planning quinquennale.",
+    href: "/aree-di-intervento#compliance-strategica",
   },
   {
-    icon: Cog,
-    title: "Automazione & Ottimizzazione dei Processi",
-    description:
-      "Automazione dei processi ricorrenti con validazione giuridica integrata. Riduzione dei tempi operativi e degli errori umani.",
-    anchor: "automazione-processi",
+    number: "02",
+    total: "06",
+    title: "Automazione & Ottimizzazione Processi",
+    description: "Mappatura, reingegnerizzazione e automazione di processi amministrativi e operativi, con metriche di efficienza misurabili e indicatori di performance verificabili.",
+    href: "/aree-di-intervento#automazione-processi",
   },
   {
-    icon: TrendingUp,
-    title: "Finanza, Controllo & Modellazione Predittiva",
-    description:
-      "Modelli predittivi sui driver finanziari critici. Scenari Monte Carlo per la quantificazione dell'incertezza decisionale.",
-    anchor: "finanza-controllo",
+    number: "03",
+    total: "06",
+    title: "Finanza Controllo & Modellazione Predittiva",
+    description: "Sistemi di controllo di gestione, modelli previsionali, stress test e scenario analysis per la sostenibilità economico-finanziaria.",
+    href: "/aree-di-intervento#finanza-controllo",
   },
   {
-    icon: Network,
+    number: "04",
+    total: "06",
     title: "Governance & Architettura Organizzativa",
-    description:
-      "Progettazione di strutture organizzative coerenti con il quadro normativo. Modelli 231, organigrammi funzionali, deleghe e procure.",
-    anchor: "governance-organizzativa",
+    description: "Disegno e revisione di assetti organizzativi adeguati ex art. 2086 c.c., funzioni di controllo interno, deleghe e procure.",
+    href: "/aree-di-intervento#governance",
   },
   {
-    icon: Monitor,
-    title: "Trasformazione Digitale & Compliance by Design",
-    description:
-      "Integrazione della compliance nei processi digitali fin dalla progettazione. Legal tech, document automation, workflow normativi.",
-    anchor: "trasformazione-digitale",
+    number: "05",
+    total: "06",
+    title: "Legal Tech & Trasformazione Digitale",
+    description: "Soluzioni applicative per la gestione del rischio legale, protocolli digitali, workflow di compliance integrati con i sistemi gestionali aziendali.",
+    href: "/aree-di-intervento#legal-tech",
   },
   {
-    icon: HeartPulse,
+    number: "06",
+    total: "06",
     title: "Healthcare & Emergency Management",
-    description:
-      "Compliance sanitaria, accreditamento, gestione delle emergenze portuali e industriali. Protocolli operativi e formazione certificata.",
-    anchor: "healthcare-emergency",
+    description: "Business Impact Analysis, Business Continuity Management e piani di emergenza per strutture sanitarie e organizzazioni complesse a continuità critica.",
+    href: "/aree-di-intervento#healthcare-emergency",
   },
 ]
 
 const phases = [
   {
-    number: "01",
-    title: "Due Diligence Strategica",
-    description:
-      "Audit giuridico, risk assessment quantitativo, priority matrix delle criticità.",
+    numeral: "I",
+    title: "Discovery & Assessment",
+    description: "Rilevazione documentale, interviste strutturate, gap analysis rispetto agli standard di riferimento.",
   },
   {
-    number: "02",
-    title: "Prototyping & Scenario Analysis",
-    description:
-      "Modelli predittivi, simulazioni Monte Carlo, proof of concept in sandbox.",
+    numeral: "II",
+    title: "Design & Engineering",
+    description: "Progettazione del modello, drafting dei protocolli, taratura degli indicatori di presidio.",
   },
   {
-    number: "03",
-    title: "Implementation",
-    description:
-      "Deploy con SLA contrattuali, formazione certificata, piano di rollback.",
+    numeral: "III",
+    title: "Implementation & Training",
+    description: "Rilascio operativo, formazione del personale, integrazione con i sistemi gestionali esistenti.",
   },
   {
-    number: "04",
-    title: "Algorithmic Monitoring",
-    description:
-      "Dashboard real-time, alert automatici, report periodici di conformità.",
+    numeral: "IV",
+    title: "Continuous Assurance",
+    description: "Monitoraggio periodico, audit interni, revisione del modello in risposta a eventi normativi e di processo.",
   },
 ]
 
-const complianceBadges = [
-  { code: "ISO 37001:2025", name: "Sistemi di gestione anticorruzione" },
-  { code: "ISO 37301", name: "Sistemi di gestione della compliance" },
-  { code: "ISO 31000", name: "Gestione del rischio" },
-  { code: "D.Lgs. 231/2001", name: "Responsabilità amministrativa degli enti" },
-  { code: "ISO/IEC 27001", name: "Sicurezza delle informazioni" },
-  { code: "ISO 45001", name: "Salute e sicurezza sul lavoro" },
-  { code: "UNI/PdR 125:2022", name: "Parità di genere" },
-  { code: "ISO 22301", name: "Continuità operativa" },
+const stats = [
+  {
+    value: "2002",
+    label: "ANNO DI COSTITUZIONE",
+    caption: "Oltre vent’anni di operatività continuativa sul mercato della consulenza professionale.",
+  },
+  {
+    value: "6",
+    label: "AREE DI INTERVENTO",
+    caption: "Capabilities integrate dalla compliance strategica all’emergency management.",
+  },
+  {
+    value: "8",
+    label: "STANDARD PRESIDIATI",
+    caption: "Da ISO 27001 a UNI 11871:2022, sino al D.Lgs. 231/2001 e a NIS2.",
+  },
+  {
+    value: "2",
+    label: "PRODOTTI VERTICALI",
+    caption: "Protocollo 23 attivo; Suite GDPR-NIS2 in rilascio.",
+  },
+]
+
+const standards = [
+  { sigla: "ISO 27001", description: "Sicurezza delle informazioni" },
+  { sigla: "ISO 37001", description: "Sistema di gestione anti-corruzione" },
+  { sigla: "ISO 9001", description: "Sistema di gestione per la qualità" },
+  { sigla: "ISO 14001", description: "Sistema di gestione ambientale" },
+  { sigla: "UNI 11871:2022", description: "Requisiti per sistemi di gestione degli studi professionali" },
+  { sigla: "D.Lgs. 231/2001", description: "Modelli di organizzazione gestione e controllo" },
+  { sigla: "GDPR", description: "Reg. UE 2016/679 — Protezione dei dati personali" },
+  { sigla: "NIS2", description: "Dir. UE 2022/2555 — Sicurezza reti e sistemi informativi" },
+]
+
+const articles = [
+  {
+    title: "D.Lgs. 211/2025 — Responsabilità 231 e nuove misure restrittive UE",
+    date: "15 MAGGIO 2026",
+    category: "COMPLIANCE 231",
+    href: "/insights/dlgs-211-2025",
+    excerpt: "Le nuove disposizioni del D.Lgs. 211/2025 ampliano il perimetro della responsabilità amministrativa degli enti in relazione alle misure restrittive europee.",
+  },
+  {
+    title: "Suite GDPR-NIS2 — Quando un modulo unico ha più senso di due perimetri separati",
+    date: "28 APRILE 2026",
+    category: "GDPR & NIS2",
+    href: "/insights/suite-gdpr-nis2-roadmap",
+    excerpt: "L’integrazione dei presidi GDPR e NIS2 in un unico framework operativo riduce le duplicazioni e migliora la coerenza del sistema di gestione.",
+  },
+  {
+    title: "Adeguati assetti ex art. 2086 c.c. — Cosa l’OdV vede e cosa l’organo amministrativo deve documentare",
+    date: "12 APRILE 2026",
+    category: "GOVERNANCE",
+    href: "/insights/adeguati-assetti-art-2086",
+    excerpt: "Il rapporto fra Organismo di Vigilanza e organo amministrativo nella verifica dell’adeguatezza degli assetti organizzativi, amministrativi e contabili.",
+  },
 ]
 
 export default function HomePage() {
   return (
     <>
-      {/* Hero */}
-      <Hero
-        variant="full"
-        eyebrow="Consulenza direzionale e architettura di compliance"
-        title="La distanza tra strategia approvata e strategia eseguibile è un problema tecnico. Lo affrontiamo come tale."
-        lead="GM Consulting opera nell'intersezione fra direzione aziendale, architettura di compliance e automazione dei processi. Ogni intervento è strutturato per produrre artefatti verificabili e misurabili nel tempo."
+      {/* JSON-LD */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "ProfessionalService",
+            name: "GM Consulting S.r.l.",
+            alternateName: "GM Consulting",
+            url: "https://www.gmconsulting.one/",
+            logo: "https://www.gmconsulting.one/logo-gmconsulting-512.png",
+            image: "https://www.gmconsulting.one/logo-gmconsulting-512.png",
+            description: "Società di consulenza italiana specializzata in compliance strategica, governance, finanza-controllo, legal tech, automazione di processo e healthcare/emergency management.",
+            foundingDate: "2002-10-30",
+            vatID: "IT04006730875",
+            taxID: "04006730875",
+            address: { "@type": "PostalAddress", streetAddress: "Via Nuovalucello 81/C", addressLocality: "Catania", addressRegion: "CT", postalCode: "95126", addressCountry: "IT" },
+            email: "info@gmconsulting.one",
+            areaServed: "IT",
+            knowsAbout: ["Compliance Strategica", "Modello 231", "GDPR", "NIS2", "ISO 27001", "ISO 37001", "UNI 11871:2022", "Governance", "Business Continuity", "Healthcare Emergency Management"],
+          }),
+        }}
+      />
+
+      {/* 6.1 — HERO */}
+      <section
+        className="relative bg-navy-950 min-h-[88vh] flex flex-col justify-end pt-32 pb-24 overflow-hidden"
+        style={{
+          backgroundImage: "repeating-linear-gradient(0deg, transparent 0, transparent 2px, rgba(15,30,54,0.6) 2px, rgba(15,30,54,0.6) 3px)",
+        }}
       >
-        <div className="flex flex-wrap gap-4">
-          <CTAButton variant="primary" href="/assessment">
-            Richiedi assessment
-          </CTAButton>
-          <CTAButton variant="secondary" href="/metodo">
-            Esplora il metodo
-          </CTAButton>
-        </div>
-      </Hero>
+        {/* Decorative year */}
+        <span
+          className="absolute bottom-0 right-0 font-display font-black text-[clamp(220px,30vw,380px)] text-gold-500/[0.05] leading-none select-none pointer-events-none"
+          aria-hidden="true"
+        >
+          2002
+        </span>
 
-      {/* Il quadro */}
-      <section className="bg-paper py-section-mobile lg:py-section">
-        <div className="mx-auto max-w-[1200px] px-6 lg:px-12">
-          <SectionHeader
-            eyebrow="Il quadro"
-            title="La compliance preventiva costa meno della remediation. Sempre."
-          />
-          <div className="mt-10 max-w-3xl space-y-6 text-body text-graphite">
-            <p>
-              Le imprese italiane affrontano un quadro normativo stratificato —
-              diritto amministrativo, anticorruzione, protezione dei dati, salute
-              e sicurezza sul lavoro, responsabilità amministrativa degli enti —
-              che esige coerenza fra strategia, struttura organizzativa e
-              processi operativi. La distanza fra la dichiarazione di compliance
-              e la sua verificabilità documentale è, di norma, il principale
-              fattore di vulnerabilità delle imprese in fase di gara, ispezione o
-              contenzioso.
-            </p>
-            <p>
-              GM Consulting interviene su quella distanza. Non eroga consulenza
-              descrittiva: progetta architetture documentali, automatizza i
-              processi ricorrenti, integra la validazione giuridica nel ciclo
-              decisionale. L&apos;esito non è un dossier su carta, ma un sistema
-              operativo verificabile.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* Aree di intervento */}
-      <section className="bg-white py-section-mobile lg:py-section">
-        <div className="mx-auto max-w-[1200px] px-6 lg:px-12">
-          <SectionHeader
-            eyebrow="Aree di intervento"
-            title="Sei aree, un'unica logica di architettura"
-            lead="Ciascuna area integra le tre dimensioni del metodo — direzione, compliance, automazione — e produce deliverable misurabili."
-          />
-          <div className="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-            {areas.map((area) => {
-              const Icon = area.icon
-              return (
-                <Link
-                  key={area.anchor}
-                  href={`/aree-di-intervento#${area.anchor}`}
-                  className="group rounded-lg border border-mist bg-white p-8 transition-colors hover:border-brand hover:shadow-sm focus-visible:ring-2 focus-visible:ring-brand-light focus-visible:ring-offset-2"
-                >
-                  <Icon className="h-8 w-8 text-brand mb-4" strokeWidth={1.5} aria-hidden="true" />
-                  <h3 className="text-h4 text-ink mb-2">{area.title}</h3>
-                  <p className="text-body text-steel">{area.description}</p>
-                </Link>
-              )
-            })}
-          </div>
-          <div className="mt-12">
-            <CTAButton variant="secondary" href="/aree-di-intervento">
-              Esplora tutte le aree
-            </CTAButton>
-          </div>
-        </div>
-      </section>
-
-      {/* Protocollo 23 */}
-      <section className="bg-paper py-section-mobile lg:py-section">
-        <div className="mx-auto max-w-[1200px] px-6 lg:px-12">
-          <div className="border-l-4 border-brand-light pl-8 py-2">
-            <SectionHeader
-              eyebrow="Protocollo 23"
-              title="Una soluzione dedicata: adeguata verifica AML per professionisti"
-            />
-            <p className="mt-6 max-w-3xl text-body text-graphite">
-              Per notai, avvocati e commercialisti soggetti agli obblighi di
-              adeguata verifica antiriciclaggio, GM Consulting eroga{" "}
-              <strong>Protocollo 23</strong>, il metodo operativo nato e
-              collaudato in produzione presso Studio Legale Avv. Maria Puglisi.
-              Quattro componenti modulari, dal Diagnostico iniziale al programma
-              Premium dedicato al notariato.
-            </p>
-            <div className="mt-8">
-              <CTAButton variant="secondary" href="/protocollo-23">
-                Scopri Protocollo 23
-              </CTAButton>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Metodo GM */}
-      <section className="bg-paper py-section-mobile lg:py-section">
-        <div className="mx-auto max-w-[1200px] px-6 lg:px-12">
-          <SectionHeader
-            eyebrow="Metodo GM"
-            title="Quattro fasi, ciascuna con un artefatto verificabile"
-            lead="Il metodo non è lineare: ogni fase produce un output che alimenta la successiva e attiva un feedback loop di validazione."
-          />
-          <div className="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
-            {phases.map((phase) => (
-              <div key={phase.number}>
-                <span className="text-display text-brand">{phase.number}</span>
-                <h3 className="text-h4 text-ink mt-2">{phase.title}</h3>
-                <p className="text-body text-steel mt-2">{phase.description}</p>
-              </div>
-            ))}
-          </div>
-          <div className="mt-12">
-            <CTAButton variant="secondary" href="/metodo">
-              Approfondisci il metodo
-            </CTAButton>
-          </div>
-        </div>
-      </section>
-
-      {/* Suite Compliance */}
-      <section className="bg-white py-section-mobile lg:py-section">
-        <div className="mx-auto max-w-[1200px] px-6 lg:px-12">
-          <SectionHeader
-            eyebrow="Suite Compliance"
-            title="Otto framework, un'architettura integrata"
-            lead="I sistemi di gestione condividono struttura comune: li progettiamo come architettura integrata, riducendo duplicazioni di processi e di controlli."
-          />
-          <div className="mt-12 grid grid-cols-2 gap-4 sm:grid-cols-4">
-            {complianceBadges.map((badge) => (
-              <div
-                key={badge.code}
-                className="rounded-lg border border-mist bg-paper p-5 text-center"
-              >
-                <span className="text-brand font-mono text-caption font-semibold">
-                  {badge.code}
-                </span>
-                <p className="text-caption text-steel mt-1">{badge.name}</p>
-              </div>
-            ))}
-          </div>
-          <div className="mt-12">
-            <CTAButton variant="secondary" href="/compliance">
-              Esplora la suite Compliance
-            </CTAButton>
-          </div>
-        </div>
-      </section>
-
-      {/* Convenzione */}
-      <section className="bg-paper py-section-mobile lg:py-section">
-        <div className="mx-auto max-w-[1200px] px-6 lg:px-12">
-          <div className="border-l-4 border-brand pl-8 py-2">
-            <SectionHeader
-              eyebrow="Trasparenza professionale"
-              title="La consulenza giuridica è resa in convenzione con Studio Legale Avv. Maria Puglisi"
-            />
-            <p className="mt-6 max-w-3xl text-body text-graphite">
-              Ogni intervento che richieda attività legale — pareri, validazione
-              contrattuale, assistenza precontenziosa e contenziosa, redazione e
-              aggiornamento di Modelli 231 — è erogato da Studio Legale Avv.
-              Maria Puglisi sulla base di autonomo mandato professionale del
-              cliente. La convenzione fra le due strutture garantisce continuità
-              del servizio e separazione formale dei perimetri.
-            </p>
-            <div className="mt-8">
-              <CTAButton variant="ghost" href="/convenzione-studio">
-                Leggi i termini della convenzione
-              </CTAButton>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* CTA finale */}
-      <section className="bg-brand py-20">
-        <div className="mx-auto max-w-[1200px] px-6 lg:px-12 text-center">
-          <h2 className="text-h2 text-white mb-4">
-            Vuoi una valutazione preliminare?
-          </h2>
-          <p className="text-body-lg text-blue-200 max-w-2xl mx-auto">
-            Compila l&apos;assessment: riceverai entro 72 ore lavorative
-            un&apos;analisi sintetica dei principali profili di rischio rilevati
-            sulla base delle informazioni fornite.
+        <div className="relative max-w-7xl mx-auto px-6 md:px-10 lg:px-14 w-full">
+          <p className="font-mono text-mono-label uppercase tracking-[0.22em] text-gold-400">
+            GM Consulting S.r.l. &middot; Catania &middot; dal 2002
           </p>
-          <div className="mt-8">
-            <CTAButton
-              variant="primary"
-              href="/assessment"
-              className="bg-white text-brand hover:bg-paper"
+
+          <h1 className="mt-6 font-display font-bold text-display-xl text-paper-50">
+            <span className="block">Architettura di rischio.</span>
+            <span className="block italic text-gold-400">Tecnicamente abilitata.</span>
+            <span className="block italic text-gold-400">Continuamente verificabile.</span>
+          </h1>
+
+          <p className="mt-8 max-w-2xl text-body-lg text-paper-200">
+            Sei aree di intervento integrate, otto standard di compliance presidiati, prodotti verticali in continua evoluzione. Una società di consulenza che progetta architetture di rischio per imprese e organizzazioni complesse, in convenzione con Studio Legale Avv. Maria Puglisi.
+          </p>
+
+          <div className="mt-10 flex flex-wrap gap-4">
+            <Link
+              href="/aree-di-intervento"
+              className="inline-flex items-center gap-2 bg-gold-500 hover:bg-gold-400 text-navy-950 font-semibold px-6 py-3 rounded-md transition-colors"
             >
-              Richiedi assessment
-            </CTAButton>
+              Esplora le aree di intervento
+              <ArrowRight className="h-4 w-4" aria-hidden="true" />
+            </Link>
+            <Link
+              href="/assessment"
+              className="inline-flex items-center gap-2 border border-paper-200 text-paper-100 hover:bg-paper-50/10 font-semibold px-6 py-3 rounded-md transition-colors"
+            >
+              Richiedi un primo contatto
+              <ArrowRight className="h-4 w-4" aria-hidden="true" />
+            </Link>
+          </div>
+        </div>
+
+        {/* Badge vertical */}
+        <span
+          className="hidden lg:block absolute right-10 bottom-32 font-mono text-mono-label uppercase tracking-[0.18em] text-gold-400/60"
+          style={{ writingMode: "vertical-rl" }}
+          aria-hidden="true"
+        >
+          Costituita 2002 — 23 anni di operatività continuativa
+        </span>
+      </section>
+
+      {/* 6.3 — Sei aree */}
+      <section className="bg-paper-50 py-24 md:py-32">
+        <div className="max-w-7xl mx-auto px-6 md:px-10 lg:px-14">
+          <p className="font-mono text-mono-label uppercase tracking-[0.22em] text-gold-600">
+            CAPABILITIES
+          </p>
+          <h2 className="mt-4 font-display font-bold text-display-md text-navy-950">
+            Sei aree integrate, un solo metodo.
+          </h2>
+          <p className="mt-6 max-w-3xl text-body-lg text-ink-scale-700">
+            Ogni area opera autonomamente e in continuità con le altre. Le consegne sono modulari, gli incarichi si compongono per progetto, le metriche di assurance restano condivise.
+          </p>
+
+          <div className="mt-14 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {areas.map((area) => (
+              <Link
+                key={area.number}
+                href={area.href}
+                className="group border border-border rounded-md p-8 bg-surface hover:shadow-lg hover:-translate-y-1 hover:border-gold-500 transition-all"
+              >
+                <span className="font-mono text-mono-label text-gold-600">
+                  {area.number} / {area.total}
+                </span>
+                <h3 className="mt-4 font-display font-semibold text-h3 text-navy-950">
+                  {area.title}
+                </h3>
+                <p className="mt-3 text-body text-ink-scale-700">
+                  {area.description}
+                </p>
+                <span className="mt-6 inline-flex items-center gap-1 text-sm font-semibold text-gold-700 group-hover:text-gold-600 transition-colors">
+                  Approfondisci
+                  <ArrowRight className="h-3.5 w-3.5" aria-hidden="true" />
+                </span>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* 6.4 — Metodo */}
+      <section className="bg-navy-950 text-paper-100 py-24 md:py-32">
+        <div className="max-w-7xl mx-auto px-6 md:px-10 lg:px-14">
+          <p className="font-mono text-mono-label uppercase tracking-[0.22em] text-gold-400">
+            METODO
+          </p>
+          <h2 className="mt-4 font-display font-bold text-display-md text-paper-50">
+            Quattro fasi. Una sola logica di assurance.
+          </h2>
+
+          <div className="mt-14 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            {phases.map((phase) => (
+              <div
+                key={phase.numeral}
+                className="p-8 border-l-2 border-gold-500/30 hover:border-gold-500 transition-colors"
+              >
+                <span className="block font-display font-black text-[120px] leading-[0.9] text-gold-500" aria-hidden="true">
+                  {phase.numeral}
+                </span>
+                <h3 className="mt-6 font-display font-semibold text-h3 text-paper-50">
+                  {phase.title}
+                </h3>
+                <p className="mt-3 text-body text-paper-200">
+                  {phase.description}
+                </p>
+              </div>
+            ))}
+          </div>
+
+          <div className="mt-14">
+            <Link
+              href="/metodo"
+              className="inline-flex items-center gap-2 text-gold-400 font-semibold hover:text-gold-300 transition-colors"
+            >
+              Vedi il metodo in dettaglio
+              <ArrowRight className="h-4 w-4" aria-hidden="true" />
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* 6.5 — Identità in numeri */}
+      <section className="bg-paper-100 py-20 md:py-24 border-y border-gold-500/30">
+        <div className="max-w-7xl mx-auto px-6 md:px-10 lg:px-14">
+          <p className="font-mono text-mono-label uppercase tracking-[0.22em] text-gold-600">
+            GM CONSULTING IN NUMERI
+          </p>
+
+          <div className="mt-12 grid grid-cols-2 lg:grid-cols-4 gap-12">
+            {stats.map((stat) => (
+              <div key={stat.label}>
+                <span className="block font-display font-bold text-[clamp(56px,5vw,72px)] text-navy-950 leading-none">
+                  {stat.value}
+                </span>
+                <span className="mt-3 block font-mono text-mono-label uppercase text-gold-700">
+                  {stat.label}
+                </span>
+                <p className="mt-2 text-sm text-ink-scale-700">
+                  {stat.caption}
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* 6.6 — Standard */}
+      <section className="bg-paper-50 py-24 md:py-32">
+        <div className="max-w-7xl mx-auto px-6 md:px-10 lg:px-14">
+          <p className="font-mono text-mono-label uppercase tracking-[0.22em] text-gold-600">
+            COMPLIANCE FRAMEWORK
+          </p>
+          <h2 className="mt-4 font-display font-bold text-display-md text-navy-950">
+            Otto standard. Un solo presidio integrato.
+          </h2>
+
+          <div className="mt-14 grid grid-cols-2 lg:grid-cols-4 gap-4">
+            {standards.map((std) => (
+              <div
+                key={std.sigla}
+                className="p-6 bg-surface border border-border rounded-md hover:border-gold-500 transition-colors"
+              >
+                <span className="block font-mono text-[18px] text-navy-950 font-semibold">
+                  {std.sigla}
+                </span>
+                <p className="mt-2 text-[13px] text-ink-scale-700">
+                  {std.description}
+                </p>
+              </div>
+            ))}
+          </div>
+
+          <p className="mt-10 text-sm text-ink-scale-500 max-w-3xl">
+            Le sigle elencate identificano gli standard di riferimento utilizzati nelle metodologie di lavoro. Eventuali certificazioni sono rilasciate da organismi terzi accreditati.
+          </p>
+        </div>
+      </section>
+
+      {/* 6.7 — Insights */}
+      <section className="bg-paper-50 py-24 md:py-32 border-t border-border">
+        <div className="max-w-7xl mx-auto px-6 md:px-10 lg:px-14">
+          <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6">
+            <div>
+              <p className="font-mono text-mono-label uppercase tracking-[0.22em] text-gold-600">
+                INSIGHTS
+              </p>
+              <h2 className="mt-4 font-display font-bold text-display-md text-navy-950">
+                Analisi e prese di posizione.
+              </h2>
+            </div>
+            <Link
+              href="/insights"
+              className="inline-flex items-center gap-2 text-gold-700 font-semibold hover:text-gold-600 transition-colors shrink-0"
+            >
+              Tutti gli articoli
+              <ArrowRight className="h-4 w-4" aria-hidden="true" />
+            </Link>
+          </div>
+
+          <div className="mt-14 grid grid-cols-1 lg:grid-cols-3 gap-8">
+            {articles.map((article) => (
+              <article key={article.href} className="group">
+                {/* Dark cover */}
+                <div className="relative h-[200px] bg-navy-900 rounded-t-md overflow-hidden flex items-end p-6">
+                  <span
+                    className="absolute top-4 right-4 font-display font-black text-[80px] leading-none text-gold-500/[0.08] select-none pointer-events-none"
+                    aria-hidden="true"
+                  >
+                    GM
+                  </span>
+                </div>
+                {/* Body */}
+                <div className="p-6 bg-surface border border-border border-t-0 rounded-b-md">
+                  <div className="flex items-center gap-3">
+                    <span className="font-mono text-mono-label text-ink-scale-500">
+                      {article.date}
+                    </span>
+                    <span className="font-mono text-mono-label text-gold-700">
+                      {article.category}
+                    </span>
+                  </div>
+                  <h3 className="mt-3 font-display font-semibold text-h3 text-navy-950">
+                    <Link href={article.href} className="hover:text-gold-700 transition-colors">
+                      {article.title}
+                    </Link>
+                  </h3>
+                  <p className="mt-3 text-sm text-ink-scale-700">
+                    {article.excerpt}
+                  </p>
+                  <Link
+                    href={article.href}
+                    className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-gold-700 hover:text-gold-600 transition-colors"
+                  >
+                    Leggi
+                    <ArrowRight className="h-3.5 w-3.5" aria-hidden="true" />
+                  </Link>
+                </div>
+              </article>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* 6.8 — CTA finale */}
+      <section className="bg-gradient-to-br from-navy-950 via-navy-900 to-navy-800 py-24 md:py-32">
+        <div className="max-w-3xl mx-auto px-6 md:px-10 lg:px-14 text-center">
+          <p className="font-mono text-mono-label uppercase tracking-[0.22em] text-gold-400">
+            PRIMO CONTATTO
+          </p>
+          <h2 className="mt-6 font-display font-bold text-display-lg text-paper-50">
+            Iniziamo con un <span className="italic text-gold-400">assessment</span>. Senza impegno, senza retorica.
+          </h2>
+          <p className="mt-8 text-body-lg text-paper-200">
+            Trenta minuti in videoconferenza per inquadrare il perimetro di rischio della Sua organizzazione e indicarLe se e dove può esserLe utile il nostro intervento.
+          </p>
+          <div className="mt-10">
+            <Link
+              href="/assessment"
+              className="inline-flex items-center gap-2 bg-gold-500 hover:bg-gold-400 text-navy-950 font-semibold px-8 py-4 rounded-md transition-colors text-lg"
+            >
+              Richiedi l&apos;assessment
+              <ArrowRight className="h-5 w-5" aria-hidden="true" />
+            </Link>
           </div>
         </div>
       </section>

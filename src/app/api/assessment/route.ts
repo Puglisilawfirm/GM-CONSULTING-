@@ -27,10 +27,19 @@ export async function POST(request: Request) {
       return NextResponse.json({ success: true })
     }
 
+    const apiKey = process.env.RESEND_API_KEY
+    if (!apiKey) {
+      console.error("RESEND_API_KEY not configured")
+      return NextResponse.json(
+        { error: "Servizio email non configurato. Scrivi a info@gmconsulting.one." },
+        { status: 503 }
+      )
+    }
+
     const notifyEmail =
       process.env.ASSESSMENT_NOTIFY_EMAIL || "info@gmconsulting.one"
 
-    const resend = new Resend(process.env.RESEND_API_KEY)
+    const resend = new Resend(apiKey)
 
     const htmlBody = `
       <h2>Nuova richiesta assessment</h2>

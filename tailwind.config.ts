@@ -42,9 +42,9 @@ const config: Config = {
         danger: "#B91C1C",
         // New extended scales
         navy: {
-          950: "#0A1628",
-          900: "#0F1E36",
-          800: "#142849",
+          950: "#0F1B2D",
+          900: "#152238",
+          800: "#1B2D4A",
           700: "#1E3A8A",
           600: "#1E40AF",
         },

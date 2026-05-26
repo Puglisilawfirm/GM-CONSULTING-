@@ -112,7 +112,7 @@ export function BannerProdottiAnimato() {
   return (
     <section
       aria-label="Prodotti verticali di GM Consulting"
-      className="relative h-20 md:h-24 bg-gradient-to-r from-navy-950 via-navy-900 to-navy-950 border-y border-gold-700/40 overflow-hidden group"
+      className="relative h-20 md:h-24 bg-gradient-to-r from-navy-900 via-navy-800 to-navy-900 border-y border-gold-700/40 overflow-hidden group"
     >
       <div className="marquee-track animate-marquee group-hover:animate-marquee-slow h-full items-center">
         {/* Two copies for seamless loop */}

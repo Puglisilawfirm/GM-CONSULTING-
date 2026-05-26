@@ -171,7 +171,7 @@ export default function HomePage() {
 
       {/* 6.1 — HERO */}
       <section
-        className="relative bg-navy-950 min-h-[88vh] flex flex-col justify-end pt-32 pb-24 overflow-hidden"
+        className="relative bg-navy-900 min-h-[88vh] flex flex-col justify-end pt-32 pb-24 overflow-hidden"
         style={{
           backgroundImage: "repeating-linear-gradient(0deg, transparent 0, transparent 2px, rgba(15,30,54,0.6) 2px, rgba(15,30,54,0.6) 3px)",
         }}
@@ -267,7 +267,7 @@ export default function HomePage() {
       </section>
 
       {/* 6.4 — Metodo */}
-      <section className="bg-navy-950 text-paper-100 py-24 md:py-32">
+      <section className="bg-navy-900 text-paper-100 py-24 md:py-32">
         <div className="max-w-7xl mx-auto px-6 md:px-10 lg:px-14">
           <p className="font-mono text-mono-label uppercase tracking-[0.22em] text-gold-400">
             METODO
@@ -430,7 +430,7 @@ export default function HomePage() {
       </section>
 
       {/* 6.8 — CTA finale */}
-      <section className="bg-gradient-to-br from-navy-950 via-navy-900 to-navy-800 py-24 md:py-32">
+      <section className="bg-gradient-to-br from-navy-900 via-navy-800 to-navy-700 py-24 md:py-32">
         <div className="max-w-3xl mx-auto px-6 md:px-10 lg:px-14 text-center">
           <p className="font-mono text-mono-label uppercase tracking-[0.22em] text-gold-400">
             PRIMO CONTATTO

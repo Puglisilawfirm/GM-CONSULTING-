@@ -6,7 +6,7 @@ const PRODOTTI = [
   {
     slug: "protocollo-23",
     nome: "Protocollo 23",
-    tagline: "Modello 231 dinamico e self-updating per PMI",
+    tagline: "Adeguata verifica AML per notai, avvocati, commercialisti",
     eyebrow: "PRODOTTO GM",
     statoLabel: "Disponibile",
     statoTone: "attivo" as const,

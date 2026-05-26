@@ -1,14 +1,31 @@
 import type { Metadata } from "next"
-import { Inter } from "next/font/google"
+import { Playfair_Display, Inter, JetBrains_Mono } from "next/font/google"
 import "./globals.css"
-import { Header } from "@/components/Header"
-import { Footer } from "@/components/Footer"
+import { SiteHeader } from "@/components/site-header"
+import { SiteFooter } from "@/components/site-footer"
+import { BannerProdottiAnimato } from "@/components/banner-prodotti-animato"
 import { CookieBanner } from "@/components/CookieBanner"
+
+const playfair = Playfair_Display({
+  subsets: ["latin"],
+  weight: ["400", "600", "700", "900"],
+  style: ["normal", "italic"],
+  variable: "--font-playfair",
+  display: "swap",
+})
 
 const inter = Inter({
   subsets: ["latin"],
-  display: "swap",
+  weight: ["300", "400", "500", "600", "700"],
   variable: "--font-inter",
+  display: "swap",
+})
+
+const jetbrains = JetBrains_Mono({
+  subsets: ["latin"],
+  weight: ["400", "500"],
+  variable: "--font-jetbrains",
+  display: "swap",
 })
 
 export const metadata: Metadata = {
@@ -49,11 +66,16 @@ const jsonLd = {
   "@type": "ProfessionalService",
   name: "GM Consulting S.r.l.",
   legalName: "GM Consulting S.r.l.",
+  alternateName: "GM Consulting",
   description:
-    "Consulenza direzionale per imprese italiane: compliance normativa, automazione dei processi, governance e risk management.",
+    "Società di consulenza italiana specializzata in compliance strategica, governance, finanza-controllo, legal tech, automazione di processo e healthcare/emergency management.",
   url: "https://www.gmconsulting.one",
   email: "info@gmconsulting.one",
   logo: "https://www.gmconsulting.one/logo-gmconsulting-512.png",
+  image: "https://www.gmconsulting.one/logo-gmconsulting-512.png",
+  foundingDate: "2002-10-30",
+  vatID: "IT04006730875",
+  taxID: "04006730875",
   address: {
     "@type": "PostalAddress",
     streetAddress: "Via Nuovalucello 81/C",
@@ -62,17 +84,18 @@ const jsonLd = {
     postalCode: "95126",
     addressCountry: "IT",
   },
-  vatID: "04006730875",
-  areaServed: {
-    "@type": "Country",
-    name: "IT",
-  },
-  serviceType: [
-    "Consulenza direzionale",
-    "Compliance normativa",
-    "Automazione processi",
-    "Governance aziendale",
-    "Risk management",
+  areaServed: "IT",
+  knowsAbout: [
+    "Compliance Strategica",
+    "Modello 231",
+    "GDPR",
+    "NIS2",
+    "ISO 27001",
+    "ISO 37001",
+    "UNI 11871:2022",
+    "Governance",
+    "Business Continuity",
+    "Healthcare Emergency Management",
   ],
 }
 
@@ -82,23 +105,24 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="it" className={inter.variable}>
+    <html lang="it" className={`${playfair.variable} ${inter.variable} ${jetbrains.variable}`}>
       <head>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
       </head>
-      <body className={`${inter.className}`}>
+      <body className="font-sans">
         <a
           href="#main-content"
-          className="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-50 focus:bg-brand focus:text-white focus:px-4 focus:py-2 focus:rounded-md"
+          className="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-[60] focus:bg-gold-500 focus:text-navy-950 focus:px-4 focus:py-2 focus:rounded-md focus:font-medium"
         >
           Vai al contenuto principale
         </a>
-        <Header />
+        <SiteHeader />
+        <BannerProdottiAnimato />
         <main id="main-content">{children}</main>
-        <Footer />
+        <SiteFooter />
         <CookieBanner />
       </body>
     </html>

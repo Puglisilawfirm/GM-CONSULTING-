@@ -39,6 +39,7 @@ Consultare `.env.example` per l'elenco completo.
 |---|---|---|
 | `RESEND_API_KEY` | API key di Resend per l'invio email dal form Assessment | Sì (produzione) |
 | `ASSESSMENT_NOTIFY_EMAIL` | Indirizzo di destinazione delle notifiche assessment (default: info@gmconsulting.one) | No |
+| `PROTOCOLLO23_NOTIFY_EMAIL` | Indirizzo per notifiche del form Protocollo 23 (fallback su `ASSESSMENT_NOTIFY_EMAIL`) | No |
 
 ### Configurazione Resend
 
@@ -78,9 +79,12 @@ src/
 │   ├── compliance/             # Suite Compliance (8 standard)
 │   ├── insights/               # Lista articoli + [slug] dinamico
 │   ├── assessment/             # Form assessment + pagina conferma
+│   ├── protocollo-23/         # Pagina Protocollo 23 (AML per professionisti)
+│   │   └── inviato/           # Conferma invio form
 │   ├── convenzione-studio/     # Convenzione Studio Legale
 │   ├── note-legali/            # Privacy, Cookie, Note legali
-│   ├── api/assessment/         # API route per invio form
+│   ├── api/assessment/         # API route per invio form assessment
+│   ├── api/protocollo-23/      # API route per il form di Diagnostico AML
 │   ├── sitemap.ts              # Sitemap dinamica
 │   └── robots.ts               # robots.txt
 ├── components/

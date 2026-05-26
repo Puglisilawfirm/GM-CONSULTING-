@@ -4,6 +4,7 @@ import { Mail } from "lucide-react"
 const navigazione = [
   { label: "Metodo", href: "/metodo" },
   { label: "Aree di intervento", href: "/aree-di-intervento" },
+  { label: "Protocollo 23", href: "/protocollo-23" },
   { label: "Compliance", href: "/compliance" },
   { label: "Insights", href: "/insights" },
   { label: "Assessment", href: "/assessment" },
@@ -26,11 +27,18 @@ const legalLinks = [
   { label: "Privacy", href: "/note-legali#privacy" },
 ]
 
+const protocollo23Links = [
+  { label: "Diagnostico AML", href: "/protocollo-23#diagnostico-aml" },
+  { label: "Metodo AML", href: "/protocollo-23#metodo-aml" },
+  { label: "Suite Continua", href: "/protocollo-23#suite-continua" },
+  { label: "Premium Notai", href: "/protocollo-23#premium-notai" },
+]
+
 export function Footer() {
   return (
     <footer className="bg-ink border-t border-mist">
       <div className="mx-auto max-w-[1200px] px-6 lg:px-12 py-16">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-12">
           {/* Col 1 — Navigazione */}
           <div>
             <h3 className="text-white font-semibold text-sm uppercase tracking-wide mb-6">
@@ -69,7 +77,26 @@ export function Footer() {
             </ul>
           </div>
 
-          {/* Col 3 — Convenzione & Legal */}
+          {/* Col 3 — Protocollo 23 */}
+          <div>
+            <h3 className="text-white font-semibold text-sm uppercase tracking-wide mb-6">
+              Protocollo 23
+            </h3>
+            <ul className="space-y-3">
+              {protocollo23Links.map((link) => (
+                <li key={link.href}>
+                  <Link
+                    href={link.href}
+                    className="text-fog text-sm hover:text-white transition-colors"
+                  >
+                    {link.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Col 4 — Convenzione & Legal */}
           <div>
             <h3 className="text-white font-semibold text-sm uppercase tracking-wide mb-6">
               Convenzione &amp; Legal
@@ -97,7 +124,7 @@ export function Footer() {
             </ul>
           </div>
 
-          {/* Col 4 — Contatti */}
+          {/* Col 5 — Contatti */}
           <div>
             <h3 className="text-white font-semibold text-sm uppercase tracking-wide mb-6">
               Contatti

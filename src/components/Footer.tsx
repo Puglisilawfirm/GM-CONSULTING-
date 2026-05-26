@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Image from "next/image"
 import { Mail } from "lucide-react"
 
 const navigazione = [
@@ -25,6 +26,7 @@ const legalLinks = [
   { label: "Convenzione Studio", href: "/convenzione-studio" },
   { label: "Note legali", href: "/note-legali" },
   { label: "Privacy", href: "/note-legali#privacy" },
+  { label: "Accessibilità", href: "/accessibilita" },
 ]
 
 const protocollo23Links = [
@@ -49,7 +51,7 @@ export function Footer() {
                 <li key={link.href}>
                   <Link
                     href={link.href}
-                    className="text-fog text-sm hover:text-white transition-colors"
+                    className="text-fog text-sm hover:text-white transition-colors focus-visible:ring-2 focus-visible:ring-brand-light focus-visible:ring-offset-2 rounded-sm"
                   >
                     {link.label}
                   </Link>
@@ -68,7 +70,7 @@ export function Footer() {
                 <li key={link.href}>
                   <Link
                     href={link.href}
-                    className="text-fog text-sm hover:text-white transition-colors"
+                    className="text-fog text-sm hover:text-white transition-colors focus-visible:ring-2 focus-visible:ring-brand-light focus-visible:ring-offset-2 rounded-sm"
                   >
                     {link.label}
                   </Link>
@@ -87,7 +89,7 @@ export function Footer() {
                 <li key={link.href}>
                   <Link
                     href={link.href}
-                    className="text-fog text-sm hover:text-white transition-colors"
+                    className="text-fog text-sm hover:text-white transition-colors focus-visible:ring-2 focus-visible:ring-brand-light focus-visible:ring-offset-2 rounded-sm"
                   >
                     {link.label}
                   </Link>
@@ -106,7 +108,7 @@ export function Footer() {
                 <li key={link.href}>
                   <Link
                     href={link.href}
-                    className="text-fog text-sm hover:text-white transition-colors"
+                    className="text-fog text-sm hover:text-white transition-colors focus-visible:ring-2 focus-visible:ring-brand-light focus-visible:ring-offset-2 rounded-sm"
                   >
                     {link.label}
                   </Link>
@@ -116,7 +118,7 @@ export function Footer() {
                 <button
                   type="button"
                   data-action="open-preferences"
-                  className="text-fog text-sm hover:text-white transition-colors"
+                  className="text-fog text-sm hover:text-white transition-colors focus-visible:ring-2 focus-visible:ring-brand-light focus-visible:ring-offset-2 rounded-sm"
                 >
                   Cookie preferences
                 </button>
@@ -126,29 +128,37 @@ export function Footer() {
 
           {/* Col 5 — Contatti */}
           <div>
-            <h3 className="text-white font-semibold text-sm uppercase tracking-wide mb-6">
-              Contatti
-            </h3>
+            <div className="flex items-center gap-3 mb-6">
+              <Image
+                src="/logo-gmconsulting-64.png"
+                alt="GM Consulting"
+                width={40}
+                height={40}
+              />
+              <div className="flex flex-col">
+                <span className="text-sm font-semibold text-white">GM Consulting S.r.l.</span>
+                <span className="text-xs text-fog">P.IVA 04006730875</span>
+              </div>
+            </div>
             <ul className="space-y-3">
               <li>
                 <a
                   href="mailto:info@gmconsulting.one"
-                  className="text-fog text-sm hover:text-white transition-colors inline-flex items-center gap-2"
+                  className="text-fog text-sm hover:text-white transition-colors inline-flex items-center gap-2 focus-visible:ring-2 focus-visible:ring-brand-light focus-visible:ring-offset-2 rounded-sm"
                 >
-                  <Mail size={14} strokeWidth={1.5} />
+                  <Mail size={14} strokeWidth={1.5} aria-hidden="true" />
                   info@gmconsulting.one
                 </a>
               </li>
               <li>
                 <a
                   href="mailto:gmconsultingct@legalmail.it"
-                  className="text-fog text-sm hover:text-white transition-colors inline-flex items-center gap-2"
+                  className="text-fog text-sm hover:text-white transition-colors inline-flex items-center gap-2 focus-visible:ring-2 focus-visible:ring-brand-light focus-visible:ring-offset-2 rounded-sm"
                 >
-                  <Mail size={14} strokeWidth={1.5} />
+                  <Mail size={14} strokeWidth={1.5} aria-hidden="true" />
                   gmconsultingct@legalmail.it
                 </a>
               </li>
-              {/* TODO: telefono */}
               <li className="text-fog text-sm leading-relaxed">
                 Via Nuovalucello 81/C<br />
                 95126 Catania (CT)

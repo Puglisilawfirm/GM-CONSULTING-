@@ -128,11 +128,13 @@ export function FormProtocollo23() {
             type="text"
             id="nome"
             autoComplete="name"
+            aria-required="true"
+            aria-describedby={errors.nome ? "p23-nome-error" : undefined}
             className="w-full border border-mist rounded-md px-4 py-3 text-body text-ink bg-white focus:ring-2 focus:ring-brand-light focus:border-brand outline-none transition-colors"
             {...register("nome")}
           />
           {errors.nome && (
-            <p className="text-danger text-caption mt-1">
+            <p id="p23-nome-error" role="alert" className="text-danger text-caption mt-1">
               {errors.nome.message}
             </p>
           )}
@@ -150,11 +152,13 @@ export function FormProtocollo23() {
             type="email"
             id="email"
             autoComplete="email"
+            aria-required="true"
+            aria-describedby={errors.email ? "p23-email-error" : undefined}
             className="w-full border border-mist rounded-md px-4 py-3 text-body text-ink bg-white focus:ring-2 focus:ring-brand-light focus:border-brand outline-none transition-colors"
             {...register("email")}
           />
           {errors.email && (
-            <p className="text-danger text-caption mt-1">
+            <p id="p23-email-error" role="alert" className="text-danger text-caption mt-1">
               {errors.email.message}
             </p>
           )}
@@ -199,7 +203,7 @@ export function FormProtocollo23() {
             ))}
           </div>
           {errors.categoria && (
-            <p className="text-danger text-caption mt-1">
+            <p id="p23-categoria-error" role="alert" className="text-danger text-caption mt-1">
               {errors.categoria.message}
             </p>
           )}
@@ -217,11 +221,13 @@ export function FormProtocollo23() {
             type="text"
             id="studio"
             autoComplete="organization"
+            aria-required="true"
+            aria-describedby={errors.studio ? "p23-studio-error" : undefined}
             className="w-full border border-mist rounded-md px-4 py-3 text-body text-ink bg-white focus:ring-2 focus:ring-brand-light focus:border-brand outline-none transition-colors"
             {...register("studio")}
           />
           {errors.studio && (
-            <p className="text-danger text-caption mt-1">
+            <p id="p23-studio-error" role="alert" className="text-danger text-caption mt-1">
               {errors.studio.message}
             </p>
           )}
@@ -237,6 +243,8 @@ export function FormProtocollo23() {
           </label>
           <select
             id="professionisti"
+            aria-required="true"
+            aria-describedby={errors.professionisti ? "p23-professionisti-error" : undefined}
             className="w-full border border-mist rounded-md px-4 py-3 text-body text-ink bg-white focus:ring-2 focus:ring-brand-light focus:border-brand outline-none transition-colors"
             defaultValue=""
             {...register("professionisti")}
@@ -251,7 +259,7 @@ export function FormProtocollo23() {
             ))}
           </select>
           {errors.professionisti && (
-            <p className="text-danger text-caption mt-1">
+            <p id="p23-professionisti-error" role="alert" className="text-danger text-caption mt-1">
               {errors.professionisti.message}
             </p>
           )}
@@ -290,6 +298,8 @@ export function FormProtocollo23() {
           </label>
           <select
             id="statoAml"
+            aria-required="true"
+            aria-describedby={errors.statoAml ? "p23-statoAml-error" : undefined}
             className="w-full border border-mist rounded-md px-4 py-3 text-body text-ink bg-white focus:ring-2 focus:ring-brand-light focus:border-brand outline-none transition-colors"
             defaultValue=""
             {...register("statoAml")}
@@ -304,7 +314,7 @@ export function FormProtocollo23() {
             ))}
           </select>
           {errors.statoAml && (
-            <p className="text-danger text-caption mt-1">
+            <p id="p23-statoAml-error" role="alert" className="text-danger text-caption mt-1">
               {errors.statoAml.message}
             </p>
           )}
@@ -348,7 +358,7 @@ export function FormProtocollo23() {
             {...register("note")}
           />
           {errors.note && (
-            <p className="text-danger text-caption mt-1">
+            <p id="p23-note-error" role="alert" className="text-danger text-caption mt-1">
               {errors.note.message}
             </p>
           )}
@@ -378,7 +388,7 @@ export function FormProtocollo23() {
             </span>
           </label>
           {errors.consensoGdpr && (
-            <p className="text-danger text-caption mt-1">
+            <p id="p23-consensoGdpr-error" role="alert" className="text-danger text-caption mt-1">
               {errors.consensoGdpr.message}
             </p>
           )}
@@ -402,7 +412,7 @@ export function FormProtocollo23() {
 
         {/* Server error */}
         {serverError && (
-          <div className="bg-danger/5 border border-danger/20 rounded-md p-4">
+          <div role="alert" className="bg-danger/5 border border-danger/20 rounded-md p-4">
             <p className="text-danger text-caption">{serverError}</p>
           </div>
         )}
@@ -411,7 +421,7 @@ export function FormProtocollo23() {
         <button
           type="submit"
           disabled={isSubmitting}
-          className="w-full bg-brand text-white py-3 font-medium rounded-md hover:bg-brand-dark transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+          className="w-full bg-brand text-white py-3 font-medium rounded-md hover:bg-brand-dark transition-colors disabled:opacity-50 disabled:cursor-not-allowed focus-visible:ring-2 focus-visible:ring-brand-light focus-visible:ring-offset-2"
         >
           {isSubmitting ? "Invio in corso..." : "Richiedi Diagnostico AML"}
         </button>

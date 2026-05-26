@@ -236,29 +236,76 @@ export default function NoteLegaliPage() {
               {/* Cookie */}
               <article id="cookie" className="scroll-mt-32">
                 <h2 className="text-h2 text-ink mb-6">Cookie policy</h2>
+                <p className="text-caption text-steel mb-6">
+                  Informativa ai sensi del Provvedimento del Garante per la
+                  Protezione dei Dati Personali n.&nbsp;231 del 10 giugno 2021
+                </p>
 
                 <div className="space-y-8 text-body text-graphite">
                   <div>
-                    <h3 className="text-h4 text-ink mb-3">Cookie tecnici</h3>
-                    <p>
-                      Il sito utilizza cookie strettamente necessari al
-                      funzionamento del servizio: cookie di sessione e cookie di
-                      registrazione del consenso (
-                      <code className="text-caption bg-mist px-1.5 py-0.5 rounded">
-                        gm_consent
-                      </code>
-                      , durata 6 mesi). Questi cookie non richiedono il consenso
-                      dell&apos;utente.
-                    </p>
+                    <h3 className="text-h4 text-ink mb-3">
+                      Cookie tecnici (sempre attivi)
+                    </h3>
+                    <div className="overflow-x-auto">
+                      <table className="w-full text-sm border-collapse">
+                        <thead>
+                          <tr className="border-b border-mist text-left">
+                            <th className="py-3 pr-4 font-semibold text-ink">
+                              Cookie
+                            </th>
+                            <th className="py-3 pr-4 font-semibold text-ink">
+                              Tipo
+                            </th>
+                            <th className="py-3 pr-4 font-semibold text-ink">
+                              Durata
+                            </th>
+                            <th className="py-3 font-semibold text-ink">
+                              Finalit&agrave;
+                            </th>
+                          </tr>
+                        </thead>
+                        <tbody className="text-graphite">
+                          <tr className="border-b border-mist">
+                            <td className="py-3 pr-4">
+                              <code className="text-caption bg-mist px-1.5 py-0.5 rounded">
+                                GM_COOKIE_CONSENT
+                              </code>
+                            </td>
+                            <td className="py-3 pr-4">Tecnico</td>
+                            <td className="py-3 pr-4">6 mesi</td>
+                            <td className="py-3">
+                              Memorizzazione delle preferenze di consenso cookie
+                              espresse dall&apos;utente
+                            </td>
+                          </tr>
+                          <tr className="border-b border-mist">
+                            <td className="py-3 pr-4">
+                              <code className="text-caption bg-mist px-1.5 py-0.5 rounded">
+                                __next_*
+                              </code>
+                            </td>
+                            <td className="py-3 pr-4">Tecnico</td>
+                            <td className="py-3 pr-4">Sessione</td>
+                            <td className="py-3">
+                              Cookie tecnici di Next.js necessari al
+                              funzionamento dell&apos;applicazione
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
                   </div>
 
                   <div>
                     <h3 className="text-h4 text-ink mb-3">Cookie analitici</h3>
                     <p>
                       Eventuali cookie analitici di terze parti sono installati
-                      esclusivamente previo consenso esplicito dell&apos;utente,
-                      espresso attraverso il banner cookie presente al primo
-                      accesso.
+                      esclusivamente previo consenso esplicito
+                      dell&apos;utente, espresso attraverso il banner cookie
+                      presente al primo accesso. Al momento della pubblicazione
+                      di questa informativa, non &egrave; installato alcun
+                      servizio di analisi. L&apos;eventuale attivazione futura
+                      sar&agrave; subordinata al consenso dell&apos;utente.
                     </p>
                   </div>
 
@@ -267,22 +314,54 @@ export default function NoteLegaliPage() {
                       Cookie di profilazione
                     </h3>
                     <p>
-                      Eventuali cookie di profilazione sono installati
-                      esclusivamente previo consenso esplicito
-                      dell&apos;utente. Il sito non installa cookie di
-                      profilazione propri.
+                      Il sito non installa cookie di profilazione propri
+                      n&eacute; di terze parti. Il toggle &egrave; presente nel
+                      pannello di gestione delle preferenze per trasparenza e
+                      per consentire un eventuale futuro adeguamento senza
+                      modifiche al pannello stesso.
                     </p>
                   </div>
 
                   <div>
                     <h3 className="text-h4 text-ink mb-3">
-                      Gestione delle preferenze
+                      Gestione delle preferenze e revoca del consenso
                     </h3>
                     <p>
-                      L&apos;utente può modificare le proprie preferenze in
-                      qualsiasi momento attraverso il pannello cookie
-                      accessibile dal footer del sito, oppure configurando le
-                      impostazioni del proprio browser.
+                      L&apos;utente pu&ograve; modificare le proprie preferenze
+                      in qualsiasi momento attraverso il pannello cookie
+                      accessibile dal link &laquo;Cookie preferences&raquo; nel
+                      footer del sito. In alternativa, l&apos;utente pu&ograve;
+                      configurare le impostazioni del proprio browser per
+                      rifiutare l&apos;installazione dei cookie. La revoca del
+                      consenso non pregiudica la liceit&agrave; del trattamento
+                      effettuato prima della revoca.
+                    </p>
+                  </div>
+
+                  <div>
+                    <h3 className="text-h4 text-ink mb-3">Base giuridica</h3>
+                    <p>
+                      Il trattamento dei dati tramite cookie tecnici &egrave;
+                      fondato sull&apos;art.&nbsp;122, comma 1, del
+                      D.Lgs.&nbsp;196/2003 (Codice Privacy) come modificato dal
+                      D.Lgs.&nbsp;101/2018. L&apos;eventuale trattamento
+                      tramite cookie analitici o di profilazione &egrave;
+                      fondato sul consenso dell&apos;interessato (art.&nbsp;6,
+                      par.&nbsp;1, lett.&nbsp;a) GDPR), espresso in
+                      conformit&agrave; al Provvedimento del Garante
+                      n.&nbsp;231/2021.
+                    </p>
+                  </div>
+
+                  <div>
+                    <h3 className="text-h4 text-ink mb-3">
+                      Diritti dell&apos;interessato
+                    </h3>
+                    <p>
+                      Si rinvia alla sezione Informativa Privacy di questa
+                      pagina per l&apos;elenco completo dei diritti esercitabili
+                      dall&apos;interessato ai sensi degli artt.&nbsp;15-22 del
+                      GDPR.
                     </p>
                   </div>
                 </div>

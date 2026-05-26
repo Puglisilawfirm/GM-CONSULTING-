@@ -148,11 +148,13 @@ export default function AssessmentPage() {
                 type="text"
                 id="nome"
                 autoComplete="name"
+                aria-required="true"
+                aria-describedby={errors.nome ? "nome-error" : undefined}
                 className="w-full border border-mist rounded-md px-4 py-3 text-body text-ink bg-white focus:ring-2 focus:ring-brand-light focus:border-brand outline-none transition-shadow"
                 {...register("nome")}
               />
               {errors.nome && (
-                <p className="text-danger text-caption mt-1">
+                <p id="nome-error" role="alert" className="text-danger text-caption mt-1">
                   {errors.nome.message}
                 </p>
               )}
@@ -170,11 +172,13 @@ export default function AssessmentPage() {
                 type="email"
                 id="email"
                 autoComplete="email"
+                aria-required="true"
+                aria-describedby={errors.email ? "email-error" : undefined}
                 className="w-full border border-mist rounded-md px-4 py-3 text-body text-ink bg-white focus:ring-2 focus:ring-brand-light focus:border-brand outline-none transition-shadow"
                 {...register("email")}
               />
               {errors.email && (
-                <p className="text-danger text-caption mt-1">
+                <p id="email-error" role="alert" className="text-danger text-caption mt-1">
                   {errors.email.message}
                 </p>
               )}
@@ -209,11 +213,13 @@ export default function AssessmentPage() {
                 type="text"
                 id="organizzazione"
                 autoComplete="organization"
+                aria-required="true"
+                aria-describedby={errors.organizzazione ? "organizzazione-error" : undefined}
                 className="w-full border border-mist rounded-md px-4 py-3 text-body text-ink bg-white focus:ring-2 focus:ring-brand-light focus:border-brand outline-none transition-shadow"
                 {...register("organizzazione")}
               />
               {errors.organizzazione && (
-                <p className="text-danger text-caption mt-1">
+                <p id="organizzazione-error" role="alert" className="text-danger text-caption mt-1">
                   {errors.organizzazione.message}
                 </p>
               )}
@@ -229,6 +235,8 @@ export default function AssessmentPage() {
               </label>
               <select
                 id="settore"
+                aria-required="true"
+                aria-describedby={errors.settore ? "settore-error" : undefined}
                 className="w-full border border-mist rounded-md px-4 py-3 text-body text-ink bg-white focus:ring-2 focus:ring-brand-light focus:border-brand outline-none transition-shadow"
                 defaultValue=""
                 {...register("settore")}
@@ -243,7 +251,7 @@ export default function AssessmentPage() {
                 ))}
               </select>
               {errors.settore && (
-                <p className="text-danger text-caption mt-1">
+                <p id="settore-error" role="alert" className="text-danger text-caption mt-1">
                   {errors.settore.message}
                 </p>
               )}
@@ -294,7 +302,7 @@ export default function AssessmentPage() {
                 ))}
               </div>
               {errors.aree && (
-                <p className="text-danger text-caption mt-1">
+                <p id="aree-error" role="alert" className="text-danger text-caption mt-1">
                   {errors.aree.message}
                 </p>
               )}
@@ -322,7 +330,7 @@ export default function AssessmentPage() {
                 ))}
               </div>
               {errors.urgenza && (
-                <p className="text-danger text-caption mt-1">
+                <p id="urgenza-error" role="alert" className="text-danger text-caption mt-1">
                   {errors.urgenza.message}
                 </p>
               )}
@@ -340,18 +348,22 @@ export default function AssessmentPage() {
               <textarea
                 id="descrizione"
                 rows={8}
+                aria-required="true"
+                aria-describedby={`descrizione-counter${errors.descrizione ? " descrizione-error" : ""}`}
                 className="w-full border border-mist rounded-md px-4 py-3 text-body text-ink bg-white focus:ring-2 focus:ring-brand-light focus:border-brand outline-none transition-shadow resize-y"
                 {...register("descrizione")}
               />
               <div className="flex justify-between mt-1">
                 {errors.descrizione ? (
-                  <p className="text-danger text-caption">
+                  <p id="descrizione-error" role="alert" className="text-danger text-caption">
                     {errors.descrizione.message}
                   </p>
                 ) : (
                   <span />
                 )}
                 <span
+                  id="descrizione-counter"
+                  aria-live="polite"
                   className={`text-caption ${
                     descrizione.length > 2000
                       ? "text-danger"
@@ -389,7 +401,7 @@ export default function AssessmentPage() {
                 </span>
               </label>
               {errors.consensoGdpr && (
-                <p className="text-danger text-caption mt-1">
+                <p id="consensoGdpr-error" role="alert" className="text-danger text-caption mt-1">
                   {errors.consensoGdpr.message}
                 </p>
               )}
@@ -413,7 +425,7 @@ export default function AssessmentPage() {
 
             {/* Server error */}
             {serverError && (
-              <div className="bg-danger/5 border border-danger/20 rounded-md p-4">
+              <div role="alert" className="bg-danger/5 border border-danger/20 rounded-md p-4">
                 <p className="text-danger text-caption">{serverError}</p>
               </div>
             )}
@@ -422,7 +434,7 @@ export default function AssessmentPage() {
             <button
               type="submit"
               disabled={isSubmitting}
-              className="w-full bg-brand text-white py-3 font-medium rounded-md hover:bg-brand-dark transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+              className="w-full bg-brand text-white py-3 font-medium rounded-md hover:bg-brand-dark transition-colors disabled:opacity-50 disabled:cursor-not-allowed focus-visible:ring-2 focus-visible:ring-brand-light focus-visible:ring-offset-2"
             >
               {isSubmitting ? "Invio in corso..." : "Invia richiesta"}
             </button>

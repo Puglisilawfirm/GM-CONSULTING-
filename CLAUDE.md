@@ -28,7 +28,7 @@ GM-CONSULTING-/
 ## Brand Identity
 
 - **Primary Color (Gold):** `#C8A951` — used for accents, CTAs, highlights
-- **Black Background:** `#000000` / `#050505` / `#0D0D0D` — all dark sections (pure black, NOT navy blue)
+- **Navy Background:** `#0A0F1E` / `#0E1525` / `#131B2C` — all dark sections (deep navy blue, premium)
 - **Off-white:** `#F7F7F5` — used sparingly; the site is dark-first premium
 - **Display Font:** Playfair Display (headings) — authority and precision
 - **Body Font:** Inter (text) — clean readability

@@ -1,6 +1,6 @@
 /* ============================================
    GM CONSULTING SRL — Tech-Enabled Risk Architecture
-   Premium Palette: Gold (#C8A951), Black (#000), White (#FFF)
+   Premium Palette: Gold (#C8A951), Navy (#0A0F1E), White (#FFF)
    ============================================ */
 
 /* --- Reset & Base --- */
@@ -17,15 +17,15 @@
     --gold-light: #D9C578;
     --gold-dark: #A88B3D;
     --gold-glow: rgba(200, 169, 81, 0.35);
-    --black: #000000;
-    --black-rich: #050505;
-    --black-light: #0D0D0D;
-    --black-medium: #161616;
-    --black-soft: #1C1C1C;
-    --charcoal: #2A2A2A;
-    --gray-dark: #444444;
-    --gray: #777777;
-    --gray-light: #999999;
+    --navy-deep: #0A0F1E;
+    --navy-dark: #0E1525;
+    --navy: #131B2C;
+    --navy-medium: #1A2337;
+    --navy-soft: #212D44;
+    --charcoal: #2A3550;
+    --gray-dark: #3D4A63;
+    --gray: #6B7A94;
+    --gray-light: #8A96AB;
     --gray-lighter: #F0F0F0;
     --white: #FFFFFF;
     --off-white: #F7F7F5;
@@ -58,7 +58,7 @@ html {
 body {
     font-family: var(--font-body);
     color: var(--charcoal);
-    background: var(--black);
+    background: var(--navy-deep);
     line-height: 1.7;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -110,7 +110,7 @@ ul {
 
 .btn-primary {
     background: linear-gradient(135deg, var(--gold), var(--gold-dark));
-    color: var(--black);
+    color: var(--navy-deep);
     border-color: var(--gold);
 }
 
@@ -154,7 +154,7 @@ ul {
 }
 
 .navbar.scrolled {
-    background: rgba(0, 0, 0, 0.92);
+    background: rgba(10, 15, 30, 0.95);
     backdrop-filter: blur(24px);
     -webkit-backdrop-filter: blur(24px);
     padding: 14px 0;
@@ -223,7 +223,7 @@ ul {
 
 .nav-link--cta {
     background: var(--gold);
-    color: var(--black) !important;
+    color: var(--navy-deep) !important;
     font-weight: 600;
     margin-left: 12px;
     letter-spacing: 0.04em;
@@ -272,7 +272,7 @@ ul {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: var(--black);
+    background: var(--navy-deep);
     overflow: hidden;
 }
 
@@ -602,7 +602,7 @@ ul {
 
 /* --- Il Problema Section --- */
 .section--problema {
-    background: var(--black-rich);
+    background: var(--navy-dark);
     border-top: 1px solid rgba(200, 169, 81, 0.06);
 }
 
@@ -632,7 +632,7 @@ ul {
 }
 
 .stat-block {
-    background: var(--black-medium);
+    background: var(--navy-medium);
     border-radius: var(--radius-lg);
     padding: 28px 24px;
     border: 1px solid rgba(255,255,255,0.05);
@@ -664,7 +664,7 @@ ul {
 
 /* Failure Modes */
 .failure-modes {
-    background: var(--black-medium);
+    background: var(--navy-medium);
     border-radius: var(--radius-lg);
     padding: 36px 32px;
     border: 1px solid rgba(255,255,255,0.05);
@@ -720,7 +720,7 @@ ul {
 
 /* --- Services / Campi di Intervento --- */
 .section--intervento {
-    background: var(--black);
+    background: var(--navy-deep);
     border-top: 1px solid rgba(200, 169, 81, 0.06);
 }
 
@@ -731,7 +731,7 @@ ul {
 }
 
 .service-card {
-    background: var(--black-light);
+    background: var(--navy);
     border: 1px solid rgba(255,255,255,0.06);
     border-radius: var(--radius-lg);
     padding: 36px 30px;
@@ -755,7 +755,7 @@ ul {
 
 .service-card:hover {
     transform: translateY(-4px);
-    box-shadow: 0 16px 48px rgba(0,0,0,0.4);
+    box-shadow: 0 16px 48px rgba(10,15,30,0.5);
     border-color: rgba(200, 169, 81, 0.12);
 }
 
@@ -860,7 +860,7 @@ ul {
 
 /* --- Sistema GM Section --- */
 .section--sistema {
-    background: var(--black-rich);
+    background: var(--navy-dark);
     border-top: 1px solid rgba(200, 169, 81, 0.06);
 }
 
@@ -897,7 +897,7 @@ ul {
     align-items: center;
     justify-content: center;
     background: linear-gradient(135deg, var(--gold), var(--gold-dark));
-    color: var(--black);
+    color: var(--navy-deep);
     font-family: var(--font-mono);
     font-size: 0.95rem;
     font-weight: 700;
@@ -1032,12 +1032,12 @@ ul {
 /* --- CTA Section --- */
 .section--cta {
     padding: 100px 0;
-    background: var(--black);
+    background: var(--navy-deep);
     border-top: 1px solid rgba(200, 169, 81, 0.06);
 }
 
 .cta-banner {
-    background: var(--black-medium);
+    background: var(--navy-medium);
     border: 1px solid rgba(200, 169, 81, 0.1);
     border-radius: var(--radius-lg);
     padding: 80px 60px;
@@ -1077,7 +1077,7 @@ ul {
 
 /* --- Proof Points Section --- */
 .section--proof {
-    background: var(--black-rich);
+    background: var(--navy-dark);
     border-top: 1px solid rgba(200, 169, 81, 0.06);
 }
 
@@ -1089,7 +1089,7 @@ ul {
 }
 
 .proof-card {
-    background: var(--black-light);
+    background: var(--navy);
     border: 1px solid rgba(255,255,255,0.06);
     border-radius: var(--radius-lg);
     padding: 32px 28px;
@@ -1098,7 +1098,7 @@ ul {
 
 .proof-card:hover {
     transform: translateY(-4px);
-    box-shadow: 0 16px 48px rgba(0,0,0,0.4);
+    box-shadow: 0 16px 48px rgba(10,15,30,0.5);
     border-color: rgba(200, 169, 81, 0.12);
 }
 
@@ -1149,7 +1149,7 @@ ul {
 
 /* Competenze Rare */
 .competenze {
-    background: var(--black-medium);
+    background: var(--navy-medium);
     border-radius: var(--radius-lg);
     padding: 56px 48px;
     border: 1px solid rgba(200, 169, 81, 0.08);
@@ -1210,7 +1210,7 @@ ul {
 
 /* --- Assessment / Contact Section --- */
 .section--assessment {
-    background: var(--black);
+    background: var(--navy-deep);
     border-top: 1px solid rgba(200, 169, 81, 0.06);
 }
 
@@ -1274,7 +1274,7 @@ ul {
     gap: 12px;
     align-items: flex-start;
     padding: 20px;
-    background: var(--black-medium);
+    background: var(--navy-medium);
     border-radius: var(--radius);
     border: 1px solid rgba(255,255,255,0.05);
 }
@@ -1292,7 +1292,7 @@ ul {
 }
 
 .contact-form-wrapper {
-    background: var(--black-medium);
+    background: var(--navy-medium);
     border-radius: var(--radius-lg);
     padding: 40px;
     border: 1px solid rgba(255,255,255,0.06);
@@ -1325,7 +1325,7 @@ ul {
     font-family: var(--font-body);
     font-size: 0.92rem;
     color: var(--white);
-    background: var(--black-soft);
+    background: var(--navy-soft);
     border: 1px solid rgba(255,255,255,0.08);
     border-radius: var(--radius);
     transition: all var(--transition);
@@ -1342,7 +1342,7 @@ ul {
 .form-group textarea:focus {
     border-color: var(--gold);
     box-shadow: 0 0 0 3px rgba(200,169,81,0.08);
-    background: var(--black-soft);
+    background: var(--navy-soft);
 }
 
 .form-group textarea {
@@ -1359,7 +1359,7 @@ ul {
 }
 
 .form-group select option {
-    background: var(--black-medium);
+    background: var(--navy-medium);
     color: var(--white);
 }
 
@@ -1373,7 +1373,7 @@ ul {
 
 /* --- Footer --- */
 .footer {
-    background: var(--black);
+    background: var(--navy-deep);
     padding: 72px 0 36px;
     border-top: 1px solid rgba(200, 169, 81, 0.08);
 }
@@ -1450,7 +1450,7 @@ ul {
 
 /* --- Navbar Solid (for subpages) --- */
 .navbar--solid {
-    background: rgba(0, 0, 0, 0.92);
+    background: rgba(10, 15, 30, 0.95);
     backdrop-filter: blur(24px);
     -webkit-backdrop-filter: blur(24px);
     border-bottom: 1px solid rgba(200, 169, 81, 0.06);
@@ -1462,7 +1462,7 @@ ul {
     min-height: 90vh;
     display: flex;
     align-items: center;
-    background: var(--black);
+    background: var(--navy-deep);
     overflow: hidden;
     padding-top: 120px;
     padding-bottom: 80px;
@@ -1534,7 +1534,7 @@ ul {
 
 /* --- Contesto Section --- */
 .section--contesto {
-    background: var(--black-rich);
+    background: var(--navy-dark);
     border-top: 1px solid rgba(200, 169, 81, 0.06);
 }
 
@@ -1556,7 +1556,7 @@ ul {
 }
 
 .stat-block--gold {
-    background: var(--black-medium);
+    background: var(--navy-medium);
     border: 1px solid rgba(200, 169, 81, 0.15);
 }
 
@@ -1570,7 +1570,7 @@ ul {
 
 /* --- Standards Grid --- */
 .section--standards {
-    background: var(--black);
+    background: var(--navy-deep);
     border-top: 1px solid rgba(200, 169, 81, 0.06);
 }
 
@@ -1581,7 +1581,7 @@ ul {
 }
 
 .standard-card {
-    background: var(--black-light);
+    background: var(--navy);
     border: 1px solid rgba(255,255,255,0.06);
     border-radius: var(--radius-lg);
     padding: 32px 28px;
@@ -1605,7 +1605,7 @@ ul {
 
 .standard-card:hover {
     transform: translateY(-4px);
-    box-shadow: 0 16px 48px rgba(0,0,0,0.4);
+    box-shadow: 0 16px 48px rgba(10,15,30,0.5);
     border-color: rgba(200, 169, 81, 0.12);
 }
 
@@ -1615,7 +1615,7 @@ ul {
 
 .standard-card--highlight {
     border-color: rgba(200, 169, 81, 0.15);
-    background: linear-gradient(135deg, var(--black-light), rgba(200, 169, 81, 0.03));
+    background: linear-gradient(135deg, var(--navy), rgba(200, 169, 81, 0.03));
 }
 
 .standard-card--highlight::before {
@@ -1744,7 +1744,7 @@ ul {
 
 /* --- Metodo Section --- */
 .section--metodo {
-    background: var(--black-rich);
+    background: var(--navy-dark);
     border-top: 1px solid rgba(200, 169, 81, 0.06);
 }
 
@@ -1779,7 +1779,7 @@ ul {
     align-items: center;
     justify-content: center;
     background: linear-gradient(135deg, var(--gold), var(--gold-dark));
-    color: var(--black);
+    color: var(--navy-deep);
     font-family: var(--font-mono);
     font-size: 0.95rem;
     font-weight: 700;
@@ -1848,7 +1848,7 @@ ul {
 
 /* --- Vantaggi Section --- */
 .section--vantaggi {
-    background: var(--black);
+    background: var(--navy-deep);
     border-top: 1px solid rgba(200, 169, 81, 0.06);
 }
 
@@ -1859,7 +1859,7 @@ ul {
 }
 
 .vantaggio-card {
-    background: var(--black-light);
+    background: var(--navy);
     border: 1px solid rgba(255,255,255,0.06);
     border-radius: var(--radius-lg);
     padding: 32px 28px;
@@ -1868,7 +1868,7 @@ ul {
 
 .vantaggio-card:hover {
     transform: translateY(-4px);
-    box-shadow: 0 16px 48px rgba(0,0,0,0.4);
+    box-shadow: 0 16px 48px rgba(10,15,30,0.5);
     border-color: rgba(200, 169, 81, 0.12);
 }
 
@@ -1918,7 +1918,7 @@ ul {
     border: 1px solid rgba(255,255,255,0.08);
     border-radius: var(--radius);
     transition: all var(--transition);
-    background: var(--black-soft);
+    background: var(--navy-soft);
 }
 
 .checkbox-label:hover {
@@ -2020,12 +2020,12 @@ ul {
         width: 80%;
         max-width: 320px;
         height: 100vh;
-        background: var(--black);
+        background: var(--navy-deep);
         flex-direction: column;
         padding: 100px 32px 32px;
         gap: 4px;
         transition: right var(--transition);
-        box-shadow: -10px 0 60px rgba(0,0,0,0.6);
+        box-shadow: -10px 0 60px rgba(10,15,30,0.7);
         border-left: 1px solid rgba(200, 169, 81, 0.06);
     }
 

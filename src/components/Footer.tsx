@@ -25,6 +25,7 @@ const legalLinks = [
   { label: "Convenzione Studio", href: "/convenzione-studio" },
   { label: "Note legali", href: "/note-legali" },
   { label: "Privacy", href: "/note-legali#privacy" },
+  { label: "Accessibilità", href: "/accessibilita" },
 ]
 
 const protocollo23Links = [
@@ -49,7 +50,7 @@ export function Footer() {
                 <li key={link.href}>
                   <Link
                     href={link.href}
-                    className="text-fog text-sm hover:text-white transition-colors"
+                    className="text-fog text-sm hover:text-white transition-colors focus-visible:ring-2 focus-visible:ring-brand-light focus-visible:ring-offset-2 rounded-sm"
                   >
                     {link.label}
                   </Link>
@@ -68,7 +69,7 @@ export function Footer() {
                 <li key={link.href}>
                   <Link
                     href={link.href}
-                    className="text-fog text-sm hover:text-white transition-colors"
+                    className="text-fog text-sm hover:text-white transition-colors focus-visible:ring-2 focus-visible:ring-brand-light focus-visible:ring-offset-2 rounded-sm"
                   >
                     {link.label}
                   </Link>
@@ -87,7 +88,7 @@ export function Footer() {
                 <li key={link.href}>
                   <Link
                     href={link.href}
-                    className="text-fog text-sm hover:text-white transition-colors"
+                    className="text-fog text-sm hover:text-white transition-colors focus-visible:ring-2 focus-visible:ring-brand-light focus-visible:ring-offset-2 rounded-sm"
                   >
                     {link.label}
                   </Link>
@@ -106,7 +107,7 @@ export function Footer() {
                 <li key={link.href}>
                   <Link
                     href={link.href}
-                    className="text-fog text-sm hover:text-white transition-colors"
+                    className="text-fog text-sm hover:text-white transition-colors focus-visible:ring-2 focus-visible:ring-brand-light focus-visible:ring-offset-2 rounded-sm"
                   >
                     {link.label}
                   </Link>
@@ -116,7 +117,7 @@ export function Footer() {
                 <button
                   type="button"
                   data-action="open-preferences"
-                  className="text-fog text-sm hover:text-white transition-colors"
+                  className="text-fog text-sm hover:text-white transition-colors focus-visible:ring-2 focus-visible:ring-brand-light focus-visible:ring-offset-2 rounded-sm"
                 >
                   Cookie preferences
                 </button>
@@ -133,18 +134,18 @@ export function Footer() {
               <li>
                 <a
                   href="mailto:info@gmconsulting.one"
-                  className="text-fog text-sm hover:text-white transition-colors inline-flex items-center gap-2"
+                  className="text-fog text-sm hover:text-white transition-colors inline-flex items-center gap-2 focus-visible:ring-2 focus-visible:ring-brand-light focus-visible:ring-offset-2 rounded-sm"
                 >
-                  <Mail size={14} strokeWidth={1.5} />
+                  <Mail size={14} strokeWidth={1.5} aria-hidden="true" />
                   info@gmconsulting.one
                 </a>
               </li>
               <li>
                 <a
                   href="mailto:gmconsultingct@legalmail.it"
-                  className="text-fog text-sm hover:text-white transition-colors inline-flex items-center gap-2"
+                  className="text-fog text-sm hover:text-white transition-colors inline-flex items-center gap-2 focus-visible:ring-2 focus-visible:ring-brand-light focus-visible:ring-offset-2 rounded-sm"
                 >
-                  <Mail size={14} strokeWidth={1.5} />
+                  <Mail size={14} strokeWidth={1.5} aria-hidden="true" />
                   gmconsultingct@legalmail.it
                 </a>
               </li>

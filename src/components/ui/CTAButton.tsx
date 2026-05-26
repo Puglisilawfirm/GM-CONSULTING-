@@ -24,7 +24,7 @@ export function CTAButton({
     <Link
       href={href}
       className={cn(
-        "inline-flex items-center justify-center px-6 py-3 font-medium rounded-md transition-colors text-sm",
+        "inline-flex items-center justify-center px-6 py-3 font-medium rounded-md transition-colors text-sm focus-visible:ring-2 focus-visible:ring-brand-light focus-visible:ring-offset-2",
         variantStyles[variant],
         className
       )}

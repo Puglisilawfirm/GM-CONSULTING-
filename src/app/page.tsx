@@ -159,9 +159,9 @@ export default function HomePage() {
                 <Link
                   key={area.anchor}
                   href={`/aree-di-intervento#${area.anchor}`}
-                  className="group rounded-lg border border-mist bg-white p-8 transition-colors hover:border-brand hover:shadow-sm"
+                  className="group rounded-lg border border-mist bg-white p-8 transition-colors hover:border-brand hover:shadow-sm focus-visible:ring-2 focus-visible:ring-brand-light focus-visible:ring-offset-2"
                 >
-                  <Icon className="h-8 w-8 text-brand mb-4" strokeWidth={1.5} />
+                  <Icon className="h-8 w-8 text-brand mb-4" strokeWidth={1.5} aria-hidden="true" />
                   <h3 className="text-h4 text-ink mb-2">{area.title}</h3>
                   <p className="text-body text-steel">{area.description}</p>
                 </Link>

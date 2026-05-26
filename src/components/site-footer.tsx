@@ -57,7 +57,7 @@ export function SiteFooter() {
   }
 
   return (
-    <footer className="bg-navy-950 text-paper-100">
+    <footer className="bg-navy-900 text-paper-100">
       <div className="max-w-7xl mx-auto px-6 md:px-10 lg:px-14 pt-20 pb-10">
         {/* Logo lockup */}
         <div className="flex items-center gap-3">

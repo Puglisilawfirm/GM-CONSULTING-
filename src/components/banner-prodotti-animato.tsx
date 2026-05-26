@@ -2,33 +2,51 @@
 
 import Link from "next/link"
 
-const PRODOTTI = [
+interface Prodotto {
+  slug: string
+  nome: string
+  claim: string | null
+  subclaim: string | null
+  tagline: string
+  eyebrow: string
+  statoLabel: string
+  statoTone: "attivo" | "imminente" | "futuro"
+  href: string
+}
+
+const PRODOTTI: Prodotto[] = [
   {
     slug: "protocollo-23",
     nome: "Protocollo 23",
-    tagline: "Modello 231 dinamico e self-updating per PMI",
+    claim: "Sistema operativo, non manuale d’uso.",
+    subclaim: "— Una procedura che si esegue, non un documento da consultare.",
+    tagline: "Adeguata verifica AML per notai, avvocati, commercialisti",
     eyebrow: "PRODOTTO GM",
     statoLabel: "Disponibile",
-    statoTone: "attivo" as const,
+    statoTone: "attivo",
     href: "/protocollo-23",
   },
   {
     slug: "suite-gdpr-nis2",
     nome: "Suite GDPR-NIS2",
+    claim: null,
+    subclaim: null,
     tagline: "Modulo unificato di compliance dati e sicurezza informatica",
     eyebrow: "IN ARRIVO",
     statoLabel: "In arrivo Q2 2026",
-    statoTone: "imminente" as const,
-    href: "/insights",
+    statoTone: "imminente",
+    href: "/insights/suite-gdpr-nis2-roadmap",
   },
   {
     slug: "healthcare-continuity",
     nome: "Healthcare Continuity Toolkit",
+    claim: null,
+    subclaim: null,
     tagline: "BIA, BCM ed Emergency Plan per strutture sanitarie",
     eyebrow: "IN STUDIO",
     statoLabel: "In studio",
-    statoTone: "futuro" as const,
-    href: "/insights",
+    statoTone: "futuro",
+    href: "/insights/healthcare-continuity",
   },
 ]
 
@@ -74,23 +92,47 @@ const glyphs: Record<string, () => React.JSX.Element> = {
   "healthcare-continuity": PulseIcon,
 }
 
-function ProdottoCard({ item }: { item: typeof PRODOTTI[number] }) {
+function buildAriaLabel(prodotto: Prodotto): string {
+  const parts = [`Vai a ${prodotto.nome}`]
+  if (prodotto.claim) parts.push(prodotto.claim)
+  if (prodotto.subclaim) parts.push(prodotto.subclaim)
+  parts.push(prodotto.tagline)
+  return parts.join(" — ")
+}
+
+function cardMinWidth(prodotto: Prodotto): string {
+  if (prodotto.claim && prodotto.subclaim) return "min-w-[480px]"
+  if (prodotto.claim) return "min-w-[420px]"
+  return "min-w-[360px]"
+}
+
+function ProdottoCard({ item }: { item: Prodotto }) {
   const Glyph = glyphs[item.slug]
   return (
     <Link
       href={item.href}
-      className="flex items-center gap-5 px-8 group"
-      aria-label={`Vai a ${item.nome} — ${item.tagline}`}
+      className={`flex items-center gap-5 px-8 group ${cardMinWidth(item)}`}
+      aria-label={buildAriaLabel(item)}
     >
       <Glyph />
-      <div className="flex flex-col min-w-0">
+      <div className="flex flex-col justify-center min-w-0">
         <span className="font-mono text-mono-label uppercase text-gold-400">
           {item.eyebrow}
         </span>
-        <span className="font-display font-medium text-[20px] text-paper-50 whitespace-nowrap">
+        <span className="font-display font-medium text-[20px] text-paper-50 leading-tight">
           {item.nome}
         </span>
-        <span className="text-[13px] text-paper-200 whitespace-nowrap">
+        {item.claim && (
+          <p className="font-display italic text-[15px] text-gold-400 leading-snug mt-0.5">
+            {item.claim}
+          </p>
+        )}
+        {item.subclaim && (
+          <p className="font-sans italic text-[12.5px] text-paper-200/80 leading-snug mt-0.5">
+            {item.subclaim}
+          </p>
+        )}
+        <span className="text-[13px] text-paper-200 leading-snug mt-1">
           {item.tagline}
         </span>
       </div>
@@ -112,10 +154,9 @@ export function BannerProdottiAnimato() {
   return (
     <section
       aria-label="Prodotti verticali di GM Consulting"
-      className="relative h-20 md:h-24 bg-gradient-to-r from-navy-950 via-navy-900 to-navy-950 border-y border-gold-700/40 overflow-hidden group"
+      className="relative h-24 md:h-28 bg-gradient-to-r from-navy-900 via-navy-800 to-navy-900 border-y border-gold-700/40 overflow-hidden group"
     >
       <div className="marquee-track animate-marquee group-hover:animate-marquee-slow h-full items-center">
-        {/* Two copies for seamless loop */}
         <div className="flex items-center h-full">{cards}</div>
         <div className="flex items-center h-full" aria-hidden="true">{cards}</div>
       </div>

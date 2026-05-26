@@ -100,7 +100,7 @@ content/
 
 ## Note di follow-up
 
-- **Telefono**: il numero di telefono aziendale non è stato fornito e non è esposto sul sito. Inserire manualmente quando disponibile (cercare `TODO: telefono` nel codice).
+- **Numero di telefono**: il numero di telefono operativo di GM Consulting non è ancora attivato. Quando disponibile, aggiungerlo in: (a) Footer.tsx colonna contatti, (b) schema.org Organization in layout.tsx, (c) pagina Note legali sezione contatti del titolare del trattamento.
 - **Cookie banner**: implementazione placeholder. Da completare con logica completa di gestione del consenso conforme al Provvedimento del Garante n. 231/2021.
 - **Analytics**: nessun provider analytics configurato. Integrare previo consenso cookie.
 - **Logo**: il sito utilizza un logotipo testuale. Un logo grafico può essere aggiunto in `public/` e referenziato nel componente Header.

@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Image from "next/image"
 import { Mail } from "lucide-react"
 
 const navigazione = [
@@ -127,9 +128,18 @@ export function Footer() {
 
           {/* Col 5 — Contatti */}
           <div>
-            <h3 className="text-white font-semibold text-sm uppercase tracking-wide mb-6">
-              Contatti
-            </h3>
+            <div className="flex items-center gap-3 mb-6">
+              <Image
+                src="/logo-gmconsulting-64.png"
+                alt="GM Consulting"
+                width={40}
+                height={40}
+              />
+              <div className="flex flex-col">
+                <span className="text-sm font-semibold text-white">GM Consulting S.r.l.</span>
+                <span className="text-xs text-fog">P.IVA 04006730875</span>
+              </div>
+            </div>
             <ul className="space-y-3">
               <li>
                 <a
@@ -149,7 +159,6 @@ export function Footer() {
                   gmconsultingct@legalmail.it
                 </a>
               </li>
-              {/* TODO: telefono */}
               <li className="text-fog text-sm leading-relaxed">
                 Via Nuovalucello 81/C<br />
                 95126 Catania (CT)

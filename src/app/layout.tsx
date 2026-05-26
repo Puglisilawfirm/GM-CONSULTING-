@@ -18,6 +18,14 @@ export const metadata: Metadata = {
   },
   description:
     "GM Consulting S.r.l. — Consulenza direzionale per imprese italiane: compliance normativa, automazione dei processi, governance e risk management. Sede a Catania.",
+  icons: {
+    icon: [
+      { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+      { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+    ],
+    apple: "/apple-touch-icon.png",
+    shortcut: "/favicon.ico",
+  },
   openGraph: {
     type: "website",
     locale: "it_IT",
@@ -25,12 +33,14 @@ export const metadata: Metadata = {
     title: "GM Consulting S.r.l. — Consulenza direzionale, compliance, automazione",
     description:
       "Consulenza direzionale per imprese italiane: compliance normativa, automazione dei processi, governance e risk management.",
+    images: [{ url: "/og-default.png", width: 1200, height: 630 }],
   },
   twitter: {
     card: "summary_large_image",
     title: "GM Consulting S.r.l. — Consulenza direzionale, compliance, automazione",
     description:
       "Consulenza direzionale per imprese italiane: compliance normativa, automazione dei processi, governance e risk management.",
+    images: ["/og-default.png"],
   },
 }
 
@@ -38,10 +48,12 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": "ProfessionalService",
   name: "GM Consulting S.r.l.",
+  legalName: "GM Consulting S.r.l.",
   description:
     "Consulenza direzionale per imprese italiane: compliance normativa, automazione dei processi, governance e risk management.",
-  url: "https://gmconsulting.one",
+  url: "https://www.gmconsulting.one",
   email: "info@gmconsulting.one",
+  logo: "https://www.gmconsulting.one/logo-gmconsulting-512.png",
   address: {
     "@type": "PostalAddress",
     streetAddress: "Via Nuovalucello 81/C",

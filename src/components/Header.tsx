@@ -2,6 +2,7 @@
 
 import { useState } from "react"
 import Link from "next/link"
+import Image from "next/image"
 import { Menu, X } from "lucide-react"
 
 const navLinks = [
@@ -20,9 +21,24 @@ export function Header() {
     <header className="sticky top-0 z-50 bg-white/95 backdrop-blur-sm border-b border-mist">
       <div className="mx-auto max-w-[1200px] px-6 lg:px-12 flex items-center justify-between h-16">
         {/* Logo */}
-        <Link href="/" className="flex items-center gap-0 shrink-0 focus-visible:ring-2 focus-visible:ring-brand-light focus-visible:ring-offset-2 rounded-sm">
-          <span className="font-semibold text-brand text-lg">GM</span>
-          <span className="text-ink text-lg">&nbsp;Consulting S.r.l.</span>
+        <Link href="/" className="flex items-center gap-3 shrink-0 focus-visible:ring-2 focus-visible:ring-brand-light focus-visible:ring-offset-2 rounded-sm" aria-label="GM Consulting — Home">
+          <Image
+            src="/logo-gmconsulting-128.png"
+            alt="GM Consulting"
+            width={50}
+            height={50}
+            priority
+            className="h-12 w-12 md:h-14 md:w-14"
+          />
+          <span className="hidden md:flex flex-col">
+            <span className="text-base font-semibold tracking-tight text-ink">
+              GM Consulting
+            </span>
+            {/* TODO: sottotitolo modificabile su indicazione del CMO */}
+            <span className="text-[11px] uppercase tracking-wider text-steel">
+              Compliance &amp; Risk Architecture
+            </span>
+          </span>
         </Link>
 
         {/* Desktop nav */}

@@ -176,6 +176,31 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Protocollo 23 */}
+      <section className="bg-paper py-section-mobile lg:py-section">
+        <div className="mx-auto max-w-[1200px] px-6 lg:px-12">
+          <div className="border-l-4 border-brand-light pl-8 py-2">
+            <SectionHeader
+              eyebrow="Protocollo 23"
+              title="Una soluzione dedicata: adeguata verifica AML per professionisti"
+            />
+            <p className="mt-6 max-w-3xl text-body text-graphite">
+              Per notai, avvocati e commercialisti soggetti agli obblighi di
+              adeguata verifica antiriciclaggio, GM Consulting eroga{" "}
+              <strong>Protocollo 23</strong>, il metodo operativo nato e
+              collaudato in produzione presso Studio Legale Avv. Maria Puglisi.
+              Quattro componenti modulari, dal Diagnostico iniziale al programma
+              Premium dedicato al notariato.
+            </p>
+            <div className="mt-8">
+              <CTAButton variant="secondary" href="/protocollo-23">
+                Scopri Protocollo 23
+              </CTAButton>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Metodo GM */}
       <section className="bg-paper py-section-mobile lg:py-section">
         <div className="mx-auto max-w-[1200px] px-6 lg:px-12">

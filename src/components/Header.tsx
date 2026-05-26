@@ -7,6 +7,7 @@ import { Menu, X } from "lucide-react"
 const navLinks = [
   { label: "Metodo", href: "/metodo" },
   { label: "Aree di intervento", href: "/aree-di-intervento" },
+  { label: "Protocollo 23", href: "/protocollo-23" },
   { label: "Compliance", href: "/compliance" },
   { label: "Insights", href: "/insights" },
   { label: "Assessment", href: "/assessment" },

@@ -20,7 +20,7 @@ const PRODOTTI: Prodotto[] = [
     nome: "Protocollo 23",
     claim: null,
     subclaim: null,
-    tagline: "Workflow automatizzato per adempimenti AML",
+    tagline: "Workflow automatizzato per adempimenti AML per notai, avvocati, commercialisti",
     eyebrow: "PRODOTTO GM",
     statoLabel: "Disponibile",
     statoTone: "attivo",

@@ -18,9 +18,9 @@ const PRODOTTI: Prodotto[] = [
   {
     slug: "protocollo-23",
     nome: "Protocollo 23",
-    claim: "Sistema operativo, non manuale d’uso.",
-    subclaim: "— Una procedura che si esegue, non un documento da consultare.",
-    tagline: "Adeguata verifica AML per notai, avvocati, commercialisti",
+    claim: null,
+    subclaim: null,
+    tagline: "Workflow automatizzato per adempimenti AML per notai, avvocati, commercialisti",
     eyebrow: "PRODOTTO GM",
     statoLabel: "Disponibile",
     statoTone: "attivo",

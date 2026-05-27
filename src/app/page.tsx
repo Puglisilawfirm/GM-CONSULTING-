@@ -196,7 +196,7 @@ export default function HomePage() {
           </h1>
 
           <p className="mt-8 max-w-2xl text-body-lg text-paper-200">
-            Sei aree di intervento integrate, otto standard di compliance presidiati, prodotti verticali in continua evoluzione. Una società di consulenza che progetta architetture di rischio per imprese e organizzazioni complesse, in convenzione con Studio Legale Avv. Maria Puglisi.
+            Sei aree di intervento integrate, otto standard di compliance presidiati, prodotti verticali in continua evoluzione. Una società di consulenza che progetta architetture di rischio per imprese e organizzazioni complesse.
           </p>
 
           <div className="mt-10 flex flex-wrap gap-4">

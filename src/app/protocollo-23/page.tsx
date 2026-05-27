@@ -95,7 +95,7 @@ export default function Protocollo23Page() {
       <Hero
         variant="compact"
         eyebrow="Protocollo 23 — Soluzione AML per Professionisti"
-        title="Adeguata verifica del titolare effettivo. Sistema operativo, non manuale d'uso."
+        title="Adeguata verifica del titolare effettivo. Un sistema automatizzato che lavora con te, non un semplice manuale d'uso."
         lead="Protocollo 23 è il metodo con cui GM Consulting trasforma l'obbligo di adeguata verifica del cliente — incombente su notai, avvocati e commercialisti — da adempimento documentale a procedura operativa verificabile. Il metodo è stato sviluppato e collaudato in produzione presso Studio Legale Avv. Maria Puglisi e codificato come trattamento autonomo nel registro delle attività di trattamento dello Studio. La sua trasposizione presso altri studi avviene per implementazione, formazione e — facoltativamente — validazione giuridica in convenzione professionale."
       >
         <div className="flex flex-wrap gap-4">

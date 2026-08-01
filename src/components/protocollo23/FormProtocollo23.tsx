@@ -5,6 +5,7 @@ import { zodResolver } from "@hookform/resolvers/zod"
 import { z } from "zod"
 import { useRouter } from "next/navigation"
 import { useState } from "react"
+import { trackSiteEvent } from "@/lib/site-analytics"
 
 const categoriaOptions = [
   "Notaio",
@@ -86,6 +87,11 @@ export function FormProtocollo23() {
       })
       const result = await res.json()
       if (res.ok && result.success) {
+        await trackSiteEvent({
+          eventName: "lead_submit",
+          pagePath: "/protocollo-23",
+          target: "protocollo_23",
+        })
         router.push("/protocollo-23/inviato")
       } else {
         setServerError(

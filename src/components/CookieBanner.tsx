@@ -55,7 +55,6 @@ export function CookieBanner() {
   const [showBanner, setShowBanner] = useState(false)
   const [showPreferences, setShowPreferences] = useState(false)
   const [analyticsToggle, setAnalyticsToggle] = useState(false)
-  const [profilingToggle, setProfilingToggle] = useState(false)
 
   const dialogRef = useRef<HTMLDivElement>(null)
 
@@ -78,10 +77,8 @@ export function CookieBanner() {
       const consent = getCookieConsent()
       if (consent) {
         setAnalyticsToggle(consent.analytics)
-        setProfilingToggle(consent.profiling)
       } else {
         setAnalyticsToggle(false)
-        setProfilingToggle(false)
       }
 
       setShowPreferences(true)
@@ -141,7 +138,7 @@ export function CookieBanner() {
 
   /* ---- actions ---- */
   const acceptAll = useCallback(() => {
-    setCookieConsent({ analytics: true, profiling: true })
+    setCookieConsent({ analytics: true, profiling: false })
     setShowBanner(false)
     setShowPreferences(false)
   }, [])
@@ -153,16 +150,15 @@ export function CookieBanner() {
   }, [])
 
   const savePreferences = useCallback(() => {
-    setCookieConsent({ analytics: analyticsToggle, profiling: profilingToggle })
+    setCookieConsent({ analytics: analyticsToggle, profiling: false })
     setShowBanner(false)
     setShowPreferences(false)
-  }, [analyticsToggle, profilingToggle])
+  }, [analyticsToggle])
 
   const openPreferences = useCallback(() => {
     const consent = getCookieConsent()
     if (consent) {
       setAnalyticsToggle(consent.analytics)
-      setProfilingToggle(consent.profiling)
     }
     setShowPreferences(true)
   }, [])
@@ -182,8 +178,8 @@ export function CookieBanner() {
           <div className="mx-auto max-w-[1200px] px-6 py-6 lg:px-12">
             <p className="text-body text-graphite mb-5">
               Questo sito utilizza esclusivamente cookie tecnici strettamente
-              necessari al funzionamento. Eventuali cookie analitici o di
-              profilazione richiedono il Suo consenso esplicito. Pu&ograve;
+              necessari al funzionamento. La misurazione analitica
+              privacy-first richiede il Suo consenso esplicito. Pu&ograve;
               accettarli tutti, rifiutarli tutti o personalizzare le Sue
               preferenze in conformit&agrave; al{" "}
               <em>
@@ -276,9 +272,9 @@ export function CookieBanner() {
                     Cookie analitici
                   </label>
                   <p className="text-sm text-steel mt-1">
-                    Cookie che ci consentono di rilevare statistiche aggregate
-                    sull&apos;utilizzo del sito, senza identificare il singolo
-                    visitatore. Esempio: Plausible Analytics, Vercel Analytics.
+                    Misurazione first-party con eventi minimizzati e statistiche
+                    aggregate. Non raccoglie IP, contatti, query string,
+                    referrer o contenuti inseriti nei moduli.
                   </p>
                 </div>
                 <Toggle
@@ -288,28 +284,6 @@ export function CookieBanner() {
                 />
               </div>
 
-              {/* Profiling */}
-              <div className="flex items-start justify-between gap-4">
-                <div className="flex-1">
-                  <label
-                    htmlFor="toggle-profiling"
-                    className="text-sm font-semibold text-ink"
-                  >
-                    Cookie di profilazione
-                  </label>
-                  <p className="text-sm text-steel mt-1">
-                    Cookie utilizzati per personalizzare l&apos;esperienza di
-                    navigazione o per veicolare comunicazioni commerciali mirate.
-                    Attualmente non installati sul sito; il toggle &egrave;
-                    presente per trasparenza.
-                  </p>
-                </div>
-                <Toggle
-                  id="toggle-profiling"
-                  checked={profilingToggle}
-                  onChange={setProfilingToggle}
-                />
-              </div>
             </div>
 
             {/* Footer */}

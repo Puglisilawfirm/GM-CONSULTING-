@@ -40,6 +40,9 @@ Consultare `.env.example` per l'elenco completo.
 | `RESEND_API_KEY` | API key di Resend per l'invio email dal form Assessment | Sì (produzione) |
 | `ASSESSMENT_NOTIFY_EMAIL` | Indirizzo di destinazione delle notifiche assessment (default: info@gmconsulting.one) | No |
 | `PROTOCOLLO23_NOTIFY_EMAIL` | Indirizzo per notifiche del form Protocollo 23 (fallback su `ASSESSMENT_NOTIFY_EMAIL`) | No |
+| `NEXT_PUBLIC_SITE_ANALYTICS_ENABLED` | Feature flag del collector; mantenere `false` fino al cutover autorizzato | No |
+| `NEXT_PUBLIC_SUPABASE_URL` | URL pubblico del progetto Supabase dedicato | Solo con analytics attivo |
+| `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY` | Chiave pubblicabile del progetto; non è una chiave privilegiata | Solo con analytics attivo |
 
 ### Configurazione Resend
 
@@ -56,6 +59,8 @@ pnpm build      # Build di produzione
 pnpm start      # Avvia build di produzione
 pnpm lint       # ESLint
 pnpm typecheck  # Verifica tipi TypeScript
+pnpm test       # Test unitari privacy e contratto eventi
+pnpm check      # Typecheck, test, lint e build
 pnpm format     # Formattazione (richiede prettier)
 ```
 
@@ -63,7 +68,7 @@ pnpm format     # Formattazione (richiede prettier)
 
 1. Collegare il repository GitHub a Vercel
 2. Impostare le variabili d'ambiente nel pannello Vercel
-3. Il deploy avviene automaticamente su push al branch principale
+3. Il deploy di produzione segue il branch configurato in Vercel; le PR generano anteprime isolate
 
 Dominio di produzione: `www.gmconsulting.one`
 
@@ -101,8 +106,7 @@ content/
 ## Note di follow-up
 
 - **Numero di telefono**: il numero di telefono operativo di GM Consulting non è ancora attivato. Quando disponibile, aggiungerlo in: (a) Footer.tsx colonna contatti, (b) schema.org Organization in layout.tsx, (c) pagina Note legali sezione contatti del titolare del trattamento.
-- **Cookie banner**: implementazione placeholder. Da completare con logica completa di gestione del consenso conforme al Provvedimento del Garante n. 231/2021.
-- **Analytics**: nessun provider analytics configurato. Integrare previo consenso cookie.
+- **Analytics**: il collector first-party è disabilitato di default e non crea sessioni né richieste senza feature flag, configurazione e consenso analitico esplicito. Migrazione, test e rollout sono descritti in `supabase/README.md`.
 - **Logo**: il sito utilizza un logotipo testuale. Un logo grafico può essere aggiunto in `public/` e referenziato nel componente Header.
 - **Articoli Insights**: i tre articoli iniziali contengono struttura e headings completi con segnaposto editoriale (`<!-- editoriale in fase di redazione finale -->`). Completare il corpo degli articoli.
 
@@ -111,4 +115,4 @@ content/
 | Deviazione | Motivazione tecnica |
 |---|---|
 | shadcn/ui non installato via CLI | La CLI shadcn richiede interazione terminale interattiva incompatibile con l'ambiente di build automatizzato. Le dipendenze base (class-variance-authority, clsx, tailwind-merge, tailwindcss-animate) sono installate manualmente e i componenti UI sono costruiti con le stesse convenzioni architetturali. |
-| Rate limiting in-memory in dev | `@upstash/ratelimit` + Vercel KV richiede account Upstash e variabili KV_REST_API_URL / KV_REST_API_TOKEN. In development il rate limiting usa Map in-memory. Per produzione: configurare Upstash e aggiornare la route API. |
+| Protezione moduli pubblici | I moduli esistenti usano validazione e honeypot. Rate limiting persistente e Turnstile restano un intervento separato dal sistema analytics. |

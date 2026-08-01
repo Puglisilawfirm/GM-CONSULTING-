@@ -43,14 +43,14 @@ const areas = [
     total: "06",
     title: "Governance & Architettura Organizzativa",
     description: "Disegno e revisione di assetti organizzativi adeguati ex art. 2086 c.c., funzioni di controllo interno, deleghe e procure.",
-    href: "/aree-di-intervento#governance",
+    href: "/aree-di-intervento#governance-organizzativa",
   },
   {
     number: "05",
     total: "06",
     title: "Legal Tech & Trasformazione Digitale",
     description: "Soluzioni applicative per la gestione del rischio legale, protocolli digitali, workflow di compliance integrati con i sistemi gestionali aziendali.",
-    href: "/aree-di-intervento#legal-tech",
+    href: "/aree-di-intervento#trasformazione-digitale",
   },
   {
     number: "06",
@@ -120,25 +120,25 @@ const standards = [
 
 const articles = [
   {
-    title: "D.Lgs. 211/2025 — Responsabilità 231 e nuove misure restrittive UE",
-    date: "15 MAGGIO 2026",
-    category: "COMPLIANCE 231",
-    href: "/insights/dlgs-211-2025",
-    excerpt: "Le nuove disposizioni del D.Lgs. 211/2025 ampliano il perimetro della responsabilità amministrativa degli enti in relazione alle misure restrittive europee.",
+    title: "L'integrazione fra ISO 37001:2025, ISO 37301 e D.Lgs. 231/2001",
+    date: "20 MAGGIO 2026",
+    category: "COMPLIANCE INTEGRATA",
+    href: "/insights/iso-37001-37301-dlgs-231-architettura-integrata",
+    excerpt: "Architettura unica per tre sistemi sovrapposti: compliance anticorruzione, conformità normativa e responsabilità amministrativa degli enti.",
   },
   {
-    title: "Suite GDPR-NIS2 — Quando un modulo unico ha più senso di due perimetri separati",
-    date: "28 APRILE 2026",
+    title: "Certificazione UNI/PdR 125:2022 e premialità PNRR",
+    date: "20 MAGGIO 2026",
+    category: "PARITÀ DI GENERE",
+    href: "/insights/uni-pdr-125-2022-premialita-pnrr",
+    excerpt: "Guida tecnica all’accesso agli sgravi contributivi e ai bandi pubblici attraverso la certificazione della parità di genere.",
+  },
+  {
+    title: "Compliance by design nei processi automatizzati",
+    date: "20 MAGGIO 2026",
     category: "GDPR & NIS2",
-    href: "/insights/suite-gdpr-nis2-roadmap",
-    excerpt: "L’integrazione dei presidi GDPR e NIS2 in un unico framework operativo riduce le duplicazioni e migliora la coerenza del sistema di gestione.",
-  },
-  {
-    title: "Adeguati assetti ex art. 2086 c.c. — Cosa l’OdV vede e cosa l’organo amministrativo deve documentare",
-    date: "12 APRILE 2026",
-    category: "GOVERNANCE",
-    href: "/insights/adeguati-assetti-art-2086",
-    excerpt: "Il rapporto fra Organismo di Vigilanza e organo amministrativo nella verifica dell’adeguatezza degli assetti organizzativi, amministrativi e contabili.",
+    href: "/insights/compliance-by-design-workflow-python-gdpr-nis2",
+    excerpt: "Come progettare workflow Python conformi al GDPR e alla Direttiva NIS2, con minimizzazione, audit trail e controlli automatizzati.",
   },
 ]
 

@@ -35,7 +35,7 @@ const PRODOTTI: Prodotto[] = [
     eyebrow: "IN ARRIVO",
     statoLabel: "In arrivo Q2 2026",
     statoTone: "imminente",
-    href: "/insights/suite-gdpr-nis2-roadmap",
+    href: "/insights/compliance-by-design-workflow-python-gdpr-nis2",
   },
   {
     slug: "healthcare-continuity",
@@ -46,7 +46,7 @@ const PRODOTTI: Prodotto[] = [
     eyebrow: "IN STUDIO",
     statoLabel: "In studio",
     statoTone: "futuro",
-    href: "/insights/healthcare-continuity",
+    href: "/aree-di-intervento#healthcare-emergency",
   },
 ]
 

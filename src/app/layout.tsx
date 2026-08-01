@@ -5,6 +5,7 @@ import { SiteHeader } from "@/components/site-header"
 import { SiteFooter } from "@/components/site-footer"
 import { BannerProdottiAnimato } from "@/components/banner-prodotti-animato"
 import { CookieBanner } from "@/components/CookieBanner"
+import { SiteAnalytics } from "@/components/SiteAnalytics"
 
 const playfair = Playfair_Display({
   subsets: ["latin"],
@@ -123,6 +124,7 @@ export default function RootLayout({
         <BannerProdottiAnimato />
         <main id="main-content">{children}</main>
         <SiteFooter />
+        <SiteAnalytics />
         <CookieBanner />
       </body>
     </html>

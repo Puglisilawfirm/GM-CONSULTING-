@@ -6,6 +6,7 @@ import { z } from "zod"
 import { useRouter } from "next/navigation"
 import { useState } from "react"
 import { Hero } from "@/components/ui/Hero"
+import { trackSiteEvent } from "@/lib/site-analytics"
 
 const settori = [
   "Sanità",
@@ -97,6 +98,11 @@ export default function AssessmentPage() {
       })
       const result = await res.json()
       if (res.ok && result.success) {
+        await trackSiteEvent({
+          eventName: "lead_submit",
+          pagePath: "/assessment",
+          target: "assessment",
+        })
         router.push("/assessment/inviato")
       } else {
         setServerError(

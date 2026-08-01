@@ -52,10 +52,6 @@ export function SiteFooter() {
     window.scrollTo({ top: 0, behavior: "smooth" })
   }
 
-  function openCookiePrefs() {
-    document.querySelector<HTMLElement>("[data-action='open-preferences']")?.click()
-  }
-
   return (
     <footer className="bg-navy-900 text-paper-100">
       <div className="max-w-7xl mx-auto px-6 md:px-10 lg:px-14 pt-20 pb-10">
@@ -93,7 +89,7 @@ export function SiteFooter() {
               <li>
                 <button
                   type="button"
-                  onClick={openCookiePrefs}
+                  data-action="open-preferences"
                   className="text-sm text-paper-200 hover:text-paper-50 transition-colors"
                 >
                   Cookie preferences

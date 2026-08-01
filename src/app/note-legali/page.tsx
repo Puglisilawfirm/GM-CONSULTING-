@@ -162,7 +162,9 @@ export default function NoteLegaliPage() {
                       </li>
                       <li>
                         Responsabili esterni del trattamento: Vercel Inc.
-                        (hosting), Resend Inc. (servizio email transazionale).
+                        (hosting), Resend Inc. (servizio email transazionale) e
+                        Supabase Inc. (raccolta e aggregazione analytics
+                        first-party, esclusivamente previo consenso).
                       </li>
                       <li>
                         Pubbliche autorità, ove previsto dalla legge.
@@ -299,13 +301,17 @@ export default function NoteLegaliPage() {
                   <div>
                     <h3 className="text-h4 text-ink mb-3">Cookie analitici</h3>
                     <p>
-                      Eventuali cookie analitici di terze parti sono installati
-                      esclusivamente previo consenso esplicito
-                      dell&apos;utente, espresso attraverso il banner cookie
-                      presente al primo accesso. Al momento della pubblicazione
-                      di questa informativa, non &egrave; installato alcun
-                      servizio di analisi. L&apos;eventuale attivazione futura
-                      sar&agrave; subordinata al consenso dell&apos;utente.
+                      Previo consenso esplicito, il sito utilizza una
+                      misurazione first-party limitata a visualizzazioni di
+                      pagine pubbliche, click su CTA e invii riusciti dei
+                      moduli. Sono registrati solo pathname da una lista
+                      chiusa, lingua, un target predefinito e un identificatore
+                      casuale limitato alla sessione del tab. Non sono raccolti
+                      IP nell&apos;archivio applicativo, referrer, query string,
+                      contatti o contenuti inseriti nei moduli. Gli eventi
+                      grezzi sono conservati per 90 giorni; le metriche
+                      aggregate per 400 giorni e gli insight deterministici
+                      per 365 giorni.
                     </p>
                   </div>
 
@@ -315,10 +321,8 @@ export default function NoteLegaliPage() {
                     </h3>
                     <p>
                       Il sito non installa cookie di profilazione propri
-                      n&eacute; di terze parti. Il toggle &egrave; presente nel
-                      pannello di gestione delle preferenze per trasparenza e
-                      per consentire un eventuale futuro adeguamento senza
-                      modifiche al pannello stesso.
+                      n&eacute; di terze parti e non presenta una categoria di
+                      profilazione nel pannello delle preferenze.
                     </p>
                   </div>
 
@@ -344,8 +348,8 @@ export default function NoteLegaliPage() {
                       Il trattamento dei dati tramite cookie tecnici &egrave;
                       fondato sull&apos;art.&nbsp;122, comma 1, del
                       D.Lgs.&nbsp;196/2003 (Codice Privacy) come modificato dal
-                      D.Lgs.&nbsp;101/2018. L&apos;eventuale trattamento
-                      tramite cookie analitici o di profilazione &egrave;
+                      D.Lgs.&nbsp;101/2018. Il trattamento tramite misurazione
+                      analitica &egrave;
                       fondato sul consenso dell&apos;interessato (art.&nbsp;6,
                       par.&nbsp;1, lett.&nbsp;a) GDPR), espresso in
                       conformit&agrave; al Provvedimento del Garante

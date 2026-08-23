@@ -33,6 +33,12 @@ export interface NewsSource {
 
 export const newsCategories: NewsCategory[] = [
   {
+    id: "finanziamenti",
+    label: "Finanziamenti e incentivi",
+    description:
+      "Bandi, agevolazioni e finanza pubblica per gli investimenti d'impresa.",
+  },
+  {
     id: "strategia",
     label: "Pianificazione strategica",
     description:
@@ -45,22 +51,16 @@ export const newsCategories: NewsCategory[] = [
       "Analytics, data governance, intelligenza artificiale applicata alle decisioni.",
   },
   {
-    id: "digitale",
-    label: "Innovazione e industria 4.0",
-    description:
-      "Trasformazione digitale, transizione 5.0, tecnologie per la produzione.",
-  },
-  {
     id: "cyber",
     label: "Cybersecurity e NIS2",
     description:
       "Sicurezza delle informazioni, incidenti, obblighi NIS2 e ISO/IEC 27001.",
   },
   {
-    id: "finanziamenti",
-    label: "Finanziamenti e incentivi",
+    id: "digitale",
+    label: "Innovazione e industria 4.0",
     description:
-      "Bandi, agevolazioni e finanza pubblica per gli investimenti d'impresa.",
+      "Trasformazione digitale, transizione 5.0, tecnologie per la produzione.",
   },
   {
     id: "compliance",

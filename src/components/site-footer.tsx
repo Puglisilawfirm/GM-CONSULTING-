@@ -6,6 +6,7 @@ import { Mail } from "lucide-react"
 
 const navigazione = [
   { href: "/metodo", label: "Metodo" },
+  { href: "/soluzioni", label: "Soluzioni" },
   { href: "/aree-di-intervento", label: "Aree di intervento" },
   { href: "/compliance", label: "Compliance" },
   { href: "/insights", label: "Insights" },
@@ -22,6 +23,13 @@ const complianceLinks = [
   { href: "/compliance#iso-45001", label: "ISO 45001" },
   { href: "/compliance#uni-pdr-125", label: "UNI/PdR 125" },
   { href: "/compliance#iso-22301", label: "ISO 22301" },
+]
+
+const soluzioniLinks = [
+  { href: "/soluzioni/finanziamenti-pubblici-investimenti", label: "Finanziamenti per investimenti" },
+  { href: "/soluzioni/pianificazione-strategica", label: "Pianificazione strategica" },
+  { href: "/soluzioni/business-intelligence-dati", label: "Business intelligence" },
+  { href: "/soluzioni/cybersecurity-nis2", label: "Cybersecurity e NIS2" },
 ]
 
 const legalLinks = [
@@ -74,8 +82,9 @@ export function SiteFooter() {
         </div>
 
         {/* Grid */}
-        <div className="mt-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
+        <div className="mt-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-10">
           <FooterColumn title="Navigazione" items={navigazione} />
+          <FooterColumn title="Soluzioni" items={soluzioniLinks} />
           <FooterColumn title="Compliance" items={complianceLinks} />
           <div>
             <h3 className="font-mono text-mono-label uppercase text-gold-400 mb-4">Convenzione &amp; Legal</h3>

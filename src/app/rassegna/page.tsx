@@ -11,6 +11,34 @@ export const metadata: Metadata = {
   description:
     "Pianificazione strategica, business intelligence, cybersecurity, finanziamenti pubblici agli investimenti, compliance e fisco: le notizie del giorno con il link alla fonte, aggiornate alle 08:00 e alle 20:00.",
   alternates: { canonical: "https://www.gmconsulting.one/rassegna" },
+  // Senza immagine propria l'anteprima social erediterebbe `og-default.png`
+  // dal layout, rendendo la condivisione della rassegna indistinguibile da
+  // quella della home. Gli URL sono assoluti perché il progetto non dichiara
+  // `metadataBase`: un percorso relativo finirebbe risolto su localhost.
+  openGraph: {
+    type: "website",
+    locale: "it_IT",
+    siteName: "GM Consulting S.r.l.",
+    title: "Rassegna — Le notizie del giorno per l'impresa",
+    description:
+      "Finanziamenti pubblici, strategia, business intelligence, cybersecurity e compliance: le notizie del giorno con il link alla fonte, alle 08:00 e alle 20:00.",
+    url: "https://www.gmconsulting.one/rassegna",
+    images: [
+      {
+        url: "https://www.gmconsulting.one/images/rassegna-og.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Rassegna GM Consulting — le notizie del giorno per la direzione d'impresa, con il link alla fonte",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Rassegna — Le notizie del giorno per l'impresa",
+    description:
+      "Finanziamenti pubblici, strategia, business intelligence, cybersecurity e compliance: le notizie del giorno con il link alla fonte.",
+    images: ["https://www.gmconsulting.one/images/rassegna-og.jpg"],
+  },
 }
 
 const dateFormatter = new Intl.DateTimeFormat("it-IT", {

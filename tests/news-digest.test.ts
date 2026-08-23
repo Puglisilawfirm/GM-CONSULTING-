@@ -247,6 +247,18 @@ describe("pubblicazione della rassegna", () => {
     assert.match(workflow, /TZ=Europe\/Rome/)
   })
 
+  it("dichiara una copertina social propria, presente nel repository", () => {
+    const page = read("src/app/rassegna/page.tsx")
+    assert.match(page, /images\/rassegna-og\.jpg/)
+    // Assoluto: senza `metadataBase` un percorso relativo finirebbe su localhost.
+    assert.match(
+      page,
+      /"https:\/\/www\.gmconsulting\.one\/images\/rassegna-og\.jpg"/,
+    )
+    assert.doesNotThrow(() => read("public/images/rassegna-og.jpg"))
+    assert.doesNotThrow(() => read("public/images/rassegna-og.svg"))
+  })
+
   it("pubblica un digest leggibile con voci e fonti", () => {
     const digest = JSON.parse(read("public/data/news-digest.json"))
     assert.equal(Array.isArray(digest.items), true)

@@ -2,7 +2,7 @@ import type { Metadata } from "next"
 import { Hero } from "@/components/ui/Hero"
 
 export const metadata: Metadata = {
-  title: "Note legali, Privacy e Cookie Policy",
+  title: "Note legali, privacy e cookie policy",
   description:
     "Informativa privacy, cookie policy, note legali e condizioni d'uso del sito di GM Consulting S.r.l.",
   alternates: { canonical: "https://www.gmconsulting.one/note-legali" },

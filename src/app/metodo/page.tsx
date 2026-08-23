@@ -3,7 +3,7 @@ import { Hero } from "@/components/ui/Hero"
 import { CTAButton } from "@/components/ui/CTAButton"
 
 export const metadata: Metadata = {
-  title: "Il metodo GM — Quattro fasi con artefatti verificabili",
+  title: "Il metodo GM — Quattro fasi verificabili",
   description:
     "Due diligence strategica, prototyping, implementazione con SLA e monitoraggio algoritmico. Il metodo operativo di GM Consulting.",
   alternates: { canonical: "https://www.gmconsulting.one/metodo" },

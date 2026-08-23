@@ -2,7 +2,7 @@ import type { Metadata } from "next"
 import { Hero } from "@/components/ui/Hero"
 
 export const metadata: Metadata = {
-  title: "Convenzione professionale con Studio Legale Avv. Maria Puglisi",
+  title: "Convenzione con Studio Legale Puglisi",
   description:
     "Separazione strutturale fra attività consulenziale e legale. Termini della convenzione fra GM Consulting e Studio Legale Avv. Maria Puglisi.",
   alternates: { canonical: "https://www.gmconsulting.one/convenzione-studio" },

@@ -31,8 +31,10 @@ const jetbrains = JetBrains_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "GM Consulting S.r.l. — Consulenza direzionale, compliance, automazione",
-    template: "%s — GM Consulting S.r.l.",
+    default: "GM Consulting S.r.l. — Consulenza direzionale e compliance",
+    // Il suffisso pesa su ogni titolo: con la ragione sociale completa le
+    // pagine superavano i 65 caratteri utili nello snippet.
+    template: "%s — GM Consulting",
   },
   description:
     "GM Consulting S.r.l. — Consulenza direzionale per imprese italiane: compliance normativa, automazione dei processi, governance e risk management. Sede a Catania.",

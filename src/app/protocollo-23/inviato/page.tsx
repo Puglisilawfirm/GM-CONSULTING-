@@ -3,6 +3,10 @@ import { CTAButton } from "@/components/ui/CTAButton"
 
 export const metadata: Metadata = {
   title: "Richiesta ricevuta — Protocollo 23",
+  // Pagina di conferma: utile a chi ha appena inviato il form, inutile in
+  // ricerca. Indicizzata competeva con `/protocollo-23` su query informative.
+  robots: { index: false, follow: true },
+  alternates: { canonical: "https://www.gmconsulting.one/protocollo-23" },
 }
 
 export default function Protocollo23InviatoPage() {

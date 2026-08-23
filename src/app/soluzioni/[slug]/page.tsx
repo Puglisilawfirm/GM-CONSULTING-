@@ -4,6 +4,7 @@ import { notFound } from "next/navigation"
 import { ArrowRight, Check } from "lucide-react"
 import { Hero } from "@/components/ui/Hero"
 import { CTAButton } from "@/components/ui/CTAButton"
+import { NewsletterSignup } from "@/components/newsletter/NewsletterSignup"
 import { getSolutionLanding, solutionLandings } from "@/lib/landings/solutions"
 
 const baseUrl = "https://www.gmconsulting.one"
@@ -128,6 +129,12 @@ export default function SolutionLandingPage({ params }: { params: { slug: string
               </div>
             ))}
           </div>
+        </div>
+      </section>
+
+      <section className="bg-white py-16">
+        <div className="mx-auto max-w-[1200px] px-6 lg:px-12">
+          <NewsletterSignup source="soluzioni" />
         </div>
       </section>
 

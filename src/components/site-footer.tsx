@@ -3,6 +3,7 @@
 import Link from "next/link"
 import Image from "next/image"
 import { Mail } from "lucide-react"
+import { NewsletterSignup } from "@/components/newsletter/NewsletterSignup"
 
 const navigazione = [
   { href: "/metodo", label: "Metodo" },
@@ -128,6 +129,11 @@ export function SiteFooter() {
               </li>
             </ul>
           </div>
+        </div>
+
+        {/* Newsletter */}
+        <div className="mt-16 max-w-xl border-t border-navy-800 pt-10">
+          <NewsletterSignup source="footer" variant="footer" />
         </div>
 
         {/* Baseline */}

@@ -3,6 +3,7 @@ import path from "node:path"
 import type { Metadata } from "next"
 import { Hero } from "@/components/ui/Hero"
 import { NewsBoard } from "@/components/news/NewsBoard"
+import { NewsletterSignup } from "@/components/newsletter/NewsletterSignup"
 import type { NewsDigest, SourceStatus } from "@/lib/news/digest"
 import { newsCategories, newsSources } from "@/lib/news/sources"
 
@@ -139,6 +140,10 @@ export default async function RassegnaPage() {
                 </p>
               </div>
             ))}
+          </div>
+
+          <div className="mt-16 border-t border-border pt-12">
+            <NewsletterSignup source="rassegna" />
           </div>
 
           <h2 className="font-display text-h3 text-ink mt-16">

@@ -3,11 +3,14 @@ import { readFileSync } from "node:fs"
 import path from "node:path"
 import { describe, it } from "node:test"
 import {
+  applyMethodRules,
   buildDigest,
   canonicalUrl,
   cleanText,
   dedupeItems,
   filterByWindow,
+  isGeneralMethod,
+  methodCategory,
   parseFeedItems,
   slotForDate,
   truncate,
@@ -185,6 +188,107 @@ describe("costruzione del digest", () => {
     assert.deepEqual(
       digest.items.map((entry) => entry.title),
       ["Nuova", "Vecchia"],
+    )
+  })
+})
+
+describe("fonti ammesse solo per il metodo generale", () => {
+  const methodSource = {
+    id: "mckinsey",
+    name: "McKinsey Insights",
+    homepage: "https://www.mckinsey.com/featured-insights",
+    feed: "https://www.mckinsey.com/insights/rss",
+    category: "metodo" as const,
+    methodOnly: true,
+  }
+
+  it("riconosce il metodo generale e scarta i casi aziendali", () => {
+    assert.equal(
+      isGeneralMethod({
+        title: "A framework for governing artificial intelligence",
+        summary: "Principles and operating model for boards.",
+      }),
+      true,
+    )
+    assert.equal(
+      isGeneralMethod({
+        title: "How Acme cut costs with AI",
+        summary: "A case study of the retailer transformation.",
+      }),
+      false,
+    )
+    assert.equal(
+      isGeneralMethod({
+        title: "Le vendite globali di semiconduttori nel trimestre",
+        summary: "I dati di mercato del settore.",
+      }),
+      false,
+    )
+  })
+
+  it("colloca i modelli previsivi in IA predittiva e il resto in AI e governance", () => {
+    assert.equal(
+      methodCategory(
+        { title: "Un framework per la manutenzione predittiva", summary: "" },
+        "metodo",
+      ),
+      "iapredittiva",
+    )
+    assert.equal(
+      methodCategory(
+        { title: "Responsible AI: principi di governance", summary: "" },
+        "metodo",
+      ),
+      "aigovernance",
+    )
+    assert.equal(
+      methodCategory(
+        { title: "Un framework per la gestione del rischio", summary: "" },
+        "metodo",
+      ),
+      "metodo",
+    )
+  })
+
+  it("filtra e ricolloca le voci solo per le fonti methodOnly", () => {
+    const items = [
+      newsItem({ id: "1", title: "A framework for predictive analytics in planning" }),
+      newsItem({ id: "2", title: "Come costruire la governance dell'AI in azienda" }),
+      newsItem({ id: "3", title: "Acme names new CEO" }),
+      newsItem({ id: "4", title: "Our latest case study on retail margins" }),
+    ]
+
+    assert.deepEqual(
+      applyMethodRules(items, methodSource).map((entry) => [entry.id, entry.category]),
+      [
+        ["1", "iapredittiva"],
+        ["2", "aigovernance"],
+      ],
+    )
+    assert.deepEqual(applyMethodRules(items, source), items)
+  })
+
+  it("applica il filtro nel digest e tiene una finestra più larga", () => {
+    const xml = rss(
+      item(
+        "An operating model for AI governance",
+        "https://www.mckinsey.com/a",
+        "Mon, 10 Aug 2026 09:00:00 GMT",
+      ) +
+        item(
+          "Acme quarterly results beat expectations",
+          "https://www.mckinsey.com/b",
+          "Fri, 21 Aug 2026 09:00:00 GMT",
+        ),
+    )
+
+    const digest = buildDigest([{ source: methodSource, xml }], {
+      now: new Date("2026-08-23T09:00:00Z"),
+    })
+
+    assert.deepEqual(
+      digest.items.map((entry) => entry.category),
+      ["aigovernance"],
     )
   })
 })

@@ -4,6 +4,8 @@ import { CTAButton } from "@/components/ui/CTAButton"
 
 export const metadata: Metadata = {
   title: "Richiesta ricevuta",
+  robots: { index: false, follow: true },
+  alternates: { canonical: "https://www.gmconsulting.one/assessment" },
 }
 
 export default function InviatoPage() {

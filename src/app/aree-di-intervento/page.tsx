@@ -10,7 +10,7 @@ import {
 } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Aree di intervento — Sei aree, un'unica logica di architettura",
+  title: "Aree di intervento — Sei aree, una logica",
   description:
     "Compliance strategica, automazione, finanza predittiva, governance, trasformazione digitale, healthcare. Le aree operative di GM Consulting.",
   alternates: { canonical: "https://www.gmconsulting.one/aree-di-intervento" },

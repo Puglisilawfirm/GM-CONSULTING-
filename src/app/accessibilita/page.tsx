@@ -2,7 +2,7 @@ import type { Metadata } from "next"
 import { Hero } from "@/components/ui/Hero"
 
 export const metadata: Metadata = {
-  title: 'Accessibilità — GM Consulting S.r.l.',
+  title: 'Accessibilità',
   description: 'Dichiarazione di conformità sostanziale alle WCAG 2.1 AA del sito GM Consulting S.r.l. e modalità di segnalazione delle problematiche di accessibilità.',
   alternates: { canonical: 'https://www.gmconsulting.one/accessibilita' },
 }

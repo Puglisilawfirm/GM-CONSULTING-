@@ -4,7 +4,7 @@ import { CTAButton } from "@/components/ui/CTAButton"
 import { ArrowRight } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Suite Compliance — Otto standard, un'architettura integrata",
+  title: "Suite Compliance — Otto standard integrati",
   description:
     "ISO 37001, ISO 37301, ISO 31000, D.Lgs. 231/2001, ISO 27001, ISO 45001, UNI/PdR 125, ISO 22301. Sistemi di gestione integrati.",
   alternates: { canonical: "https://www.gmconsulting.one/compliance" },

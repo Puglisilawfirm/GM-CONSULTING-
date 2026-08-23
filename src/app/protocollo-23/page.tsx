@@ -6,10 +6,9 @@ import { Scale, Gavel, Calculator } from "lucide-react"
 import { FormProtocollo23 } from "@/components/protocollo23/FormProtocollo23"
 
 export const metadata: Metadata = {
-  title:
-    "Protocollo 23 — Adeguata Verifica AML per Professionisti — GM Consulting S.r.l.",
+  title: "Protocollo 23 — Adeguata verifica AML",
   description:
-    "Metodo operativo di adeguata verifica del titolare effettivo per notai, avvocati e commercialisti. Implementazione, formazione e validazione giuridica in convenzione con Studio Legale Avv. Maria Puglisi.",
+    "Metodo operativo di adeguata verifica del titolare effettivo per notai, avvocati e commercialisti: implementazione, formazione e validazione giuridica.",
   alternates: { canonical: "https://www.gmconsulting.one/protocollo-23" },
   openGraph: {
     title: "Protocollo 23 — Adeguata Verifica AML per Professionisti",
@@ -19,6 +18,17 @@ export const metadata: Metadata = {
     siteName: "GM Consulting S.r.l.",
     locale: "it_IT",
     type: "website",
+    // Senza immagine propria la condivisione resta senza anteprima: `card:
+    // summary_large_image` richiede un'immagine dichiarata. URL assoluto
+    // perché il progetto non imposta `metadataBase`.
+    images: [
+      {
+        url: "https://www.gmconsulting.one/og-default.png",
+        width: 1200,
+        height: 630,
+        alt: "GM Consulting S.r.l. — Protocollo 23, adeguata verifica AML per professionisti",
+      },
+    ],
   },
   twitter: { card: "summary_large_image" },
 }

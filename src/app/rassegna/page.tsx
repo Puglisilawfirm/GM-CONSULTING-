@@ -7,9 +7,9 @@ import type { NewsDigest, SourceStatus } from "@/lib/news/digest"
 import { newsCategories, newsSources } from "@/lib/news/sources"
 
 export const metadata: Metadata = {
-  title: "Rassegna — Le notizie del giorno per l'impresa",
+  title: "Rassegna — Le notizie del giorno",
   description:
-    "Pianificazione strategica, business intelligence, cybersecurity, finanziamenti pubblici agli investimenti, compliance e fisco: le notizie del giorno con il link alla fonte, aggiornate alle 08:00 e alle 20:00.",
+    "Strategia, business intelligence, cybersecurity, finanziamenti pubblici e fisco: le notizie del giorno con il link alla fonte, alle 08:00 e alle 20:00.",
   alternates: { canonical: "https://www.gmconsulting.one/rassegna" },
   // Senza immagine propria l'anteprima social erediterebbe `og-default.png`
   // dal layout, rendendo la condivisione della rassegna indistinguibile da

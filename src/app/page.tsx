@@ -3,8 +3,8 @@ import Link from "next/link"
 import { ArrowRight } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "GM Consulting S.r.l. — Architettura di rischio per imprese complesse",
-  description: "Società di consulenza italiana specializzata in compliance strategica, governance, finanza-controllo, legal tech, automazione di processo e healthcare/emergency management. Sei aree integrate, otto standard presidiati, prodotti verticali in continua evoluzione. Catania, dal 2002.",
+  title: { absolute: "GM Consulting S.r.l. — Architettura di rischio d'impresa" },
+  description: "Consulenza direzionale a Catania: compliance strategica, governance, finanza-controllo e automazione dei processi. Sei aree integrate, otto standard.",
   alternates: { canonical: "https://www.gmconsulting.one/" },
   openGraph: {
     title: "GM Consulting — Architettura di rischio. Tecnicamente abilitata.",

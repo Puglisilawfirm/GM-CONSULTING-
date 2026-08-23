@@ -1,0 +1,74 @@
+name: Rassegna
+
+# Due edizioni al giorno, 08:00 e 20:00 Europe/Rome. GitHub pianifica in UTC e
+# non conosce l'ora legale: si pianificano entrambe le coppie di orari e il job
+# prosegue solo quando a Roma sono davvero le 8 o le 20.
+on:
+  schedule:
+    - cron: "5 6,18 * * *" # 08:05 / 20:05 con ora legale (CEST)
+    - cron: "5 7,19 * * *" # 08:05 / 20:05 con ora solare (CET)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: news-digest
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Verifica l'ora italiana
+        id: guard
+        run: |
+          hour=$(TZ=Europe/Rome date +%H)
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          elif [ "$hour" = "08" ] || [ "$hour" = "20" ]; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "Ora italiana $hour: non è una fascia di pubblicazione, esecuzione ignorata."
+            echo "run=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Check out repository
+        if: steps.guard.outputs.run == 'true'
+        uses: actions/checkout@v6
+
+      - name: Use pnpm
+        if: steps.guard.outputs.run == 'true'
+        uses: pnpm/action-setup@v6
+        with:
+          version: 11.9.0
+
+      - name: Use Node.js
+        if: steps.guard.outputs.run == 'true'
+        uses: actions/setup-node@v6
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - name: Install dependencies
+        if: steps.guard.outputs.run == 'true'
+        run: pnpm install --frozen-lockfile
+
+      - name: Raccogli le notizie
+        if: steps.guard.outputs.run == 'true'
+        run: pnpm collect:news
+
+      - name: Pubblica la rassegna
+        if: steps.guard.outputs.run == 'true'
+        run: |
+          if git diff --quiet -- public/data/news-digest.json; then
+            echo "Nessuna variazione rispetto all'edizione precedente."
+            exit 0
+          fi
+          git config user.name 'gm-news-bot'
+          git config user.email 'info@gmconsulting.one'
+          git add public/data/news-digest.json
+          git commit -m "rassegna: edizione $(TZ=Europe/Rome date '+%Y-%m-%d %H:%M')"
+          git push

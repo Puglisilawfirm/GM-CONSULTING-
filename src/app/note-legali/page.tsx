@@ -162,9 +162,11 @@ export default function NoteLegaliPage() {
                       </li>
                       <li>
                         Responsabili esterni del trattamento: Vercel Inc.
-                        (hosting), Resend Inc. (servizio email transazionale) e
-                        Supabase Inc. (raccolta e aggregazione analytics
-                        first-party, esclusivamente previo consenso).
+                        (hosting e misurazione aggregata delle visite,
+                        esclusivamente previo consenso), Resend Inc. (servizio
+                        email transazionale) e Supabase Inc. (raccolta e
+                        aggregazione analytics first-party, esclusivamente
+                        previo consenso).
                       </li>
                       <li>
                         Pubbliche autorità, ove previsto dalla legge.
@@ -312,6 +314,13 @@ export default function NoteLegaliPage() {
                       grezzi sono conservati per 90 giorni; le metriche
                       aggregate per 400 giorni e gli insight deterministici
                       per 365 giorni.
+                    </p>
+                    <p className="mt-3">
+                      Con lo stesso consenso &egrave; attivo Vercel Web
+                      Analytics, che misura le visite in forma aggregata senza
+                      installare cookie e senza identificare l&apos;utente:
+                      rileva pagina, provenienza, paese, tipo di dispositivo e
+                      browser. Senza consenso lo script non viene caricato.
                     </p>
                   </div>
 

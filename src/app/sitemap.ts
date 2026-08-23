@@ -1,4 +1,5 @@
 import type { MetadataRoute } from "next"
+import { solutionSlugs } from "@/lib/landings/solutions"
 
 const baseUrl = "https://www.gmconsulting.one"
 
@@ -84,6 +85,21 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   ]
 
+  const solutionRoutes: MetadataRoute.Sitemap = [
+    {
+      url: `${baseUrl}/soluzioni`,
+      lastModified: new Date(),
+      changeFrequency: "monthly" as const,
+      priority: 0.9,
+    },
+    ...solutionSlugs.map((slug) => ({
+      url: `${baseUrl}/soluzioni/${slug}`,
+      lastModified: new Date(),
+      changeFrequency: "monthly" as const,
+      priority: 0.8,
+    })),
+  ]
+
   const insightRoutes: MetadataRoute.Sitemap = insightSlugs.map((slug) => ({
     url: `${baseUrl}/insights/${slug}`,
     lastModified: new Date("2026-05-20"),
@@ -91,5 +107,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }))
 
-  return [...staticRoutes, ...insightRoutes]
+  return [...staticRoutes, ...solutionRoutes, ...insightRoutes]
 }

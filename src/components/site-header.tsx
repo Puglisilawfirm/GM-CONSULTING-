@@ -7,6 +7,7 @@ import { ArrowRight, Menu, X } from "lucide-react"
 
 const NAV_ITEMS = [
   { href: "/metodo", label: "Metodo" },
+  { href: "/soluzioni", label: "Soluzioni" },
   { href: "/aree-di-intervento", label: "Aree di intervento" },
   { href: "/compliance", label: "Compliance" },
   { href: "/insights", label: "Insights" },

@@ -8,7 +8,7 @@ import type { NewsDigest, SourceStatus } from "@/lib/news/digest"
 import { newsCategories, newsSources } from "@/lib/news/sources"
 
 export const metadata: Metadata = {
-  title: "Rassegna — Le notizie del giorno",
+  title: "Cosa Accade — Le notizie del giorno",
   description:
     "Strategia, business intelligence, cybersecurity, finanziamenti pubblici e fisco: le notizie del giorno con il link alla fonte, alle 08:00 e alle 20:00.",
   alternates: { canonical: "https://www.gmconsulting.one/rassegna" },
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     type: "website",
     locale: "it_IT",
     siteName: "GM Consulting S.r.l.",
-    title: "Rassegna — Le notizie del giorno per l'impresa",
+    title: "Cosa Accade — Le notizie del giorno per l'impresa",
     description:
       "Finanziamenti pubblici, strategia, business intelligence, cybersecurity e compliance: le notizie del giorno con il link alla fonte, alle 08:00 e alle 20:00.",
     url: "https://www.gmconsulting.one/rassegna",
@@ -29,13 +29,13 @@ export const metadata: Metadata = {
         url: "https://www.gmconsulting.one/images/rassegna-og.jpg",
         width: 1200,
         height: 630,
-        alt: "Rassegna GM Consulting — le notizie del giorno per la direzione d'impresa, con il link alla fonte",
+        alt: "Cosa Accade — GM Consulting — le notizie del giorno per la direzione d'impresa, con il link alla fonte",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Rassegna — Le notizie del giorno per l'impresa",
+    title: "Cosa Accade — Le notizie del giorno per l'impresa",
     description:
       "Finanziamenti pubblici, strategia, business intelligence, cybersecurity e compliance: le notizie del giorno con il link alla fonte.",
     images: ["https://www.gmconsulting.one/images/rassegna-og.jpg"],
@@ -88,7 +88,7 @@ export default async function RassegnaPage() {
       <Hero
         variant="compact"
         eyebrow="Rassegna"
-        title="Le notizie del giorno per la direzione d'impresa"
+        title="Cosa Accade"
         lead="Strategia, business intelligence, cybersecurity, finanziamenti pubblici agli investimenti, compliance e fisco. Ogni voce rimanda alla fonte originale: la rassegna si aggiorna alle 08:00 e alle 20:00."
       />
 

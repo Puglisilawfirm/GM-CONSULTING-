@@ -11,7 +11,7 @@ const NAV_ITEMS = [
   { href: "/aree-di-intervento", label: "Aree di intervento" },
   { href: "/compliance", label: "Compliance" },
   { href: "/insights", label: "Insights" },
-  { href: "/rassegna", label: "Rassegna" },
+  { href: "/rassegna", label: "Cosa Accade" },
 ]
 
 export function SiteHeader() {

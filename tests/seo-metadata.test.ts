@@ -1,5 +1,5 @@
 import assert from "node:assert/strict"
-import { readFileSync } from "node:fs"
+import { readFileSync, readdirSync } from "node:fs"
 import path from "node:path"
 import { describe, it } from "node:test"
 import matter from "gray-matter"
@@ -80,11 +80,9 @@ describe("metadata delle pagine", () => {
 })
 
 describe("insights", () => {
-  const slugs = [
-    "iso-37001-37301-dlgs-231-architettura-integrata",
-    "uni-pdr-125-2022-premialita-pnrr",
-    "compliance-by-design-workflow-python-gdpr-nis2",
-  ]
+  const slugs = readdirSync(path.join(process.cwd(), "content", "insights"))
+    .filter((file) => file.endsWith(".mdx"))
+    .map((file) => file.replace(/\.mdx$/, ""))
 
   it("espone titoli e description indicizzabili", () => {
     for (const slug of slugs) {
@@ -107,6 +105,19 @@ describe("insights", () => {
     assert.match(source, /"@type": "BlogPosting"/)
     assert.match(source, /datePublished: frontmatter\.datePublished/)
     assert.match(source, /author:/)
+  })
+
+  it("rende il corpo dell'articolo e registra ogni file nel catalogo", () => {
+    const source = read("src/app/insights/[slug]/page.tsx")
+    assert.match(source, /<MDXRemote source=\{content\}/)
+
+    const registry = read("src/lib/insights.ts")
+    for (const slug of slugs) {
+      assert.ok(
+        registry.includes(`slug: "${slug}"`),
+        `${slug}: articolo non registrato in src/lib/insights.ts`,
+      )
+    }
   })
 })
 

@@ -1,7 +1,9 @@
 import { readFile } from "node:fs/promises"
 import path from "node:path"
 import type { Metadata } from "next"
+import Link from "next/link"
 import { Hero } from "@/components/ui/Hero"
+import { insights } from "@/lib/insights"
 import { NewsBoard } from "@/components/news/NewsBoard"
 import { NewsletterSignup } from "@/components/newsletter/NewsletterSignup"
 import type { NewsDigest, SourceStatus } from "@/lib/news/digest"
@@ -64,6 +66,9 @@ async function loadDigest(): Promise<NewsDigest | null> {
   }
 }
 
+/** L'analisi più recente: la rassegna raccoglie fonti altrui, questo è contenuto nostro. */
+const featured = insights[0]
+
 export default async function RassegnaPage() {
   const digest = await loadDigest()
 
@@ -91,6 +96,23 @@ export default async function RassegnaPage() {
         title="Cosa Accade"
         lead="Strategia, business intelligence, cybersecurity, finanziamenti pubblici agli investimenti, compliance e fisco. Ogni voce rimanda alla fonte originale: la rassegna si aggiorna alle 08:00 e alle 20:00."
       />
+
+      <section className="bg-white pb-4">
+        <div className="mx-auto max-w-[1200px] px-6 lg:px-12">
+          <Link
+            href={`/insights/${featured.slug}`}
+            className="group block rounded-lg border border-border bg-paper p-6 transition-shadow hover:shadow-md"
+          >
+            <p className="font-mono text-mono-label uppercase text-brand">
+              La nostra analisi · {featured.date}
+            </p>
+            <h2 className="font-display text-h3 text-ink mt-3 group-hover:text-navy-700">
+              {featured.title}
+            </h2>
+            <p className="text-body mt-2 text-steel">{featured.subtitle}</p>
+          </Link>
+        </div>
+      </section>
 
       <section className="bg-paper py-16 lg:py-24">
         <div className="mx-auto max-w-[1200px] px-6 lg:px-12">

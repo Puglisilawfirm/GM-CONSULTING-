@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T03:25:58.925Z",
+  "generatedAt": "2026-08-26T03:31:25.602Z",
   "slot": "evening",
   "windowHours": 72,
   "items": [
@@ -434,13 +434,13 @@
       "category": "cyber"
     },
     {
-      "id": "zerouno-cuif6",
+      "id": "bigdata4innovation-cuif6",
       "title": "Manuali e dati macchina diventano conoscenza operativa con Zerynth",
       "url": "https://www.zerounoweb.it/analytics/cognitive-computing/manuali-e-dati-macchina-diventano-conoscenza-operativa-con-zerynth",
       "summary": "L’AI Document Manager integrato nella piattaforma Zerynth centralizza manuali, procedure e schede macchina e permette a operatori e manutentori di interrogarli in linguaggio naturale L'articolo Manuali e dati macchina diventano conoscenza operativa con Zerynth proviene da ZeroUno .",
       "publishedAt": "2026-08-25T14:51:41.000Z",
-      "sourceId": "zerouno",
-      "sourceName": "ZeroUno",
+      "sourceId": "bigdata4innovation",
+      "sourceName": "BigData4Innovation",
       "category": "bi"
     },
     {
@@ -784,13 +784,13 @@
       "category": "economia"
     },
     {
-      "id": "zerouno-zd9411",
+      "id": "bigdata4innovation-zd9411",
       "title": "Business continuity o business resilience? Le differenze che contano per i CIO",
       "url": "https://www.zerounoweb.it/cyber-security/business-continuity-o-business-resilience-le-differenze-che-contano-per-i-cio",
       "summary": "Business continuity e business resilience condividono analisi, procedure e test, ma perseguono risultati diversi. La prima ripristina le attività prioritarie; la seconda prepara l’impresa a operare anche quando le condizioni sono cambiate. Le cose da sapere e le linee guida L'articolo Business continuity o business…",
       "publishedAt": "2026-08-25T11:23:19.000Z",
-      "sourceId": "zerouno",
-      "sourceName": "ZeroUno",
+      "sourceId": "bigdata4innovation",
+      "sourceName": "BigData4Innovation",
       "category": "bi"
     },
     {
@@ -812,16 +812,6 @@
       "sourceId": "wall-street-italia",
       "sourceName": "Wall Street Italia",
       "category": "economia"
-    },
-    {
-      "id": "mit-smr-193a36e",
-      "title": "Ask Sanyin: How Do I Communicate That I’ve Grown and Changed?",
-      "url": "https://sloanreview.mit.edu/article/ask-sanyin-how-do-i-communicate-that-ive-grown-and-changed",
-      "summary": "Carolyn Geason-Beissel/MIT SMR | Unsplash, Fotos After receiving some challenging feedback about my management style, I’ve done a lot of introspection, taken responsibility, worked with a coach, and I believe I’ve made real changes in how I work with others. But I don’t sense that others’ perceptions have changed…",
-      "publishedAt": "2026-08-25T11:00:14.000Z",
-      "sourceId": "mit-smr",
-      "sourceName": "MIT Sloan Management Review",
-      "category": "strategia"
     },
     {
       "id": "wall-street-italia-1oyk5sd",
@@ -914,13 +904,13 @@
       "category": "economia"
     },
     {
-      "id": "zerouno-pbwr54",
+      "id": "bigdata4innovation-pbwr54",
       "title": "WIIT automatizza la prevendita del canale con l’agente ISA4C",
       "url": "https://www.zerounoweb.it/analytics/cognitive-computing/wiit-automatizza-la-prevendita-del-canale-con-lagente-isa4c",
       "summary": "ISA4C interpreta le richieste dei partner, applica listini e condizioni, governa le approvazioni e crea opportunità e documenti. Nel pilot presso GBR Rossetto ha risolto senza escalation il 60% dei casi. L’agente è costruito su WAIP, la piattaforma di AI Governance implementata sul WIIT Secure Cloud in datacenter…",
       "publishedAt": "2026-08-25T09:40:00.000Z",
-      "sourceId": "zerouno",
-      "sourceName": "ZeroUno",
+      "sourceId": "bigdata4innovation",
+      "sourceName": "BigData4Innovation",
       "category": "bi"
     },
     {
@@ -1104,13 +1094,13 @@
       "category": "compliance"
     },
     {
-      "id": "zerouno-9qezki",
+      "id": "bigdata4innovation-9qezki",
       "title": "Agenti AI che imparano dagli esperti: il ciclo di miglioramento continuo di Syllotips",
       "url": "https://www.zerounoweb.it/analytics/cognitive-computing/agenti-ai-che-imparano-dagli-esperti-il-ciclo-di-miglioramento-continuo-di-syllotips",
       "summary": "La piattaforma si collega via API o SDK a stack esistenti oppure viene fornita end-to-end. Il workflow chiude il ciclo tra rilevazione del problema, validazione umana e miglioramento dell’agente. Nel settore assicurativo, l’adozione ha accelerato del 30% il time-to-first-sale dei nuovi consulenti L'articolo Agenti AI…",
       "publishedAt": "2026-08-25T06:28:00.000Z",
-      "sourceId": "zerouno",
-      "sourceName": "ZeroUno",
+      "sourceId": "bigdata4innovation",
+      "sourceName": "BigData4Innovation",
       "category": "bi"
     },
     {
@@ -1201,6 +1191,16 @@
       "publishedAt": "2026-08-25T04:01:35.000Z",
       "sourceId": "commercialista-telematico",
       "sourceName": "Commercialista Telematico",
+      "category": "fiscale"
+    },
+    {
+      "id": "sole24ore-norme-1vp9192",
+      "title": "Lucciole di strada, no ai fogli di via se non commettono reati",
+      "url": "https://www.ilsole24ore.com/art/lucciole-strada-no-fogli-via-se-non-commettono-reati-AJqOgXt",
+      "summary": "Sono illegittimi se disposti solo in virtù del meretricio esercitato in abiti succinti e in assenza di adescamento di minori o altri reati",
+      "publishedAt": "2026-08-25T03:04:14.000Z",
+      "sourceId": "sole24ore-norme",
+      "sourceName": "Il Sole 24 Ore — Norme e Tributi",
       "category": "fiscale"
     }
   ],
@@ -1298,6 +1298,14 @@
       "name": "Banca d'Italia",
       "homepage": "https://www.bancaditalia.it/media/comunicati/",
       "category": "economia",
+      "status": "manual",
+      "itemCount": 0
+    },
+    {
+      "sourceId": "bcg-insights",
+      "name": "BCG — Publications",
+      "homepage": "https://www.bcg.com/publications",
+      "category": "metodo",
       "status": "manual",
       "itemCount": 0
     },
@@ -1521,7 +1529,7 @@
       "sourceId": "hbr-italia",
       "name": "Harvard Business Review Italia",
       "homepage": "https://www.hbritalia.it/",
-      "category": "strategia",
+      "category": "metodo",
       "status": "manual",
       "itemCount": 0
     },
@@ -1625,9 +1633,9 @@
       "sourceId": "mckinsey",
       "name": "McKinsey Insights",
       "homepage": "https://www.mckinsey.com/featured-insights",
-      "category": "strategia",
+      "category": "metodo",
       "status": "ok",
-      "itemCount": 5
+      "itemCount": 4
     },
     {
       "sourceId": "mef",
@@ -1665,9 +1673,25 @@
       "sourceId": "mit-smr",
       "name": "MIT Sloan Management Review",
       "homepage": "https://sloanreview.mit.edu/",
-      "category": "strategia",
+      "category": "metodo",
       "status": "ok",
-      "itemCount": 2
+      "itemCount": 1
+    },
+    {
+      "sourceId": "mit-tech-review",
+      "name": "MIT Technology Review",
+      "homepage": "https://www.technologyreview.com/",
+      "category": "metodo",
+      "status": "empty",
+      "itemCount": 0
+    },
+    {
+      "sourceId": "nist-news",
+      "name": "NIST — News (AI Risk Management Framework)",
+      "homepage": "https://www.nist.gov/artificial-intelligence",
+      "category": "metodo",
+      "status": "empty",
+      "itemCount": 0
     },
     {
       "sourceId": "oecd",

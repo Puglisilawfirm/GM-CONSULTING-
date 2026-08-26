@@ -9,6 +9,9 @@
 
 export type NewsCategoryId =
   | "strategia"
+  | "metodo"
+  | "aigovernance"
+  | "iapredittiva"
   | "bi"
   | "digitale"
   | "cyber"
@@ -29,6 +32,12 @@ export interface NewsSource {
   homepage: string
   feed: string | null
   category: NewsCategoryId
+  /**
+   * Fonti di ricerca e consulenza (McKinsey, MIT, NIST): entrano in rassegna
+   * solo le voci di metodo generale — framework, modelli di governo, principi —
+   * mentre i casi aziendali e le notizie d'impresa restano fuori.
+   */
+  methodOnly?: boolean
 }
 
 export const newsCategories: NewsCategory[] = [
@@ -43,6 +52,24 @@ export const newsCategories: NewsCategory[] = [
     label: "Pianificazione strategica",
     description:
       "Strategia d'impresa, organizzazione, management e scenari di lungo periodo.",
+  },
+  {
+    id: "metodo",
+    label: "Metodo e framework",
+    description:
+      "Modelli di gestione, framework e principi organizzativi di valore generale.",
+  },
+  {
+    id: "aigovernance",
+    label: "AI e governance",
+    description:
+      "Metodo e framework per governare l'intelligenza artificiale in impresa.",
+  },
+  {
+    id: "iapredittiva",
+    label: "IA predittiva",
+    description:
+      "Modelli previsivi, analisi degli scenari e uso decisionale dei dati.",
   },
   {
     id: "bi",
@@ -82,21 +109,51 @@ export const newsCategories: NewsCategory[] = [
 ]
 
 export const newsSources: NewsSource[] = [
-  // ── Pianificazione strategica ──────────────────────────────────────────────
+  // ── Metodo, AI e governance ───────────────────────────────────────────────
+  // Fonti ammesse solo per le voci di metodo generale (`methodOnly`).
   {
     id: "mckinsey",
     name: "McKinsey Insights",
     homepage: "https://www.mckinsey.com/featured-insights",
     feed: "https://www.mckinsey.com/insights/rss",
-    category: "strategia",
+    category: "metodo",
+    methodOnly: true,
   },
   {
     id: "mit-smr",
     name: "MIT Sloan Management Review",
     homepage: "https://sloanreview.mit.edu/",
     feed: "https://sloanreview.mit.edu/feed/",
-    category: "strategia",
+    category: "metodo",
+    methodOnly: true,
   },
+  {
+    id: "mit-tech-review",
+    name: "MIT Technology Review",
+    homepage: "https://www.technologyreview.com/",
+    feed: "https://www.technologyreview.com/feed/",
+    category: "metodo",
+    methodOnly: true,
+  },
+  {
+    id: "nist-news",
+    name: "NIST — News (AI Risk Management Framework)",
+    homepage: "https://www.nist.gov/artificial-intelligence",
+    feed: "https://www.nist.gov/news-events/news/rss.xml",
+    category: "metodo",
+    methodOnly: true,
+  },
+  {
+    id: "bcg-insights",
+    name: "BCG — Publications",
+    homepage: "https://www.bcg.com/publications",
+    // Nessun feed raggiungibile dai client automatici: presidio manuale.
+    feed: null,
+    category: "metodo",
+    methodOnly: true,
+  },
+
+  // ── Pianificazione strategica ──────────────────────────────────────────────
   {
     id: "sole24ore-management",
     name: "Il Sole 24 Ore — Management",
@@ -144,7 +201,8 @@ export const newsSources: NewsSource[] = [
     name: "Harvard Business Review Italia",
     homepage: "https://www.hbritalia.it/",
     feed: null,
-    category: "strategia",
+    category: "metodo",
+    methodOnly: true,
   },
   {
     id: "gartner",

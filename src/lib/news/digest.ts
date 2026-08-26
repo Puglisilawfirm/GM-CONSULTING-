@@ -286,6 +286,104 @@ export function normalizeItems(
     })
 }
 
+/**
+ * Le fonti `methodOnly` (McKinsey, MIT, NIST) pubblicano soprattutto casi
+ * aziendali: in rassegna entra solo ciò che espone un metodo generale, cioè
+ * framework, modelli di governo, principi e linee guida trasferibili.
+ */
+const METHOD_PATTERNS: RegExp[] = [
+  /metodo|metodolog/,
+  /framework/,
+  /playbook/,
+  /modello operativo|operating model/,
+  /linee guida|guidelines/,
+  /best practice/,
+  /maturity/,
+  /principi|principles/,
+  /roadmap/,
+  /governance/,
+  /blueprint/,
+  /tassonomia|taxonomy/,
+  /checklist/,
+  /come (costruire|gestire|governare|misurare)/,
+  /how to /,
+]
+
+/** Voci che parlano di una singola impresa o di un singolo incarico. */
+const METHOD_EXCLUSION_PATTERNS: RegExp[] = [
+  /case study|caso di studio|storia di successo/,
+  /nomina |appoints|appointment|new (ceo|cfo|chair)/,
+  /acquisizione|acquisition|merger|fusione/,
+  /risultati (finanziari|trimestrali)|quarterly results|earnings/,
+  /partnership con|partners with/,
+  /premio|award/,
+  /intervista a|interview with/,
+]
+
+const PREDICTIVE_PATTERNS: RegExp[] = [
+  /predittiv|predictive/,
+  /prevision|forecast|nowcast/,
+  /scenario planning|analisi di scenario/,
+  /manutenzione predittiva|predictive maintenance/,
+]
+
+const AI_PATTERNS: RegExp[] = [
+  /\bai\b|\bia\b/,
+  /intelligenza artificiale|artificial intelligence/,
+  /algoritm/,
+  /machine learning|deep learning/,
+  /gen ai|generative ai|genai|llm/,
+]
+
+function topicKey(text: string): string {
+  return text
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-z0-9]+/g, " ")
+    .trim()
+}
+
+/** Vero se la voce espone un metodo generale e non un singolo caso aziendale. */
+export function isGeneralMethod(
+  item: Pick<NewsItem, "title" | "summary">,
+): boolean {
+  const text = topicKey(`${item.title} ${item.summary}`)
+  if (METHOD_EXCLUSION_PATTERNS.some((pattern) => pattern.test(text)))
+    return false
+  return METHOD_PATTERNS.some((pattern) => pattern.test(text))
+}
+
+/**
+ * Colloca una voce di metodo: i modelli previsivi in «IA predittiva», il resto
+ * dell'intelligenza artificiale in «AI e governance», altrimenti resta nella
+ * categoria della fonte.
+ */
+export function methodCategory(
+  item: Pick<NewsItem, "title" | "summary">,
+  fallback: NewsCategoryId,
+): NewsCategoryId {
+  const text = topicKey(`${item.title} ${item.summary}`)
+  if (PREDICTIVE_PATTERNS.some((pattern) => pattern.test(text)))
+    return "iapredittiva"
+  if (AI_PATTERNS.some((pattern) => pattern.test(text))) return "aigovernance"
+  return fallback
+}
+
+/** Applica il vincolo `methodOnly` della fonte: filtra e ricolloca le voci. */
+export function applyMethodRules(
+  items: NewsItem[],
+  source: NewsSource,
+): NewsItem[] {
+  if (!source.methodOnly) return items
+  return items
+    .filter((item) => isGeneralMethod(item))
+    .map((item) => ({
+      ...item,
+      category: methodCategory(item, source.category),
+    }))
+}
+
 /** Scarta i doppioni per URL canonico e, in seconda battuta, per titolo. */
 export function dedupeItems(items: NewsItem[]): NewsItem[] {
   const seenUrls = new Set<string>()
@@ -369,6 +467,12 @@ export interface FeedResult {
 export interface BuildDigestOptions {
   now?: Date
   windowHours?: number
+  /**
+   * Finestra delle fonti `methodOnly`: il metodo non è cronaca e queste testate
+   * pubblicano poche voci al mese, quindi con la finestra breve la sezione
+   * resterebbe sempre vuota.
+   */
+  methodWindowHours?: number
   maxPerSource?: number
   maxItems?: number
 }
@@ -379,6 +483,7 @@ export function buildDigest(
 ): NewsDigest {
   const now = options.now ?? new Date()
   const windowHours = options.windowHours ?? 72
+  const methodWindowHours = options.methodWindowHours ?? 336
   const maxPerSource = options.maxPerSource ?? 4
   const maxItems = options.maxItems ?? 120
 
@@ -409,9 +514,9 @@ export function buildDigest(
     }
 
     const items = filterByWindow(
-      normalizeItems(parseFeedItems(result.xml), source),
+      applyMethodRules(normalizeItems(parseFeedItems(result.xml), source), source),
       now,
-      windowHours,
+      source.methodOnly ? methodWindowHours : windowHours,
     )
     collected = collected.concat(items)
     sources.push({

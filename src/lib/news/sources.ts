@@ -529,6 +529,13 @@ export const newsSources: NewsSource[] = [
     feed: null,
     category: "fiscale",
   },
+  {
+    id: "italia-oggi",
+    name: "Italia Oggi",
+    homepage: "https://www.italiaoggi.it/",
+    feed: "https://www.italiaoggi.it/sitemap/sitemap_news_google.xml",
+    category: "fiscale",
+  },
 
   // ── Economia e mercati ────────────────────────────────────────────────────
   {
@@ -536,6 +543,13 @@ export const newsSources: NewsSource[] = [
     name: "Il Sole 24 Ore — Economia",
     homepage: "https://www.ilsole24ore.com/sez/economia",
     feed: "https://www.ilsole24ore.com/rss/economia.xml",
+    category: "economia",
+  },
+  {
+    id: "milano-finanza",
+    name: "Milano Finanza",
+    homepage: "https://www.milanofinanza.it/",
+    feed: "https://www.milanofinanza.it/sitemap_news_google_mf.xml",
     category: "economia",
   },
   {

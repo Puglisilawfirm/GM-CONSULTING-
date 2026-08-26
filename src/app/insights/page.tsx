@@ -1,6 +1,7 @@
 import type { Metadata } from "next"
 import Link from "next/link"
 import { Hero } from "@/components/ui/Hero"
+import { insights } from "@/lib/insights"
 
 export const metadata: Metadata = {
   title: "Insights — Analisi e position paper",
@@ -8,34 +9,6 @@ export const metadata: Metadata = {
     "Note metodologiche e analisi normative su compliance, governance e automazione dei processi.",
   alternates: { canonical: "https://www.gmconsulting.one/insights" },
 }
-
-const articles = [
-  {
-    slug: "iso-37001-37301-dlgs-231-architettura-integrata",
-    title:
-      "L'integrazione fra ISO 37001:2025, ISO 37301 e D.Lgs. 231/2001",
-    subtitle:
-      "Architettura unica per tre sistemi sovrapposti",
-    readingTime: "12 min",
-    date: "20 maggio 2026",
-  },
-  {
-    slug: "uni-pdr-125-2022-premialita-pnrr",
-    title: "Certificazione UNI/PdR 125:2022 e premialità PNRR",
-    subtitle:
-      "Guida tecnica all'accesso agli sgravi contributivi e ai bandi pubblici",
-    readingTime: "8 min",
-    date: "20 maggio 2026",
-  },
-  {
-    slug: "compliance-by-design-workflow-python-gdpr-nis2",
-    title: "Compliance by design nei processi automatizzati",
-    subtitle:
-      "Come progettare workflow Python conformi al GDPR e a NIS2",
-    readingTime: "10 min",
-    date: "20 maggio 2026",
-  },
-]
 
 export default function InsightsPage() {
   return (
@@ -50,7 +23,7 @@ export default function InsightsPage() {
       <section className="bg-paper py-20 lg:py-28">
         <div className="mx-auto max-w-[1200px] px-6 lg:px-12">
           <div className="grid gap-8 lg:grid-cols-3">
-            {articles.map((article) => (
+            {insights.map((article) => (
               <Link
                 key={article.slug}
                 href={`/insights/${article.slug}`}

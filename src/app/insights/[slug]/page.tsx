@@ -2,9 +2,12 @@ import type { Metadata } from "next"
 import fs from "fs"
 import path from "path"
 import matter from "gray-matter"
+import Link from "next/link"
+import { MDXRemote } from "next-mdx-remote/rsc"
 import { notFound } from "next/navigation"
 import { Hero } from "@/components/ui/Hero"
 import { CTAButton } from "@/components/ui/CTAButton"
+import { insightSlugs } from "@/lib/insights"
 
 const insightsDir = path.join(process.cwd(), "content", "insights")
 
@@ -13,14 +16,19 @@ interface Frontmatter {
   /** Titolo per la SERP quando quello editoriale eccede lo snippet utile. */
   metaTitle?: string
   description: string
+  /** Sommario mostrato sotto il titolo, quando l'articolo ne ha uno. */
+  lead?: string
   datePublished: string
   dateModified?: string
   readingTime: string
   slug: string
+  /** Anteprima social propria: senza, la condivisione ricade su quella istituzionale. */
+  ogImage?: string
+  ogImageAlt?: string
 }
 
 const SITE_URL = "https://www.gmconsulting.one"
-const OG_IMAGE = `${SITE_URL}/og-default.png`
+const DEFAULT_OG_IMAGE = `${SITE_URL}/og-default.png`
 
 function getArticle(slug: string): { frontmatter: Frontmatter; content: string } | null {
   const filePath = path.join(insightsDir, `${slug}.mdx`)
@@ -30,14 +38,8 @@ function getArticle(slug: string): { frontmatter: Frontmatter; content: string }
   return { frontmatter: data as Frontmatter, content }
 }
 
-const slugs = [
-  "iso-37001-37301-dlgs-231-architettura-integrata",
-  "uni-pdr-125-2022-premialita-pnrr",
-  "compliance-by-design-workflow-python-gdpr-nis2",
-]
-
 export function generateStaticParams() {
-  return slugs.map((slug) => ({ slug }))
+  return insightSlugs.map((slug) => ({ slug }))
 }
 
 export function generateMetadata({
@@ -50,6 +52,7 @@ export function generateMetadata({
 
   const { frontmatter } = article
   const url = `${SITE_URL}/insights/${params.slug}`
+  const image = frontmatter.ogImage || DEFAULT_OG_IMAGE
 
   return {
     title: frontmatter.metaTitle || frontmatter.title,
@@ -64,13 +67,20 @@ export function generateMetadata({
       url,
       publishedTime: frontmatter.datePublished,
       modifiedTime: frontmatter.dateModified || frontmatter.datePublished,
-      images: [{ url: OG_IMAGE, width: 1200, height: 630, alt: frontmatter.title }],
+      images: [
+        {
+          url: image,
+          width: 1200,
+          height: 630,
+          alt: frontmatter.ogImageAlt || frontmatter.title,
+        },
+      ],
     },
     twitter: {
       card: "summary_large_image",
       title: frontmatter.title,
       description: frontmatter.description,
-      images: [OG_IMAGE],
+      images: [image],
     },
   }
 }
@@ -93,7 +103,7 @@ function articleJsonLd(frontmatter: Frontmatter, slug: string) {
     inLanguage: "it-IT",
     url,
     mainEntityOfPage: { "@type": "WebPage", "@id": url },
-    image: OG_IMAGE,
+    image: frontmatter.ogImage || DEFAULT_OG_IMAGE,
     author: {
       "@type": "Organization",
       name: "GM Consulting S.r.l.",
@@ -111,6 +121,61 @@ function articleJsonLd(frontmatter: Frontmatter, slug: string) {
   }
 }
 
+/**
+ * Il corpo MDX non era reso: la pagina serviva solo titolo e description,
+ * quindi l'articolo era illeggibile e per i motori una pagina sottile.
+ */
+const articleComponents = {
+  h2: (props: React.ComponentProps<"h2">) => (
+    <h2 className="font-display text-h3 text-ink mt-12 mb-4" {...props} />
+  ),
+  h3: (props: React.ComponentProps<"h3">) => (
+    <h3 className="font-display text-h4 text-ink mt-10 mb-3" {...props} />
+  ),
+  p: (props: React.ComponentProps<"p">) => (
+    <p className="text-body text-steel mb-6 leading-relaxed" {...props} />
+  ),
+  ul: (props: React.ComponentProps<"ul">) => (
+    <ul className="mb-6 list-disc space-y-2 pl-6 text-body text-steel" {...props} />
+  ),
+  ol: (props: React.ComponentProps<"ol">) => (
+    <ol
+      className="mb-6 list-decimal space-y-2 pl-6 text-body text-steel"
+      {...props}
+    />
+  ),
+  strong: (props: React.ComponentProps<"strong">) => (
+    <strong className="font-semibold text-ink" {...props} />
+  ),
+  blockquote: (props: React.ComponentProps<"blockquote">) => (
+    <blockquote
+      className="mb-6 border-l-2 border-brand pl-5 text-body text-ink"
+      {...props}
+    />
+  ),
+  a: ({ href = "", ...props }: React.ComponentProps<"a">) => {
+    if (href.startsWith("/")) {
+      return (
+        <Link
+          href={href}
+          className="text-brand underline underline-offset-2 hover:text-navy-700"
+          {...props}
+        />
+      )
+    }
+
+    return (
+      <a
+        href={href}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-brand underline underline-offset-2 hover:text-navy-700"
+        {...props}
+      />
+    )
+  },
+}
+
 export default function InsightArticlePage({
   params,
 }: {
@@ -119,7 +184,7 @@ export default function InsightArticlePage({
   const article = getArticle(params.slug)
   if (!article) notFound()
 
-  const { frontmatter } = article
+  const { frontmatter, content } = article
 
   return (
     <>
@@ -133,7 +198,7 @@ export default function InsightArticlePage({
         variant="compact"
         eyebrow="Insights"
         title={frontmatter.title}
-        lead=""
+        lead={frontmatter.lead || ""}
       />
 
       <section className="bg-paper py-20 lg:py-28">
@@ -147,19 +212,11 @@ export default function InsightArticlePage({
             </span>
           </div>
 
-          <div className="bg-accent-soft border border-accent/20 rounded-md p-6 mb-10">
-            <p className="text-body text-accent">
-              Articolo in fase di redazione finale.
-            </p>
-          </div>
+          <article>
+            <MDXRemote source={content} components={articleComponents} />
+          </article>
 
-          {frontmatter.description && (
-            <p className="text-body-lg text-steel mb-10">
-              {frontmatter.description}
-            </p>
-          )}
-
-          <div className="pt-10 border-t border-mist">
+          <div className="pt-10 mt-4 border-t border-mist">
             <CTAButton variant="secondary" href="/insights">
               Torna agli Insights
             </CTAButton>

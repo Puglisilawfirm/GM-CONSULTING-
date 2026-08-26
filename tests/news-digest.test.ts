@@ -67,6 +67,17 @@ describe("parsing dei feed", () => {
     assert.equal(parsed[0].link, "https://example.com/b")
   })
 
+  it("legge i sitemap Google News delle testate senza RSS", () => {
+    const sitemap = `<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"><url><loc>https://example.com/mercati/borse</loc><news:news><news:publication><news:name>Milano Finanza</news:name><news:language>it</news:language></news:publication><news:publication_date>2026-08-22T09:15+02:00</news:publication_date><news:title>Nvidia al test dei conti: in borsa pu&amp;ograve; crescere</news:title></news:news></url><url><loc>https://example.com/senza-titolo</loc></url></urlset>`
+    const parsed = parseFeedItems(sitemap)
+
+    assert.equal(parsed.length, 1)
+    assert.equal(parsed[0].title, "Nvidia al test dei conti: in borsa può crescere")
+    assert.equal(parsed[0].link, "https://example.com/mercati/borse")
+    assert.equal(parsed[0].description, "")
+    assert.equal(parsed[0].pubDate, "2026-08-22T09:15+02:00")
+  })
+
   it("scarta le voci senza titolo o senza link", () => {
     assert.equal(parseFeedItems(rss("<item><title>Solo titolo</title></item>")).length, 0)
   })

@@ -140,11 +140,54 @@ function atomLink(block: string): string | null {
 }
 
 /**
- * Estrae le voci di un feed RSS 2.0, RDF o Atom. Il parsing è volutamente
- * testuale: i feed pubblici sono spesso mal formati e un parser XML stretto
- * fallirebbe l'intera fonte per un singolo carattere illegale.
+ * Alcuni sitemap (Milano Finanza) codificano le entità due volte:
+ * `&amp;agrave;` invece di `à`. La seconda passata serve solo se dopo la prima
+ * l'entità è ancora lì.
+ */
+function decodeTwiceIfNeeded(raw: string): string {
+  const once = cleanText(raw)
+  return /&[a-z]+;|&#\d+;/i.test(once) ? cleanText(once) : once
+}
+
+/**
+ * Estrae le voci di un sitemap Google News (`<urlset>` con namespace
+ * `sitemap-news`). Alcune testate (Italia Oggi, Milano Finanza) hanno dismesso
+ * l'RSS ma pubblicano questo sitemap, che dichiara titolo e data di ogni
+ * articolo recente: sono le informazioni che la rassegna usa. Il sommario resta
+ * vuoto, il sitemap non lo prevede.
+ */
+export function parseNewsSitemapItems(xml: string): RawFeedItem[] {
+  const blocks = xml.match(/<url(?:\s[^>]*)?>[\s\S]*?<\/url>/gi) ?? []
+  const items: RawFeedItem[] = []
+
+  for (const block of blocks) {
+    const rawLink = firstTag(block, ["loc"])
+    const rawTitle = firstTag(block, ["news:title", "title"])
+    const rawDate = firstTag(block, ["news:publication_date", "lastmod"])
+
+    const title = rawTitle ? decodeTwiceIfNeeded(rawTitle) : ""
+    const link = rawLink ? cleanText(rawLink) : ""
+    if (!title || !link) continue
+
+    items.push({
+      title,
+      link,
+      description: "",
+      pubDate: rawDate ? cleanText(rawDate) : null,
+    })
+  }
+
+  return items
+}
+
+/**
+ * Estrae le voci di un feed RSS 2.0, RDF o Atom, o di un sitemap Google News.
+ * Il parsing è volutamente testuale: i feed pubblici sono spesso mal formati e
+ * un parser XML stretto fallirebbe l'intera fonte per un singolo carattere
+ * illegale.
  */
 export function parseFeedItems(xml: string): RawFeedItem[] {
+  if (/<urlset[\s>]/i.test(xml)) return parseNewsSitemapItems(xml)
   const blocks = xml.match(/<(item|entry)(?:\s[^>]*)?>[\s\S]*?<\/\1>/gi) ?? []
   const items: RawFeedItem[] = []
 

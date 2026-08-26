@@ -45,7 +45,7 @@ async function fetchFeed(
     })
     if (!response.ok) return { error: `HTTP ${response.status}` }
     const body = await response.text()
-    if (!/<(rss|feed|rdf:RDF)[\s>]/i.test(body))
+    if (!/<(rss|feed|rdf:RDF|urlset)[\s>]/i.test(body))
       return { error: "risposta non è un feed XML" }
     return { xml: body }
   } catch (error) {

@@ -2,6 +2,7 @@ import type { Metadata } from "next"
 import fs from "fs"
 import path from "path"
 import matter from "gray-matter"
+import Image from "next/image"
 import Link from "next/link"
 import { MDXRemote } from "next-mdx-remote/rsc"
 import { notFound } from "next/navigation"
@@ -146,6 +147,23 @@ const articleComponents = {
   ),
   strong: (props: React.ComponentProps<"strong">) => (
     <strong className="font-semibold text-ink" {...props} />
+  ),
+  /**
+   * Markdown avvolge l'immagine in un paragrafo: `figure` dentro `p` è
+   * annidamento non valido, quindi la didascalia usa elementi inline resi a
+   * blocco.
+   */
+  img: ({ src = "", alt = "" }: React.ComponentProps<"img">) => (
+    <span className="mb-8 block">
+      <Image
+        src={typeof src === "string" ? src : ""}
+        alt={alt}
+        width={1100}
+        height={614}
+        className="h-auto w-full rounded-lg"
+      />
+      <span className="text-caption text-fog mt-2 block">{alt}</span>
+    </span>
   ),
   blockquote: (props: React.ComponentProps<"blockquote">) => (
     <blockquote

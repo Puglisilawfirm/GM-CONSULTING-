@@ -1,0 +1,35 @@
+<!--
+  Copertina social dell'Insight sul Sentiero della Resilienza (NIS2). Le
+  piattaforme non rendono SVG in og:image: il raster JPEG versionato accanto va
+  rigenerato da qui quando il testo cambia (1200x630, poi conversione in JPEG).
+-->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 630" width="1200" height="630" role="img">
+  <title>Il Sentiero della Resilienza — NIS2 e D.Lgs. 138/2024 — GM Consulting S.r.l.</title>
+  <defs>
+    <linearGradient id="veil" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0B1526" stop-opacity="0.98"/>
+      <stop offset="0.58" stop-color="#0B1526" stop-opacity="0.92"/>
+      <stop offset="1" stop-color="#0B1526" stop-opacity="0.35"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="#152238"/>
+  <image x="0" y="0" width="1200" height="670" preserveAspectRatio="xMidYMid slice"
+         xlink:href="sentiero-resilienza-nis2/00-frontespizio.jpg"/>
+  <rect width="1200" height="630" fill="url(#veil)"/>
+
+  <g fill="#FAF8F3">
+    <g font-family="Helvetica, Arial, sans-serif">
+      <rect x="80" y="86" width="14" height="14" fill="#C9A84C"/>
+      <text x="112" y="99" font-size="22" letter-spacing="6" fill="#D4B968">GM CONSULTING</text>
+    </g>
+    <text x="80" y="232" font-family="Georgia, 'Times New Roman', serif" font-size="72" font-weight="bold">Il Sentiero</text>
+    <text x="80" y="312" font-family="Georgia, 'Times New Roman', serif" font-size="72" font-weight="bold">della Resilienza</text>
+    <text x="80" y="378" font-size="32" fill="#EEE7D7" font-family="Helvetica, Arial, sans-serif">NIS2 in dodici tavole</text>
+    <g font-family="Helvetica, Arial, sans-serif" font-size="25" fill="#D4B968" letter-spacing="2">
+      <text x="80" y="470">DIRETTIVA (UE) 2022/2555 · D.LGS. 138/2024</text>
+      <text x="80" y="512">MISURE DI BASE ENTRO IL 31 OTTOBRE 2026</text>
+    </g>
+    <text x="80" y="574" font-size="24" fill="#EEE7D7" fill-opacity="0.75" font-family="Helvetica, Arial, sans-serif">Perimetro, registrazione, governance, notifica 24-72 ore, sanzioni</text>
+  </g>
+</svg>

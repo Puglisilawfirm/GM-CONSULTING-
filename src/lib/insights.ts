@@ -16,6 +16,15 @@ export interface InsightEntry {
 
 export const insights: InsightEntry[] = [
   {
+    slug: "sentiero-resilienza-nis2-dlgs-138-2024",
+    title: "Il Sentiero della Resilienza: NIS2 in dodici tavole",
+    subtitle:
+      "Perimetro, registrazione, governance, notifica 24-72 ore e sanzioni del D.Lgs. 138/2024",
+    readingTime: "11 min",
+    date: "29 agosto 2026",
+    datePublished: "2026-08-29",
+  },
+  {
     slug: "voucher-cloud-cybersecurity-mimit-2026",
     title: "Voucher Cloud & Cybersecurity: 150 milioni per PMI e professionisti",
     subtitle:

@@ -17,9 +17,9 @@ export interface InsightEntry {
 export const insights: InsightEntry[] = [
   {
     slug: "sentiero-resilienza-nis2-dlgs-138-2024",
-    title: "Il Sentiero della Resilienza: NIS2 in dodici tavole",
+    title: "Le porte socchiuse: NIS2 e il Sentiero della Resilienza",
     subtitle:
-      "Perimetro, registrazione, governance, notifica 24-72 ore e sanzioni del D.Lgs. 138/2024",
+      "«Le Ombre entrano dalle porte lasciate socchiuse»: perimetro, scadenze, obblighi e sanzioni del D.Lgs. 138/2024 in dodici tavole",
     readingTime: "11 min",
     date: "29 agosto 2026",
     datePublished: "2026-08-29",

@@ -68,11 +68,11 @@ export function Nis2Gantt() {
                     style={{ gridTemplateColumns: `repeat(${nis2TimelineMonths}, 1fr)` }}
                   >
                     <div
-                      className={`rounded px-2 py-1 text-[0.7rem] font-medium ${toneBar[barra.tone]}`}
+                      className={`flex h-6 items-center overflow-hidden whitespace-nowrap rounded px-2 text-[0.7rem] font-medium ${toneBar[barra.tone]}`}
                       style={{ gridColumn: `${barra.start} / span ${barra.span}` }}
                       title={barra.detail}
                     >
-                      {barra.span > 2 ? barra.label : ""}
+                      {barra.span >= 10 ? barra.label : ""}
                     </div>
                   </div>
                 </div>

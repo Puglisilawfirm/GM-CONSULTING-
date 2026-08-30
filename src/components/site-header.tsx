@@ -35,14 +35,14 @@ export function SiteHeader() {
               GM Consulting
             </span>
             <span className="font-sans font-medium text-[9.5px] md:text-[10.5px] uppercase tracking-[0.16em] text-gold-600 mt-1">
-              <span className="md:hidden">S.r.l. · Strategic Planning</span>
-              <span className="hidden md:inline">S.r.l. · Strategic Planning &amp; Business Transformation</span>
+              <span className="xl:hidden">S.r.l. · Strategic Planning</span>
+              <span className="hidden xl:inline">S.r.l. · Strategic Planning &amp; Business Transformation</span>
             </span>
           </div>
         </Link>
 
         {/* Desktop nav */}
-        <nav className="ml-auto hidden md:flex items-center gap-8" aria-label="Navigazione principale">
+        <nav className="ml-auto hidden xl:flex items-center gap-6" aria-label="Navigazione principale">
           {NAV_ITEMS.map((item) => (
             <Link
               key={item.href}
@@ -57,7 +57,7 @@ export function SiteHeader() {
         {/* CTA desktop */}
         <Link
           href="/assessment"
-          className="hidden md:inline-flex items-center bg-navy-900 hover:bg-navy-800 text-paper-50 font-medium text-sm px-5 py-2.5 rounded-md transition-colors"
+          className="hidden xl:inline-flex items-center bg-navy-900 hover:bg-navy-800 text-paper-50 font-medium text-sm px-5 py-2.5 rounded-md transition-colors"
         >
           Richiedi assessment
           <ArrowRight className="ml-2 h-3.5 w-3.5 text-gold-400" />
@@ -66,7 +66,7 @@ export function SiteHeader() {
         {/* Mobile hamburger */}
         <button
           type="button"
-          className="md:hidden ml-auto p-2 text-ink hover:text-navy-700 transition-colors"
+          className="xl:hidden ml-auto p-2 text-ink hover:text-navy-700 transition-colors"
           onClick={() => setDrawerOpen(!drawerOpen)}
           aria-expanded={drawerOpen}
           aria-label={drawerOpen ? "Chiudi menu" : "Apri menu"}
@@ -77,7 +77,12 @@ export function SiteHeader() {
 
       {/* Mobile drawer */}
       {drawerOpen && (
-        <div className="md:hidden fixed inset-0 top-[72px] z-40 bg-paper-50" role="dialog" aria-modal="true" aria-label="Menu di navigazione">
+        <div
+          className="xl:hidden absolute left-0 right-0 top-full z-40 max-h-[calc(100vh-72px)] overflow-y-auto bg-paper-50 border-b border-border shadow-lg"
+          role="dialog"
+          aria-modal="true"
+          aria-label="Menu di navigazione"
+        >
           <nav className="max-w-7xl mx-auto px-6 py-8 flex flex-col gap-1" aria-label="Navigazione mobile">
             {NAV_ITEMS.map((item) => (
               <Link

@@ -77,7 +77,7 @@ export function SiteFooter() {
           <div className="flex flex-col leading-none">
             <span className="font-display font-medium text-[20px] text-paper-50">GM Consulting</span>
             <span className="font-sans text-[10px] uppercase tracking-[0.16em] text-gold-400 mt-1">
-              S.r.l. · Compliance &amp; Business Strategy
+              S.r.l. · Strategic Planning &amp; Business Transformation
             </span>
           </div>
         </div>

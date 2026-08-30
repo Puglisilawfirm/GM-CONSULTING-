@@ -35,7 +35,8 @@ export function SiteHeader() {
               GM Consulting
             </span>
             <span className="font-sans font-medium text-[9.5px] md:text-[10.5px] uppercase tracking-[0.16em] text-gold-600 mt-1">
-              S.r.l. · Compliance &amp; Business Strategy
+              <span className="md:hidden">S.r.l. · Strategic Planning</span>
+              <span className="hidden md:inline">S.r.l. · Strategic Planning &amp; Business Transformation</span>
             </span>
           </div>
         </Link>

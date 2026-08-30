@@ -8,9 +8,9 @@ interface Prodotto {
   claim: string | null
   subclaim: string | null
   tagline: string
-  eyebrow: string
+  eyebrow: string | null
   statoLabel: string
-  statoTone: "attivo" | "imminente" | "futuro"
+  statoTone: "attivo" | "futuro"
   href: string
 }
 
@@ -21,21 +21,10 @@ const PRODOTTI: Prodotto[] = [
     claim: null,
     subclaim: null,
     tagline: "Workflow automatizzato per adempimenti AML per notai, avvocati, commercialisti",
-    eyebrow: "PRODOTTO GM",
+    eyebrow: null,
     statoLabel: "Disponibile",
     statoTone: "attivo",
     href: "/protocollo-23",
-  },
-  {
-    slug: "suite-gdpr-nis2",
-    nome: "Suite GDPR-NIS2",
-    claim: null,
-    subclaim: null,
-    tagline: "Modulo unificato di compliance dati e sicurezza informatica",
-    eyebrow: "IN ARRIVO",
-    statoLabel: "In arrivo Q2 2026",
-    statoTone: "imminente",
-    href: "/insights/compliance-by-design-workflow-python-gdpr-nis2",
   },
   {
     slug: "healthcare-continuity",
@@ -43,8 +32,8 @@ const PRODOTTI: Prodotto[] = [
     claim: null,
     subclaim: null,
     tagline: "BIA, BCM ed Emergency Plan per strutture sanitarie",
-    eyebrow: "IN STUDIO",
-    statoLabel: "In studio",
+    eyebrow: null,
+    statoLabel: "Work in progress",
     statoTone: "futuro",
     href: "/aree-di-intervento#healthcare-emergency",
   },
@@ -52,7 +41,6 @@ const PRODOTTI: Prodotto[] = [
 
 const statoStyles = {
   attivo: "bg-gold-500/15 text-gold-300 border border-gold-500/30",
-  imminente: "bg-paper-50/10 text-paper-200 border border-paper-50/20",
   futuro: "bg-paper-50/5 text-paper-50/60 border border-paper-50/10",
 }
 
@@ -61,19 +49,6 @@ function ShieldIcon() {
     <svg width="40" height="40" viewBox="0 0 40 40" fill="none" stroke="currentColor" strokeWidth="1.5" className="text-gold-500 shrink-0">
       <path d="M20 4L6 10v10c0 9.94 5.97 19.21 14 22 8.03-2.79 14-12.06 14-22V10L20 4z" />
       <text x="12" y="26" fill="currentColor" stroke="none" fontSize="12" fontWeight="bold" fontFamily="monospace">23</text>
-    </svg>
-  )
-}
-
-function NodesIcon() {
-  return (
-    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" stroke="currentColor" strokeWidth="1.5" className="text-gold-500 shrink-0">
-      <circle cx="20" cy="8" r="4" />
-      <circle cx="10" cy="32" r="4" />
-      <circle cx="30" cy="32" r="4" />
-      <line x1="20" y1="12" x2="10" y2="28" />
-      <line x1="20" y1="12" x2="30" y2="28" />
-      <line x1="14" y1="32" x2="26" y2="32" />
     </svg>
   )
 }
@@ -88,7 +63,6 @@ function PulseIcon() {
 
 const glyphs: Record<string, () => React.JSX.Element> = {
   "protocollo-23": ShieldIcon,
-  "suite-gdpr-nis2": NodesIcon,
   "healthcare-continuity": PulseIcon,
 }
 
@@ -116,9 +90,11 @@ function ProdottoCard({ item }: { item: Prodotto }) {
     >
       <Glyph />
       <div className="flex flex-col justify-center min-w-0">
-        <span className="font-mono text-mono-label uppercase text-gold-400">
-          {item.eyebrow}
-        </span>
+        {item.eyebrow && (
+          <span className="font-mono text-mono-label uppercase text-gold-400">
+            {item.eyebrow}
+          </span>
+        )}
         <span className="font-display font-medium text-[20px] text-paper-50 leading-tight">
           {item.nome}
         </span>

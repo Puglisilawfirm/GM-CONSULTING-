@@ -104,7 +104,7 @@ const stats = [
   {
     value: "2",
     label: "PRODOTTI VERTICALI",
-    caption: "Protocollo 23 attivo; Suite GDPR-NIS2 in rilascio.",
+    caption: "Protocollo 23 attivo; Healthcare Continuity Toolkit work in progress.",
   },
 ]
 

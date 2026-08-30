@@ -1,4 +1,5 @@
 import type { Metadata } from "next"
+import Image from "next/image"
 import Link from "next/link"
 import { ArrowRight } from "lucide-react"
 
@@ -12,7 +13,7 @@ export const metadata: Metadata = {
     type: "website",
     locale: "it_IT",
     siteName: "GM Consulting",
-    images: [{ url: "/logo-gmconsulting-512.png", width: 512, height: 512, alt: "GM Consulting S.r.l." }],
+    images: [{ url: "/og-default.png", width: 1200, height: 630, alt: "GM Consulting — From strategy to results" }],
   },
 }
 
@@ -225,6 +226,29 @@ export default function HomePage() {
         >
           Costituita 2002 — 23 anni di operatività continuativa
         </span>
+      </section>
+
+      {/* 6.2 — Banner istituzionale */}
+      <section className="bg-navy-950" aria-labelledby="banner-istituzionale">
+        <h2 id="banner-istituzionale" className="sr-only">
+          Dalla strategia ai risultati: strategia, dati, intelligenza, decisione, esecuzione
+        </h2>
+        <Image
+          src="/images/banner-gm-consulting.webp"
+          alt="GM Consulting — Anything is possible. Strategic planning & business transformation: dalla strategia ai dati, all'intelligenza, alla decisione, all'esecuzione."
+          width={1983}
+          height={793}
+          sizes="100vw"
+          className="hidden md:block w-full h-auto"
+        />
+        <Image
+          src="/logo-gmconsulting-lockup-1024.png"
+          alt="GM Consulting — strategic planning, business transformation, results."
+          width={1024}
+          height={1024}
+          sizes="100vw"
+          className="md:hidden w-full h-auto"
+        />
       </section>
 
       {/* 6.3 — Sei aree */}

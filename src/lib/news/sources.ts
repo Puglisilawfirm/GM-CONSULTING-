@@ -197,9 +197,27 @@ export const newsSources: NewsSource[] = [
     category: "strategia",
   },
   {
-    id: "hbr-italia",
-    name: "Harvard Business Review Italia",
+    id: "hbr-italia-blog",
+    name: "Harvard Business Review Italia — Blog",
     homepage: "https://www.hbritalia.it/",
+    feed: "https://www.hbritalia.it/rss.jsp?sezione=1553",
+    category: "metodo",
+    methodOnly: true,
+  },
+  {
+    id: "hbr-italia-rubriche",
+    name: "Harvard Business Review Italia — Rubriche",
+    homepage: "https://www.hbritalia.it/",
+    feed: "https://www.hbritalia.it/rss.jsp?sezione=1604",
+    category: "metodo",
+    methodOnly: true,
+  },
+  {
+    id: "harvard-business-review",
+    name: "Harvard Business Review",
+    homepage: "https://hbr.org/",
+    // hbr.org risponde 403 ai client automatici e il feed delegato
+    // (feeds.harvardbusiness.org) chiude la connessione TLS: presidio manuale.
     feed: null,
     category: "metodo",
     methodOnly: true,
@@ -311,6 +329,49 @@ export const newsSources: NewsSource[] = [
     name: "Wired Italia",
     homepage: "https://www.wired.it/",
     feed: "https://www.wired.it/feed/rss",
+    category: "digitale",
+  },
+  {
+    id: "ansa-tecnologia",
+    name: "ANSA — Tecnologia",
+    homepage: "https://www.ansa.it/sito/notizie/tecnologia/",
+    // Feed abbandonato (ultime voci 2023) pur rispondendo 200: presidio manuale.
+    feed: null,
+    category: "digitale",
+  },
+  {
+    id: "sole24ore-tecnologia",
+    name: "Il Sole 24 Ore — Tecnologia",
+    homepage: "https://www.ilsole24ore.com/sez/tecnologia",
+    feed: "https://www.ilsole24ore.com/rss/tecnologia.xml",
+    category: "digitale",
+  },
+  {
+    id: "tomshw",
+    name: "Tom's Hardware Italia",
+    homepage: "https://www.tomshw.it/",
+    feed: "https://www.tomshw.it/feed/",
+    category: "digitale",
+  },
+  {
+    id: "ilsoftware",
+    name: "IlSoftware.it",
+    homepage: "https://www.ilsoftware.it/",
+    feed: "https://www.ilsoftware.it/feed/",
+    category: "digitale",
+  },
+  {
+    id: "linux-journal",
+    name: "Linux Journal",
+    homepage: "https://www.linuxjournal.com/",
+    feed: "https://www.linuxjournal.com/node/feed",
+    category: "digitale",
+  },
+  {
+    id: "fsf-news",
+    name: "Free Software Foundation — News",
+    homepage: "https://www.fsf.org/news",
+    feed: "https://www.fsf.org/static/fsforg/rss/news.xml",
     category: "digitale",
   },
 
@@ -594,6 +655,13 @@ export const newsSources: NewsSource[] = [
     feed: "https://www.italiaoggi.it/sitemap/sitemap_news_google.xml",
     category: "fiscale",
   },
+  {
+    id: "eutekne",
+    name: "Eutekne.info",
+    homepage: "https://www.eutekne.info/",
+    feed: "https://www.eutekne.info/Rss.ashx",
+    category: "fiscale",
+  },
 
   // ── Economia e mercati ────────────────────────────────────────────────────
   {
@@ -608,6 +676,64 @@ export const newsSources: NewsSource[] = [
     name: "Milano Finanza",
     homepage: "https://www.milanofinanza.it/",
     feed: "https://www.milanofinanza.it/sitemap_news_google_mf.xml",
+    category: "economia",
+  },
+  {
+    id: "corriere-economia",
+    name: "Corriere della Sera — Economia",
+    homepage: "https://www.corriere.it/economia/",
+    // Il feed RSS di Corriere Economia è fermo al 2024: presidio manuale.
+    feed: null,
+    category: "economia",
+  },
+  {
+    id: "repubblica-economia",
+    name: "la Repubblica — Economia",
+    homepage: "https://www.repubblica.it/economia/",
+    feed: "https://www.repubblica.it/rss/economia/rss2.0.xml",
+    category: "economia",
+  },
+  {
+    id: "ansa-economia",
+    name: "ANSA — Economia",
+    homepage: "https://www.ansa.it/sito/notizie/economia/",
+    feed: "https://www.ansa.it/sito/notizie/economia/economia_rss.xml",
+    category: "economia",
+  },
+  {
+    id: "sole24ore-finanza",
+    name: "Il Sole 24 Ore — Finanza",
+    homepage: "https://www.ilsole24ore.com/sez/finanza",
+    feed: "https://www.ilsole24ore.com/rss/finanza.xml",
+    category: "economia",
+  },
+  {
+    id: "sole24ore-risparmio",
+    name: "Il Sole 24 Ore — Risparmio",
+    homepage: "https://www.ilsole24ore.com/sez/risparmio",
+    feed: "https://www.ilsole24ore.com/rss/risparmio.xml",
+    category: "economia",
+  },
+  {
+    id: "sole24ore-commenti",
+    name: "Il Sole 24 Ore — Commenti",
+    homepage: "https://www.ilsole24ore.com/sez/commenti",
+    feed: "https://www.ilsole24ore.com/rss/commenti.xml",
+    category: "economia",
+  },
+  {
+    id: "sole24ore-energia-ambiente",
+    name: "Il Sole 24 Ore — Energia e ambiente",
+    homepage: "https://www.ilsole24ore.com/sez/energia-e-ambiente",
+    feed: "https://www.ilsole24ore.com/rss/economia--energia-e-ambiente.xml",
+    category: "economia",
+  },
+  {
+    id: "ansa-ambiente",
+    name: "ANSA — Ambiente ed energia",
+    homepage: "https://www.ansa.it/canale_ambiente/",
+    // Come il canale tecnologia: feed fermo al 2023, presidio manuale.
+    feed: null,
     category: "economia",
   },
   {

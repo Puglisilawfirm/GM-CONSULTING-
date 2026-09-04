@@ -42,6 +42,7 @@ const pages = [
   "src/app/aree-di-intervento/page.tsx",
   "src/app/compliance/page.tsx",
   "src/app/metodo/page.tsx",
+  "src/app/azienda/page.tsx",
   "src/app/protocollo-23/page.tsx",
   "src/app/rassegna/page.tsx",
   "src/app/insights/page.tsx",

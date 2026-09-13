@@ -6,6 +6,7 @@ import { Mail } from "lucide-react"
 import { NewsletterSignup } from "@/components/newsletter/NewsletterSignup"
 
 const navigazione = [
+  { href: "/azienda", label: "Azienda" },
   { href: "/metodo", label: "Metodo" },
   { href: "/soluzioni", label: "Soluzioni" },
   { href: "/aree-di-intervento", label: "Aree di intervento" },

@@ -6,6 +6,7 @@ import Image from "next/image"
 import { ArrowRight, Menu, X } from "lucide-react"
 
 const NAV_ITEMS = [
+  { href: "/azienda", label: "Azienda" },
   { href: "/metodo", label: "Metodo" },
   { href: "/soluzioni", label: "Soluzioni" },
   { href: "/aree-di-intervento", label: "Aree di intervento" },

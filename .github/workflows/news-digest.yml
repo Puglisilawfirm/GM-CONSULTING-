@@ -22,16 +22,23 @@ jobs:
     timeout-minutes: 15
 
     steps:
-      - name: Verifica l'ora italiana
+      # GitHub può avviare i job pianificati anche con ore di ritardo, quindi non
+      # si guarda l'orologio ma quale delle due coppie di cron è scattata: si
+      # prosegue solo se corrisponde all'ora (legale o solare) in vigore a Roma.
+      - name: Verifica la pianificazione italiana
         id: guard
         run: |
-          hour=$(TZ=Europe/Rome date +%H)
+          offset=$(TZ=Europe/Rome date +%z)
+          case "$offset" in
+            +0200) expected='5 6,18 * * *' ;;
+            *)     expected='5 7,19 * * *' ;;
+          esac
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             echo "run=true" >> "$GITHUB_OUTPUT"
-          elif [ "$hour" = "08" ] || [ "$hour" = "20" ]; then
+          elif [ "${{ github.event.schedule }}" = "$expected" ]; then
             echo "run=true" >> "$GITHUB_OUTPUT"
           else
-            echo "Ora italiana $hour: non è una fascia di pubblicazione, esecuzione ignorata."
+            echo "Cron '${{ github.event.schedule }}' non corrisponde all'ora in vigore a Roma (UTC$offset): esecuzione ignorata."
             echo "run=false" >> "$GITHUB_OUTPUT"
           fi
 

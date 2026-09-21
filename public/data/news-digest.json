@@ -1,14 +1,794 @@
 {
-  "generatedAt": "2026-09-21T12:38:12.540Z",
-  "slot": "morning",
+  "generatedAt": "2026-09-21T21:55:27.215Z",
+  "slot": "evening",
   "windowHours": 72,
   "items": [
     {
-      "id": "agenda-digitale-1344pwc",
-      "title": "La farmacia salva la sanità dei borghi, ma senza fondi il modello non regge",
-      "url": "https://www.agendadigitale.eu/sanita/la-farmacia-salva-la-sanita-dei-borghi-ma-senza-fondi-il-modello-non-regge",
-      "summary": "AGENAS affida alle farmacie un ruolo centrale nella telemedicina territoriale, soprattutto nei piccoli comuni. Il modello può ridurre distanze e attese, ma senza tariffe nazionali, dispositivi finanziati e integrazione obbligatoria con FSE e CUP rischia di ampliare le disuguaglianze regionali L'articolo La farmacia…",
-      "publishedAt": "2026-09-21T12:30:00.000Z",
+      "id": "dark-reading-1slhuw4",
+      "title": "How AI Agents Can Trigger Runaway Costs for Enterprises",
+      "url": "https://www.darkreading.com/application-security/how-ai-agents-can-trigger-runaway-costs",
+      "summary": "Unbounded consumption is an issue that OWASP currently ranks sixth in its Top 10 for LLM Applications, and it could be an extremely costly one.",
+      "publishedAt": "2026-09-21T21:39:59.000Z",
+      "sourceId": "dark-reading",
+      "sourceName": "Dark Reading",
+      "category": "cyber"
+    },
+    {
+      "id": "01net-u41koq",
+      "title": "KBRA Assigns Preliminary Ratings to Pagaya AI Debt Grantor Trust 2026-6 and Pagaya AI Debt Trust 2026-6",
+      "url": "https://www.01net.it/kbra-assigns-preliminary-ratings-to-pagaya-ai-debt-grantor-trust-2026-6-and-pagaya-ai-debt-trust-2026-6",
+      "summary": "NEW YORK--(BUSINESS WIRE)--#creditratingagency--KBRA assigns preliminary ratings to 13 classes of notes issued by Pagaya AI Debt Grantor Trust 2026-6 and Pagaya AI Debt Trust 2026-6, collectively “PAID 2026-6,” an unsecured consumer loan ABS transactio... L'articolo KBRA Assigns Preliminary Ratings to Pagaya AI Debt…",
+      "publishedAt": "2026-09-21T21:21:00.000Z",
+      "sourceId": "01net",
+      "sourceName": "01net",
+      "category": "digitale"
+    },
+    {
+      "id": "bleeping-computer-1iqgn8l",
+      "title": "BigCommerce alerts merchants of data breach linked to Ribon apps",
+      "url": "https://www.bleepingcomputer.com/news/security/bigcommerce-alerts-merchants-of-data-breach-linked-to-ribon-apps",
+      "summary": "Ecommerce platform BigCommerce has alerted multiple merchants to data breaches after attackers compromised credentials for third-party Ribon applications and used them to inject malicious scripts into online stores. [...]",
+      "publishedAt": "2026-09-21T21:18:49.000Z",
+      "sourceId": "bleeping-computer",
+      "sourceName": "BleepingComputer",
+      "category": "cyber"
+    },
+    {
+      "id": "milano-finanza-1k0g04z",
+      "title": "Doppio bonus per l’ipo di Nabla: ecco come crescerà la società di makeup dopo la quotazione",
+      "url": "https://www.milanofinanza.it/news/doppio-bonus-per-l-ipo-di-nabla-ecco-come-crescera-la-societa-di-makeup-dopo-la-quotazione-202609212301094381",
+      "summary": "",
+      "publishedAt": "2026-09-21T21:00:00.000Z",
+      "sourceId": "milano-finanza",
+      "sourceName": "Milano Finanza",
+      "category": "economia"
+    },
+    {
+      "id": "milano-finanza-1eqvc2i",
+      "title": "Egon Zehnder cerca un ceo per Euronext",
+      "url": "https://www.milanofinanza.it/news/egon-zehnder-cerca-un-ceo-per-euronext-202609212251199622",
+      "summary": "",
+      "publishedAt": "2026-09-21T20:50:00.000Z",
+      "sourceId": "milano-finanza",
+      "sourceName": "Milano Finanza",
+      "category": "economia"
+    },
+    {
+      "id": "milano-finanza-1s1lwi7",
+      "title": "Piazza Affari, la borsa delle 1000 quotate: ecco l’impatto sull’economia se le società aumentano del 150%",
+      "url": "https://www.milanofinanza.it/news/italia-la-borsa-delle-1000-quotate-ecco-l-impatto-sull-economia-se-le-societa-aumentano-del-150-202609212242037030",
+      "summary": "",
+      "publishedAt": "2026-09-21T20:40:00.000Z",
+      "sourceId": "milano-finanza",
+      "sourceName": "Milano Finanza",
+      "category": "economia"
+    },
+    {
+      "id": "startupbusiness-1fvk7q0",
+      "title": "Renzi, l”avvertimento’ al campo largo: “Da soli perdete…”",
+      "url": "https://www.startupbusiness.it/renzi-lavvertimento-al-campo-largo-da-soli-perdete/199457",
+      "summary": "(Adnkronos) - Pd, M5S e Alleanza Verdi e Sinistra da soli perderanno le elezioni. E' il monito di Matteo Renzi, che avverte i leader del campo largo. \"Quei quattro lì'' - Elly Schlein, Giuseppe Conte, Angelo Bonelli e...",
+      "publishedAt": "2026-09-21T20:34:00.000Z",
+      "sourceId": "startupbusiness",
+      "sourceName": "Startupbusiness",
+      "category": "strategia"
+    },
+    {
+      "id": "startupbusiness-11cflig",
+      "title": "Veneto, il presidente Alberto Stefani ferito in un incidente stradale: stava andando al consiglio federale della Lega a Milano",
+      "url": "https://www.startupbusiness.it/veneto-il-presidente-alberto-stefani-ferito-in-un-incidente-stradale-stava-andando-al-consiglio-federale-della-lega-a-milano/199459",
+      "summary": "(Adnkronos) - Il presidente del Veneto Alberto Stefani è rimasto ferito in un incidente stradale. Mentre era in viaggio verso Milano per partecipare al consiglio federale straordinario della Lega convocato dal...",
+      "publishedAt": "2026-09-21T20:33:00.000Z",
+      "sourceId": "startupbusiness",
+      "sourceName": "Startupbusiness",
+      "category": "strategia"
+    },
+    {
+      "id": "01net-1e5pltu",
+      "title": "W4 Games Raises $18 Million to Accelerate International Presence",
+      "url": "https://www.01net.it/w4-games-raises-18-million-to-accelerate-international-presence",
+      "summary": "DUBLIN--(BUSINESS WIRE)--#Godot--W4 Games, the company building enterprise technology and support for the open-source Godot Engine, announced it has raised $18 million in Series B funding to expand its international team by 50%, accelerate development ... L'articolo W4 Games Raises $18 Million to Accelerate…",
+      "publishedAt": "2026-09-21T20:32:00.000Z",
+      "sourceId": "01net",
+      "sourceName": "01net",
+      "category": "digitale"
+    },
+    {
+      "id": "01net-1lyoevu",
+      "title": "Tensormesh Heads to The AI Conference 2026 With a Solution for Redundant GPU Compute",
+      "url": "https://www.01net.it/tensormesh-heads-to-the-ai-conference-2026-with-a-solution-for-redundant-gpu-compute",
+      "summary": "CEO Junchen Jiang will be at the event to talk KV caching and AI inference economics, and showcase innovation from TensormeshSAN FRANCISCO--(BUSINESS WIRE)--Tensormesh, the company pioneering caching-accelerated inference optimization for enterprise AI... L'articolo Tensormesh Heads to The AI Conference 2026 With a…",
+      "publishedAt": "2026-09-21T20:25:00.000Z",
+      "sourceId": "01net",
+      "sourceName": "01net",
+      "category": "digitale"
+    },
+    {
+      "id": "milano-finanza-1adm7br",
+      "title": "Tim, ai manager 36 milioni tra cash e azioni con l’adesione all’opas di Poste. Ecco quanto incassa il ceo Pietro Labriola",
+      "url": "https://www.milanofinanza.it/news/tim-ai-manager-36-milioni-tra-cash-e-azioni-con-l-adesione-all-opas-di-poste-ecco-quanto-incassa-il-ceo-202609211919293602",
+      "summary": "",
+      "publishedAt": "2026-09-21T20:19:00.000Z",
+      "sourceId": "milano-finanza",
+      "sourceName": "Milano Finanza",
+      "category": "economia"
+    },
+    {
+      "id": "bleeping-computer-wlwker",
+      "title": "CISA alerts of active exploitation of three Linux kernel flaws",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-alerts-of-active-exploitation-of-three-linux-kernel-flaws",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning that hackers are exploiting three Linux kernel vulnerabilities, one of them rated critical. [...]",
+      "publishedAt": "2026-09-21T20:12:17.000Z",
+      "sourceId": "bleeping-computer",
+      "sourceName": "BleepingComputer",
+      "category": "cyber"
+    },
+    {
+      "id": "dark-reading-1vvhxga",
+      "title": "ShinyHunters Hacked Clop. Now What About Clop's Victims?",
+      "url": "https://www.darkreading.com/cyberattacks-data-breaches/shinyhunters-hacked-clop-what-about-clops-victims",
+      "summary": "ShinyHunters defaced Clop's Dark Web site and claims to have stolen victim data, potentially exposing organizations that paid ransoms to renewed extortion attempts.",
+      "publishedAt": "2026-09-21T20:07:56.000Z",
+      "sourceId": "dark-reading",
+      "sourceName": "Dark Reading",
+      "category": "cyber"
+    },
+    {
+      "id": "01net-1ddr14s",
+      "title": "Riassunto: Lenovo e Schneider Electric si alleano per portare strumenti e competenze di decarbonizzazione a IT Channel Partners",
+      "url": "https://www.01net.it/riassunto-lenovo-e-schneider-electric-si-alleano-per-portare-strumenti-e-competenze-di-decarbonizzazione-a-it-channel-partners",
+      "summary": "La nuova collaborazione offre ai partner di canale un percorso pratico per misurare le emissioni, realizzare programmi di decarbonizzazione e dimostrare il progresso della sostenibilitàMORRISVILLE, N.C.--(BUSINESS WIRE)--Lenovo oggi ha annunciato che ... L'articolo Riassunto: Lenovo e Schneider Electric si alleano per…",
+      "publishedAt": "2026-09-21T19:49:00.000Z",
+      "sourceId": "01net",
+      "sourceName": "01net",
+      "category": "digitale"
+    },
+    {
+      "id": "startupbusiness-c1v7z7",
+      "title": "Ostia, autocarro danneggia ponte sulla via del Mare: traffico in tilt a Roma Sud",
+      "url": "https://www.startupbusiness.it/ostia-autocarro-danneggia-ponte-sulla-via-del-mare-traffico-in-tilt-a-roma-sud/199447",
+      "summary": "(Adnkronos) - Traffico in tilt tra Roma e Ostia. Gli agenti del X Gruppo Mare della Polizia Locale di Roma Capitale sono intervenuti sulla via del Mare, all'altezza del cavalcavia di via delle Calle in zona Acilia, per...",
+      "publishedAt": "2026-09-21T19:47:38.000Z",
+      "sourceId": "startupbusiness",
+      "sourceName": "Startupbusiness",
+      "category": "strategia"
+    },
+    {
+      "id": "startupbusiness-x70jjx",
+      "title": "Giallo a Cassino, donna trovata morta in casa: indagini in corso",
+      "url": "https://www.startupbusiness.it/giallo-a-cassino-donna-trovata-morta-in-casa-indagini-in-corso/199449",
+      "summary": "(Adnkronos) - Una donna - di cui non è stata ancora rivelata l'identità - è stata trovata priva di vita all'interno della sua abitazione a Cassino, in provincia di Frosinone. Sul caso indaga la polizia. In aggiornamento.",
+      "publishedAt": "2026-09-21T19:41:00.000Z",
+      "sourceId": "startupbusiness",
+      "sourceName": "Startupbusiness",
+      "category": "strategia"
+    },
+    {
+      "id": "dark-reading-qh90xx",
+      "title": "Cybercriminals Are Hiding New Malware in Torrents for Popular Films",
+      "url": "https://www.darkreading.com/cyberattacks-data-breaches/cybercriminals-hiding-new-malware-torrents-popular-films",
+      "summary": "Victims have been identified in Africa, including in Kenya and Uganda.",
+      "publishedAt": "2026-09-21T19:11:26.000Z",
+      "sourceId": "dark-reading",
+      "sourceName": "Dark Reading",
+      "category": "cyber"
+    },
+    {
+      "id": "sole24ore-economia-6nofjf",
+      "title": "Grimaldi prende in consegna una nuova nave con tecnologie ecocompatibili",
+      "url": "https://www.ilsole24ore.com/art/grimaldi-prende-consegna-nuova-nave-tecnologie-ecocompatibili-AJ8FlPKB",
+      "summary": "Nuova nave per il gruppo Grimaldi. Si tratta della Grande Egitto, appena consegnata all’armatore da China merchants heavy industries Jiangsu, che amplia la flotta di pure car & truck carrier...",
+      "publishedAt": "2026-09-21T18:28:02.000Z",
+      "sourceId": "sole24ore-economia",
+      "sourceName": "Il Sole 24 Ore — Economia",
+      "category": "economia"
+    },
+    {
+      "id": "bleeping-computer-j5kb7s",
+      "title": "WordPress Click2Shell flaw lets hackers execute PHP on the server",
+      "url": "https://www.bleepingcomputer.com/news/security/wordpress-click2shell-flaw-lets-hackers-execute-php-on-the-server",
+      "summary": "Technical details and a proof-of-concept exploit have been published for a new WordPress cross-site request forgery (CSRF) vulnerability dubbed 'Click2Shell' that affects the platform's Core component. [...]",
+      "publishedAt": "2026-09-21T18:23:11.000Z",
+      "sourceId": "bleeping-computer",
+      "sourceName": "BleepingComputer",
+      "category": "cyber"
+    },
+    {
+      "id": "ansa-pmi-t17ygw",
+      "title": "Simest, nostra presenza negli Usa rafforzata con un nuovo ufficio a New York",
+      "url": "https://www.ansa.it/sito/notizie/economia/pmi/2026/09/21/simest-nostra-presenza-negli-usa-rafforzata-con-un-nuovo-ufficio-a-new_dbf5d27a-7bb9-47d1-8bb1-ab5867a05a97.html",
+      "summary": "(ANSA) - ROMA, 21 SET - Simest \"rafforza la propria presenza negli Stati Uniti con l'apertura del nuovo ufficio di New York, inaugurato oggi alla presenza del vicepresidente del Consiglio e ministro degli Affari Esteri e della Cooperazione Internazionale, Antonio Tajani\": lo si legge in un comunicato. Alla cerimonia,…",
+      "publishedAt": "2026-09-21T18:16:10.000Z",
+      "sourceId": "ansa-pmi",
+      "sourceName": "ANSA — PMI",
+      "category": "economia"
+    },
+    {
+      "id": "key4biz-15k3sr5",
+      "title": "Bper colloca green bond da 500 mln, ordini hanno superato 1,9 mld",
+      "url": "https://www.key4biz.it/bper-colloca-green-bond-da-500-mln-ordini-hanno-superato-19-mld/588368",
+      "summary": "(Adnkronos) – Bper ha concluso con successo il collocamento di una emissione obbligazionaria Senior Non Preferred destinata a investitori istituzionali, qualificata “green”, con durata 4 anni e possibilità di rimborso anticipato (call) dopo 3 anni, per un ammontare pari a euro 500 milioni. Lo si legge in una nota. Si…",
+      "publishedAt": "2026-09-21T17:57:16.000Z",
+      "sourceId": "key4biz",
+      "sourceName": "Key4biz",
+      "category": "digitale"
+    },
+    {
+      "id": "bleeping-computer-1fr3cnf",
+      "title": "Microsoft to retire Microsoft 365 Companion apps in December",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-retire-microsoft-365-companion-apps-in-december",
+      "summary": "Microsoft will retire the Calendar, People, and Files Microsoft 365 companion apps on December 16 and has asked admins to remove them from managed devices. [...]",
+      "publishedAt": "2026-09-21T17:54:49.000Z",
+      "sourceId": "bleeping-computer",
+      "sourceName": "BleepingComputer",
+      "category": "cyber"
+    },
+    {
+      "id": "ansa-pmi-1qjzmo5",
+      "title": "Durigon, per la Lega le pensioni sono un obiettivo prioritario",
+      "url": "https://www.ansa.it/sito/notizie/economia/pmi/2026/09/21/durigon-per-la-lega-le-pensioni-sono-un-obiettivo-prioritario_1f86bf00-097c-4960-9b63-8b69e57b6a63.html",
+      "summary": "(ANSA) - ROMA, 21 SET - \"Le pensioni sono un obiettivo prioritario della Lega e anche a Pontida il nostro popolo si è espresso dandoci pieno mandato a continuare a lottare per difendere il diritto dei nostri lavoratori a scegliere se andare via prima dal lavoro. Ho letto con stupore le dichiarazioni di Filini, mi…",
+      "publishedAt": "2026-09-21T17:47:46.000Z",
+      "sourceId": "ansa-pmi",
+      "sourceName": "ANSA — PMI",
+      "category": "economia"
+    },
+    {
+      "id": "hacker-news-z7h3lq",
+      "title": "Fake LastPass Authenticator Installer Abuses Microsoft-Signed Driver to Kill Antivirus and EDR",
+      "url": "https://thehackernews.com/2026/09/fake-lastpass-authenticator-installer.html",
+      "summary": "A fake LastPass Authenticator installer offered on GitHub installs a Windows kernel driver that shuts off antivirus and other security software before a password stealer runs if a victim downloads and runs it, researchers at LastPass and Delphos Labs said on September 17. Microsoft's own hardware-compatibility program…",
+      "publishedAt": "2026-09-21T17:31:01.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "The Hacker News",
+      "category": "cyber"
+    },
+    {
+      "id": "sole24ore-economia-1798v5i",
+      "title": "Fresenius Kabi inaugura la nuova linea, investimento da 28 milioni",
+      "url": "https://www.ilsole24ore.com/art/fresenius-kabi-inaugura-nuova-linea-investimento-28-milioni-AJSreJKB",
+      "summary": "Un investimento di oltre 28 milioni di euro, inserito in un più ampio piano triennale di investimenti in Italia del valore complessivo di 100 milioni di euro, per aumentare la...",
+      "publishedAt": "2026-09-21T17:22:32.000Z",
+      "sourceId": "sole24ore-economia",
+      "sourceName": "Il Sole 24 Ore — Economia",
+      "category": "economia"
+    },
+    {
+      "id": "hacker-news-4zzo8v",
+      "title": "Contagious Interview Campaign Compromises 30,000 Devices, Steals $10.71M in Crypto",
+      "url": "https://thehackernews.com/2026/09/contagious-interview-campaign.html",
+      "summary": "The North Korean threat actors behind the Contagious Interview campaign have compromised at least 30,000 devices located in more than 100 countries and siphoned funds or account credentials from over 7,000 cryptocurrency wallets, according to a new joint cybersecurity advisory. The primary targets of the campaign are…",
+      "publishedAt": "2026-09-21T17:19:00.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "The Hacker News",
+      "category": "cyber"
+    },
+    {
+      "id": "key4biz-jzu0cy",
+      "title": "Ferrero, accordo con sindacati su premio obiettivo fino 2.730 euro lordi",
+      "url": "https://www.key4biz.it/ferrero-accordo-con-sindacati-su-premio-obiettivo-fino-2-730-euro-lordi/588370",
+      "summary": "(Adnkronos) – Siglato in Ferrero l’accordo sul premio legato agli obiettivi per l’esercizio 2025-26 per un importo fino a 2.730 euro lordi. La direzione aziendale delo colosso dolciario ha incontrato le organizzazioni sindacali nazionali e territoriali di Fai-Cisl, Flai-Cgil, Uila-Uil, insieme al coordinamento…",
+      "publishedAt": "2026-09-21T17:15:13.000Z",
+      "sourceId": "key4biz",
+      "sourceName": "Key4biz",
+      "category": "digitale"
+    },
+    {
+      "id": "pmi-it-eh9xss",
+      "title": "Aumento pensioni 2027: rivalutazione stimata al 2,7% e tabella al netto",
+      "url": "https://www.pmi.it/economia/lavoro/481281/rivalutazione-pensioni-stime-perequazione.html",
+      "summary": "Rivalutazione pensioni 2027 calcolata sull'indice FOI Istat di agosto: aumenti lordi e netti per fascia, pensioni minime, conguaglio di gennaio e decreto di novembre",
+      "publishedAt": "2026-09-21T17:12:40.000Z",
+      "sourceId": "pmi-it",
+      "sourceName": "PMI.it",
+      "category": "finanziamenti"
+    },
+    {
+      "id": "ansa-pmi-484d0f",
+      "title": "Confindustria Taranto 'Voli civili a Grottaglie, opportunità per la Puglia'",
+      "url": "https://www.ansa.it/sito/notizie/economia/pmi/2026/09/21/confindustria-taranto-voli-civili-a-grottaglie-opportunita-per-la-puglia_f61e9715-2892-4d8a-bda0-d5742fb0fd39.html",
+      "summary": "(ANSA) - TARANTO, 21 SET - \"Per anni abbiamo inseguito l'idea dello scalo di Grottaglie aperto ai voli civili, contestualmente al progetto cargo, ritenendolo uno degli snodi fondamentali per far uscire il territorio dall'isolamento e per far decollare pezzi importanti della nostra economia\". Così il presidente di…",
+      "publishedAt": "2026-09-21T17:10:25.000Z",
+      "sourceId": "ansa-pmi",
+      "sourceName": "ANSA — PMI",
+      "category": "economia"
+    },
+    {
+      "id": "key4biz-1n52uvz",
+      "title": "In Famiglia Festival, oltre 5.700 presenze al Forte Trionfale. Al Pampers Village 3.000 iscrizioni",
+      "url": "https://www.key4biz.it/in-famiglia-festival-oltre-5-700-presenze-al-forte-trionfale-al-pampers-village-3-000-iscrizioni/588372",
+      "summary": "(Adnkronos) – Oltre 5.700 presenze, più di 20 spettacoli, 72 laboratori e oltre 60 tra incontri, podcast-interviste e seminari con esperti. Sono i numeri di In Famiglia Festival 2026, la manifestazione dedicata a bambini e genitori che si è svolta il 19 e 20 settembre al Forte Trionfale di Roma. Tra le novità di…",
+      "publishedAt": "2026-09-21T17:08:00.000Z",
+      "sourceId": "key4biz",
+      "sourceName": "Key4biz",
+      "category": "digitale"
+    },
+    {
+      "id": "hacker-news-vyplic",
+      "title": "Google Fined €403 Million Over GDPR Violations Tied to Location Data",
+      "url": "https://thehackernews.com/2026/09/google-fined-403-million-over-gdpr.html",
+      "summary": "Google has been fined €403 million for breaking the EU's data protection law, the GDPR, in the way three of its features handled people's location data from May 2018 to February 2020. Ireland's Data Protection Commission (DPC), Google's lead regulator in the EU, also ordered the company to make its processing comply…",
+      "publishedAt": "2026-09-21T16:57:31.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "The Hacker News",
+      "category": "cyber"
+    },
+    {
+      "id": "sole24ore-economia-1t3f3lj",
+      "title": "Ferrero, arriva il premio di risultato, 2.500 euro per i dipendenti italiani",
+      "url": "https://www.ilsole24ore.com/art/ferrero-arriva-premio-risultato-2500-euro-i-dipendenti-italiani-AJwugGKB",
+      "summary": "Incontro tra la Direzione aziendale e i sindacati per definire la cifra che sarà riconosciuta in busta paga ad ottobre, come prevede l’Accordo Integrativo aziendale",
+      "publishedAt": "2026-09-21T16:54:00.000Z",
+      "sourceId": "sole24ore-economia",
+      "sourceName": "Il Sole 24 Ore — Economia",
+      "category": "economia"
+    },
+    {
+      "id": "key4biz-hzzda0",
+      "title": "De Scalzi: “Stop all’Ets con la guerra, il sistema rischia di uccidere l’industria”",
+      "url": "https://www.key4biz.it/de-scalzi-stop-allets-con-la-guerra-il-sistema-rischia-di-uccidere-lindustria/588374",
+      "summary": "(Adnkronos) – “In una situazione super straordinaria che si pensava a più riprese che dovesse finire e si sta complicando, non migliorando, il discorso dell’Ets deve essere sospeso”. Le parole di Claudio Descalzi, ad dell’Eni, al salone della ceramica ‘Cersaie’ a Bologna innescano un dibattito sull’opportunità di…",
+      "publishedAt": "2026-09-21T16:50:04.000Z",
+      "sourceId": "key4biz",
+      "sourceName": "Key4biz",
+      "category": "digitale"
+    },
+    {
+      "id": "zerouno-1id5n49",
+      "title": "ERP, verticali e analytics: così Gridcore governa la crescita per acquisizioni",
+      "url": "https://www.zerounoweb.it/software/erp-verticali-e-analytics-cosi-gridcore-governa-la-crescita-per-acquisizioni",
+      "summary": "La società, attiva nelle infrastrutture per reti elettriche, idriche e gas, ha realizzato una \"Integration Factory\" per gestire le acquisizioni. Il ruolo di Infor per standardizzare Finance e anagrafiche L'articolo ERP, verticali e analytics: così Gridcore governa la crescita per acquisizioni proviene da ZeroUno .",
+      "publishedAt": "2026-09-21T16:34:13.000Z",
+      "sourceId": "zerouno",
+      "sourceName": "ZeroUno",
+      "category": "bi"
+    },
+    {
+      "id": "kdnuggets-ckpq7h",
+      "title": "What Everyone Is Getting Wrong About TypeSafe AI’s Jev",
+      "url": "https://www.kdnuggets.com/what-everyone-is-getting-wrong-about-typesafe-ais-jev",
+      "summary": "A closer look at TypeSafe AI’s Jev, what it actually does, what is genuinely new, and where the hype goes too far.",
+      "publishedAt": "2026-09-21T16:00:43.000Z",
+      "sourceId": "kdnuggets",
+      "sourceName": "KDnuggets",
+      "category": "bi"
+    },
+    {
+      "id": "wall-street-italia-11ntn7f",
+      "title": "Alberto Genovese patrimonio: exit, aziende e nuovi progetti",
+      "url": "https://www.wallstreetitalia.com/alberto-genovese-patrimonio",
+      "summary": "Il patrimonio di Alberto Genovese raccontato attraverso le operazioni che ne hanno segnato il percorso, fino ai nuovi progetti e alle iniziative nel sociale.",
+      "publishedAt": "2026-09-21T15:55:31.000Z",
+      "sourceId": "wall-street-italia",
+      "sourceName": "Wall Street Italia",
+      "category": "economia"
+    },
+    {
+      "id": "ai4business-9okklu",
+      "title": "Usa e Cina aprono il dialogo sull’AI: quali regole servono per la sicurezza",
+      "url": "https://www.ai4business.it/intelligenza-artificiale/usa-e-cina-aprono-il-dialogo-sullai-quali-regole-servono-per-la-sicurezza",
+      "summary": "Washington propone a Pechino un sistema per notificare gli incidenti AI che minacciano la sicurezza nazionale. Gli esperti indicano il passo successivo: canali tecnici permanenti, informazioni sugli incidenti, test confrontabili e benchmark comuni sui rischi L'articolo Usa e Cina aprono il dialogo sull’AI: quali…",
+      "publishedAt": "2026-09-21T15:52:48.000Z",
+      "sourceId": "ai4business",
+      "sourceName": "AI4Business",
+      "category": "bi"
+    },
+    {
+      "id": "forbes-italia-4yuczk",
+      "title": "Occhi sotto pressione: la miopia colpisce oltre 2 milioni di giovani italiani",
+      "url": "https://forbes.it/2026/09/21/occhi-sotto-pressione-la-miopia-colpisce-oltre-2-milioni-di-giovani-italiani",
+      "summary": "Oltre 2 milioni di giovani miopi in Italia, ma i controlli arrivano tardi. Per questo Hoya Vision risponde con MiYOSMART iQ, le lenti che frenano la progressione L’articolo Occhi sotto pressione: la miopia colpisce oltre 2 milioni di giovani italiani è tratto da Forbes Italia .",
+      "publishedAt": "2026-09-21T15:45:03.000Z",
+      "sourceId": "forbes-italia",
+      "sourceName": "Forbes Italia",
+      "category": "strategia"
+    },
+    {
+      "id": "forbes-italia-t4uxvl",
+      "title": "1.000 ore in azienda e 87% di occupati: così gli ITS formano i tecnici che mancano all’agroalimentare",
+      "url": "https://forbes.it/2026/09/21/francesco-casillo-its-academy-tecnici-specializzati-agroalimentare",
+      "summary": "ITS Academy AgriPuglia forma tecnici per l’agroalimentare con percorsi pratici, 1.000 ore in azienda e forti opportunità di occupazione L’articolo 1.000 ore in azienda e 87% di occupati: così gli ITS formano i tecnici che mancano all’agroalimentare è tratto da Forbes Italia .",
+      "publishedAt": "2026-09-21T15:37:32.000Z",
+      "sourceId": "forbes-italia",
+      "sourceName": "Forbes Italia",
+      "category": "strategia"
+    },
+    {
+      "id": "ansa-pmi-zgqb2k",
+      "title": "Commercialisti, 'accolta la nostra richiesta di apertura prolungata delle Entrate'",
+      "url": "https://www.ansa.it/sito/notizie/economia/pmi/2026/09/21/commercialisti-accolta-la-nostra-richiesta-di-apertura-prolungata-delle-entrate_4c32e22b-cd39-4ffe-96d5-ae899301c4d7.html",
+      "summary": "(ANSA) - ROMA, 21 SET - Il Consiglio nazionale dei commercialisti accoglie con soddisfazione la decisione dell'Agenzia delle Entrate di ampliare gli orari di apertura degli uffici territoriali, rafforzando l'assistenza e la consulenza rivolte a cittadini, imprese e professionisti, misura, recita una nota, richiesta…",
+      "publishedAt": "2026-09-21T15:17:15.000Z",
+      "sourceId": "ansa-pmi",
+      "sourceName": "ANSA — PMI",
+      "category": "economia"
+    },
+    {
+      "id": "ai4business-qwilz3",
+      "title": "Il modello AI-native conquista il procurement, i dati restano indietro",
+      "url": "https://www.ai4business.it/intelligenza-artificiale/il-modello-ai-native-conquista-il-procurement-i-dati-restano-indietro",
+      "summary": "Gartner prevede che entro il 2028 il 90% degli acquisti B2B passerà attraverso agenti AI, ma il 74% dei leader del procurement non dispone ancora di dati pronti. Le mosse di Google, Tech Mahindra e Uniphore mostrano quanto rapidamente i fornitori stiano occupando questo mercato L'articolo Il modello AI-native…",
+      "publishedAt": "2026-09-21T15:10:45.000Z",
+      "sourceId": "ai4business",
+      "sourceName": "AI4Business",
+      "category": "bi"
+    },
+    {
+      "id": "agenda-digitale-1gr0x7d",
+      "title": "AI e responsabilità d’impresa, cosa cambia e come adeguarsi",
+      "url": "https://www.agendadigitale.eu/documenti/giustizia-digitale/ai-e-responsabilita-dimpresa-cosa-cambia-e-come-adeguarsi",
+      "summary": "Il D.Lgs. 160/2026 introduce nuovi reati per i sistemi di IA ad alto rischio, amplia la responsabilità 231 degli enti e modifica le regole del contenzioso civile, attribuendo a log, documentazione tecnica, gestione dei rischi e sorveglianza umana un ruolo decisivo per le imprese L'articolo AI e responsabilità…",
+      "publishedAt": "2026-09-21T15:00:00.000Z",
+      "sourceId": "agenda-digitale",
+      "sourceName": "Agenda Digitale",
+      "category": "bi"
+    },
+    {
+      "id": "agi-economia-ipvcin",
+      "title": "Chi è il fondatore di Revolut: la storia di Storonsky verso la Borsa",
+      "url": "https://www.agi.it/economia/news/2026-09-21/chi-e-fondatore-revolut-storonsky-39171806",
+      "summary": "AGI -&nbsp; \"Credo che tradizionalmente si pensasse che tutte le aziende più grandi e migliori nascessero negli Stati Uniti. Probabilmente è ancora così se si guarda all'intelligenza artificiale, a tutte queste nuove aziende Anthropic, OpenAI e così via. Ma questo dimostra che è possibile creare una grande azienda…",
+      "publishedAt": "2026-09-21T14:50:17.000Z",
+      "sourceId": "agi-economia",
+      "sourceName": "AGI — Economia",
+      "category": "economia"
+    },
+    {
+      "id": "wall-street-italia-1u3cmjw",
+      "title": "BTP Green a 12 anni: mandato a banche per collocamento sindacato",
+      "url": "https://www.wallstreetitalia.com/news/btp-green-a-12-anni-mandato-a-banche-per-collocamento-sindacato",
+      "summary": "Emissione via sindacato di un nuovo BTP Green a 12 anni",
+      "publishedAt": "2026-09-21T14:49:37.000Z",
+      "sourceId": "wall-street-italia",
+      "sourceName": "Wall Street Italia",
+      "category": "economia"
+    },
+    {
+      "id": "dark-reading-t1jg1a",
+      "title": "Rogue Behavior: OpenAI Reveals More Model Misalignment Incidents",
+      "url": "https://www.darkreading.com/cyber-risk/rogue-behavior-openai-more-model-misalignment-incidents",
+      "summary": "The AI giant disclosed six examples of concerning model activity and published a new framework for investigating and disclosing such incidents.",
+      "publishedAt": "2026-09-21T14:47:19.000Z",
+      "sourceId": "dark-reading",
+      "sourceName": "Dark Reading",
+      "category": "cyber"
+    },
+    {
+      "id": "cybersecurity360-rh2940",
+      "title": "Cyber Exposure Management: perché conoscere il rischio non basta più",
+      "url": "https://www.cybersecurity360.it/soluzioni-aziendali/cyber-exposure-management-perche-conoscere-il-rischio-non-basta-piu",
+      "summary": "Le organizzazioni dispongono oggi di una quantità crescente di dati sulla sicurezza, ma spesso faticano a trasformarli in decisioni operative. Il progetto Security Intelligence Platform di Kyndryl integra posture management, attack path analysis, AI security, compliance e remediation per una gestione concreta…",
+      "publishedAt": "2026-09-21T14:47:06.000Z",
+      "sourceId": "cybersecurity360",
+      "sourceName": "Cybersecurity360",
+      "category": "cyber"
+    },
+    {
+      "id": "forbes-italia-n9xhon",
+      "title": "Il rally azionario non è finito: utili e IA possono sostenere la Borsa (anche con tassi più alti)",
+      "url": "https://forbes.it/2026/09/21/rally-azionario-utili-ai-tassi",
+      "summary": "Pictet resta positiva sull’azionario globale: crescita degli utili e investimenti nell’AI sostengono i mercati nonostante il rialzo dei tassi L’articolo Il rally azionario non è finito: utili e IA possono sostenere la Borsa (anche con tassi più alti) è tratto da Forbes Italia .",
+      "publishedAt": "2026-09-21T14:45:30.000Z",
+      "sourceId": "forbes-italia",
+      "sourceName": "Forbes Italia",
+      "category": "strategia"
+    },
+    {
+      "id": "industry4business-17y0dbb",
+      "title": "Perizia e analisi tecnica nella Nuova Transizione 5.0 2026-2028: 10 errori insidiosi e come evitarli",
+      "url": "https://www.innovationpost.it/attualita/incentivi/perizia-e-analisi-tecnica-nella-nuova-transizione-5-0-2026-2028-10-errori-insidiosi-e-come-evitarli",
+      "summary": "Nella disciplina del nuovo iperammortamento 2026-2028 la perizia asseverata è sempre obbligatoria e serve ad attestare i requisiti tecnici che reggono il beneficio per l'intero piano di ammortamento. In questo articolo vediamo gli errori ricorrenti e prevedibili che spesso la viziano: dieci casi, con un approccio…",
+      "publishedAt": "2026-09-21T14:44:39.000Z",
+      "sourceId": "industry4business",
+      "sourceName": "Industry4Business",
+      "category": "digitale"
+    },
+    {
+      "id": "wall-street-italia-b6ykoe",
+      "title": "Bitcoin torna sopra 85.000 dollari: è finito il “crypto winter”?",
+      "url": "https://www.wallstreetitalia.com/bitcoin-torna-sopra-85-000-dollari-e-finito-il-crypto-winter",
+      "summary": "Bitcoin supera gli 85.000 dollari, ai massimi da gennaio, mentre gli investitori si chiedono se il lungo “crypto winter” sia ormai alle spalle e possa iniziare una nuova fase rialzista.",
+      "publishedAt": "2026-09-21T14:44:19.000Z",
+      "sourceId": "wall-street-italia",
+      "sourceName": "Wall Street Italia",
+      "category": "economia"
+    },
+    {
+      "id": "commissione-ue-12k95qm",
+      "title": "Joint press release following the trilateral Leaders meeting reviewing the progress of EU-Australia relations",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_1925",
+      "summary": "European Commission Statement New York, 21 Sep 2026 The President of the European Commission, Ursula von der Leyen, the President of the European Council, Antonio Costa, and the Prime Minister of Australia, Antho...",
+      "publishedAt": "2026-09-21T14:43:01.000Z",
+      "sourceId": "commissione-ue",
+      "sourceName": "Commissione europea — Press corner",
+      "category": "finanziamenti"
+    },
+    {
+      "id": "ai4business-lqvjjj",
+      "title": "Usa-Cina, un falso report AI mostra i rischi dell’automazione militare",
+      "url": "https://www.ai4business.it/intelligenza-artificiale/usa-cina-un-falso-report-ai-mostra-i-rischi-dellautomazione-militare",
+      "summary": "Un rapporto d’intelligence costruito con l’aiuto di un chatbot avrebbe attribuito a una nave cinese un carico legato a un programma nucleare, spingendo gli Stati Uniti a preparare un’intercettazione. Il caso, rivelato da CNN, riapre il tema dei controlli sull’AI militare mentre Washington propone a Pechino un canale…",
+      "publishedAt": "2026-09-21T14:39:58.000Z",
+      "sourceId": "ai4business",
+      "sourceName": "AI4Business",
+      "category": "bi"
+    },
+    {
+      "id": "schneier-105spuc",
+      "title": "Reverse-Engineering Flock Cameras",
+      "url": "https://www.schneier.com/blog/archives/2026/09/reverse-engineering-flock-cameras.html",
+      "summary": "Hackers captured a Flock camera and got a look (alternate link ) at the software: While much of the automatic license plate reader’s (ALPR) most sensitive storage remained encrypted and inaccessible, the joint analysis of the recovered data shows that software running on the device explicitly detects people as well as…",
+      "publishedAt": "2026-09-21T14:37:45.000Z",
+      "sourceId": "schneier",
+      "sourceName": "Schneier on Security",
+      "category": "cyber"
+    },
+    {
+      "id": "sole24ore-management-kxr6a5",
+      "title": "Manager di ritorno: il passato è davvero una garanzia per il futuro?",
+      "url": "https://www.ilsole24ore.com/art/manager-ritorno-passato-e-davvero-garanzia-il-futuro-AJ52d4JB",
+      "summary": "Nel calcio come nelle aziende, quando qualcosa non funziona la tentazione di tornare sui propri passi è forte. Un allenatore che ha già vinto, un manager che conosce l’ambiente, le...",
+      "publishedAt": "2026-09-21T14:31:59.000Z",
+      "sourceId": "sole24ore-management",
+      "sourceName": "Il Sole 24 Ore — Management",
+      "category": "strategia"
+    },
+    {
+      "id": "forbes-italia-1xs0qpu",
+      "title": "Il boom degli smart ring arriva a Wall Street: Oura prepara un’Ipo da 2,2 miliardi",
+      "url": "https://forbes.it/2026/09/21/oura-ipo-wall-street-smart-ring-2-2-miliardi",
+      "summary": "Oura prepara l’Ipo a Wall Street: punta a raccogliere 2,2 miliardi con una valutazione potenziale di 15,6 miliardi L’articolo Il boom degli smart ring arriva a Wall Street: Oura prepara un’Ipo da 2,2 miliardi è tratto da Forbes Italia .",
+      "publishedAt": "2026-09-21T14:31:12.000Z",
+      "sourceId": "forbes-italia",
+      "sourceName": "Forbes Italia",
+      "category": "strategia"
+    },
+    {
+      "id": "agenda-digitale-1bb2p57",
+      "title": "Iran, Cina, Israele, la propaganda cambia volto: agenti AI al lavoro sui social",
+      "url": "https://www.agendadigitale.eu/cultura-digitale/iran-cina-israele-la-propaganda-cambia-volto-agenti-ai-al-lavoro-sui-social",
+      "summary": "Secondo il New York Times, Iran, Cina e aziende israeliane avrebbero sperimentato sistemi capaci di controllare profili social con un intervento umano limitato. Modelli open-weight, agenti software e accesso alle piattaforme abbassano i costi della propaganda e rendono più urgente riconoscere comportamenti coordinati…",
+      "publishedAt": "2026-09-21T14:30:00.000Z",
+      "sourceId": "agenda-digitale",
+      "sourceName": "Agenda Digitale",
+      "category": "bi"
+    },
+    {
+      "id": "economyup-la904c",
+      "title": "Aiuto, il venture capital italiano si sta restringendo! Ecco i numeri del primo semestre 2026",
+      "url": "https://www.economyup.it/startup/aiuto-il-venture-capital-italiano-si-sta-restringendo-ecco-i-numeri-del-primo-semestre-2026",
+      "summary": "AIFI e PwC Italia rilevano 404 milioni investiti nel venture capital nel primo semestre 2026, l’11% in meno su base annua, mentre le operazioni calano del 20%. La conferma di una tendenza alla concentrazione dei round su poche startup, con un allarme: il crollo della raccolta L'articolo Aiuto, il venture capital…",
+      "publishedAt": "2026-09-21T14:25:32.000Z",
+      "sourceId": "economyup",
+      "sourceName": "EconomyUp",
+      "category": "strategia"
+    },
+    {
+      "id": "hacker-news-1haafp1",
+      "title": "⚡ Weekly Recap: Cisco 0-Day, AI Agent RCE, ClickFix Attacks, ClickFix Surge, and Browser Hijacks",
+      "url": "https://thehackernews.com/2026/09/weekly-recap-cisco-0-day-ai-agent-rce.html",
+      "summary": "A browser. A plugin. A package. A login screen. Normal stuff. That is basically the problem this week. The trouble keeps showing up inside things people already trust: code that takes a bad turn, old payloads coming back, exposed systems, weak checks, fake fixes, and attack paths that look almost too easy. Even the…",
+      "publishedAt": "2026-09-21T14:24:13.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "The Hacker News",
+      "category": "cyber"
+    },
+    {
+      "id": "wall-street-italia-1ptl41x",
+      "title": "Wall Street apre in rialzo: Dow Jones guadagna lo 0,52%",
+      "url": "https://www.wallstreetitalia.com/news/wall-street-apre-in-rialzo-dow-jones-guadagna-lo-052",
+      "summary": "Wall Street apre la giornata in positivo grazie alla diminuzione dei prezzi del petrolio e dei rendimenti dei titoli del Tesoro. Nonostante le tensioni in Medio Oriente, il Wti registra un calo significativo. Gli investitori osservano con attenzione il vertice tra Donald Trump e Xi Jinping, previsto per questa…",
+      "publishedAt": "2026-09-21T14:16:42.000Z",
+      "sourceId": "wall-street-italia",
+      "sourceName": "Wall Street Italia",
+      "category": "economia"
+    },
+    {
+      "id": "zerouno-1poadon",
+      "title": "Altea Federation acquisisce Allspark: spinta sull’omnicanalità nel Fashion & Retail",
+      "url": "https://www.zerounoweb.it/trends/altea-federation-acquisisce-allspark-spinta-sullomnicanalita-nel-fashion-retail",
+      "summary": "L’operazione porta nel gruppo la piattaforma Cegid Retail e competenze specialistiche nella gestione della supply chain, dei punti vendita e dell’esperienza cliente. Per la società milanese parte anche un percorso di rebranding L'articolo Altea Federation acquisisce Allspark: spinta sull’omnicanalità nel Fashion &…",
+      "publishedAt": "2026-09-21T14:14:41.000Z",
+      "sourceId": "zerouno",
+      "sourceName": "ZeroUno",
+      "category": "bi"
+    },
+    {
+      "id": "esgnews-d3ckrc",
+      "title": "Andrea Cipolloni nuovo amministratore delegato di Caffè Borbone",
+      "url": "https://esgnews.it/aziende/andrea-cipolloni-nuovo-amministratore-delegato-di-caffe-borbone",
+      "summary": "Cipolloni raccoglie il testimone da Marco Schiavon per proseguire il percorso di crescita e sviluppo internazionale dell’azienda. Andrea Cipolloni, manager con oltre vent’anni di esperienza nel settore del food e del retail in … L'articolo Andrea Cipolloni nuovo amministratore delegato di Caffè Borbone proviene da ESG…",
+      "publishedAt": "2026-09-21T14:12:42.000Z",
+      "sourceId": "esgnews",
+      "sourceName": "ESG News",
+      "category": "compliance"
+    },
+    {
+      "id": "esgnews-cn7e8v",
+      "title": "3Bee e XNatura lanciano due nuovi strumenti per monitorare e proteggere le aree naturali dagli incendi",
+      "url": "https://esgnews.it/advisor/3bee-e-xnatura-lanciano-due-nuovi-strumenti-per-monitorare-e-proteggere-le-aree-naturali-dagli-incendi",
+      "summary": "Incentrata sul tema “una casa adeguata per tutti”, 3Bee estende quel principio alla fauna selvatica presentando e mettendo a disposizione due nuovi strumenti online: XN Atlas, per monitorare lo stato di salute delle … L'articolo 3Bee e XNatura lanciano due nuovi strumenti per monitorare e proteggere le aree naturali…",
+      "publishedAt": "2026-09-21T14:10:21.000Z",
+      "sourceId": "esgnews",
+      "sourceName": "ESG News",
+      "category": "compliance"
+    },
+    {
+      "id": "cybersecurity360-zn1hti",
+      "title": "Cyber resilience e Zero Trust: perché fermare il movimento laterale è diventato decisivo",
+      "url": "https://www.cybersecurity360.it/soluzioni-aziendali/cyber-resilience-e-zero-trust-perche-fermare-il-movimento-laterale-e-diventato-decisivo",
+      "summary": "Le strategie di difesa non possono più basarsi sull'idea che un attaccante rimanga sempre all'esterno del perimetro aziendale. Il progetto realizzato da Illumio per Gecina mostra come la microsegmentazione possa limitare la propagazione delle minacce, rafforzando la resilienza operativa attraverso un approccio Zero…",
+      "publishedAt": "2026-09-21T14:05:11.000Z",
+      "sourceId": "cybersecurity360",
+      "sourceName": "Cybersecurity360",
+      "category": "cyber"
+    },
+    {
+      "id": "finanza-operativa-1qlz6l6",
+      "title": "Investimenti, Giappone: perché stavolta la ripresa non è un miraggio",
+      "url": "https://www.bluerating.com/mercati/877022/investimenti-giappone-perche-stavolta-la-ripresa-non-e-un-miraggio",
+      "summary": "Per comprendere l’attuale momento economico giapponese, è necessario guardare alla storia recente. Come sottolinea Raphael Olszyna-Marzys, International Economist di J. Safra Sarasin, “il Giappone ha vissuto troppe false ripartenze per accoglierne un’altra con leggerezza“. Dal crollo della bolla speculativa all’inizio…",
+      "publishedAt": "2026-09-21T14:01:03.000Z",
+      "sourceId": "finanza-operativa",
+      "sourceName": "Finanza Operativa",
+      "category": "economia"
+    },
+    {
+      "id": "help-net-security-o9anne",
+      "title": "The TASK#STOMP Windows backdoor takes Wi-Fi passwords, screenshots, and business files",
+      "url": "https://www.helpnetsecurity.com/2026/09/21/taskstomp-windows-backdoor",
+      "summary": "Researchers have taken apart TASK#STOMP, a Windows backdoor that searches a victim’s drives for business documents, uploads them to attacker servers, and then stays put to grab each new or edited document. The same malware steals saved Wi-Fi passwords and clipboard text, takes screenshots, and runs whatever command…",
+      "publishedAt": "2026-09-21T14:00:18.000Z",
+      "sourceId": "help-net-security",
+      "sourceName": "Help Net Security",
+      "category": "cyber"
+    },
+    {
+      "id": "kdnuggets-jcghys",
+      "title": "How to Turn a Python Script Into an AI Agent",
+      "url": "https://www.kdnuggets.com/how-to-turn-a-python-script-into-an-ai-agent",
+      "summary": "Learn how to build a Python AI agent with the OpenAI Agents SDK, using tool calling and function tools to automate multi-step workflows.",
+      "publishedAt": "2026-09-21T14:00:07.000Z",
+      "sourceId": "kdnuggets",
+      "sourceName": "KDnuggets",
+      "category": "bi"
+    },
+    {
+      "id": "commissione-ue-1uw9xf4",
+      "title": "Commissioner Roswall's speech at the Water Resilience Stakeholder Platform",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1924",
+      "summary": "European Commission Speech Brussels, 21 Sep 2026 Distinguished guests, dear colleagues. The Water Resilience Strategy is based on a simple but powerful principle – that we can never truly deliver water resi...",
+      "publishedAt": "2026-09-21T14:00:07.000Z",
+      "sourceId": "commissione-ue",
+      "sourceName": "Commissione europea — Press corner",
+      "category": "finanziamenti"
+    },
+    {
+      "id": "corcom-auq0cl",
+      "title": "Connettività satellitare: in Lombardia test fino a 515,8 Mbps. Butti: “Ora confronto con gli operatori”",
+      "url": "https://www.corrierecomunicazioni.it/telco/connettivita-satellitare-in-lombardia-test-fino-a-5158-mbps-butti-ora-confronto-con-gli-operatori",
+      "summary": "La sperimentazione da 6,5 milioni con Fastweb e Telespazio ha ricreato 39 “borghi virtuali”, simulando il traffico generato da un massimo di 100 utenti contemporanei. Il satellite integrato con fibra, rame e wireless. Il Sottosegretario: \"Modello replicabile con requisiti chiari di qualità e sicurezza” L'articolo…",
+      "publishedAt": "2026-09-21T13:56:56.000Z",
+      "sourceId": "corcom",
+      "sourceName": "CorCom",
+      "category": "digitale"
+    },
+    {
+      "id": "zerouno-hnsuba",
+      "title": "FinOps, la visibilità sui costi che accelera le decisioni aziendali",
+      "url": "https://www.zerounoweb.it/cio-innovation/finops-la-visibilita-sui-costi-che-accelera-le-decisioni-aziendali",
+      "summary": "Cloud, intelligenza artificiale, software e data center entrano in una regia comune: responsabilità diffuse, dati tempestivi e verifica continua del valore trasformano la spesa tecnologica in una leva competitiva L'articolo FinOps, la visibilità sui costi che accelera le decisioni aziendali proviene da ZeroUno .",
+      "publishedAt": "2026-09-21T13:52:19.000Z",
+      "sourceId": "zerouno",
+      "sourceName": "ZeroUno",
+      "category": "bi"
+    },
+    {
+      "id": "commissione-ue-1uw9xf3",
+      "title": "Speech by Commissioner Lahbib at the UN General Assembly on Humanitarian Diplomacy that Safeguards International Humanitarian Law",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1923",
+      "summary": "European Commission Speech New York, 21 Sep 2026 It is a pleasure to welcome you to the only event at this year's UN General Assembly dedicated to international humanitarian law. Today across the world civilia...",
+      "publishedAt": "2026-09-21T13:48:49.000Z",
+      "sourceId": "commissione-ue",
+      "sourceName": "Commissione europea — Press corner",
+      "category": "finanziamenti"
+    },
+    {
+      "id": "economyup-1vv9ysy",
+      "title": "Robotaxi nel mondo: dove circolano già i taxi senza conducente",
+      "url": "https://www.economyup.it/automotive/robotaxi-nel-mondo-dove-circolano-gia-i-taxi-senza-conducente",
+      "summary": "Negli Stati Uniti e in Cina i robotaxi senza conducente sono ormai servizi a pagamento in aree delimitate di diverse città. Gli Emirati accelerano, mentre l’Europa muove i primi passi a Zagabria, ancora con un operatore a bordo. Le mappe per ciascun Paese, le regole e il possibile ruolo dell’Italia L'articolo Robotaxi…",
+      "publishedAt": "2026-09-21T13:44:46.000Z",
+      "sourceId": "economyup",
+      "sourceName": "EconomyUp",
+      "category": "strategia"
+    },
+    {
+      "id": "esgnews-1h5zmvc",
+      "title": "Data center, la Commissione Ue propone un sistema comune di rating ambientale",
+      "url": "https://esgnews.it/regulator/data-center-la-commissione-ue-propone-un-sistema-comune-di-rating-ambientale",
+      "summary": "La Commissione europea propone una classificazione comune per rendere trasparenti consumi energetici e idrici dei data center e valutarne anche il contributo alla rete. L’obiettivo è accompagnare la crescita della capacità di calcolo … L'articolo Data center, la Commissione Ue propone un sistema comune di rating…",
+      "publishedAt": "2026-09-21T13:40:31.000Z",
+      "sourceId": "esgnews",
+      "sourceName": "ESG News",
+      "category": "compliance"
+    },
+    {
+      "id": "agenda-digitale-o4zg22",
+      "title": "Un errore AI ha rischiato di scatenare una guerra USA-Cina",
+      "url": "https://www.agendadigitale.eu/sicurezza/un-errore-ai-ha-rischiato-di-scatenare-una-guerra-usa-cina",
+      "summary": "Un falso rapporto d’intelligence prodotto con l’aiuto dell’AI ha portato gli Stati Uniti a preparare l’intercettazione di una nave cinese. Dopo l’incidente OpenAI-Hugging Face, cresce l’attenzione sul rischio di sistemi AI capaci di produrre conseguenze gravi. USA e Cina attivano un canale di segnalazione safety a…",
+      "publishedAt": "2026-09-21T13:31:24.000Z",
+      "sourceId": "agenda-digitale",
+      "sourceName": "Agenda Digitale",
+      "category": "bi"
+    },
+    {
+      "id": "pmi-it-ikoyzb",
+      "title": "Euro digitale attivato per le banche, dal 2029 aperto anche al pubblico",
+      "url": "https://www.pmi.it/finanza/risparmio/488054/regolamento-euro-digitale-timeline-2026-2029.html",
+      "summary": "Euro digitale, la BCE lo attiva per gli scambi tra banche. Per famiglie e negozi il regolamento UE decide quanto si potrà tenere e quanto costerà accettarlo",
+      "publishedAt": "2026-09-21T13:24:25.000Z",
+      "sourceId": "pmi-it",
+      "sourceName": "PMI.it",
+      "category": "finanziamenti"
+    },
+    {
+      "id": "finanza-operativa-1vg2kmf",
+      "title": "Mercati emergenti, un’asset class che non dev’essere più considerata di nicchia",
+      "url": "https://www.bluerating.com/mercati/877019/mercati-emergenti-unasset-class-che-non-devessere-piu-considerata-di-nicchia",
+      "summary": "I mercati emergenti sono spesso associati a volatilità, incertezza politica e rischio valutario. Tuttavia, per gli investitori di lungo periodo possono rappresentare anche una fonte di crescita, innovazione e diversificazione globale, grazie all’esposizione a economie le cui prospettive di crescita, in alcuni casi,…",
+      "publishedAt": "2026-09-21T13:01:25.000Z",
+      "sourceId": "finanza-operativa",
+      "sourceName": "Finanza Operativa",
+      "category": "economia"
+    },
+    {
+      "id": "pmi-it-109ua4s",
+      "title": "Carta Dedicata a te 2026-2027 in pagamento dal 4 novembre: pronti requisiti e liste",
+      "url": "https://www.pmi.it/pubblica-amministrazione/servizi-online/414280/carta-dedicata-a-te-le-liste-di-beneficiari.html",
+      "summary": "L'INPS prepara gli elenchi dei beneficiari: 500 euro per nucleo, senza domanda, con accrediti dal 4 novembre e utilizzo entro ottobre 2027.",
+      "publishedAt": "2026-09-21T12:59:25.000Z",
+      "sourceId": "pmi-it",
+      "sourceName": "PMI.it",
+      "category": "finanziamenti"
+    },
+    {
+      "id": "sole24ore-economia-4tgah1",
+      "title": "Riciclo tessile, Igers inaugura impianto da 8 milioni di euro",
+      "url": "https://www.ilsole24ore.com/art/riciclo-tessile-igers-inaugura-impianto-8-milioni-euro-AJD9uTHB",
+      "summary": "Igers, società di Trezzano sul Naviglio (Milano) partecipata dal gruppo Haiki+, ha inaugurato a San Pietro Mosezzo (Novara) un impianto per il riciclo dei rifiuti tessili da 19mila tonnellate annue...",
+      "publishedAt": "2026-09-21T12:59:15.000Z",
+      "sourceId": "sole24ore-economia",
+      "sourceName": "Il Sole 24 Ore — Economia",
+      "category": "economia"
+    },
+    {
+      "id": "industry4business-1tvthxg",
+      "title": "Andrea Marchese è il nuovo Managing Director di Yaskawa Italia",
+      "url": "https://www.innovationpost.it/tecnologie/automazione/andrea-marchese-e-il-nuovo-managing-director-di-yaskawa-italia",
+      "summary": "Marchese prende le redini della divisione italiana del Gruppo da Paolo Poletti, inaugurando una nuova fase di espansione della filiale incentrata su una maggiore integrazione tra robotica, motion control e intelligenza artificiale , con l’ambizione di portare l’automazione verso applicazioni sempre più avanzate,…",
+      "publishedAt": "2026-09-21T12:50:26.000Z",
+      "sourceId": "industry4business",
+      "sourceName": "Industry4Business",
+      "category": "digitale"
+    },
+    {
+      "id": "help-net-security-1fc3q7n",
+      "title": "Fastly gives enterprises real-time control over AI models and agents",
+      "url": "https://www.helpnetsecurity.com/2026/09/21/fastly-ai-runtime-control",
+      "summary": "Fastly has announced AI Runtime Control, AI Firewall, and new API Security capabilities designed to give organizations real-time visibility and control across their AI systems. Expanding the Fastly for AI portfolio, these new capabilities help organizations govern AI model access and usage, protect the AI applications…",
+      "publishedAt": "2026-09-21T12:49:01.000Z",
+      "sourceId": "help-net-security",
+      "sourceName": "Help Net Security",
+      "category": "cyber"
+    },
+    {
+      "id": "agenda-digitale-1dyhgcv",
+      "title": "Longevità e lavoro: come riprogettare la propria carriera",
+      "url": "https://www.agendadigitale.eu/people-and-change/longevita-e-lavoro-come-riprogettare-la-propria-carriera",
+      "summary": "I cambiamenti demografici e la tecnologia stanno trasformando la durata della vita professionale. Un'analisi approfondita evidenzia come ridefinire i percorsi di carriera, superare l'ageismo e integrare l'intelligenza artificiale per garantire sostenibilità e benessere L'articolo Longevità e lavoro: come riprogettare…",
+      "publishedAt": "2026-09-21T12:44:15.000Z",
       "sourceId": "agenda-digitale",
       "sourceName": "Agenda Digitale",
       "category": "bi"
@@ -22,26 +802,6 @@
       "sourceId": "industry4business",
       "sourceName": "Industry4Business",
       "category": "digitale"
-    },
-    {
-      "id": "01net-8gq2cq",
-      "title": "V-Valley e xFusion insieme per lo sviluppo del canale italiano su datacenter e AI",
-      "url": "https://www.01net.it/v-valley-xfusion-partnership-datacenter-ai",
-      "summary": "Un accordo distributivo che porta in Italia server e infrastrutture per datacenter, HPC e intelligenza artificiale, mentre il produttore cinese si prepara alla quotazione in Borsa. L'articolo V-Valley e xFusion insieme per lo sviluppo del canale italiano su datacenter e AI è un contenuto originale di 01net .",
-      "publishedAt": "2026-09-21T12:27:50.000Z",
-      "sourceId": "01net",
-      "sourceName": "01net",
-      "category": "digitale"
-    },
-    {
-      "id": "wall-street-italia-rmm9rw",
-      "title": "Nabla debutta su Euronext Growth Milan",
-      "url": "https://www.wallstreetitalia.com/news/nabla-debutta-su-euronext-growth-milan",
-      "summary": "Arriva il mondo del makeup a Piazza Affari che ha debuttato oggi sulla Borsa di MIlano. Sessantaquattresima ammissione su Euronext nel 2026. La società ha raccolto 5,5 milioni di euro",
-      "publishedAt": "2026-09-21T12:27:33.000Z",
-      "sourceId": "wall-street-italia",
-      "sourceName": "Wall Street Italia",
-      "category": "economia"
     },
     {
       "id": "help-net-security-17hm9bx",
@@ -64,36 +824,6 @@
       "category": "cyber"
     },
     {
-      "id": "ansa-pmi-1mek9ba",
-      "title": "Protocollo d'intesa fra Abi e Fondazione Alzheimer Italia Ets",
-      "url": "https://www.ansa.it/sito/notizie/economia/pmi/2026/09/21/protocollo-dintesa-fra-abi-e-fondazione-alzheimer-italia-ets_d8335add-47b0-48a6-8303-9fae3e7e4e73.html",
-      "summary": "(ANSA) - ROMA, 21 SET - Abi e Fondazione Alzheimer Italia Ets (già Federazione Alzheimer Italia) insieme per rafforzare la diffusione di una cultura dell'inclusione e dell'accessibilità e favorire la partecipazione alla vita finanziaria, sociale e culturale delle persone con fragilità cognitiva e dei loro familiari.…",
-      "publishedAt": "2026-09-21T12:22:03.000Z",
-      "sourceId": "ansa-pmi",
-      "sourceName": "ANSA — PMI",
-      "category": "economia"
-    },
-    {
-      "id": "agenda-digitale-3rbagl",
-      "title": "Rischio estinzione: chi guadagna davvero dalla paura dell’AI",
-      "url": "https://www.agendadigitale.eu/cultura-digitale/rischio-estinzione-chi-guadagna-davvero-dalla-paura-dellai",
-      "summary": "La paura dell’estinzione legata all’AI entra nella finanza, nella regolamentazione e nella competizione geopolitica. Tra valutazioni miliardarie, appelli alla prudenza, interessi industriali e reazioni dei mercati, il rischio esistenziale diventa la chiave interpretativa di una partita economica che coinvolge i…",
-      "publishedAt": "2026-09-21T12:21:00.000Z",
-      "sourceId": "agenda-digitale",
-      "sourceName": "Agenda Digitale",
-      "category": "bi"
-    },
-    {
-      "id": "ansa-pmi-x6k1xi",
-      "title": "La Pietra, \"Carta Dedicata a Te\" supporto concreto per famiglie e made in Italy",
-      "url": "https://www.ansa.it/sito/notizie/economia/pmi/2026/09/21/la-pietra-carta-dedicata-a-te-supporto-concreto-per-famiglie-e-made-in-italy_f72c2594-b8f0-4a76-8be2-0f58bf5d70c5.html",
-      "summary": "(v.'Al via nuova edizione \"Carta Dedicata a Te\"...' delle 12:47) (ANSA) - ROMA, 21 SET - \"La nuova edizione della \"Carta Dedicata a Te\" dimostra ancora una volta come il governo Meloni e il Masaf stiano lavorando con determinazione, visione strategica e profonda giustizia sociale. Questa misura, voluta dal ministro…",
-      "publishedAt": "2026-09-21T12:20:55.000Z",
-      "sourceId": "ansa-pmi",
-      "sourceName": "ANSA — PMI",
-      "category": "economia"
-    },
-    {
       "id": "pmi-it-t9q0xu",
       "title": "Efficienza energetica, edifici in classe F-G nel mirino della Direttiva Case Green",
       "url": "https://www.pmi.it/economia/mercati/500001/efficienza-energetica-edifici-case-green.html",
@@ -104,44 +834,14 @@
       "category": "finanziamenti"
     },
     {
-      "id": "wall-street-italia-nyw4yw",
-      "title": "Piazza Affari: Technoprobe debutta nel FTSE MIB al posto di DiaSorin e scatta oltre il +4%",
-      "url": "https://www.wallstreetitalia.com/news/piazza-affari-technoprobe-debutta-nel-ftse-mib-al-posto-di-diasorin-e-scatta-oltre-il-4",
-      "summary": "A partire da oggi, lunedì 21 settembre, il gruppo lombardo prende il posto di DiaSorin nell’ambito dell’ultima revisione trimestrale degli indici",
-      "publishedAt": "2026-09-21T12:13:59.000Z",
-      "sourceId": "wall-street-italia",
-      "sourceName": "Wall Street Italia",
+      "id": "finanza-operativa-1k019yi",
+      "title": "Pictet AM: “Ecco perché le azioni possono continuare a salire”",
+      "url": "https://www.bluerating.com/mercati/877003/pictet-am-ecco-perche-le-azioni-possono-continuare-a-salire",
+      "summary": "L’aumento costante dei rendimenti dei titoli di Stato ripropone una domanda ricorrente per gli investitori: le azioni possono continuare a crescere dopo i guadagni a due cifre messi a segno quest’anno? Secondo gli esperti della Strategy Unit di Pictet Asset Management, le preoccupazioni sulla sostenibilità del rally…",
+      "publishedAt": "2026-09-21T12:01:16.000Z",
+      "sourceId": "finanza-operativa",
+      "sourceName": "Finanza Operativa",
       "category": "economia"
-    },
-    {
-      "id": "ansa-pmi-8zn86k",
-      "title": "A Lubiana incontro tra Confindustria Slovenia e vertici ministero Esteri",
-      "url": "https://www.ansa.it/sito/notizie/economia/pmi/2026/09/21/a-lubiana-incontro-tra-confindustria-slovenia-e-vertici-ministero-esteri_973581bd-c0d6-412a-a15e-2ff8f0aece2a.html",
-      "summary": "(ANSA) - BELGRADO, 21 SET - Si è tenuto a Lubiana un incontro istituzionale tra una delegazione di Confindustria Slovenia, guidata da Anna Mareschi Danieli, affiancata dai rappresentanti dell'agenzia Ice e dell'Ambasciata d'Italia in Slovenia. La delegazione italiana ha incontrato i vertici della Direzione per la…",
-      "publishedAt": "2026-09-21T12:08:02.000Z",
-      "sourceId": "ansa-pmi",
-      "sourceName": "ANSA — PMI",
-      "category": "economia"
-    },
-    {
-      "id": "agenda-digitale-nrxzg5",
-      "title": "WhatsApp Business a pagamento, il vuoto di regole che pesa sulle imprese",
-      "url": "https://www.agendadigitale.eu/mercati-digitali/whatsapp-business-a-pagamento-il-vuoto-di-regole-che-pesa-sulle-imprese",
-      "summary": "Dal primo ottobre 2026 Meta introduce una tariffa anche per i messaggi di assistenza su WhatsApp Business oltre la soglia gratuita. Per imprese e professionisti si apre un problema economico e contrattuale che coinvolge regolamento P2B, Digital Markets Act, codice civile e disciplina della dipendenza economica…",
-      "publishedAt": "2026-09-21T12:08:00.000Z",
-      "sourceId": "agenda-digitale",
-      "sourceName": "Agenda Digitale",
-      "category": "bi"
-    },
-    {
-      "id": "01net-105q1l2",
-      "title": "Lumentum, Qualcomm, and Corning to Demonstrate High-Density 1060 nm VCSEL Optical D2D Connectivity for AI Scale-Up at ECOC 2026",
-      "url": "https://www.01net.it/lumentum-qualcomm-and-corning-to-demonstrate-high-density-1060-nm-vcsel-optical-d2d-connectivity-for-ai-scale-up-at-ecoc-2026",
-      "summary": "Joint demonstration showcases a massively parallel optical die-to-die architecture designed to extend high-bandwidth, low-power, low-latency connectivity over multimode fiberMALAGA, Spain--(BUSINESS WIRE)--Lumentum Holdings Inc. (“Lumentum”) today ann... L'articolo Lumentum, Qualcomm, and Corning to Demonstrate…",
-      "publishedAt": "2026-09-21T12:07:00.000Z",
-      "sourceId": "01net",
-      "sourceName": "01net",
-      "category": "digitale"
     },
     {
       "id": "kdnuggets-r3754u",
@@ -154,134 +854,14 @@
       "category": "bi"
     },
     {
-      "id": "01net-wxgdyg",
-      "title": "Quectel Launches SE200ZC-AP Smart Module Bringing AI-Powered Vision to Security, Industrial, and Smart Home Devices",
-      "url": "https://www.01net.it/quectel-launches-se200zc-ap-smart-module-bringing-ai-powered-vision-to-security-industrial-and-smart-home-devices",
-      "summary": "BELGRADE, Serbia--(BUSINESS WIRE)--Quectel Wireless Solutions, a global end-to-end IoT solutions provider, today announced the SE200ZC-AP, a new smart module designed to give manufacturers a faster path to AI-enabled cameras, industrial vision systems,... L'articolo Quectel Launches SE200ZC-AP Smart Module Bringing…",
-      "publishedAt": "2026-09-21T12:00:00.000Z",
-      "sourceId": "01net",
-      "sourceName": "01net",
-      "category": "digitale"
-    },
-    {
-      "id": "01net-eoohix",
-      "title": "Baby Safety Alliance® Announces 2026 Awards of Excellence Winners",
-      "url": "https://www.01net.it/baby-safety-alliance-announces-2026-awards-of-excellence-winners",
-      "summary": "Honoring top new baby and children’s productsMT. LAUREL, N.J.--(BUSINESS WIRE)--#2026AwardsofExcellence--The Baby Safety Alliance recently announced the winners of its 2026 Awards of Excellence. Now in its 37th year, the program evaluates products acr... L'articolo Baby Safety Alliance® Announces 2026 Awards of…",
-      "publishedAt": "2026-09-21T12:00:00.000Z",
-      "sourceId": "01net",
-      "sourceName": "01net",
-      "category": "digitale"
-    },
-    {
-      "id": "ansa-pmi-1rpuoaw",
-      "title": "Gasolio alle stelle, coop pesca e comuni Romagna chiedono sblocco credito d'imposta",
-      "url": "https://www.ansa.it/sito/notizie/economia/pmi/2026/09/21/gasolio-alle-stelle-coop-pesca-e-comuni-romagna-chiedono-sblocco-credito_184e42ef-eeb4-47cb-85af-6c1ed7ce0d12.html",
-      "summary": "(ANSA) - BOLOGNA, 21 SET - Sette Comuni della costa romagnola e quattordici cooperative di pesca aderenti a Legacoop scrivono al ministro dell'Agricoltura, Francesco Lollobrigida per chiedere lo sblocco del credito d'imposta sul gasolio, mentre il prezzo del carburante per la pesca ha raggiunto 1,3 euro al litro, mai…",
-      "publishedAt": "2026-09-21T11:58:14.000Z",
-      "sourceId": "ansa-pmi",
-      "sourceName": "ANSA — PMI",
-      "category": "economia"
-    },
-    {
-      "id": "agenda-digitale-g0jqjw",
-      "title": "L’AI non offre solo risposte: decide quali possibilità diventano reali",
-      "url": "https://www.agendadigitale.eu/cultura-digitale/lai-non-offre-solo-risposte-decide-quali-possibilita-diventano-reali",
-      "summary": "L’intelligenza artificiale e i sistemi connessi moltiplicano le possibilità, ma rendono sempre più importante capire chi le organizza, quali alternative diventano visibili e quali restano escluse. Tra automazione, interdipendenza e responsabilità emerge così il nodo della governance tecnologica e dei limiti necessari…",
-      "publishedAt": "2026-09-21T11:58:00.000Z",
-      "sourceId": "agenda-digitale",
-      "sourceName": "Agenda Digitale",
-      "category": "bi"
-    },
-    {
-      "id": "bigdata4innovation-31bq1n",
+      "id": "zerouno-31bq1n",
       "title": "Cybersecurity, le aziende affidano ai provider anche la guida della sicurezza",
       "url": "https://www.zerounoweb.it/cyber-security/cybersecurity-le-aziende-affidano-ai-provider-anche-la-guida-della-sicurezza",
       "summary": "Secondo Sophos, quasi metà dei clienti chiede ai fornitori di servizi gestiti di assumere funzioni da CISO. L’84% prevede un aumento delle richieste, mentre compliance, frammentazione degli strumenti e processi manuali condizionano lo sviluppo dell’offerta L'articolo Cybersecurity, le aziende affidano ai provider…",
       "publishedAt": "2026-09-21T11:57:43.000Z",
-      "sourceId": "bigdata4innovation",
-      "sourceName": "BigData4Innovation",
+      "sourceId": "zerouno",
+      "sourceName": "ZeroUno",
       "category": "bi"
-    },
-    {
-      "id": "sole24ore-economia-recvha",
-      "title": "Sanremo chiude la porta all’AI: «Canzoni espressione della creatività umana»",
-      "url": "https://www.ilsole24ore.com/art/sanremo-chiude-porta-all-ai-canzoni-espressione-creativita-umana-AJJdVuJB",
-      "summary": "L’intelligenza artificiale resta fuori dalle canzoni in gara al Festival di Sanremo. A mettere nero su bianco il principio è il nuovo regolamento della manifestazione, che per l’edizione 2027 introduce...",
-      "publishedAt": "2026-09-21T11:55:00.000Z",
-      "sourceId": "sole24ore-economia",
-      "sourceName": "Il Sole 24 Ore — Economia",
-      "category": "economia"
-    },
-    {
-      "id": "startupbusiness-1h3kvx4",
-      "title": "Baby Gang, insulti contro giornalista: il trapper assolto da accusa di istigazione a delinquere",
-      "url": "https://www.startupbusiness.it/baby-gang-insulti-contro-giornalista-il-trapper-assolto-da-accusa-di-istigazione-a-delinquere/199247",
-      "summary": "(Adnkronos) - Il trapper Baby Gang, 25 anni, all'anagrafe Zaccaria Mouhib, è stato assolto dalle accuse di diffamazione e istigazione a delinquere e condannato a una multa per trattamento illecito di dati personali. Lo...",
-      "publishedAt": "2026-09-21T11:50:21.000Z",
-      "sourceId": "startupbusiness",
-      "sourceName": "Startupbusiness",
-      "category": "strategia"
-    },
-    {
-      "id": "startupbusiness-vk11ca",
-      "title": "Tragedia Partinico, madre e figlio morti in cantina forse per esalazioni del mosto di uva",
-      "url": "https://www.startupbusiness.it/tragedia-partinico-madre-e-figlio-morti-in-cantina-forse-per-esalazioni-del-mosto-di-uva/199249",
-      "summary": "(Adnkronos) - Tragedia a Partinico, in provincia di Palermo, dove madre e figlio sono stati trovati morti nella cantina della loro casa di via Lorenzo Perosi. Secondo le prime ricostruzioni, a provocare la morte...",
-      "publishedAt": "2026-09-21T11:49:40.000Z",
-      "sourceId": "startupbusiness",
-      "sourceName": "Startupbusiness",
-      "category": "strategia"
-    },
-    {
-      "id": "startupbusiness-1aglgel",
-      "title": "F1, il GP di Baku si sposta al sabato: il motivo dietro la scelta inedita",
-      "url": "https://www.startupbusiness.it/f1-il-gp-di-baku-si-sposta-al-sabato-il-motivo-dietro-la-scelta-inedita/199251",
-      "summary": "(Adnkronos) - Il Gran Premio d'Azerbaigian rompe la tradizione e anticipa l'intero programma del weekend di 24 ore: la gara a Baku si disputa infatti di sabato 26 settembre anziché di domenica. La decisione è stata...",
-      "publishedAt": "2026-09-21T11:48:48.000Z",
-      "sourceId": "startupbusiness",
-      "sourceName": "Startupbusiness",
-      "category": "strategia"
-    },
-    {
-      "id": "pmi-it-psj4uh",
-      "title": "Contributi fino a 250mila euro per DOP e IGP agroalimentari: come fare domanda",
-      "url": "https://www.pmi.it/economia/finanziamenti/420367/agroalimentare-nuovi-incentivi-per-i-prodotti-dop-igp.html",
-      "summary": "Consorzi e organismi associativi possono finanziare fiere, concorsi, formazione e ricerca con rimborso spese fino al 90%: come fare domanda via PEC entro il 23 settembre.",
-      "publishedAt": "2026-09-21T11:48:47.000Z",
-      "sourceId": "pmi-it",
-      "sourceName": "PMI.it",
-      "category": "finanziamenti"
-    },
-    {
-      "id": "bleeping-computer-1l50tgs",
-      "title": "Microsoft: September updates break File History backup feature",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-updates-break-file-history-backup-feature",
-      "summary": "Microsoft warned that the built-in File History backup feature in Windows may stop working on some systems after installing the September 2026 security updates. [...]",
-      "publishedAt": "2026-09-21T11:45:54.000Z",
-      "sourceId": "bleeping-computer",
-      "sourceName": "BleepingComputer",
-      "category": "cyber"
-    },
-    {
-      "id": "startupbusiness-16zk8a",
-      "title": "Belen e Okoye insieme a Milano, flirt in corso? Il video che alimenta il gossip",
-      "url": "https://www.startupbusiness.it/belen-e-okoye-insieme-a-milano-flirt-in-corso-il-video-che-alimenta-il-gossip/199253",
-      "summary": "(Adnkronos) - Flirt in corso tra Belen Rodriguez e Maduka Okoye? L'indiscrezione è nata dopo un video, diventato virale, che mostra la showgirl argentina e il portiere dell'Udinese insieme in un locale di Milano. Dal...",
-      "publishedAt": "2026-09-21T11:43:35.000Z",
-      "sourceId": "startupbusiness",
-      "sourceName": "Startupbusiness",
-      "category": "strategia"
-    },
-    {
-      "id": "wall-street-italia-1ajt46n",
-      "title": "Ubs lancia il primo ETF attivo sulle azioni globali",
-      "url": "https://www.wallstreetitalia.com/ubs-lancia-il-primo-etf-attivo-sulle-azioni-globali",
-      "summary": "UBS Asset Management ha annunciato la quotazione dell’UBS Global Equity Income Plus UCITS ETF, il primo fondo della propria gamma di ETF che fa leva sulle competenze di UBS nella gestione azionaria attiva. La quotazione segue quella, avvenuta lo scorso anno, dei primi fondi obbligazionari attivi: l’UBS EUR AAA CLO…",
-      "publishedAt": "2026-09-21T11:39:52.000Z",
-      "sourceId": "wall-street-italia",
-      "sourceName": "Wall Street Italia",
-      "category": "economia"
     },
     {
       "id": "ai4business-hhlcq6",
@@ -297,81 +877,21 @@
       "id": "corcom-14s17de",
       "title": "Data center AI energivori, la mossa degli Usa: elettricità a carico delle big tech",
       "url": "https://www.corrierecomunicazioni.it/digital-economy/data-center-ai-energivori-la-mossa-degli-usa-elettricita-a-carico-delle-big-tech",
-      "summary": "Alla Camera americana passa il Ratepayer Protection Act proposto dai Repubblicani: i grandi consumatori di energia come i data center copriranno i costi di qualsiasi potenziamento necessario alla rete elettrica. Ma gli Stati potranno aderire su base volontaria. I Democratici approvano ma promettono battaglia al Senato…",
+      "summary": "Alla Camera passa il Ratepayer Protection Act proposto dai Repubblicani: i data center che consumano più di 100 Megawatt dovranno coprire i costi di potenziamento della rete elettrica. È uno standard federale a cui gli Stati potranno aderire solo su base volontaria: i Democratici approvano, ma promettono battaglia al…",
       "publishedAt": "2026-09-21T11:12:54.000Z",
       "sourceId": "corcom",
       "sourceName": "CorCom",
       "category": "digitale"
     },
     {
-      "id": "milano-finanza-1hz8ffx",
-      "title": "Ferrari Hypersail, scelti i primi velisti per il monoscafo volante di Maranello",
-      "url": "https://www.milanofinanza.it/news/ferrari-hypersail-scelti-i-primi-due-velisti-per-il-monoscafo-volante-di-maranello-202609211300284101",
-      "summary": "",
-      "publishedAt": "2026-09-21T11:10:00.000Z",
-      "sourceId": "milano-finanza",
-      "sourceName": "Milano Finanza",
+      "id": "finanza-operativa-1c41vvc",
+      "title": "Dieci lezioni sulla gestione del patrimonio concentrato",
+      "url": "https://www.bluerating.com/mercati/876969/dieci-lezioni-sulla-gestione-del-patrimonio-concentrato",
+      "summary": "Ogni posizione concentrata racconta una storia diversa. Per un investitore può rappresentare decenni dedicati alla costruzione di un’azienda di famiglia, per un altro può trattarsi di un patrimonio accumulato in qualità di dirigente o dipendente agli inizi. In ogni caso, l’asset concentrato spesso racchiude un valore…",
+      "publishedAt": "2026-09-21T10:59:56.000Z",
+      "sourceId": "finanza-operativa",
+      "sourceName": "Finanza Operativa",
       "category": "economia"
-    },
-    {
-      "id": "milano-finanza-dtu6rx",
-      "title": "Die Linke primo partito a Berlino grazie al suo programma di espropri immobiliari",
-      "url": "https://www.milanofinanza.it/news/die-linke-primo-partito-a-berlino-piace-il-suo-programma-di-espropri-immobiliari-202609211307045750",
-      "summary": "",
-      "publishedAt": "2026-09-21T11:00:00.000Z",
-      "sourceId": "milano-finanza",
-      "sourceName": "Milano Finanza",
-      "category": "economia"
-    },
-    {
-      "id": "ai4business-1nw0wy",
-      "title": "Boom della spesa AI, ma senza governance cresce il rischio",
-      "url": "https://www.ai4business.it/intelligenza-artificiale/boom-della-spesa-ai-ma-senza-governance-cresce-il-rischio",
-      "summary": "Gartner stima che entro il 2027 il 60% delle organizzazioni che ignorano le resistenze culturali nella data governance non riuscirà a governare l’AI. Il problema non riguarda solo qualità e disponibilità dei dati: servono responsabilità, competenze, processi condivisi e coinvolgimento aziendale. Spesa mondiale record:…",
-      "publishedAt": "2026-09-21T10:57:55.000Z",
-      "sourceId": "ai4business",
-      "sourceName": "AI4Business",
-      "category": "bi"
-    },
-    {
-      "id": "milano-finanza-hvbaqy",
-      "title": "Francia, Moody’s pronta al taglio del rating secondo Unicredit. Ofi: tre scenari per lo spread Oat-Bund",
-      "url": "https://www.milanofinanza.it/news/francia-moody-s-pronta-al-taglio-del-rating-secondo-unicredit-ofi-tre-scenari-per-lo-spread-oat-bund-202609211300349509",
-      "summary": "",
-      "publishedAt": "2026-09-21T10:55:00.000Z",
-      "sourceId": "milano-finanza",
-      "sourceName": "Milano Finanza",
-      "category": "economia"
-    },
-    {
-      "id": "wall-street-italia-jnqom8",
-      "title": "Google, multa da di 403 milioni di euro in Irlanda per violazione delle norme europee sui dati",
-      "url": "https://www.wallstreetitalia.com/news/google-multa-da-di-403-milioni-di-euro-in-irlanda-per-violazione-delle-norme-europee-sui-dati",
-      "summary": "Google è stato sanzionato con una multa di 403 milioni di euro dall’autorità irlandese per la protezione dei dati per aver violato il GDPR riguardo ai dati di geolocalizzazione degli utenti. Questa multa rappresenta la quarta più alta inflitta dalla Commissione irlandese per la protezione dei dati, responsabile della…",
-      "publishedAt": "2026-09-21T10:54:16.000Z",
-      "sourceId": "wall-street-italia",
-      "sourceName": "Wall Street Italia",
-      "category": "economia"
-    },
-    {
-      "id": "help-net-security-lan4gt",
-      "title": "Scammers impersonate cops, use arrest threats to extort victims",
-      "url": "https://www.helpnetsecurity.com/2026/09/21/fake-police-federal-agents-scams",
-      "summary": "Scammers are posing as police officers and federal agents, threatening arrest unless victims pay up, the FBI warns. The FBI’s Internet Crime Complaint Center (IC3) updated an alert it first issued in 2022, citing “losses totaling more than $1.6 billion” between January 2025 and July 2026. According to the FBI, most…",
-      "publishedAt": "2026-09-21T10:53:24.000Z",
-      "sourceId": "help-net-security",
-      "sourceName": "Help Net Security",
-      "category": "cyber"
-    },
-    {
-      "id": "key4biz-4v4tal",
-      "title": "OVHcloud e la corsa al calcolo quantistico: “Così l’Europa protegge la sua indipendenza”",
-      "url": "https://www.key4biz.it/ovhcloud-e-la-corsa-al-calcolo-quantistico-cosi-leuropa-protegge-la-sua-indipendenza/588295",
-      "summary": "(Adnkronos) – Il percorso di innovazione europea nel calcolo quantistico trova una coordinata fondamentale nell’impegno strategico di OVHcloud, leader continentale del cloud che continua a potenziare la propria Quantum Platform con l’obiettivo di rendere accessibile e scalabile questa tecnologia di nuova generazione.…",
-      "publishedAt": "2026-09-21T10:46:12.000Z",
-      "sourceId": "key4biz",
-      "sourceName": "Key4biz",
-      "category": "digitale"
     },
     {
       "id": "economyup-617b8d",
@@ -414,16 +934,6 @@
       "category": "strategia"
     },
     {
-      "id": "milano-finanza-66y3ic",
-      "title": "Aegon Am lancia il Financial Credit Opportunities Fund",
-      "url": "https://www.milanofinanza.it/news/aegon-am-lancia-il-financial-credit-opportunities-fund-202609171841227269",
-      "summary": "",
-      "publishedAt": "2026-09-21T10:35:00.000Z",
-      "sourceId": "milano-finanza",
-      "sourceName": "Milano Finanza",
-      "category": "economia"
-    },
-    {
       "id": "corcom-13velfi",
       "title": "Poste-Tim, riapre l’Opas al prezzo migliorato 1,97 euro cash: si punta al 90% del capitale",
       "url": "https://www.corrierecomunicazioni.it/telco/poste-tim-riapre-lopas-al-prezzo-migliorato-197-euro-cash-obiettivo-delisting-e-integrazione-della-telco",
@@ -432,36 +942,6 @@
       "sourceId": "corcom",
       "sourceName": "CorCom",
       "category": "digitale"
-    },
-    {
-      "id": "economyup-1e0wpz1",
-      "title": "Amazon Music Unlimited spinge sull’audio entertainment: 4 mesi gratis con musica, podcast e audiolibri amazon-music-unlimited-offerta-promo-audiolibri-podcast",
-      "url": "https://www.economyup.it/utility-offerte/amazon-music-unlimited-offerta-promo-audiolibri-podcast",
-      "summary": "Amazon Music Unlimited ha lanciato una promozione disponibile fino al 9 ottobre 2026: i nuovi iscritti possono ottenere fino a quattro mesi gratuiti. L'Abbonamento Individuale comprende 100 milioni di brani senza pubblicità, podcast, oltre 350.000 audiolibri e audio HD e 3D L'articolo Amazon Music Unlimited spinge…",
-      "publishedAt": "2026-09-21T10:23:54.000Z",
-      "sourceId": "economyup",
-      "sourceName": "EconomyUp",
-      "category": "strategia"
-    },
-    {
-      "id": "key4biz-ll6j2u",
-      "title": "AI, Giuseppe Italiano (Luiss): “Se l’Europa scrive le regole e poi si fida delle aziende, non è sovrana: è dipendente”",
-      "url": "https://www.key4biz.it/ai-giuseppe-italiano-luiss-se-leuropa-scrive-le-regole-e-poi-si-fida-delle-aziende-non-e-sovrana-e-dipendente/588288",
-      "summary": "L’intelligenza artificiale (AI) sta entrando in una fase nuova: dai modelli che generano contenuti si passa agli agenti AI, sistemi capaci di utilizzare strumenti, accedere a dati e compiere azioni con una supervisione umana sempre più limitata. In aggiunta, come visto in questi ultimi mesi, con l’autonomia cambiano…",
-      "publishedAt": "2026-09-21T10:11:00.000Z",
-      "sourceId": "key4biz",
-      "sourceName": "Key4biz",
-      "category": "digitale"
-    },
-    {
-      "id": "economyup-tv2uw2",
-      "title": "Cosa insegna la prima serie TV cinese generata con l’AI sull’adozione dell’AI in azienda",
-      "url": "https://www.economyup.it/innovazione/cosa-insegna-la-prima-serie-tv-cinese-generata-con-lai-sulladozione-dellai-in-azienda",
-      "summary": "Con Seedance di ByteDance Mango TV ha prodotto 30 episodi in meno di cinque mesi e ha ricomposto il team attorno a nuovi ruoli. Il caso mostra che l’AI adoption crea trasformazione solo quando ridisegna processi, responsabilità e competenze, con regole, governance e cultura dell’errore adeguate L'articolo Cosa insegna…",
-      "publishedAt": "2026-09-21T10:08:57.000Z",
-      "sourceId": "economyup",
-      "sourceName": "EconomyUp",
-      "category": "strategia"
     },
     {
       "id": "commissione-ue-1vdj945",
@@ -484,46 +964,6 @@
       "category": "cyber"
     },
     {
-      "id": "key4biz-m5lda3",
-      "title": "Tim, l’Opas di Poste riapre fino al 25 settembre: cosa succede se l’offerta va sopra (o sotto) il 90%",
-      "url": "https://www.key4biz.it/tim-lopas-di-poste-riapre-fino-al-25-settembre-cosa-succede-se-lofferta-va-sopra-o-sotto-il-90/588277",
-      "summary": "L’Opas di Poste su Tim riapre oggi per un periodo aggiuntivo di cinque giorni, per chiudere definitivamente venerdì 25 settembre. L’obiettivo di questi tempi supplementari è dare tempo agli azionisti Tim che per un motivo o per l’altro ancora non hanno aderito all’operazione di farlo in questa seconda ed ultima…",
-      "publishedAt": "2026-09-21T09:48:42.000Z",
-      "sourceId": "key4biz",
-      "sourceName": "Key4biz",
-      "category": "digitale"
-    },
-    {
-      "id": "sole24ore-economia-100i0lq",
-      "title": "Nexture si rafforza in Medio Oriente con l’acquisizione di La Crema",
-      "url": "https://www.ilsole24ore.com/art/nexture-si-rafforza-medio-oriente-l-acquisizione-la-crema-AJiV2mJB",
-      "summary": "Nexture , gruppo specializzato nello sviluppo e nella produzione di ingredienti alimentari di alta qualità e soluzioni a valore aggiunto controllato da Investindustrial, ha sottoscritto un accordo per l’acquisizione di La...",
-      "publishedAt": "2026-09-21T09:48:00.000Z",
-      "sourceId": "sole24ore-economia",
-      "sourceName": "Il Sole 24 Ore — Economia",
-      "category": "economia"
-    },
-    {
-      "id": "ai4business-1dmunhd",
-      "title": "Astra for Law: OpenAI entra nel mercato legal tech",
-      "url": "https://www.ai4business.it/intelligenza-artificiale/bozza-automatica",
-      "summary": "OpenAI porta GPT-6 Astra nel settore legale con una piattaforma che combina intelligenza artificiale, ricerca su oltre 230 milioni di pagine giuridiche e integrazioni con i principali software professionali. La mossa aumenta la pressione su Thomson Reuters, Harvey, Anthropic e Google e punta al mercato degli studi…",
-      "publishedAt": "2026-09-21T09:45:51.000Z",
-      "sourceId": "ai4business",
-      "sourceName": "AI4Business",
-      "category": "bi"
-    },
-    {
-      "id": "help-net-security-cwhvpu",
-      "title": "Siemba brings continuous IDOR testing to production APIs",
-      "url": "https://www.helpnetsecurity.com/2026/09/21/siemba-idor-automated-testing",
-      "summary": "Siemba has announced automated testing for insecure direct object reference (IDOR) as part of its API Security Testing capability, which tests REST, GraphQL and SOAP APIs for the vulnerability classes most likely to expose customer data. A 200-endpoint API collection can be tested for IDOR in under an hour. The same…",
-      "publishedAt": "2026-09-21T09:39:44.000Z",
-      "sourceId": "help-net-security",
-      "sourceName": "Help Net Security",
-      "category": "cyber"
-    },
-    {
       "id": "cybersecurity360-16f90rw",
       "title": "Hosting WordPress gestito e sicurezza cloud: l’architettura ad alta disponibilità con AI integrata di Ionos",
       "url": "https://www.cybersecurity360.it/cultura-cyber/ionos-hosting-wordpress-sicurezza-cloud",
@@ -532,16 +972,6 @@
       "sourceId": "cybersecurity360",
       "sourceName": "Cybersecurity360",
       "category": "cyber"
-    },
-    {
-      "id": "pmi-it-15jptws",
-      "title": "Quando l’imprenditore diventa responsabile HR senza accorgersene",
-      "url": "https://www.pmi.it/impresa/business-e-project-management/499990/imprenditore-gestione-risorse-umane.html",
-      "summary": "Nelle PMI in crescita, ruoli poco chiari e responsabilità che tornano al titolare possono trasformarlo nel gestore quotidiano di persone e problemi.",
-      "publishedAt": "2026-09-21T09:21:04.000Z",
-      "sourceId": "pmi-it",
-      "sourceName": "PMI.it",
-      "category": "finanziamenti"
     },
     {
       "id": "corcom-1839uv0",
@@ -554,6 +984,16 @@
       "category": "digitale"
     },
     {
+      "id": "italia-oggi-18n0qnl",
+      "title": "Energia, agosto da record: domanda elettrica mai così alta in Italia",
+      "url": "https://www.italiaoggi.it/economia-e-politica/energia-agosto-da-record-domanda-elettrica-mai-cosi-alta-in-italia-yfah22um",
+      "summary": "",
+      "publishedAt": "2026-09-21T09:13:00.000Z",
+      "sourceId": "italia-oggi",
+      "sourceName": "Italia Oggi",
+      "category": "fiscale"
+    },
+    {
       "id": "industry4business-1i2hxlm",
       "title": "Dopo il PNRR le aziende temono la crisi degli investimenti. De Martino (Anie): “L’Italia deve continuare a produrre tecnologia”",
       "url": "https://www.innovationpost.it/attualita/politica/dopo-il-pnrr-le-aziende-temono-la-crisi-degli-investimenti-de-martino-anie-litalia-deve-continuare-a-produrre-tecnologia",
@@ -561,16 +1001,6 @@
       "publishedAt": "2026-09-21T09:12:23.000Z",
       "sourceId": "industry4business",
       "sourceName": "Industry4Business",
-      "category": "digitale"
-    },
-    {
-      "id": "key4biz-umadga",
-      "title": "iliad premiata per il quinto anno di seguito per il miglior customer service Tlc in Italia",
-      "url": "https://www.key4biz.it/iliad-premiata-per-il-quinto-anno-di-seguito-per-il-miglior-customer-service-tlc-in-italia/588261",
-      "summary": "Cinque anni di fila sul gradino più alto: iliad si conferma ancora una volta Miglior Servizio Clienti d’Italia secondo la classifica Italy’s Best Customer Service 2026/27[1], elaborata da L’Economia del Corriere della Sera e Statista. Un riconoscimento che premia la scelta dell’operatore di mettere al centro…",
-      "publishedAt": "2026-09-21T09:03:56.000Z",
-      "sourceId": "key4biz",
-      "sourceName": "Key4biz",
       "category": "digitale"
     },
     {
@@ -594,16 +1024,6 @@
       "category": "compliance"
     },
     {
-      "id": "corcom-kgtjhu",
-      "title": "Sovranità digitale, l’AI per la Difesa apre un nuovo fronte per l’Europa",
-      "url": "https://www.corrierecomunicazioni.it/digital-economy/sovranita-digitale-lai-per-la-difesa-apre-un-nuovo-fronte-per-leuropa",
-      "summary": "Thales presenta HexaForce e punta a trasformare la sovranità tecnologica in un vantaggio competitivo, mantenendo sotto controllo dati e software di comando. Il gruppo francese lancia così il guanto di sfida a Palantir che con la piaattaforma Maven è firnitore della Nato L'articolo Sovranità digitale, l’AI per la…",
-      "publishedAt": "2026-09-21T08:57:52.000Z",
-      "sourceId": "corcom",
-      "sourceName": "CorCom",
-      "category": "digitale"
-    },
-    {
       "id": "governo-a0g6aq",
       "title": "Former Ilva steel plant in Taranto: Government meets with trade unions at Palazzo Chigi",
       "url": "https://www.governo.it/it/node/32627",
@@ -612,16 +1032,6 @@
       "sourceId": "governo",
       "sourceName": "Governo italiano",
       "category": "compliance"
-    },
-    {
-      "id": "ai4business-dlgihz",
-      "title": "Jev e System One model: l’AI che decide senza generare testo",
-      "url": "https://www.ai4business.it/intelligenza-artificiale/jev-e-system-one-model-lai-che-decide-senza-generare-testo",
-      "summary": "Il modello di TypeSafe non genera testo, restituisce decisioni tipizzate con probabilità calibrate a 0,042 dollari per milione di token, 238 volte meno di un modello di frontiera. Architettura, addestramento RLCD, limiti documentati dal fornitore stesso e cloni open in due giorni: dove conviene usarlo e dove…",
-      "publishedAt": "2026-09-21T08:55:52.000Z",
-      "sourceId": "ai4business",
-      "sourceName": "AI4Business",
-      "category": "bi"
     },
     {
       "id": "governo-a0g6ap",
@@ -644,14 +1054,24 @@
       "category": "economia"
     },
     {
-      "id": "pmi-it-1pxieet",
-      "title": "Personal Branding su LinkedIn: come generare contatti qualificati senza fare spam",
-      "url": "https://www.pmi.it/impresa/pubblicita-e-marketing/350007/come-non-usare-linkedin-per-il-personal-branding-errori-e-best-practice.html",
-      "summary": "Profilo, contenuti, filtri e interazioni aiutano a costruire una rete professionale su LinkedIn e trasformare le connessioni in contatti qualificati.",
-      "publishedAt": "2026-09-21T08:48:03.000Z",
-      "sourceId": "pmi-it",
-      "sourceName": "PMI.it",
-      "category": "finanziamenti"
+      "id": "italia-oggi-jocs20",
+      "title": "Riserve professionali, stop dell’Antitrust",
+      "url": "https://www.italiaoggi.it/ordini-e-professioni/lapet/riserve-professionali-stop-dellantitrust-y4cdofwa",
+      "summary": "",
+      "publishedAt": "2026-09-21T08:50:00.000Z",
+      "sourceId": "italia-oggi",
+      "sourceName": "Italia Oggi",
+      "category": "fiscale"
+    },
+    {
+      "id": "italia-oggi-1re08fx",
+      "title": "Scuola, Meloni rilancia il provvedimento di Valditara: tetto del 30% agli stranieri",
+      "url": "https://www.italiaoggi.it/settori/scuola/scuola-meloni-rilancia-il-provvedimento-di-valditara-tetto-del-30-agli-stranieri-qjxbrb4n",
+      "summary": "",
+      "publishedAt": "2026-09-21T08:50:00.000Z",
+      "sourceId": "italia-oggi",
+      "sourceName": "Italia Oggi",
+      "category": "fiscale"
     },
     {
       "id": "agi-economia-phuiud",
@@ -664,24 +1084,34 @@
       "category": "economia"
     },
     {
-      "id": "hacker-news-12qnvfo",
-      "title": "ClickFix Lures Deploy ChainScript RAT Using Polygon to Rotate C2 Infrastructure",
-      "url": "https://thehackernews.com/2026/09/clickfix-lures-deploy-chainscript-rat.html",
-      "summary": "Threat actors are leveraging ClickFix-like lures to deliver a previously undocumented remote access trojan (RAT) called ChainScript. \"ChainScript has appeared under multiple build names, including ComponentTask33, UpdateDigital, HostShared, and OrchidViolet66, while presenting itself as Spotify, Zoom Workplace, and…",
-      "publishedAt": "2026-09-21T08:39:38.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "The Hacker News",
-      "category": "cyber"
+      "id": "diritto-it-1m94658",
+      "title": "Maxi concorso EPSO UE 2026: preparazione per le prove a novembre",
+      "url": "https://www.diritto.it/maxi-concorso-epso-ue-2026-1-490-posti-per-laureati",
+      "summary": "EPSO ha aggiornato il calendario del concorso per 1.490 amministratori AD5: i test di ragionamento partiranno a novembre 2026, mentre le restanti prove si svolgeranno nel 2027. Ecco le nuove indicazioni per i candidati.",
+      "publishedAt": "2026-09-21T08:30:00.000Z",
+      "sourceId": "diritto-it",
+      "sourceName": "Diritto.it",
+      "category": "compliance"
     },
     {
-      "id": "bigdata4innovation-1nss7kp",
-      "title": "AI oltre la produttività: dove i CIO vogliono investire nel 2027",
-      "url": "https://www.zerounoweb.it/cio-innovation/ai-oltre-la-produttivita-dove-i-cio-vogliono-investire-nel-2027",
-      "summary": "Se il budget IT aumentasse del 10%, quale sarebbe la priorità? I CIO intervistati investirebbero prima di tutto nell’AI locale. Non tanto in nuovi tool, quanto negli strumenti necessari per controllare costi, dati e conoscenza aziendale. Le esperienze di ItaliaPower, Leaf Space, Rinaldi Group e l'importanza di…",
-      "publishedAt": "2026-09-21T08:02:26.000Z",
-      "sourceId": "bigdata4innovation",
-      "sourceName": "BigData4Innovation",
-      "category": "bi"
+      "id": "diritto-it-1sar0ef",
+      "title": "Modello 5/2026 in scadenza: al 30 settembre il termine per gli avvocati",
+      "url": "https://www.diritto.it/modello-5-2026-cassa-forense-scadenze-e-pagamenti",
+      "summary": "",
+      "publishedAt": "2026-09-21T08:30:00.000Z",
+      "sourceId": "diritto-it",
+      "sourceName": "Diritto.it",
+      "category": "compliance"
+    },
+    {
+      "id": "italia-oggi-190whi0",
+      "title": "Welfare aziendale, sei lavoratori su dieci lo preferiscono a un aumento di stipendio",
+      "url": "https://www.italiaoggi.it/diritto-e-fisco/lavoro-e-previdenza/welfare-aziendale-sei-lavoratori-su-dieci-lo-preferiscono-a-un-aumento-di-stipendio-fj0ztlky",
+      "summary": "",
+      "publishedAt": "2026-09-21T08:08:00.000Z",
+      "sourceId": "italia-oggi",
+      "sourceName": "Italia Oggi",
+      "category": "fiscale"
     },
     {
       "id": "diritto-it-1i0nylt",
@@ -714,26 +1144,6 @@
       "category": "compliance"
     },
     {
-      "id": "cybersecurity360-173193a",
-      "title": "Commerciale o open source, l’AI in azienda tra rischi noti e trappole nascoste",
-      "url": "https://www.cybersecurity360.it/outlook/commerciale-o-open-source-lai-in-azienda-tra-rischi-noti-e-trappole-nascoste",
-      "summary": "Sempre più organizzazioni devono scegliere tra soluzioni in cloud e modelli installati internamente. Ma il dibattito sulla sicurezza è impostato male. Il perché ce lo spiega Mirco Marchetti, professore associato di UniMoRe e direttore del Centro di Ricerca Interdipartimentale sulla Sicurezza L'articolo Commerciale o…",
-      "publishedAt": "2026-09-21T07:02:49.000Z",
-      "sourceId": "cybersecurity360",
-      "sourceName": "Cybersecurity360",
-      "category": "cyber"
-    },
-    {
-      "id": "industry4business-396v48",
-      "title": "Supply chain intelligenti e resilienti: la strada verso l’Autonomous Enterprise",
-      "url": "https://www.innovationpost.it/sponsored-content/supply-chain-intelligenti-e-resilienti-la-strada-verso-lautonomous-enterprise",
-      "summary": "L'Autonomous Enterprise non è un'utopia tecnologica, ma un modello operativo reale in cui AI, dati e processi di business gestiscono autonomamente le attività operative e le persone si concentrano sulle decisioni strategiche, sulle relazioni e sulla governance. La visione di SAP. L'articolo Supply chain intelligenti e…",
-      "publishedAt": "2026-09-21T07:00:00.000Z",
-      "sourceId": "industry4business",
-      "sourceName": "Industry4Business",
-      "category": "digitale"
-    },
-    {
       "id": "cybersecitalia-1p036mq",
       "title": "Sfrutta l’AI per processare i dati esfiltrati, società cinese di hacking nel mirino dell’intelligence occidentale",
       "url": "https://www.cybersecitalia.it/sfrutta-l-ai-per-processare-i-dati-esfiltrati-una-societa-cinese-nel-mirino-dellintelligence-occidentale/69636",
@@ -742,76 +1152,6 @@
       "sourceId": "cybersecitalia",
       "sourceName": "Cybersec Italia",
       "category": "cyber"
-    },
-    {
-      "id": "diritto-it-12coid7",
-      "title": "Ipoteca nulla se il bene non è identificabile: cosa ha deciso la Cassazione",
-      "url": "https://www.diritto.it/ipoteca-nulla-se-il-bene-e-incerto-cassazione-25519",
-      "summary": "",
-      "publishedAt": "2026-09-21T07:00:00.000Z",
-      "sourceId": "diritto-it",
-      "sourceName": "Diritto.it",
-      "category": "compliance"
-    },
-    {
-      "id": "esgnews-1jpb83b",
-      "title": "Strippoli (ERM): il rischio climatico non è un problema ambientale, ma di continuità operativa e competitività",
-      "url": "https://esgnews.it/advisor/strippoli-erm-il-rischio-climatico-non-e-un-problema-ambientale-ma-di-continuita-operativa-e-competitivita",
-      "summary": "Eventi estremi, stress idrico e vulnerabilità delle filiere stanno trasformando la resilienza in una variabile strategica per le imprese. Daniele Strippoli, Nature & Water Advisory Services di ERM, spiega perché adattarsi non significa … L'articolo Strippoli (ERM): il rischio climatico non è un problema ambientale, ma…",
-      "publishedAt": "2026-09-21T07:00:00.000Z",
-      "sourceId": "esgnews",
-      "sourceName": "ESG News",
-      "category": "compliance"
-    },
-    {
-      "id": "esgnews-18pka4t",
-      "title": "La settimana ESG in un click",
-      "url": "https://esgnews.it/social/la-settimana-esg-in-un-click-193",
-      "summary": "Ghosh (Moody’s Ratings): i rischi climatici pesano su 5.200 miliardi di dollari di debito La transizione ad un’economia a basse emissioni di carbonio entra in un momento cruciale non solo per una questione … L'articolo La settimana ESG in un click proviene da ESG News .",
-      "publishedAt": "2026-09-21T07:00:00.000Z",
-      "sourceId": "esgnews",
-      "sourceName": "ESG News",
-      "category": "compliance"
-    },
-    {
-      "id": "sole24ore-economia-1fi5z6v",
-      "title": "Mutui, l’impatto dei tassi: rincaro medio fino a 540 euro all’anno sui nuovi contratti",
-      "url": "https://www.ilsole24ore.com/art/mutui-l-impatto-tassi-rincaro-medio-fino-540-euro-all-anno-nuovi-contratti-AJyscDIB",
-      "summary": "Quasi 13.500 euro in più nell’arco di 25 anni, pari a 540 euro l’anno. È il maggior costo stimato per chi stipula a ottobre un mutuo da 130mila euro rispetto...",
-      "publishedAt": "2026-09-21T06:51:26.000Z",
-      "sourceId": "sole24ore-economia",
-      "sourceName": "Il Sole 24 Ore — Economia",
-      "category": "economia"
-    },
-    {
-      "id": "industry4business-vdjzbs",
-      "title": "Urso: “Un piano straordinario per rendere l’Italia la fabbrica europea dei robot intelligenti”",
-      "url": "https://www.innovationpost.it/attualita/politica/urso-un-piano-straordinario-per-rendere-litalia-la-fabbrica-europea-dei-robot-intelligenti",
-      "summary": "Il governo lavora a un nuovo pacchetto di intervento per posizionare l'Italia nel settore della robotica avanzata e della Physical AI. Nel frattempo l'iperammortamento ha già raggiunto 6 miliardi di investimenti in tre mesi. Urso critica duramente il Green Deal dell'Ue e chiede riforme radicali. L'articolo Urso: “Un…",
-      "publishedAt": "2026-09-21T06:08:34.000Z",
-      "sourceId": "industry4business",
-      "sourceName": "Industry4Business",
-      "category": "digitale"
-    },
-    {
-      "id": "hacker-news-12ujy2o",
-      "title": "Jade Sleet Linked to Indian IT Provider Breach With FLATROOF and ROOFDECK Backdoors",
-      "url": "https://thehackernews.com/2026/09/jade-sleet-linked-to-indian-it-provider.html",
-      "summary": "The North Korean threat actor known as Jade Sleet has been attributed to the compromise of an India-based \"much smaller organization\" in the information technology (IT) services industry, once again highlighting how the adversary continues to target developers to breach target networks. Cybersecurity company…",
-      "publishedAt": "2026-09-21T06:06:44.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "The Hacker News",
-      "category": "cyber"
-    },
-    {
-      "id": "diritto-it-xs0ct9",
-      "title": "Condominio, verbale incompleto: quando basta un’omissione per annullare la delibera",
-      "url": "https://www.diritto.it/condominio-verbale-incompleto-annulla-delibera",
-      "summary": "",
-      "publishedAt": "2026-09-21T06:00:00.000Z",
-      "sourceId": "diritto-it",
-      "sourceName": "Diritto.it",
-      "category": "compliance"
     },
     {
       "id": "commercialista-telematico-1vz4z8z",
@@ -862,346 +1202,6 @@
       "sourceId": "esg360",
       "sourceName": "ESG360",
       "category": "compliance"
-    },
-    {
-      "id": "esg360-ppcr0l",
-      "title": "Climeworks porta il carbon removal nei mercati regolati",
-      "url": "https://www.esg360.it/governance/climeworks-porta-il-carbon-removal-nei-mercati-regolati",
-      "summary": "Climeworks Solutions estende l’offerta di rimozione della CO₂ con portafogli allineati ai nuovi sistemi di compliance. Il servizio integra selezione dei crediti, due diligence e monitoraggio normativo per supportare imprese e compagnie aeree nell’accesso a CORSIA, Articolo 6.2 e quadro europeo CRCF The post Climeworks…",
-      "publishedAt": "2026-09-21T02:45:00.000Z",
-      "sourceId": "esg360",
-      "sourceName": "ESG360",
-      "category": "compliance"
-    },
-    {
-      "id": "esg360-ae31ei",
-      "title": "COP 31: dalla finanza innovativa un aiuto per la decarbonizzazione della moda",
-      "url": "https://www.esg360.it/finance-esg/cop-31-dalla-finanza-innovativa-un-aiuto-per-la-decarbonizzazione-della-moda",
-      "summary": "Due rapporti della Fashion Industry Charter for Climate Action indicano come i mercati del carbonio, i prestiti sostenibili, la blended finance e i modelli collaborativi possano indirizzare capitali verso i fornitori della moda, accelerare la decarbonizzazione delle filiere e rafforzarne la competitività The post COP…",
-      "publishedAt": "2026-09-21T01:34:00.000Z",
-      "sourceId": "esg360",
-      "sourceName": "ESG360",
-      "category": "compliance"
-    },
-    {
-      "id": "agi-economia-pp2b53",
-      "title": "Manovra: attesa per l'Istat, il deficit dell'Italia sarà sotto il 3?",
-      "url": "https://www.agi.it/economia/news/2026-09-21/deficit-pil-istat-manovra-ue-39157901",
-      "summary": "AGI - Sono giorni cruciali mentre proseguono i lavori del 'cantiere manovra' e le forze di maggioranza ragionano sulle singole misure da inserire nel provvedimento che approderà il mese prossimo in Parlamento. Martedì l'Istat pubblicherà la lettura finale del rapporto deficit/Pil , relativo al 2025: se verrà…",
-      "publishedAt": "2026-09-21T01:24:00.000Z",
-      "sourceId": "agi-economia",
-      "sourceName": "AGI — Economia",
-      "category": "economia"
-    },
-    {
-      "id": "mckinsey-1o1xoxg",
-      "title": "WIRED: The AI playbook top companies use",
-      "url": "https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/wired-the-ai-playbook-top-companies-use",
-      "summary": "McKinsey’s Dan Swan explains why capturing AI’s full potential requires companies to move beyond experimentation and fundamentally rewire their businesses across technology, processes, people, and leadership.",
-      "publishedAt": "2026-09-21T00:00:00.000Z",
-      "sourceId": "mckinsey",
-      "sourceName": "McKinsey Insights",
-      "category": "aigovernance"
-    },
-    {
-      "id": "commissione-ue-a3ygyd",
-      "title": "Commission enhances energy efficiency and sustainability of data centres in the EU",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1667",
-      "summary": "European Commission Press release Brussels, 21 Sep 2026 The European Commission proposed today a common rating scheme for data centres aimed at increasing transparency on their energy use and supporting their sustainable integration into Europe's energy system.",
-      "publishedAt": "2026-09-20T22:00:00.000Z",
-      "sourceId": "commissione-ue",
-      "sourceName": "Commissione europea — Press corner",
-      "category": "finanziamenti"
-    },
-    {
-      "id": "commissione-ue-a3yjbj",
-      "title": "EU Customs Reform marks a new era for customs in Europe",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1904",
-      "summary": "European Commission Press release Brussels, 21 Sep 2026 The EU Customs Reform has entered into force, marking the start of a better, smarter and simpler customs system across the EU.",
-      "publishedAt": "2026-09-20T22:00:00.000Z",
-      "sourceId": "commissione-ue",
-      "sourceName": "Commissione europea — Press corner",
-      "category": "finanziamenti"
-    },
-    {
-      "id": "commissione-ue-1uw9xe5",
-      "title": "UN Private Sector Forum - UN Global Compact",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1912",
-      "summary": "European Commission Speech New York, 20 Sep 2026 Good morning, ladies and gentlemen, and thank you for giving me the floor at such an important event. I arrived in New York yesterday from Prague. This summer w...",
-      "publishedAt": "2026-09-20T18:13:53.000Z",
-      "sourceId": "commissione-ue",
-      "sourceName": "Commissione europea — Press corner",
-      "category": "finanziamenti"
-    },
-    {
-      "id": "bigdata4innovation-foo4i7",
-      "title": "Cybersecurity e compliance escono dai silos: la piattaforma che unifica oltre 700 asset",
-      "url": "https://www.zerounoweb.it/cyber-security/cybersecurity-e-compliance-escono-dai-silos-la-piattaforma-che-unifica-oltre-700-asset",
-      "summary": "Teleconsys ha sviluppato ZEUS per una grande azienda dei settori idrico ed energetico. La piattaforma riunisce framework, assessment e roadmap in una vista centralizzata della postura cyber. Oltre 700 asset e più di 200 utenti sono stati portati in un processo comune, tracciabile e collaborativo L'articolo…",
-      "publishedAt": "2026-09-20T16:41:00.000Z",
-      "sourceId": "bigdata4innovation",
-      "sourceName": "BigData4Innovation",
-      "category": "bi"
-    },
-    {
-      "id": "esg360-1yxr4zt",
-      "title": "LCA: cos’è il Life Cycle Assessment e come è utile alle aziende",
-      "url": "https://www.esg360.it/environmental/lca-cose-il-life-cycle-assessment-e-come-e-utile-alle-aziende",
-      "summary": "LCA o Life Cycle Assessment è una metodologia standardizzata (ISO 14040 e ISO 14044) che valuta gli impatti ambientali di un prodotto, servizio o processo lungo l’intero ciclo di vita, dall’estrazione delle materie prime alla produzione, uso, riutilizzo, riciclo e smaltimento finale The post LCA: cos’è il Life Cycle…",
-      "publishedAt": "2026-09-20T16:13:18.000Z",
-      "sourceId": "esg360",
-      "sourceName": "ESG360",
-      "category": "compliance"
-    },
-    {
-      "id": "bigdata4innovation-l5w6di",
-      "title": "Private cloud senza lock-in: l’alternativa enterprise secondo CDLAN",
-      "url": "https://www.zerounoweb.it/cloud-computing/private-cloud-senza-lock-in-lalternativa-enterprise-secondo-cdlan",
-      "summary": "La società ha ingegnerizzato un private cloud gestito basato su Proxmox, ospitato nei data center di Milano e Roma. La proposta combina autonomia operativa, sovranità del dato, backup immutabili e continuità geografica L'articolo Private cloud senza lock-in: l’alternativa enterprise secondo CDLAN proviene da ZeroUno .",
-      "publishedAt": "2026-09-20T15:29:00.000Z",
-      "sourceId": "bigdata4innovation",
-      "sourceName": "BigData4Innovation",
-      "category": "bi"
-    },
-    {
-      "id": "bleeping-computer-kcbtdi",
-      "title": "Malicious npm packages evade install-script defenses at runtime",
-      "url": "https://www.bleepingcomputer.com/news/security/malicious-npm-packages-evade-install-script-defenses-at-runtime",
-      "summary": "An ongoing npm malware campaign involving the 'indexed-btree' package shows how threat actors bypass supply chain defenses by hiding malicious code in a package's normal runtime behavior rather than in installation scripts. [...]",
-      "publishedAt": "2026-09-20T14:11:21.000Z",
-      "sourceId": "bleeping-computer",
-      "sourceName": "BleepingComputer",
-      "category": "cyber"
-    },
-    {
-      "id": "sole24ore-economia-1rc4nek",
-      "title": "Dal coworking alle case: Wao scommette sugli affitti flessibili",
-      "url": "https://www.ilsole24ore.com/art/dal-coworking-case-wao-scommette-affitti-flessibili-AJurMjHB",
-      "summary": "Affittare un appartamento per una notte, per qualche mese, fino al massimo a un anno. Si tratta del tipo di business in cui Wao – We Are Open (del gruppo...",
-      "publishedAt": "2026-09-20T13:09:35.000Z",
-      "sourceId": "sole24ore-economia",
-      "sourceName": "Il Sole 24 Ore — Economia",
-      "category": "economia"
-    },
-    {
-      "id": "bleeping-computer-152f3rb",
-      "title": "Researchers escape OpenAI Codex sandbox to run commands on host",
-      "url": "https://www.bleepingcomputer.com/news/security/researchers-escape-openai-codex-sandbox-to-run-commands-on-host",
-      "summary": "Researchers escaped OpenAI's Codex sandbox two ways, one running commands on a developer's machine from its most locked-down mode. OpenAI has patched both. [...]",
-      "publishedAt": "2026-09-20T12:00:00.000Z",
-      "sourceId": "bleeping-computer",
-      "sourceName": "BleepingComputer",
-      "category": "cyber"
-    },
-    {
-      "id": "italia-oggi-1allopo",
-      "title": "Rischio d'impresa, i settori sotto pressione e quelli più solidi in Italia",
-      "url": "https://www.italiaoggi.it/diritto-e-fisco/diritto-e-impresa/rischio-dimpresa-i-settori-sotto-pressione-e-quelli-piu-solidi-in-italia-int6nsx8",
-      "summary": "",
-      "publishedAt": "2026-09-20T01:00:00.000Z",
-      "sourceId": "italia-oggi",
-      "sourceName": "Italia Oggi",
-      "category": "fiscale"
-    },
-    {
-      "id": "italia-oggi-6gcopg",
-      "title": "Trust estero, così si determina il reddito dei beneficiari",
-      "url": "https://www.italiaoggi.it/diritto-e-fisco/fisco/trust-estero-cosi-si-determina-il-reddito-dei-beneficiari-j44bigea",
-      "summary": "",
-      "publishedAt": "2026-09-20T00:00:00.000Z",
-      "sourceId": "italia-oggi",
-      "sourceName": "Italia Oggi",
-      "category": "fiscale"
-    },
-    {
-      "id": "italia-oggi-1kpuo39",
-      "title": "Smart working, la flessibilità si paga con la connessione continua",
-      "url": "https://www.italiaoggi.it/diritto-e-fisco/lavoro-e-previdenza/smart-working-la-flessibilita-si-paga-con-la-connessione-continua-c3nhstll",
-      "summary": "",
-      "publishedAt": "2026-09-20T00:00:00.000Z",
-      "sourceId": "italia-oggi",
-      "sourceName": "Italia Oggi",
-      "category": "fiscale"
-    },
-    {
-      "id": "italia-oggi-11c9nj0",
-      "title": "Class action in Italia: un trend in forte crescita",
-      "url": "https://www.italiaoggi.it/diritto-e-fisco/giustizia/class-action-in-italia-un-trend-in-forte-crescita-lva1cyb1",
-      "summary": "",
-      "publishedAt": "2026-09-19T23:45:00.000Z",
-      "sourceId": "italia-oggi",
-      "sourceName": "Italia Oggi",
-      "category": "fiscale"
-    },
-    {
-      "id": "hacker-news-1f5quth",
-      "title": "Claude Opus 5 Helped Researchers Take Over OpenAI Staff Accounts via Chained Flaws",
-      "url": "https://thehackernews.com/2026/09/claude-opus-5-helped-researchers-take.html",
-      "summary": "Three researchers at the security firm Hacktron used Anthropic's Claude Opus 5 to chain two flaws and take over the ChatGPT and Codex accounts of several OpenAI employees, then reach an internal OpenAI code repository. The chain began with a bug in the software that runs OpenAI's public help forum and moved through a…",
-      "publishedAt": "2026-09-19T18:36:53.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "The Hacker News",
-      "category": "cyber"
-    },
-    {
-      "id": "bleeping-computer-2acoyo",
-      "title": "BragJack attacks hijack AI browser agents through malicious extensions",
-      "url": "https://www.bleepingcomputer.com/news/security/bragjack-attacks-hijack-ai-browser-agents-through-malicious-extensions",
-      "summary": "BragJack, a proof-of-concept attack from Forever Security's Gal Weizman, hijacks the AI assistants in Chrome, Edge, Opera Neon, Perplexity Comet, and Claude in Chrome using one malicious extension. The Prompt Forcing technique earned over $20,000 in bounties and two CVEs. [...]",
-      "publishedAt": "2026-09-19T14:56:31.000Z",
-      "sourceId": "bleeping-computer",
-      "sourceName": "BleepingComputer",
-      "category": "cyber"
-    },
-    {
-      "id": "hacker-news-k46i9e",
-      "title": "Can You Prove a New CVE Is Exploitable Before Attackers Do? Learn How in This Webinar",
-      "url": "https://thehackernews.com/2026/09/can-you-prove-new-cve-is-exploitable.html",
-      "summary": "A new CVE drops. Your scanner finds it. The severity score looks ugly. But that still does not answer the question that matters: Can it actually be exploited in your environment? Mythos-class AI is compressing the time between disclosure and working exploitation, while many security programs still validate risk on…",
-      "publishedAt": "2026-09-19T13:28:48.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "The Hacker News",
-      "category": "cyber"
-    },
-    {
-      "id": "agi-economia-yllk9v",
-      "title": "Paramount tratta con 12 Stati Usa per sbloccare l'acquisizione di Warner Bros.Discovery",
-      "url": "https://www.agi.it/economia/news/2026-09-19/paramount-warner-accordo-39137019",
-      "summary": "AGI - Paramount è in trattativa con i procuratori generali di 12 Stati americani per trovare un accordo sulla causa che punta a bloccare l'acquisizione di Warner Bros. Discovery , un'operazione da circa 110 miliardi di dollari destinata a ridisegnare gli equilibri dell'industria mondiale dell'intrattenimento. I…",
-      "publishedAt": "2026-09-19T11:23:05.000Z",
-      "sourceId": "agi-economia",
-      "sourceName": "AGI — Economia",
-      "category": "economia"
-    },
-    {
-      "id": "sole24ore-norme-1kls36v",
-      "title": "Le OrchiDee, donne che curano la malattia aiutando gli altri",
-      "url": "https://www.ilsole24ore.com/art/le-orchidee-donne-che-curano-malattia-aiutando-altri-AJEa4iHB",
-      "summary": "L’associazione, a Macerata, punta alla qualità della vita di chi ha un carcinoma al seno",
-      "publishedAt": "2026-09-19T03:02:01.000Z",
-      "sourceId": "sole24ore-norme",
-      "sourceName": "Il Sole 24 Ore — Norme e Tributi",
-      "category": "fiscale"
-    },
-    {
-      "id": "schneier-1725s5z",
-      "title": "Friday Squid Blogging: On Squid Egg Sacs",
-      "url": "https://www.schneier.com/blog/archives/2026/09/friday-squid-blogging-on-squid-egg-sacs.html",
-      "summary": "Short essay about squid egg sacs. As usual, you can also use this squid post to talk about the security stories in the news that I haven’t covered. Blog moderation policy.",
-      "publishedAt": "2026-09-18T21:06:00.000Z",
-      "sourceId": "schneier",
-      "sourceName": "Schneier on Security",
-      "category": "cyber"
-    },
-    {
-      "id": "dark-reading-1h2nnuq",
-      "title": "Vectra AI Launches Ascent to Help Address New Era of AI-Driven Attacks",
-      "url": "https://www.darkreading.com/cyberattacks-data-breaches/vectra-ai-launches-ascent-new-era-ai-driven-attacks",
-      "summary": "The new program expands Vectra AI's partner strategy as increasingly complex security environments and the growing use of AI create demand for broader AI expertise, services, and security outcomes.",
-      "publishedAt": "2026-09-18T20:24:51.000Z",
-      "sourceId": "dark-reading",
-      "sourceName": "Dark Reading",
-      "category": "cyber"
-    },
-    {
-      "id": "dark-reading-1l4oyd4",
-      "title": "Cisco Zero-Day Highlights API Endpoint Authentication Issues",
-      "url": "https://www.darkreading.com/vulnerabilities-threats/cisco-zero-day-api-endpoint-authentication-issues",
-      "summary": "The authentication bypass flaw CVE-2026-76460 impacts Cisco's Identity Services Engine (ISE) and received a maximum 10 out of 10 CVSS score.",
-      "publishedAt": "2026-09-18T19:26:47.000Z",
-      "sourceId": "dark-reading",
-      "sourceName": "Dark Reading",
-      "category": "cyber"
-    },
-    {
-      "id": "dark-reading-1ob43mm",
-      "title": "EY Survey Finds Autonomous AI Implementation Outpaces Oversight",
-      "url": "https://www.darkreading.com/cyberattacks-data-breaches/ey-survey-autonomous-ai-implementation-outpaces-oversight",
-      "summary": "A new survey of senior AI execs shows that while organizations are rapidly deploying AI and autonomous systems, their process and controls are not keeping pace.",
-      "publishedAt": "2026-09-18T19:23:48.000Z",
-      "sourceId": "dark-reading",
-      "sourceName": "Dark Reading",
-      "category": "cyber"
-    },
-    {
-      "id": "dark-reading-1j5wkzu",
-      "title": "MFA Won't Save You From OAuth Consent Abuse",
-      "url": "https://www.darkreading.com/vulnerabilities-threats/mfa-oauth-consent-abuse",
-      "summary": "MFA is essential, but it cannot replace OAuth governance, least-privilege scopes, consent monitoring, and rapid revocation.",
-      "publishedAt": "2026-09-18T18:15:20.000Z",
-      "sourceId": "dark-reading",
-      "sourceName": "Dark Reading",
-      "category": "cyber"
-    },
-    {
-      "id": "cybersecurity360-145e1c5",
-      "title": "Il SOC non basta più: perché la cyber resilience richiede un nuovo modello di Security Operations",
-      "url": "https://www.cybersecurity360.it/soluzioni-aziendali/il-soc-non-basta-piu-perche-la-cyber-resilience-richiede-un-nuovo-modello-di-security-operations",
-      "summary": "L'evoluzione delle minacce, la convergenza tra IT/OT e gli obblighi normativi stanno ridefinendo il ruolo dei Security Operations Center. Il progetto HyperSOC di HWG Sababa propone un modello SOC-as-a-Service che integra AI, automazione, threat intelligence e risk governance per trasformare il SOC in leva strategica…",
-      "publishedAt": "2026-09-18T14:26:59.000Z",
-      "sourceId": "cybersecurity360",
-      "sourceName": "Cybersecurity360",
-      "category": "cyber"
-    },
-    {
-      "id": "sole24ore-management-1765589",
-      "title": "Inclusività: come costruire relazioni strategiche per governare la complessità",
-      "url": "https://www.ilsole24ore.com/art/inclusivita-come-costruire-relazioni-strategiche-governare-complessita-AJV8kKHB",
-      "summary": "Oggi come non mai c’è bisogno di inclusione. Non solo in nome di un principio etico di uguaglianza, ma anche a fronte di una necessità puramente pratica. Creazione di alleanze...",
-      "publishedAt": "2026-09-18T14:24:15.000Z",
-      "sourceId": "sole24ore-management",
-      "sourceName": "Il Sole 24 Ore — Management",
-      "category": "strategia"
-    },
-    {
-      "id": "kdnuggets-m4l5ax",
-      "title": "Reusing the Prompt Prefix with a Key-Value Cache for SLM Optimization",
-      "url": "https://www.kdnuggets.com/reusing-the-prompt-prefix-with-a-key-value-cache-for-slm-optimization",
-      "summary": "In this second article in our short series on SLM optimization techniques we focus on the reuse of the prompt prefix with a key-value cache.",
-      "publishedAt": "2026-09-18T14:00:34.000Z",
-      "sourceId": "kdnuggets",
-      "sourceName": "KDnuggets",
-      "category": "bi"
-    },
-    {
-      "id": "sole24ore-norme-1oidfgs",
-      "title": "Ordini dei medici: «Estendere ai Cpr l’indagine conoscitiva sul sistema penitenziario»",
-      "url": "https://www.ilsole24ore.com/art/ordini-medici-estendere-cpr-l-indagine-conoscitiva-sistema-penitenziario-AJkGgHHB",
-      "summary": "La proposta arriva all’indomani della notizia sull’inchiesta dei falsi certificati per dichiarare l’incompatibilità con la detenzione nei Centri",
-      "publishedAt": "2026-09-18T13:48:12.000Z",
-      "sourceId": "sole24ore-norme",
-      "sourceName": "Il Sole 24 Ore — Norme e Tributi",
-      "category": "fiscale"
-    },
-    {
-      "id": "esgnews-1xee7zp",
-      "title": "Eni Foundation inaugura un nuovo reparto maternità in Ruanda",
-      "url": "https://esgnews.it/social/eni-foundation-inaugura-un-nuovo-reparto-maternita-in-ruanda",
-      "summary": "L’iniziativa di Eni Foundation rafforza l’accesso ai servizi di salute materno-infantile in 4 distretti del Paese a livello comunitario, primario e secondario del Sistema Sanitario Eni Foundation, in collaborazione con il Ministero della Salute (MoH) e il … L'articolo Eni Foundation inaugura un nuovo reparto maternità…",
-      "publishedAt": "2026-09-18T13:31:44.000Z",
-      "sourceId": "esgnews",
-      "sourceName": "ESG News",
-      "category": "compliance"
-    },
-    {
-      "id": "mckinsey-iellyh",
-      "title": "Author Talks: How to turn hope into action",
-      "url": "https://www.mckinsey.com/featured-insights/mckinsey-on-books/author-talks-how-to-turn-hope-into-action",
-      "summary": "What compels us to act when we see a problem? Draper Richards Kaplan Foundation CEO Jim Bildner reflects on social entrepreneurship, personal loss, and how hope can move us to act.",
-      "publishedAt": "2026-09-18T00:00:00.000Z",
-      "sourceId": "mckinsey",
-      "sourceName": "McKinsey Insights",
-      "category": "metodo"
-    },
-    {
-      "id": "nist-news-asnsog",
-      "title": "NIST Finalizes Guidelines on Protecting Online Identity and Access Tokens From Misuse",
-      "url": "https://www.nist.gov/news-events/news/2026/09/nist-finalizes-guidelines-protecting-online-identity-and-access-tokens",
-      "summary": "The finalized publication is designed to help organizations take effective steps to avoid exposing tokens to attackers.",
-      "publishedAt": "2026-09-15T12:00:00.000Z",
-      "sourceId": "nist-news",
-      "sourceName": "NIST — News (AI Risk Management Framework)",
-      "category": "metodo"
     }
   ],
   "sources": [
@@ -1283,7 +1283,7 @@
       "homepage": "https://www.ansa.it/sito/notizie/economia/pmi/pmi.html",
       "category": "economia",
       "status": "ok",
-      "itemCount": 42
+      "itemCount": 49
     },
     {
       "sourceId": "aodv231",
@@ -1315,7 +1315,7 @@
       "homepage": "https://www.bigdata4innovation.it/",
       "category": "bi",
       "status": "ok",
-      "itemCount": 7
+      "itemCount": 8
     },
     {
       "sourceId": "bleeping-computer",
@@ -1323,7 +1323,7 @@
       "homepage": "https://www.bleepingcomputer.com/",
       "category": "cyber",
       "status": "ok",
-      "itemCount": 12
+      "itemCount": 15
     },
     {
       "sourceId": "bruegel",
@@ -1348,7 +1348,7 @@
       "homepage": "https://ec.europa.eu/commission/presscorner/",
       "category": "finanziamenti",
       "status": "ok",
-      "itemCount": 6
+      "itemCount": 10
     },
     {
       "sourceId": "confindustria",
@@ -1364,7 +1364,7 @@
       "homepage": "https://www.corrierecomunicazioni.it/",
       "category": "digitale",
       "status": "ok",
-      "itemCount": 8
+      "itemCount": 9
     },
     {
       "sourceId": "csirt-italia",
@@ -1388,7 +1388,7 @@
       "homepage": "https://www.cybersecurity360.it/",
       "category": "cyber",
       "status": "ok",
-      "itemCount": 7
+      "itemCount": 5
     },
     {
       "sourceId": "dark-reading",
@@ -1420,7 +1420,7 @@
       "homepage": "https://www.diritto.it/",
       "category": "compliance",
       "status": "ok",
-      "itemCount": 5
+      "itemCount": 7
     },
     {
       "sourceId": "economyup",
@@ -1444,7 +1444,7 @@
       "homepage": "https://www.esgnews.it/",
       "category": "compliance",
       "status": "ok",
-      "itemCount": 5
+      "itemCount": 6
     },
     {
       "sourceId": "esg360",
@@ -1475,9 +1475,8 @@
       "name": "Finanza Operativa",
       "homepage": "https://www.finanzaoperativa.com/",
       "category": "economia",
-      "status": "error",
-      "itemCount": 0,
-      "error": "timeout dopo 15000 ms"
+      "status": "ok",
+      "itemCount": 10
     },
     {
       "sourceId": "firstonline",
@@ -1501,9 +1500,8 @@
       "name": "Forbes Italia",
       "homepage": "https://www.forbes.it/",
       "category": "strategia",
-      "status": "error",
-      "itemCount": 0,
-      "error": "HTTP 521"
+      "status": "ok",
+      "itemCount": 10
     },
     {
       "sourceId": "garante-privacy",
@@ -1527,7 +1525,7 @@
       "homepage": "https://www.governo.it/",
       "category": "compliance",
       "status": "ok",
-      "itemCount": 10
+      "itemCount": 7
     },
     {
       "sourceId": "hbr-italia",
@@ -1567,7 +1565,7 @@
       "homepage": "https://www.ilsole24ore.com/sez/norme-e-tributi",
       "category": "fiscale",
       "status": "ok",
-      "itemCount": 2
+      "itemCount": 1
     },
     {
       "sourceId": "industria-italiana",
@@ -1584,7 +1582,7 @@
       "homepage": "https://www.industry4business.it/",
       "category": "digitale",
       "status": "ok",
-      "itemCount": 10
+      "itemCount": 8
     },
     {
       "sourceId": "invitalia",
@@ -1616,7 +1614,7 @@
       "homepage": "https://www.italiaoggi.it/",
       "category": "fiscale",
       "status": "ok",
-      "itemCount": 53
+      "itemCount": 46
     },
     {
       "sourceId": "kdnuggets",
@@ -1624,7 +1622,7 @@
       "homepage": "https://www.kdnuggets.com/",
       "category": "bi",
       "status": "ok",
-      "itemCount": 2
+      "itemCount": 3
     },
     {
       "sourceId": "key4biz",
@@ -1656,7 +1654,7 @@
       "homepage": "https://www.milanofinanza.it/",
       "category": "economia",
       "status": "ok",
-      "itemCount": 62
+      "itemCount": 108
     },
     {
       "sourceId": "mimit-incentivi",
@@ -1712,7 +1710,7 @@
       "homepage": "https://www.pmi.it/",
       "category": "finanziamenti",
       "status": "ok",
-      "itemCount": 13
+      "itemCount": 14
     },
     {
       "sourceId": "pmi-finanziamenti",
@@ -1778,7 +1776,7 @@
       "homepage": "https://thehackernews.com/",
       "category": "cyber",
       "status": "ok",
-      "itemCount": 14
+      "itemCount": 15
     },
     {
       "sourceId": "uni",
@@ -1818,7 +1816,7 @@
       "homepage": "https://www.zerounoweb.it/",
       "category": "bi",
       "status": "ok",
-      "itemCount": 7
+      "itemCount": 8
     }
   ]
 }

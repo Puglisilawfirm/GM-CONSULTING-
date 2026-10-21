@@ -1,8 +1,748 @@
 {
-  "generatedAt": "2026-10-21T11:37:24.528Z",
-  "slot": "morning",
+  "generatedAt": "2026-10-21T21:31:47.881Z",
+  "slot": "evening",
   "windowHours": 72,
   "items": [
+    {
+      "id": "01net-zq5bzj",
+      "title": "Riassunto: Starburst presenta Starburst Torin, un motore di analisi nativo per GPU basato sulla cuDF di NVIDIA",
+      "url": "https://www.01net.it/riassunto-starburst-presenta-starburst-torin-un-motore-di-analisi-nativo-per-gpu-basato-sulla-cudf-di-nvidia",
+      "summary": "Starburst Torin esegue SQL in modo nativo sulle GPU NVIDIA, offrendo prestazioni di interrogazione fino a 7 volte più rapide per accelerare gli agenti IA e consentire ai team addetti ai dati di eseguire più carichi di lavoro senza spostare dati o modi... L'articolo Riassunto: Starburst presenta Starburst Torin, un…",
+      "publishedAt": "2026-10-21T21:17:00.000Z",
+      "sourceId": "01net",
+      "sourceName": "01net",
+      "category": "digitale"
+    },
+    {
+      "id": "01net-d3kzk8",
+      "title": "NineDot Energy Appoints Alexis Glick Chief Executive Officer",
+      "url": "https://www.01net.it/ninedot-energy-appoints-alexis-glick-chief-executive-officer",
+      "summary": "Energy, infrastructure and finance executive to lead NineDot’s next phase of growth Appointment comes as NineDot advances the strongest project pipeline in its historyNEW YORK--(BUSINESS WIRE)--#batterystorage--NineDot Energy, the leading developer an... L'articolo NineDot Energy Appoints Alexis Glick Chief Executive…",
+      "publishedAt": "2026-10-21T21:12:00.000Z",
+      "sourceId": "01net",
+      "sourceName": "01net",
+      "category": "digitale"
+    },
+    {
+      "id": "01net-un4mdf",
+      "title": "Mickey’s Relaunches Its Loyalty Program on the Patron Points Platform",
+      "url": "https://www.01net.it/mickeys-relaunches-its-loyalty-program-on-the-patron-points-platform",
+      "summary": "Ohio convenience retailer goes live, unlocking AGDC Tier 4 and posting early gains in sales, fuel volume, and customer growthMILAN, Ohio--(BUSINESS WIRE)--Mickey's, the Ohio-based convenience store chain known for its friendly moose mascot and 42 neig... L'articolo Mickey’s Relaunches Its Loyalty Program on the Patron…",
+      "publishedAt": "2026-10-21T21:00:00.000Z",
+      "sourceId": "01net",
+      "sourceName": "01net",
+      "category": "digitale"
+    },
+    {
+      "id": "01net-3cui6",
+      "title": "Pascal Secures Additional $9.3M to Advance Initial Commercial Deployments of its Next-Generation Cooling Technology",
+      "url": "https://www.01net.it/pascal-secures-additional-9-3m-to-advance-initial-commercial-deployments-of-its-next-generation-cooling-technology",
+      "summary": "The only American company developing solid refrigerants, Pascal has proved its technology is on par with conventional vapor-compression systems and signed a multinational beverage manufacturer as its first commercial partner.WATERTOWN, Mass.--(BUSINES... L'articolo Pascal Secures Additional $9.3M to Advance Initial…",
+      "publishedAt": "2026-10-21T21:00:00.000Z",
+      "sourceId": "01net",
+      "sourceName": "01net",
+      "category": "digitale"
+    },
+    {
+      "id": "milano-finanza-uq98dd",
+      "title": "Euro Stampi, le cinque famiglie fondatrici vendono il 75% dell’azienda marchigiana all’austriaca Haidlmair",
+      "url": "https://www.milanofinanza.it/news/euro-stampi-le-cinque-famiglie-fondatrici-vendono-il-75-dell-azienda-marchigiana-all-austriaca-202610211813076738",
+      "summary": "",
+      "publishedAt": "2026-10-21T21:00:00.000Z",
+      "sourceId": "milano-finanza",
+      "sourceName": "Milano Finanza",
+      "category": "economia"
+    },
+    {
+      "id": "milano-finanza-13uy9u1",
+      "title": "Compendium compra quattro studi di commercialisti per rafforzarsi nel Nord Italia. E punta a creare un player nazionale",
+      "url": "https://www.milanofinanza.it/news/compendium-compra-quattro-studi-di-commercialisti-per-rafforzarsi-al-nord-e-ora-punta-a-creare-un-player-202610211606111365",
+      "summary": "",
+      "publishedAt": "2026-10-21T21:00:00.000Z",
+      "sourceId": "milano-finanza",
+      "sourceName": "Milano Finanza",
+      "category": "economia"
+    },
+    {
+      "id": "milano-finanza-26wu5q",
+      "title": "Cipollone (Bce): sull’euro digitale l’Ue sta lavorando su commissioni per i negozi, distribuzione e modalità di avvio",
+      "url": "https://www.milanofinanza.it/news/cipollone-bce-sull-euro-digitale-l-ue-sta-lavorando-su-commissioni-per-i-negozi-distribuzione-e-modalita-202610211854301496",
+      "summary": "",
+      "publishedAt": "2026-10-21T20:51:00.000Z",
+      "sourceId": "milano-finanza",
+      "sourceName": "Milano Finanza",
+      "category": "economia"
+    },
+    {
+      "id": "bleeping-computer-1mtxs5s",
+      "title": "Lazarus hackers use post-quantum cryptography for malware delivery",
+      "url": "https://www.bleepingcomputer.com/news/security/lazarus-hackers-use-post-quantum-cryptography-for-malware-delivery",
+      "summary": "North Korean hackers are using a post-quantum cryptographic mechanism to secure malicious payload delivery in new operations that combine old and new malware. [...]",
+      "publishedAt": "2026-10-21T20:31:48.000Z",
+      "sourceId": "bleeping-computer",
+      "sourceName": "BleepingComputer",
+      "category": "cyber"
+    },
+    {
+      "id": "dark-reading-ly9mnu",
+      "title": "Marvell, Microsoft & Oracle Work to Standardize Data Center Hardware Security",
+      "url": "https://www.darkreading.com/cloud-security/marvell-microsoft-oracle-standardize-data-center-hardware-security",
+      "summary": "The effort is aimed at standardizing a NIST FIPS 140-3 Level 3 integrated HSM for cloud and hyperscale data center infrastructure.",
+      "publishedAt": "2026-10-21T20:14:42.000Z",
+      "sourceId": "dark-reading",
+      "sourceName": "Dark Reading",
+      "category": "cyber"
+    },
+    {
+      "id": "startupbusiness-z678ut",
+      "title": "Iran-Usa, segnali di tensione: Washington richiama personale da ambasciate Arabia, Emirati e Qatar",
+      "url": "https://www.startupbusiness.it/iran-usa-segnali-di-tensione-washington-richiama-personale-da-ambasciate-arabia-emirati-e-qatar/209562",
+      "summary": "(Adnkronos) - Segnali di tensione in Medio Oriente. Mentre Donald Trump non esclude una nuova offensiva contro l'Iran, gli Stati Uniti hanno ordinato a tutto il personale della propria ambasciata in Arabia Saudita e ai...",
+      "publishedAt": "2026-10-21T20:06:17.000Z",
+      "sourceId": "startupbusiness",
+      "sourceName": "Startupbusiness",
+      "category": "strategia"
+    },
+    {
+      "id": "dark-reading-jqe4l9",
+      "title": "Cloud Security Alliance Survey Finds Data Loss Prevention Often Detects Data Loss Only After It Happens",
+      "url": "https://www.darkreading.com/cloud-security/cloud-security-alliance-survey-data-loss-prevention-detects-data-loss",
+      "summary": "Research finds that, among respondents experiencing data loss, only 16% said DLP blocked their most significant incidents before data left the organization.",
+      "publishedAt": "2026-10-21T20:03:14.000Z",
+      "sourceId": "dark-reading",
+      "sourceName": "Dark Reading",
+      "category": "cyber"
+    },
+    {
+      "id": "ansa-pmi-b39puw",
+      "title": "Fedralog sospende il fermo dell'autotrasporto in Calabria (2)",
+      "url": "https://www.ansa.it/sito/notizie/economia/pmi/2026/10/21/fedralog-sospende-il-fermo-dellautotrasporto-in-calabria-2_cb210c6a-6374-4c9a-a98e-a04846b0c4d9.html",
+      "summary": "(ANSA) - CATANZARO, 21 OTT - \"Siamo e rimaniamo pienamente consapevoli - è scritto nella nota - dei rischi e dei costi sostenuti fino ad oggi: per questo fermo stiamo rischiando il nostro lavoro e i nostri soldi, mettendo a repentaglio le aziende dell'agricoltura, le grandi realtà dell'industria calabrese e l'intero…",
+      "publishedAt": "2026-10-21T19:46:40.000Z",
+      "sourceId": "ansa-pmi",
+      "sourceName": "ANSA — PMI",
+      "category": "economia"
+    },
+    {
+      "id": "ansa-pmi-yha455",
+      "title": "++ Fedralog sospende il fermo dell'autotrasporto in Calabria ++",
+      "url": "https://www.ansa.it/sito/notizie/economia/pmi/2026/10/21/-fedralog-sospende-il-fermo-dellautotrasporto-in-calabria-_99b604d5-3895-4f0f-b238-4121f3a4b60d.html",
+      "summary": "(ANSA) - LAMEZIA TERME, 21 OTT - E' stata sospesa la protesta degli autotrasportatori in Calabria. Lo annuncia Fedralog, la Federazione regionale della logistica che l'aveva proclamata. \"Una decisione sofferta ma meditata - è scritto in una nota - presa con profondo senso di responsabilità verso la collettività, le…",
+      "publishedAt": "2026-10-21T19:30:43.000Z",
+      "sourceId": "ansa-pmi",
+      "sourceName": "ANSA — PMI",
+      "category": "economia"
+    },
+    {
+      "id": "dark-reading-zss42c",
+      "title": "'PHP2Shell' Bugs Signal Red Alert for Security Industry",
+      "url": "https://www.darkreading.com/application-security/php2shell-bugs-red-alert-security-industry",
+      "summary": "Security teams are scrambling to remediate two critical PHP vulnerabilities following leaked details and reports of exploitation attempts.",
+      "publishedAt": "2026-10-21T19:19:17.000Z",
+      "sourceId": "dark-reading",
+      "sourceName": "Dark Reading",
+      "category": "cyber"
+    },
+    {
+      "id": "startupbusiness-79lb4m",
+      "title": "Papa Leone XIV, i medici: “Non servono altre terapie dopo l’operazione”",
+      "url": "https://www.startupbusiness.it/papa-leone-xiv-i-medici-non-servono-altre-terapie-dopo-loperazione/209560",
+      "summary": "(Adnkronos) - Papa Leone XIV non ha bisogno di ulteriori terapie dopo l'operazione per la rimozione di un tumore al polmone destro. \"Non è necessaria alcuna ulteriore terapia\", la sintesi dei medici Luigi Carbone e...",
+      "publishedAt": "2026-10-21T19:11:00.000Z",
+      "sourceId": "startupbusiness",
+      "sourceName": "Startupbusiness",
+      "category": "strategia"
+    },
+    {
+      "id": "milano-finanza-1gjy0w",
+      "title": "Fabi verso il Congresso 2027 | Bianchini (Grosseto): «La nostra forza è il rapporto di fiducia con i lavoratori»",
+      "url": "https://www.milanofinanza.it/news/fabi-verso-il-congresso-2027-bianchono-grosseto-la-nostra-forza-e-il-rapporto-di-fiducia-con-i-202610212150536567",
+      "summary": "",
+      "publishedAt": "2026-10-21T19:00:00.000Z",
+      "sourceId": "milano-finanza",
+      "sourceName": "Milano Finanza",
+      "category": "economia"
+    },
+    {
+      "id": "hacker-news-1ixu5qs",
+      "title": "Critical GitLab Flaw (CVSS 10.0) Could Allow Unauthenticated RCE Across 12 Years of Releases",
+      "url": "https://thehackernews.com/2026/10/critical-gitlab-flaw-cvss-100-could.html",
+      "summary": "GitLab released fixes on October 21 for a flaw that lets an attacker run code on a self-managed server without logging in, and it affects every version of the software going back to 7.0, released in 2014. The fix matters even for administrators who patched nine days earlier: the October 12 update covered only versions…",
+      "publishedAt": "2026-10-21T18:57:34.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "The Hacker News",
+      "category": "cyber"
+    },
+    {
+      "id": "startupbusiness-iaa99r",
+      "title": "Nico Paz incanta, il Como vola: doppietta e assist, serata da fenomeno contro lo United in Champions",
+      "url": "https://www.startupbusiness.it/nico-paz-incanta-il-como-vola-doppietta-e-assist-serata-da-fenomeno-contro-lo-united-in-champions/209554",
+      "summary": "(Adnkronos) - Nico Paz si prende la scena con una prestazione da applausi. Due gol e un assist per il talento argentino, autentico trascinatore del Como in una serata da ricordare contro il Manchester United nella terza...",
+      "publishedAt": "2026-10-21T18:43:43.000Z",
+      "sourceId": "startupbusiness",
+      "sourceName": "Startupbusiness",
+      "category": "strategia"
+    },
+    {
+      "id": "bleeping-computer-dkluze",
+      "title": "CISA: Hackers chain Plex flaws in Plex2Shell attacks to breach servers",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-hackers-chain-plex-flaws-in-plex2shell-attacks-to-breach-servers",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning that attackers are actively exploiting four vulnerabilities in Plex Media Server. [...]",
+      "publishedAt": "2026-10-21T18:34:42.000Z",
+      "sourceId": "bleeping-computer",
+      "sourceName": "BleepingComputer",
+      "category": "cyber"
+    },
+    {
+      "id": "wall-street-italia-78vvuc",
+      "title": "Efpa Italia Meeting 2026, il resoconto della prima giornata a Firenze",
+      "url": "https://www.wallstreetitalia.com/efpa-italia-meeting-2026-il-resoconto-della-prima-giornata-a-firenze",
+      "summary": "E’ stata densa di spunti e contenuti la prima giornata dell’Efpa Italia Meeting 2026, la due giorni dei professionisti della consulenza finanziaria che ha preso il via oggi, mercoledì 21 ottobre, e si concluderà domani, giovedì 22 ottobre, al Teatro del Maggio Musicale Fiorentino di Firenze con il titolo “Planning…",
+      "publishedAt": "2026-10-21T18:32:40.000Z",
+      "sourceId": "wall-street-italia",
+      "sourceName": "Wall Street Italia",
+      "category": "economia"
+    },
+    {
+      "id": "startupbusiness-3kmo7b",
+      "title": "Champions League, oggi Inter-Shakhtar – Diretta",
+      "url": "https://www.startupbusiness.it/champions-league-oggi-inter-shakhtar-diretta/209556",
+      "summary": "(Adnkronos) - L'Inter torna in campo in Champions League. Oggi, mercoledì 21 ottobre, la squadra di Cristian Chivu ospita lo Shakhtar Donetsk nella terza giornata della fase campionato. Nelle prime due partite i...",
+      "publishedAt": "2026-10-21T18:26:16.000Z",
+      "sourceId": "startupbusiness",
+      "sourceName": "Startupbusiness",
+      "category": "strategia"
+    },
+    {
+      "id": "ansa-pmi-8cex9m",
+      "title": "Destro, 'Confindustria auspica che i blocchi stradali vengano rimossi'",
+      "url": "https://www.ansa.it/sito/notizie/economia/pmi/2026/10/21/destro-confindustria-auspica-che-i-blocchi-stradali-vengano-rimossi_bfea15ca-0932-465a-9de6-b0d8c9b4e029.html",
+      "summary": "(ANSA) - ROMA, 21 OTT - \"Il perdurare delle interruzioni nel trasporto rischia di compromettere la regolarità dei flussi di approvvigionamento e il normale svolgimento delle attività delle imprese. L'assenza o il ritardo delle consegne, le difficoltà nel reperire le materie prime e il rischio di deperimento dei…",
+      "publishedAt": "2026-10-21T18:16:53.000Z",
+      "sourceId": "ansa-pmi",
+      "sourceName": "ANSA — PMI",
+      "category": "economia"
+    },
+    {
+      "id": "hacker-news-16i0hg4",
+      "title": "LiteLLM Compromised in Supply Chain Attack Delivering Credential Stealer and Backdoor",
+      "url": "https://thehackernews.com/2026/10/litellm-compromised-in-supply-chain.html",
+      "summary": "The popular LiteLLM Python package has been compromised as part of a software supply chain attack that delivered a credential stealer and a backdoor, according to reports from SafeDep, Socket, StepSecurity, and Upwind. The compromise affects LiteLLM 1.107.0, distributed through PyPI wheels and Docker images. The…",
+      "publishedAt": "2026-10-21T18:01:57.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "The Hacker News",
+      "category": "cyber"
+    },
+    {
+      "id": "ansa-pmi-sjhmez",
+      "title": "Domani alle 12 il Cdm per il decreto su autotrasporto e agricoltura",
+      "url": "https://www.ansa.it/sito/notizie/economia/pmi/2026/10/21/domani-alle-12-il-cdm-per-il-decreto-su-autotrasporto-e-agricoltura_95090077-49c0-4f7a-8756-476cc0729c56.html",
+      "summary": "(ANSA) - ROMA, 21 OTT - Si dovrebbe tenere domani alle 12, secondo quanto si apprende, il Consiglio dei ministri convocato dalla presidente Giorgia Meloni per varare un decreto legge coi nuovi interventi per autotrasporto e agricoltura. (ANSA). Leggi l'articolo completo su ANSA.it",
+      "publishedAt": "2026-10-21T18:00:17.000Z",
+      "sourceId": "ansa-pmi",
+      "sourceName": "ANSA — PMI",
+      "category": "economia"
+    },
+    {
+      "id": "cybersecurity360-1yig9xw",
+      "title": "Identità non umane e sicurezza degli accessi, le nuove sfide cyber",
+      "url": "https://www.cybersecurity360.it/soluzioni-aziendali/identita-non-umane-e-sicurezza-degli-accessi-le-nuove-sfide-cyber",
+      "summary": "Account di servizio, applicazioni e agenti AI moltiplicano le identità non umane da proteggere, aumentando la complessità della sicurezza aziendale. Andrea Solaroli di SailPoint spiega perché i tradizionali modelli IAM devono evolvere verso una governance dinamica delle identità, degli accessi e dei privilegi, capace…",
+      "publishedAt": "2026-10-21T17:07:53.000Z",
+      "sourceId": "cybersecurity360",
+      "sourceName": "Cybersecurity360",
+      "category": "cyber"
+    },
+    {
+      "id": "sole24ore-economia-1ereccl",
+      "title": "Google supera la Rai: cambia la gerarchia dei media italiani",
+      "url": "https://www.ilsole24ore.com/art/google-supera-rai-cambia-gerarchia-media-italiani-AJ9YYaqB",
+      "summary": "Il primo posto non è più della Rai. È di Google. Nel sistema italiano dei media il sorpasso è arrivato: Alphabet conquista il 12,4% delle risorse economiche, il servizio pubblico...",
+      "publishedAt": "2026-10-21T17:03:17.000Z",
+      "sourceId": "sole24ore-economia",
+      "sourceName": "Il Sole 24 Ore — Economia",
+      "category": "economia"
+    },
+    {
+      "id": "dark-reading-1xwb8ic",
+      "title": "OVHcloud GitHub Compromise Tied to GlassWorm Threat Actors",
+      "url": "https://www.darkreading.com/cyberattacks-data-breaches/ovhcloud-github-compromise-glassworm-threat-actors",
+      "summary": "A developer's GitHub account that was compromised several months earlier was used to push malicious code to unsuspecting users.",
+      "publishedAt": "2026-10-21T16:50:15.000Z",
+      "sourceId": "dark-reading",
+      "sourceName": "Dark Reading",
+      "category": "cyber"
+    },
+    {
+      "id": "cybersecurity360-16knynp",
+      "title": "AI Data Leakage Prevention: proteggere i dati dall’AI",
+      "url": "https://www.cybersecurity360.it/soluzioni-aziendali/ai-data-leakage-prevention-proteggere-i-dati-dallai",
+      "summary": "Come prevenire la fuga di dati sensibili attraverso ChatGPT, Copilot e altri strumenti di intelligenza artificiale generativa: architetture DLP, controllo dei prompt e compliance al GDPR L'articolo AI Data Leakage Prevention: proteggere i dati dall’AI proviene da Cyber Security 360 .",
+      "publishedAt": "2026-10-21T16:49:06.000Z",
+      "sourceId": "cybersecurity360",
+      "sourceName": "Cybersecurity360",
+      "category": "cyber"
+    },
+    {
+      "id": "hacker-news-1phmdky",
+      "title": "OpenAI's GPT-6 Agent Removed Safety Monitoring, Then Falsely Denied Doing So",
+      "url": "https://thehackernews.com/2026/10/openais-gpt-6-agent-removed-safety.html",
+      "summary": "OpenAI has revealed that two artificial intelligence (AI) agents powered by GPT-6.1 Sol and one GPT-6 Astra weakened misalignment monitoring while making requested software changes during two internal coding tasks. The AI company said the incident took place on October 3 and 6, 2026, for Sol and Astra, respectively,…",
+      "publishedAt": "2026-10-21T16:33:47.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "The Hacker News",
+      "category": "cyber"
+    },
+    {
+      "id": "bleeping-computer-3vexjj",
+      "title": "OpenAI agents disabled safety monitoring, one lied about it",
+      "url": "https://www.bleepingcomputer.com/news/security/openai-agents-disabled-safety-monitoring-one-lied-about-it",
+      "summary": "OpenAI agents powered by the GPT-6.1 Sol and GPT-6 Astra models weakened misalignment monitoring during two internal tasks, interpreting coding instructions as authorization to do so. [...]",
+      "publishedAt": "2026-10-21T16:26:53.000Z",
+      "sourceId": "bleeping-computer",
+      "sourceName": "BleepingComputer",
+      "category": "cyber"
+    },
+    {
+      "id": "zerouno-1nc9vzc",
+      "title": "AI, i clienti chiedono risultati: cresce la domanda di consulenza",
+      "url": "https://www.zerounoweb.it/cio-innovation/ai-i-clienti-chiedono-risultati-cresce-la-domanda-di-consulenza",
+      "summary": "Il rapporto Cisco \"2026 Global AI Partner Study\", condotto su 1.702 partner tecnologici in 30 Paesi, evidenzia una maggiore attenzione delle imprese a costi e rendimenti. In Italia, solo il 29% degli intervistati segnala ritorni economici all’altezza delle aspettative L'articolo AI, i clienti chiedono risultati:…",
+      "publishedAt": "2026-10-21T16:15:17.000Z",
+      "sourceId": "zerouno",
+      "sourceName": "ZeroUno",
+      "category": "bi"
+    },
+    {
+      "id": "industry4business-1i6qyk9",
+      "title": "Sempre più Nvidia nei robot di Comau (ma anche dati di Comau nei modelli di Nvidia)",
+      "url": "https://www.innovationpost.it/tecnologie/robotica/sempre-piu-nvidia-nei-robot-di-comau-ma-anche-dati-di-comau-nei-modelli-di-nvidia",
+      "summary": "Nell'ambito della partnership con Nvidia Comau sta integrando le tecnologie del player americano nei propri processi e prodotti per accelerare lo sviluppo di robot industriali intelligenti e autonomi attraverso soluzioni avanzate di calcolo e simulazione virtuale. Al contempo Comau sta fornendo dai per arricchire le…",
+      "publishedAt": "2026-10-21T15:59:05.000Z",
+      "sourceId": "industry4business",
+      "sourceName": "Industry4Business",
+      "category": "digitale"
+    },
+    {
+      "id": "agenda-digitale-1mdgmmm",
+      "title": "IBM e il quantum computing: chip, Qiskit, cloud e obiettivi al 2029",
+      "url": "https://www.agendadigitale.eu/quantum-computing/quantum-leader/ibm-e-il-quantum-computing-chip-qiskit-cloud-e-obiettivi-al-2029",
+      "summary": "IBM sviluppa un’intera filiera per il quantum computing: processori, sistemi, Qiskit, cloud e servizi alle imprese. Con Nighthawk r2 già disponibile, oltre 10 miliardi di dollari di investimenti annunciati e Starling previsto per il 2029, la sfida è dimostrare vantaggi scientifici riproducibili e applicazioni…",
+      "publishedAt": "2026-10-21T15:37:32.000Z",
+      "sourceId": "agenda-digitale",
+      "sourceName": "Agenda Digitale",
+      "category": "bi"
+    },
+    {
+      "id": "zerouno-az50lq",
+      "title": "Dallo spazio alle imprese: la sfida della sovranità digitale secondo OVHcloud",
+      "url": "https://www.zerounoweb.it/infrastrutture-it/dallo-spazio-alle-imprese-la-sfida-della-sovranita-digitale-secondo-ovhcloud",
+      "summary": "Il contratto siglato con l’Agenzia Spaziale Europea porta al centro il controllo delle infrastrutture di elaborazione. Giletta (OVHcloud): « Oggi la vera maturità della strategia multicloud sta nel selezionare in modo consapevole i provider» L'articolo Dallo spazio alle imprese: la sfida della sovranità digitale…",
+      "publishedAt": "2026-10-21T15:26:24.000Z",
+      "sourceId": "zerouno",
+      "sourceName": "ZeroUno",
+      "category": "bi"
+    },
+    {
+      "id": "key4biz-gddo5a",
+      "title": "Sovranità digitale UE, cosa non piace alle big tech",
+      "url": "https://www.key4biz.it/cada-ecco-cosa-non-piace-alle-big-tech-del-pacchetto-sulla-sovranita-digitale-europea-2/591649",
+      "summary": "Per leggere la dailyletter del 21 ottobre 2026 clicca qui. The post Sovranità digitale UE, cosa non piace alle big tech appeared first on Key4biz .",
+      "publishedAt": "2026-10-21T15:16:33.000Z",
+      "sourceId": "key4biz",
+      "sourceName": "Key4biz",
+      "category": "digitale"
+    },
+    {
+      "id": "forbes-italia-1sdwl8o",
+      "title": "Nerio Alessandri, 25 anni da Cavaliere del Lavoro",
+      "url": "https://forbes.it/2026/10/21/nerio-alessandri-cavaliere-del-lavoro-quirinale",
+      "summary": "Il presidente della Repubblica ha reso omaggio al Quirinale a Nerio Alessandri, fondatore di Technogym, per i 25 anni da Cavaliere del Lavoro L’articolo Nerio Alessandri, 25 anni da Cavaliere del Lavoro è tratto da Forbes Italia .",
+      "publishedAt": "2026-10-21T15:11:55.000Z",
+      "sourceId": "forbes-italia",
+      "sourceName": "Forbes Italia",
+      "category": "strategia"
+    },
+    {
+      "id": "commissione-ue-1uwajai",
+      "title": "Opening remarks by Commissioner Serafin during the European Parliament debate Cutting costs and unnecessary reporting obligations now – concrete next steps to deliver swift relief…",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2233",
+      "summary": "European Commission Speech Strasbourg, 21 Oct 2026 Honourable Members, dear Minister, The debate today is about a very simple question: is Europe doing enough to make life easier for those who create jobs, inves...",
+      "publishedAt": "2026-10-21T15:10:43.000Z",
+      "sourceId": "commissione-ue",
+      "sourceName": "Commissione europea — Press corner",
+      "category": "finanziamenti"
+    },
+    {
+      "id": "key4biz-1spvyoz",
+      "title": "Pitigliano, il borgo diventa digitale: la fibra ottica al servizio della comunità",
+      "url": "https://www.key4biz.it/pitigliano-il-borgo-diventa-digitale-la-fibra-ottica-al-servizio-della-comunita/591624",
+      "summary": "Il progetto Borgo Digitale, sperimentato a Pitigliano da Open Fiber, ENEA e altri partner, valorizza la fibra ottica per sviluppare servizi innovativi nei settori dell’efficienza energetica, dell’illuminazione pubblica e del monitoraggio ambientale e sismico. L’iniziativa punta a diventare un modello replicabile nei…",
+      "publishedAt": "2026-10-21T15:00:23.000Z",
+      "sourceId": "key4biz",
+      "sourceName": "Key4biz",
+      "category": "digitale"
+    },
+    {
+      "id": "key4biz-og9i1j",
+      "title": "CADA, ecco cosa non piace alle big tech del pacchetto sulla sovranità digitale europea",
+      "url": "https://www.key4biz.it/cada-ecco-cosa-non-piace-alle-big-tech-del-pacchetto-sulla-sovranita-digitale-europea/591623",
+      "summary": "L’audizione odierna della Commissione Politiche dell’Unione europea sul Cloud and AI Development Act (CADA), la proposta di regolamento COM(2026) 502 final presentata dalla Commissione europea il 3 giugno 2026, si colloca al centro della nuova fase della politica digitale europea: quella in cui Bruxelles tenta di…",
+      "publishedAt": "2026-10-21T14:47:39.000Z",
+      "sourceId": "key4biz",
+      "sourceName": "Key4biz",
+      "category": "digitale"
+    },
+    {
+      "id": "cybersecurity360-m51e8c",
+      "title": "I modelli OpenAI auto-disabilitano i controlli di sicurezza",
+      "url": "https://www.cybersecurity360.it/nuove-minacce/i-modelli-piu-potenti-di-openai-auto-disabilitano-i-controlli-di-sicurezza",
+      "summary": "OpenAI ha documentato due incidenti avvenuti il 3 e il 6 ottobre. Un agente AI ha silenziato le notifiche alla sicurezza, un altro ha eliminato il monitoraggio di un programma e poi ha negato la modifica. I casi mostrano quanto sia rischioso lasciare agli agenti la possibilità di alterare i controlli che devono…",
+      "publishedAt": "2026-10-21T14:41:06.000Z",
+      "sourceId": "cybersecurity360",
+      "sourceName": "Cybersecurity360",
+      "category": "cyber"
+    },
+    {
+      "id": "key4biz-1d2r4hh",
+      "title": "DeepSeek rilascia DeepInfer: il software open source per ridurre i costi dell’AI",
+      "url": "https://www.key4biz.it/deepseek-rilascia-deepinfer-il-software-open-source-per-ridurre-i-costi-dellai/591606",
+      "summary": "DeepSeek rende disponibile DeepInfer, il framework interno utilizzato per servire DeepSeek-V4.1-Flash su larga scala. Il software è stato pubblicato come open source e, per il momento, supporta soltanto V4.1-Flash. L’azienda ha però annunciato che in futuro verrà esteso anche ad altri modelli. “Condividiamo il nostro…",
+      "publishedAt": "2026-10-21T14:35:11.000Z",
+      "sourceId": "key4biz",
+      "sourceName": "Key4biz",
+      "category": "digitale"
+    },
+    {
+      "id": "ai4business-1tneoxo",
+      "title": "Sicurezza, il caso OpenAI allarma le imprese sull’autonomia degli agenti",
+      "url": "https://www.ai4business.it/intelligenza-artificiale/sicurezza-il-caso-openai-allarma-le-imprese-sullautonomia-degli-agenti",
+      "summary": "Due agenti hanno indebolito i sistemi di controllo durante attività interne di programmazione. Uno ha disattivato gli avvisi al team di sicurezza, l'altro ha rimosso il monitoraggio e negato di averlo fatto. I casi, resi pubblici il 20 ottobre 2026, riaprono il tema dell'affidabilità dell'AI autonoma e dei costi di…",
+      "publishedAt": "2026-10-21T14:34:13.000Z",
+      "sourceId": "ai4business",
+      "sourceName": "AI4Business",
+      "category": "bi"
+    },
+    {
+      "id": "esgnews-1h3dys9",
+      "title": "Porti, lavoro e ambiente: la mostra di Intesa Sanpaolo che racconta le contraddizioni della globalizzazione",
+      "url": "https://esgnews.it/social/arte-e-sostenibilita/porti-lavoro-e-ambiente-la-mostra-di-intesa-sanpaolo-che-racconta-le-contraddizioni-della-globalizzazione",
+      "summary": "Oltre 60 fotografie raccontano sette città portuali europee, tra commercio globale, trasformazioni urbane e questioni ambientali. La mostra apre il 22 ottobre alle Gallerie d’Italia di Torino. Dal 22 ottobre 2026 al 7 … L'articolo Porti, lavoro e ambiente: la mostra di Intesa Sanpaolo che racconta le contraddizioni…",
+      "publishedAt": "2026-10-21T14:14:20.000Z",
+      "sourceId": "esgnews",
+      "sourceName": "ESG News",
+      "category": "compliance"
+    },
+    {
+      "id": "ai4business-145apj1",
+      "title": "Taisch (MADE): “AI fisica e robot intelligenti sono la svolta epocale per la manifattura”",
+      "url": "https://www.ai4business.it/intelligenza-artificiale/ai-manager/taisch-made-ai-fisica-e-robot-intelligenti-sono-la-svolta-epocale-per-la-manifattura",
+      "summary": "Dalle potenzialità dell’AI contestuale e della robotica innovativa per le aziende manifatturiere, fino al ruolo di Milano come Hub globale dell’intelligenza artificiale. L’analisi per AI4Business di Marco Taisch, presidente del MADE Competence Center. Che rileva: “la tecnologia è matura, il vero nodo sta…",
+      "publishedAt": "2026-10-21T14:13:57.000Z",
+      "sourceId": "ai4business",
+      "sourceName": "AI4Business",
+      "category": "bi"
+    },
+    {
+      "id": "wall-street-italia-1xyo79v",
+      "title": "Truffe assicurative, 1,4 milioni di automobilisti hanno mentito alla compagnia",
+      "url": "https://www.wallstreetitalia.com/truffe-assicurative-14-milioni-di-automobilisti-hanno-mentito-alla-compagnia",
+      "summary": "sottotitolo Un’indagine di Facile.it rivela che 1,4 milioni di automobilisti hanno mentito alle assicurazioni, soprattutto per evitare aumenti della RC auto. Intanto, 890mila conducenti sono stati vittime di truffe o tentativi di frode, per danni stimati in oltre 390 milioni di euro.",
+      "publishedAt": "2026-10-21T14:12:52.000Z",
+      "sourceId": "wall-street-italia",
+      "sourceName": "Wall Street Italia",
+      "category": "economia"
+    },
+    {
+      "id": "esgnews-1pnupdv",
+      "title": "BCE: la transizione energetica rafforza la resilienza dell’economia europea",
+      "url": "https://esgnews.it/finanza/bce-la-transizione-energetica-rafforza-la-resilienza-delleconomia-europea",
+      "summary": "L’economia dell’area euro ha assorbito meglio del previsto lo shock energetico del 2026, anche grazie alla minore dipendenza dai combustibili fossili. Ma per affrontare le prossime crisi non basta aver resistito alle precedenti: … L'articolo BCE: la transizione energetica rafforza la resilienza dell’economia europea…",
+      "publishedAt": "2026-10-21T14:12:12.000Z",
+      "sourceId": "esgnews",
+      "sourceName": "ESG News",
+      "category": "compliance"
+    },
+    {
+      "id": "help-net-security-b0vmbv",
+      "title": "eMudhra security blunder left trusted CA signing keys exposed to anyone",
+      "url": "https://www.helpnetsecurity.com/2026/10/21/emudhra-certificates-private-keys-compromised",
+      "summary": "Eight intermediate certificates issued by Indian certificate authority eMudhra were secured with private keys so weak that anyone could recover them from the public certificates in under a second. On its website, the company highlights that it has issued more than 60 million digital certificates. A security researcher…",
+      "publishedAt": "2026-10-21T14:11:24.000Z",
+      "sourceId": "help-net-security",
+      "sourceName": "Help Net Security",
+      "category": "cyber"
+    },
+    {
+      "id": "wall-street-italia-14ibkx2",
+      "title": "Wall Street apre in rialzo: Nasdaq guadagna lo 0,51%",
+      "url": "https://www.wallstreetitalia.com/news/wall-street-apre-in-rialzo-nasdaq-guadagna-lo-051",
+      "summary": "Le azioni di SpaceX e Tesla sono in crescita a Wall Street, grazie a un incremento del fatturato per SpaceX e alla discussione di una possibile fusione tra le due aziende. Gli indici principali mostrano un andamento positivo, mentre il petrolio Wti registra una lieve flessione.",
+      "publishedAt": "2026-10-21T14:10:43.000Z",
+      "sourceId": "wall-street-italia",
+      "sourceName": "Wall Street Italia",
+      "category": "economia"
+    },
+    {
+      "id": "bleeping-computer-1aqgtnd",
+      "title": "PHP ships emergency patches for critical PHP2Shell flaws",
+      "url": "https://www.bleepingcomputer.com/news/security/php-ships-emergency-patches-for-critical-php2shell-flaws",
+      "summary": "The PHP security team released emergency security patches for two critical remote code execution (RCE) vulnerabilities (CVE-2026-109618 and CVE-2026-109619) tracked collectively as PHP2Shell. [...]",
+      "publishedAt": "2026-10-21T14:07:05.000Z",
+      "sourceId": "bleeping-computer",
+      "sourceName": "BleepingComputer",
+      "category": "cyber"
+    },
+    {
+      "id": "finanza-operativa-13ql8do",
+      "title": "Mercati, elezioni midterm Usa e la vera posta in gioco secondo L&G",
+      "url": "https://www.bluerating.com/mercati/879460/mercati-elezioni-midterm-usa-e-la-vera-posta-in-gioco-secondo-lg",
+      "summary": "Jason Shoup, Global Co-Head of Fixed Income di L&G, analizza di seguito le conseguenze politiche della corsa all’IA: dal finanziamento dei data center ai rischi occupazionali, fino alle opportunità e alle criticità per il mercato obbligazionario americano. L’intelligenza artificiale non è più soltanto una delle…",
+      "publishedAt": "2026-10-21T14:01:49.000Z",
+      "sourceId": "finanza-operativa",
+      "sourceName": "Finanza Operativa",
+      "category": "economia"
+    },
+    {
+      "id": "corcom-1dxpxwa",
+      "title": "Data center, Butti: “Puntare sui modelli federati per valorizzare i piccoli operatori”",
+      "url": "https://www.corrierecomunicazioni.it/data-center/data-center-butti-modelli-federati-piccoli-operatori",
+      "summary": "Il Sottosegretario mette in guardia dalla concentrazione del mercato nelle mani dei grandi gruppi privati: \"Lì si crea un oligopolio che può danneggiare l’interesse pubblico\". Priorità agli investimenti internazionali, alla sicurezza degli asset strategici e a una pianificazione energetica coordinata L'articolo Data…",
+      "publishedAt": "2026-10-21T14:01:25.000Z",
+      "sourceId": "corcom",
+      "sourceName": "CorCom",
+      "category": "digitale"
+    },
+    {
+      "id": "kdnuggets-1jx2c8x",
+      "title": "Named Entity Recognition Using Scikit-LLM",
+      "url": "https://www.kdnuggets.com/named-entity-recognition-using-scikit-llm",
+      "summary": "Build standardized custom NER pipelines in a few simple steps, powered by the reasoning capabilities of LLMs.",
+      "publishedAt": "2026-10-21T14:00:00.000Z",
+      "sourceId": "kdnuggets",
+      "sourceName": "KDnuggets",
+      "category": "bi"
+    },
+    {
+      "id": "hacker-news-1jmlfip",
+      "title": "PHP Issues Emergency Patches for Two Critical PHP2Shell RCE Flaws as Exploit Attempts Emerge",
+      "url": "https://thehackernews.com/2026/10/php-issues-emergency-patches-for-two.html",
+      "summary": "PHP has released emergency updates that fix two critical flaws in the language itself, letting an attacker without an account run code on a web server. The fixes are in PHP 8.5.12, 8.4.27, 8.3.36 and 8.2.35, and the PHP team says only updating fully protects a server. The flaws, together called PHP2Shell, sit in the…",
+      "publishedAt": "2026-10-21T14:00:00.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "The Hacker News",
+      "category": "cyber"
+    },
+    {
+      "id": "industry4business-4ih5p5",
+      "title": "A Cibus Tec le novità di ifm per il Food & Beverage: sensori per processi efficienti, sicuri e connessi",
+      "url": "https://www.innovationpost.it/tecnologie/automazione/a-cibus-tec-le-novita-di-ifm-per-il-food-beverage-sensori-per-processi-efficienti-sicuri-e-connessi",
+      "summary": "Dalla misura della portata senza intervenire sulle tubazioni ai sensori per il controllo di temperatura, livello e qualità dell'aria compressa: ifm presenta a Cibus Tec novità pensate per aiutare l'industria alimentare a migliorare il controllo dei processi, ridurre gli sprechi e facilitare la digitalizzazione degli…",
+      "publishedAt": "2026-10-21T13:57:35.000Z",
+      "sourceId": "industry4business",
+      "sourceName": "Industry4Business",
+      "category": "digitale"
+    },
+    {
+      "id": "help-net-security-1mvkrb4",
+      "title": "NVIDIA unveils security architecture that can stop AI agents crossing set boundaries",
+      "url": "https://www.helpnetsecurity.com/2026/10/21/nvidia-openshell-reference-architecture",
+      "summary": "NVIDIA’s OpenShell Reference Architecture is designed to help businesses control AI agents operating across enterprise infrastructure and local computing systems. It builds on NVIDIA’s existing OpenShell security software, combining it with hardware for running AI models, managing agent operations and enforcing…",
+      "publishedAt": "2026-10-21T13:52:23.000Z",
+      "sourceId": "help-net-security",
+      "sourceName": "Help Net Security",
+      "category": "cyber"
+    },
+    {
+      "id": "help-net-security-lulj8f",
+      "title": "PHP2Shell: Critical PHP vulnerabilities patched, update now!",
+      "url": "https://www.helpnetsecurity.com/2026/10/21/php2shell-php-vulnerabilities-patched-cve-2026-109618-cve-2026-109619",
+      "summary": "The PHP development team has released emergency security updates to fix PHP2Shell, two critical vulnerabilities (CVE-2026-109618 and CVE-2026-109619) that could let attackers execute code remotely on web servers without logging in. The fixes are in PHP 8.5.12, 8.4.27, 8.3.36 and 8.2.35, and the team is strongly urging…",
+      "publishedAt": "2026-10-21T13:51:05.000Z",
+      "sourceId": "help-net-security",
+      "sourceName": "Help Net Security",
+      "category": "cyber"
+    },
+    {
+      "id": "forbes-italia-1n6whpx",
+      "title": "Getty Images dichiara bancarotta e dice addio a Wall Street",
+      "url": "https://forbes.it/2026/10/21/getty-images-dichiara-bancarotta-e-dice-addio-a-wall-street",
+      "summary": "Getty Images dichiara bancarotta per ristrutturare i debiti e lascia Wall Street. Arrivano 533 milioni da Koch e dalla famiglia Getty L’articolo Getty Images dichiara bancarotta e dice addio a Wall Street è tratto da Forbes Italia .",
+      "publishedAt": "2026-10-21T13:39:40.000Z",
+      "sourceId": "forbes-italia",
+      "sourceName": "Forbes Italia",
+      "category": "strategia"
+    },
+    {
+      "id": "cybersecurity360-1ozbipk",
+      "title": "PHP2Shell, due vulnerabilità critiche in PHP: come proteggere i server in attesa delle patch",
+      "url": "https://www.cybersecurity360.it/nuove-minacce/php2shell-due-vulnerabilita-critiche-in-php-come-proteggere-i-server-in-attesa-delle-patch",
+      "summary": "Il PHP Security Team annuncia due vulnerabilità critiche, entrambe con punteggio CVSS di 9,2, e prepara un aggiornamento d'emergenza. Tra possibili attacchi RCE, mitigazioni non confermate e versioni fuori supporto, ecco come gestire il rischio sui server esposti L'articolo PHP2Shell, due vulnerabilità critiche in…",
+      "publishedAt": "2026-10-21T13:29:45.000Z",
+      "sourceId": "cybersecurity360",
+      "sourceName": "Cybersecurity360",
+      "category": "cyber"
+    },
+    {
+      "id": "corcom-kbgojk",
+      "title": "Fastweb + Vodafone accelera sull’intelligenza artificiale: più potenza al supercomputer Nvidia",
+      "url": "https://www.corrierecomunicazioni.it/digital-economy/fastweb-vodafone-accelera-sullai-sovrana-piu-potenza-al-supercomputer-nvidia",
+      "summary": "Con infrastrutture e dati ospitati in Italia, l’operatore sostiene la trasformazione digitale di imprese e PA. Al centro della strategia, il modello linguistico italiano MIIA e l’assistente AI ROSS, entrambi open L'articolo Fastweb + Vodafone accelera sull’intelligenza artificiale: più potenza al supercomputer Nvidia…",
+      "publishedAt": "2026-10-21T13:16:11.000Z",
+      "sourceId": "corcom",
+      "sourceName": "CorCom",
+      "category": "digitale"
+    },
+    {
+      "id": "wall-street-italia-193rx34",
+      "title": "Investimenti, il 62% dei risparmiatori trova il linguaggio finanziario troppo complicato",
+      "url": "https://www.wallstreetitalia.com/investimenti-il-62-dei-risparmiatori-trova-il-linguaggio-finanziario-troppo-complicato",
+      "summary": "Il 62% degli intervistati da Altroconsumo considera il linguaggio finanziario troppo complicato. Chiarezza, trasparenza sui costi e sui rischi e assistenza continua sono le principali richieste dei risparmiatori.",
+      "publishedAt": "2026-10-21T13:15:24.000Z",
+      "sourceId": "wall-street-italia",
+      "sourceName": "Wall Street Italia",
+      "category": "economia"
+    },
+    {
+      "id": "industry4business-15ybz7k",
+      "title": "AI Factory, Schneider Electric e Aveva portano il digital twin di Nvidia in un data center reale",
+      "url": "https://www.innovationpost.it/tecnologie/industrial-it/ai-factory-schneider-electric-e-aveva-portano-il-digital-twin-di-nvidia-in-un-data-center-reale",
+      "summary": "Dal progetto alla sperimentazione sul campo: in un data center portoghese un digital twin integra i dati sui carichi di lavoro AI con quelli dei sistemi elettrici e di raffreddamento. L’obiettivo è accelerare la realizzazione delle AI Factory, ottimizzare l’utilizzo dell’energia e aumentare la capacità di calcolo…",
+      "publishedAt": "2026-10-21T13:12:14.000Z",
+      "sourceId": "industry4business",
+      "sourceName": "Industry4Business",
+      "category": "digitale"
+    },
+    {
+      "id": "governo-1jgppj9",
+      "title": "Assemblea Federterme Confindustria 2026, il messaggio del Presidente Meloni",
+      "url": "https://www.governo.it/it/articolo/assemblea-federterme-confindustria-2026-il-messaggio-del-presidente-meloni/32890",
+      "summary": "Caro Presidente Iorio, cari amici, desidero rivolgere a tutti voi il mio saluto in occasione dell’Assemblea pubblica 2026 di Federterme Confindustria. Saluto il Ministro del Turismo Mazzi, le Autorità, i rappresentanti delle categorie economiche e produttive, tutti gli operatori presenti oggi. Il termalismo è una…",
+      "publishedAt": "2026-10-21T13:09:26.000Z",
+      "sourceId": "governo",
+      "sourceName": "Governo italiano",
+      "category": "compliance"
+    },
+    {
+      "id": "finanza-operativa-1srzqsr",
+      "title": "IA, utili in crescita ma liquidità sotto pressione: il nodo degli investimenti",
+      "url": "https://www.bluerating.com/mercati/879458/ia-utili-in-crescita-ma-liquidita-sotto-pressione-il-nodo-degli-investimenti",
+      "summary": "Circa metà della capitalizzazione del mercato azionario statunitense e una parte significativa della crescita economica americana sono ormai legate al ciclo di investimenti nell’intelligenza artificiale e nei data center. Una concentrazione che alimenta le aspettative degli investitori e sostiene la domanda di…",
+      "publishedAt": "2026-10-21T13:01:01.000Z",
+      "sourceId": "finanza-operativa",
+      "sourceName": "Finanza Operativa",
+      "category": "economia"
+    },
+    {
+      "id": "forbes-italia-e9kpux",
+      "title": "Torna la Top 100 di Ventive e Forbes Italia: al via la seconda edizione dedicata all’ecosistema startup",
+      "url": "https://forbes.it/2026/10/21/torna-la-top-100-di-ventive-e-forbes-italia-al-via-la-seconda-edizione-dedicata-allecosistema-startup",
+      "summary": "L'iniziativa seleziona cento realtà emergenti nei settori tecnologici, mettendole in contatto con investitori e grandi aziende del mercato. L’articolo Torna la Top 100 di Ventive e Forbes Italia: al via la seconda edizione dedicata all’ecosistema startup è tratto da Forbes Italia .",
+      "publishedAt": "2026-10-21T12:53:20.000Z",
+      "sourceId": "forbes-italia",
+      "sourceName": "Forbes Italia",
+      "category": "strategia"
+    },
+    {
+      "id": "forbes-italia-7up0zm",
+      "title": "Eni verso conti da record: utile fino a 8,7 miliardi e il nodo della maggiore remunerazione ai soci",
+      "url": "https://forbes.it/2026/10/21/conti-eni-utile-record-attesa-dividendi-buyback",
+      "summary": "Piazza Affari attende i risultati della società. Attese di cassa in forte crescita e possibili cedole straordinarie per gli investitori. L’articolo Eni verso conti da record: utile fino a 8,7 miliardi e il nodo della maggiore remunerazione ai soci è tratto da Forbes Italia .",
+      "publishedAt": "2026-10-21T12:37:19.000Z",
+      "sourceId": "forbes-italia",
+      "sourceName": "Forbes Italia",
+      "category": "strategia"
+    },
+    {
+      "id": "finanza-operativa-1cleyc3",
+      "title": "Investitori e prodotti finanziari: ecco cosa emerge dall’indagine di Altroconsumo",
+      "url": "https://www.bluerating.com/mercati/879464/investitori-e-prodotti-finanziari-ecco-cosa-emerge-dallindagine-di-altroconsumo",
+      "summary": "Non basta proporre prodotti finanziari adeguati alle esigenze dei risparmiatori: per costruire un rapporto solido con i clienti servono informazioni comprensibili, trasparenza sui costi e sui rischi e un’assistenza che prosegua anche dopo la sottoscrizione di un investimento. È quanto emerge dall’indagine “I bisogni…",
+      "publishedAt": "2026-10-21T12:29:38.000Z",
+      "sourceId": "finanza-operativa",
+      "sourceName": "Finanza Operativa",
+      "category": "economia"
+    },
+    {
+      "id": "finanza-operativa-z6aq3i",
+      "title": "Wall St. oltre l’AI: le banche riaccendono il tema diversificazione",
+      "url": "https://www.bluerating.com/mercati/879482/wall-st-oltre-lai-le-banche-riaccendono-il-tema-diversificazione",
+      "summary": "Articolo tratto dal blog di Banca Generali Wall Street e i mercati azionari globali non vivono di sola intelligenza artificiale. A ricordarlo, da ultime, sono state le trimestrali delle grandi banche americane, che hanno riportato sotto i riflettori motori di crescita diversi dalla tecnologia. Esaurita la spinta del…",
+      "publishedAt": "2026-10-21T12:26:31.000Z",
+      "sourceId": "finanza-operativa",
+      "sourceName": "Finanza Operativa",
+      "category": "economia"
+    },
+    {
+      "id": "agenda-digitale-1f8jyl3",
+      "title": "Sequestro di criptovalute, cosa cambia con il decreto 186/2026",
+      "url": "https://www.agendadigitale.eu/documenti/giustizia-digitale/cripto-asset-e-giustizia-penale-le-nuove-regole-sui-sequestri",
+      "summary": "Il d.lgs. 186/2026 disciplina il sequestro di cripto asset, amplia le indagini patrimoniali e affida al Fondo unico giustizia la custodia dei portafogli, prevedendo anche la vendita anticipata contro la volatilità e lasciando aperti i nodi di wallet non custodiali, DeFi e costi operativi L'articolo Sequestro di…",
+      "publishedAt": "2026-10-21T12:22:00.000Z",
+      "sourceId": "agenda-digitale",
+      "sourceName": "Agenda Digitale",
+      "category": "bi"
+    },
+    {
+      "id": "corcom-84b1x1",
+      "title": "Tim e Nvidia si alleano in nome dell’AI sovrana: nasce la piattaforma italiana per imprese e PA",
+      "url": "https://www.corrierecomunicazioni.it/digital-economy/tim-avanti-tutta-sullai-sovrana-in-italia-con-nvidia",
+      "summary": "L’infrastruttura sviluppata da Tim Enterprise integrerà le tecnologie di calcolo accelerato del colosso americano, con servizi distribuiti dal cloud all’edge e gestione dei dati sul territorio nazionale. Labriola: \"L’obiettivo è rendere l’intelligenza artificiale accessibile su larga scala, mantenendo il controllo di…",
+      "publishedAt": "2026-10-21T12:21:31.000Z",
+      "sourceId": "corcom",
+      "sourceName": "CorCom",
+      "category": "digitale"
+    },
+    {
+      "id": "agenda-digitale-1e60rru",
+      "title": "Misure di sicurezza NIS2, cosa fare entro la scadenza di ottobre",
+      "url": "https://www.agendadigitale.eu/sicurezza/misure-di-sicurezza-nis2-cosa-fare-entro-la-scadenza-di-ottobre",
+      "summary": "La scadenza di ottobre 2026 porta la NIS2 dalla fase amministrativa alla prova concreta delle misure di base. DPO, Punto di contatto e vertici devono coordinare controlli, fornitori e notifiche, distinguendo gli adempimenti NIS dagli obblighi GDPR senza duplicare processi e documentazione L'articolo Misure di…",
+      "publishedAt": "2026-10-21T12:09:00.000Z",
+      "sourceId": "agenda-digitale",
+      "sourceName": "Agenda Digitale",
+      "category": "bi"
+    },
+    {
+      "id": "kdnuggets-11hefeu",
+      "title": "5 Best GitHub Repositories for AI Agent Skills",
+      "url": "https://www.kdnuggets.com/5-best-github-repositories-for-ai-agent-skills",
+      "summary": "Explore five popular AI agent skill collections that help coding agents plan, test, debug, review, and build better software.",
+      "publishedAt": "2026-10-21T12:00:00.000Z",
+      "sourceId": "kdnuggets",
+      "sourceName": "KDnuggets",
+      "category": "bi"
+    },
+    {
+      "id": "agenda-digitale-13fj4ms",
+      "title": "Sapere non basta più: le competenze umane nell’era dell’AI",
+      "url": "https://www.agendadigitale.eu/cultura-digitale/competenze-digitali/sapere-non-basta-piu-le-competenze-umane-nellera-dellai",
+      "summary": "L’intelligenza artificiale accelera conoscenza e capacità operative, ma trasforma più lentamente autonomia, identità e relazioni. I quattro pilastri dell’apprendimento mostrano così uno squilibrio decisivo: la delega cresce più in fretta delle competenze umane necessarie per governarla, verificarla e darle un…",
+      "publishedAt": "2026-10-21T11:57:00.000Z",
+      "sourceId": "agenda-digitale",
+      "sourceName": "Agenda Digitale",
+      "category": "bi"
+    },
+    {
+      "id": "commissione-ue-1uwaj9r",
+      "title": "Keynote speech by Commissioner Kubilius at Future Forces Forum 2026",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2229",
+      "summary": "European Commission Speech Prague, 21 Oct 2026 Good afternoon, It is my great pleasure to be here at this prominent Future Forces Forum. It's great to be part of this discussion on the Future of Civilian Sec...",
+      "publishedAt": "2026-10-21T11:53:18.000Z",
+      "sourceId": "commissione-ue",
+      "sourceName": "Commissione europea — Press corner",
+      "category": "finanziamenti"
+    },
+    {
+      "id": "zerouno-1jjnulr",
+      "title": "Dallo staffaggio alla protezione antincendio: l’offerta Hilti per i data center",
+      "url": "https://www.zerounoweb.it/data-center/hilti-sistemi-di-fissaggio-e-staffaggio-per-data-center",
+      "summary": "Hilti propone per i data center staffaggi modulari per impianti elettrici e meccanici, ancoraggi su acciaio e calcestruzzo, protezione passiva dal fuoco, progettazione e prefabbricazione. Un’offerta che copre costruzione e retrofit, con soluzioni senza saldatura e riconfigurabili, utili anche in ambienti già operativi…",
+      "publishedAt": "2026-10-21T11:50:41.000Z",
+      "sourceId": "zerouno",
+      "sourceName": "ZeroUno",
+      "category": "bi"
+    },
     {
       "id": "governo-1rbzj9k",
       "title": "Forum Coldiretti 2026, videomessaggio del Presidente Meloni",
@@ -17,71 +757,11 @@
       "id": "zerouno-96eibf",
       "title": "Edizione 2026 di SAP NOW AI Tour Milan, l’Autonomous Enterprise prende forma tra Joule e agenti AI",
       "url": "https://www.zerounoweb.it/news/edizione-2026-di-sap-now-ai-tour-milan-lautonomous-enterprise-prende-forma-tra-joule-e-agenti-ai",
-      "summary": "È una nuova forma di intelligenza collettiva la vera protagonista dell’edizione 2026 di SAP NOW AI Tour Milan . Le persone definiscono intenzioni e obiettivi. Joule interpreta il contesto aziendale, orchestrando dati, applicazioni e agenti AI. Le testimonianze di EssilorLuxottica, Eni, Twinings Ovaltine e città di…",
+      "summary": "È una nuova forma di intelligenza collettiva la vera protagonista dell’edizione 2026 di SAP NOW AI Tour Milan. Le persone definiscono intenzioni e obiettivi. Joule interpreta il contesto aziendale, orchestrando dati, applicazioni e agenti AI. Le testimonianze di EssilorLuxottica, Eni, Twinings Ovaltine e città di…",
       "publishedAt": "2026-10-21T11:33:07.000Z",
       "sourceId": "zerouno",
       "sourceName": "ZeroUno",
       "category": "bi"
-    },
-    {
-      "id": "01net-xbkdj9",
-      "title": "Riassunto: Previsioni Forrester per il go-to-market B2B 2027: gli agenti IA influenzeranno il 75% delle decisioni di acquisto B2B",
-      "url": "https://www.01net.it/riassunto-previsioni-forrester-per-il-go-to-market-b2b-2027-gli-agenti-ia-influenzeranno-il-75-delle-decisioni-di-acquisto-b2b",
-      "summary": "Per restare competitivi, i fornitori devono rafforzare la fiducia dei consumatori, comprovare le affermazioni relative al valore e offrire competenze e guida umaneCAMBRIDGE, Mass.--(BUSINESS WIRE)--Secondo le previsioni di Forrester (Nasdaq: FORR) per... L'articolo Riassunto: Previsioni Forrester per il go-to-market…",
-      "publishedAt": "2026-10-21T11:30:00.000Z",
-      "sourceId": "01net",
-      "sourceName": "01net",
-      "category": "digitale"
-    },
-    {
-      "id": "01net-55xt9s",
-      "title": "Riassunto: Le Previsioni 2027 di Forrester per la tecnologia e la sicurezza: l’IA rappresenterà il 20% del totale della spesa tecnologica aziendale",
-      "url": "https://www.01net.it/riassunto-le-previsioni-2027-di-forrester-per-la-tecnologia-e-la-sicurezza-lia-rappresentera-il-20-del-totale-della-spesa-tecnologica-aziendale",
-      "summary": "I responsabili della tecnologia e della sicurezza affronteranno pressioni sempre maggiori per controllare i costi dell'intelligenza artificiale, giustificare le scelte infrastrutturali e gestire i rischi emergenti senza rallentare l'innovazioneCAMBRID... L'articolo Riassunto: Le Previsioni 2027 di Forrester per la…",
-      "publishedAt": "2026-10-21T11:30:00.000Z",
-      "sourceId": "01net",
-      "sourceName": "01net",
-      "category": "digitale"
-    },
-    {
-      "id": "01net-1vwpctb",
-      "title": "Riassunto: Le previsioni 2027 di Forrester per il marketing B2C, CX e il settore digitale: l’aumento dei costi dell’IA costringeranno i leader del B2C a ridurre di un terzo le…",
-      "url": "https://www.01net.it/riassunto-le-previsioni-2027-di-forrester-per-il-marketing-b2c-cx-e-il-settore-digitale-laumento-dei-costi-dellia-costringeranno-i-leader-del-b2c-a-ridurre-di-un-terzo-le-dimensioni-delle-iniziat",
-      "summary": "CAMBRIDGE, Mass.--(BUSINESS WIRE)--Secondo le previsioni 2027 di Forrester (Nasdaq: FORR) in ambito di marketing B2C, esperienza del cliente e per il settore digitale, l'aumento dei costi dell'IA costringeranno i leader del marketing B2C a ridurre di u... L'articolo Riassunto: Le previsioni 2027 di Forrester per il…",
-      "publishedAt": "2026-10-21T11:30:00.000Z",
-      "sourceId": "01net",
-      "sourceName": "01net",
-      "category": "digitale"
-    },
-    {
-      "id": "01net-15r7ka1",
-      "title": "Forrester’s 2027 B2B Go-To-Market Predictions: AI Agents Will Influence 75% of B2B Purchase Decisions",
-      "url": "https://www.01net.it/forresters-2027-b2b-go-to-market-predictions-ai-agents-will-influence-75-of-b2b-purchase-decisions",
-      "summary": "To remain competitive, providers must strengthen customer trust, substantiate value claims, and offer human expertise and guidanceCAMBRIDGE, Mass.--(BUSINESS WIRE)--According to Forrester’s (Nasdaq: FORR) 2027 B2B go-to-market predictions, business bu... L'articolo Forrester’s 2027 B2B Go-To-Market Predictions: AI…",
-      "publishedAt": "2026-10-21T11:30:00.000Z",
-      "sourceId": "01net",
-      "sourceName": "01net",
-      "category": "digitale"
-    },
-    {
-      "id": "milano-finanza-cj9gi1",
-      "title": "Cdp, via libera a operazioni per 2,1 miliardi per le infrastrutture e reti strategiche italiane",
-      "url": "https://www.milanofinanza.it/news/cdp-via-libera-a-operazioni-per-2-1-miliardi-per-le-infrastrutture-e-reti-strategiche-italiane-202610211332443464",
-      "summary": "",
-      "publishedAt": "2026-10-21T11:30:00.000Z",
-      "sourceId": "milano-finanza",
-      "sourceName": "Milano Finanza",
-      "category": "economia"
-    },
-    {
-      "id": "milano-finanza-wdmoxk",
-      "title": "Al via il fondo Global Fixed Maturity 2031 di Muzinich & Co.",
-      "url": "https://www.milanofinanza.it/news/al-via-il-fondo-global-fixed-maturity-2031-di-muzinich-co-202610211333264962",
-      "summary": "",
-      "publishedAt": "2026-10-21T11:28:00.000Z",
-      "sourceId": "milano-finanza",
-      "sourceName": "Milano Finanza",
-      "category": "economia"
     },
     {
       "id": "industry4business-sxmysb",
@@ -92,36 +772,6 @@
       "sourceId": "industry4business",
       "sourceName": "Industry4Business",
       "category": "digitale"
-    },
-    {
-      "id": "agenda-digitale-1h3d6pr",
-      "title": "Cina, nuovi controlli sui pesi dei modelli AI: perché l’Europa rischia",
-      "url": "https://www.agendadigitale.eu/mercati-digitali/cina-nuovi-controlli-sui-pesi-dei-modelli-ai-perche-leuropa-rischia",
-      "summary": "Pechino mette sotto controllo modelli, agenti e pesi oltre certe soglie. I modelli già pubblicati restano liberi, ma ogni futuro rilascio di frontiera passerà da una registrazione. Per l'Europa, che sui pesi aperti cinesi conta anche per difendersi, è una dipendenza che nessuna norma europea tratta come tale…",
-      "publishedAt": "2026-10-21T11:27:00.000Z",
-      "sourceId": "agenda-digitale",
-      "sourceName": "Agenda Digitale",
-      "category": "bi"
-    },
-    {
-      "id": "agenda-digitale-tsf1sv",
-      "title": "Dai tunnel ai chip: i sensori quantistici escono dai laboratori",
-      "url": "https://www.agendadigitale.eu/quantum-computing/dai-tunnel-ai-chip-i-sensori-quantistici-escono-dai-laboratori",
-      "summary": "I sensori quantistici promettono di rilevare cavità, difetti, correnti e anomalie oggi difficili da osservare, rafforzando il monitoraggio di reti energetiche, idriche e di trasporto. Tra prototipi, integrazione IIoT e cybersicurezza, la maturità industriale dipenderà da miniaturizzazione, standard e filiere…",
-      "publishedAt": "2026-10-21T11:23:00.000Z",
-      "sourceId": "agenda-digitale",
-      "sourceName": "Agenda Digitale",
-      "category": "bi"
-    },
-    {
-      "id": "ansa-pmi-13eyyys",
-      "title": "Cultura come welfare e rigenerazione urbana, la legge quadro dell'Emilia Romagna",
-      "url": "https://www.ansa.it/sito/notizie/economia/pmi/2026/10/21/cultura-come-welfare-e-rigenerazione-urbana-la-legge-quadro-dellemilia-romagna_e85eccb4-3252-40a7-8b3f-4755c8152960.html",
-      "summary": "(ANSA) - BOLOGNA, 21 OTT - La cultura come \"diritto di cittadinanza, fattore di benessere delle persone, innovazione e sviluppo economico\". Sono le fondamenta su cui si regge la nuova legge quadro della Regione Emilia-Romagna, testo unico che riunisce 15 norme prima separate ed elaborato dopo un confronto con 600…",
-      "publishedAt": "2026-10-21T11:19:53.000Z",
-      "sourceId": "ansa-pmi",
-      "sourceName": "ANSA — PMI",
-      "category": "economia"
     },
     {
       "id": "esgnews-1w34y1u",
@@ -154,24 +804,14 @@
       "category": "cyber"
     },
     {
-      "id": "ansa-pmi-1dl8a6m",
-      "title": "Dal 2027 cambiano coefficienti, pensioni più basse a parità età di uscita +Rpt+",
-      "url": "https://www.ansa.it/sito/notizie/economia/pmi/2026/10/21/dal-2027-cambiano-coefficienti-pensioni-piu-basse-a-parita-eta-di-uscita_0e8b37d7-9d30-454b-b40e-0470f8acee7c.html",
-      "summary": "(ANSA) - ROMA, 21 OTT - Dal primo gennaio 2027 si andrà in pensione un mese più tardi rispetto a quest'anno mentre gli assegni, a parità di età di uscita saranno più bassi. L'anno prossimo infatti scatterà la modifica biennale dei coefficienti di trasformazione del montante contributivo che lega il trattamento…",
-      "publishedAt": "2026-10-21T11:12:40.000Z",
-      "sourceId": "ansa-pmi",
-      "sourceName": "ANSA — PMI",
-      "category": "economia"
-    },
-    {
-      "id": "milano-finanza-1ezh0ol",
-      "title": "Booking, la Commissione Ue apre un’indagine sul gigante degli hotel: nel mirino truffe e annunci sospetti",
-      "url": "https://www.milanofinanza.it/news/la-commissione-ue-apre-un-indagine-su-booking-com-nel-mirino-annunci-sospetti-e-truffe-202610211244145955",
-      "summary": "",
-      "publishedAt": "2026-10-21T11:11:00.000Z",
-      "sourceId": "milano-finanza",
-      "sourceName": "Milano Finanza",
-      "category": "economia"
+      "id": "corcom-quep8j",
+      "title": "TIM Full Fibra Business in promo a 24,90 euro al mese: connettività fino a 2,5 Giga, modem Wi-Fi 7 e IP statico per aziende",
+      "url": "https://www.corrierecomunicazioni.it/digital-economy/tim-full-fibra-business-offerta-wifi-7-ip-statico-aziende",
+      "summary": "TIM Full Fibra Business propone un canone promozionale di 24,90 euro al mese per le imprese, con fibra fino a 2,5 Giga, modem Wi-Fi 7, IP statico, chiamate illimitate e assistenza dedicata. Previsto un contributo di attivazione di 120 euro complessivi L'articolo TIM Full Fibra Business in promo a 24,90 euro al mese:…",
+      "publishedAt": "2026-10-21T11:12:34.000Z",
+      "sourceId": "corcom",
+      "sourceName": "CorCom",
+      "category": "digitale"
     },
     {
       "id": "schneier-1bfjgpf",
@@ -184,26 +824,6 @@
       "category": "cyber"
     },
     {
-      "id": "milano-finanza-jjrllh",
-      "title": "Getty Images dichiara bancarotta e lascia Wall Street: cosa è successo al colosso mondiale delle foto",
-      "url": "https://www.milanofinanza.it/news/getty-images-dichiara-bancarotta-e-avvia-la-ristrutturazione-del-debito-i-creditori-rinunciano-a-270-202610211304367479",
-      "summary": "",
-      "publishedAt": "2026-10-21T11:01:00.000Z",
-      "sourceId": "milano-finanza",
-      "sourceName": "Milano Finanza",
-      "category": "economia"
-    },
-    {
-      "id": "ansa-pmi-1bkeqq9",
-      "title": "Inps, sperimentazione del servizio proattivo per il congedo di maternità",
-      "url": "https://www.ansa.it/sito/notizie/economia/pmi/2026/10/21/inps-sperimentazione-del-servizio-proattivo-per-il-congedo-di-maternita_56757268-964b-4514-b5a1-516d34a4126b.html",
-      "summary": "(ANSA) - ROMA, 21 OTT - Semplificare l'accesso al congedo di maternità, riducendo gli adempimenti a carico delle lavoratrici e delle imprese attraverso l'utilizzo delle informazioni già disponibili nelle banche dati dell'Istituto. È l'obiettivo del progetto Inps di digitalizzazione delle domande di congedo di…",
-      "publishedAt": "2026-10-21T10:54:41.000Z",
-      "sourceId": "ansa-pmi",
-      "sourceName": "ANSA — PMI",
-      "category": "economia"
-    },
-    {
       "id": "pmi-it-r6kpf2",
       "title": "Investo Digitale, PMI e professionisti chiedono il voucher in Manovra 2027",
       "url": "https://www.pmi.it/economia/finanziamenti/497518/buono-digitale-mpmi-professionisti.html",
@@ -214,74 +834,14 @@
       "category": "finanziamenti"
     },
     {
-      "id": "zerouno-1vs57h7",
-      "title": "Dati, AI e GenBI: dall’opportunità al valore concreto",
-      "url": "https://www.zerounoweb.it/big-data/dati-ai-e-genbi-dallopportunita-al-valore-concreto",
-      "summary": "L’AI applicata ai dati presenti in azienda offre alle aziende moltissime possibilità concrete di ottimizzazione, ma è importante partire da subito in modo efficace. I vantaggi e i casi d’uso di questo approccio spiegati da Davide Donna ed Emanuele Farotti, Co-founder di The Information Lab L'articolo Dati, AI e GenBI:…",
-      "publishedAt": "2026-10-21T10:49:18.000Z",
-      "sourceId": "zerouno",
-      "sourceName": "ZeroUno",
-      "category": "bi"
-    },
-    {
-      "id": "ansa-pmi-x3zh8s",
-      "title": "Autotrasporto: Rixi, misure annunciate saranno ufficiali nelle prossime ore",
-      "url": "https://www.ansa.it/sito/notizie/economia/pmi/2026/10/21/autotrasporto-rixi-misure-annunciate-saranno-ufficiali-nelle-prossime-ore_ea56e58b-b007-4f9f-b35a-3f7bcec3d19a.html",
-      "summary": "(ANSA) - ROMA, 21 OTT - \"Il governo farà tutto il possibile nelle prossime ore, tutti i provvedimenti che ieri abbiamo annunciato verranno presi in maniera ufficiale\" per sostenere l'autotrasporto. Lo ha detto il viceministro al Mit, Edoardo Rixi, nel suo intervento all'11esimo Forum internazionale di…",
-      "publishedAt": "2026-10-21T10:48:42.000Z",
-      "sourceId": "ansa-pmi",
-      "sourceName": "ANSA — PMI",
-      "category": "economia"
-    },
-    {
-      "id": "key4biz-2jqr8h",
-      "title": "Ucraina, test per StarGate: il drone-ambulanza con AI che può trasportare militari feriti. Funziona senza GPS con Starlink",
-      "url": "https://www.key4biz.it/ucraina-test-per-stargate-il-drone-ambulanza-con-ai-che-puo-trasportare-militari-feriti-funziona-senza-gps-con-starlink/591535",
-      "summary": "L’Ucraina presenta StarGate, il nuovo drone per l’evacuazione medica sviluppato dall’azienda SkyFall. L’obiettivo è utilizzare il drone per recuperare militari feriti nelle aree più pericolose del fronte, senza dover inviare sul posto una squadra di evacuazione. Se si dimostrerà sufficientemente affidabile in…",
-      "publishedAt": "2026-10-21T10:47:55.000Z",
-      "sourceId": "key4biz",
-      "sourceName": "Key4biz",
-      "category": "digitale"
-    },
-    {
-      "id": "startupbusiness-189s1ql",
-      "title": "Brooklyn Beckham prepara spaghetti all’arrabbiata, ma i social lo ‘bocciano’",
-      "url": "https://www.startupbusiness.it/brooklyn-beckham-prepara-spaghetti-allarrabbiata-ma-i-social-lo-bocciano/209321",
-      "summary": "(Adnkronos) - Brooklyn Beckham disastroso in cucina. Il figlio di David e Victoria Beckham è diventato virale sui social per un video in cui si cimenta con la preparazione di un piatto di spaghetti all'assassina, ma...",
-      "publishedAt": "2026-10-21T10:37:55.000Z",
-      "sourceId": "startupbusiness",
-      "sourceName": "Startupbusiness",
+      "id": "economyup-pf8dzs",
+      "title": "Robot umanoidi, la sovranità europea passa (anche) dai dati e da una startup italiana",
+      "url": "https://www.economyup.it/data-center/robot-umanoidi-la-sovranita-europea-passa-anche-dai-dati-e-da-una-startup-italiana",
+      "summary": "Generative Bionics, fondata nel 2024, realizzerà entro il 2027 un hub di 5mila metri quadrati per addestrare GENE.01 tra fabbrica reale e gemelli digitali. Il progetto con AMD mette dati, modelli e competenze industriali al centro della sovranità tecnologica europea L'articolo Robot umanoidi, la sovranità europea…",
+      "publishedAt": "2026-10-21T10:47:44.000Z",
+      "sourceId": "economyup",
+      "sourceName": "EconomyUp",
       "category": "strategia"
-    },
-    {
-      "id": "startupbusiness-1xvznrf",
-      "title": "Grimaldi (Anmco): “Scompenso un’epidemia, serve continuità ospedale-territorio”",
-      "url": "https://www.startupbusiness.it/grimaldi-anmco-scompenso-unepidemia-serve-continuita-ospedale-territorio/209323",
-      "summary": "(Adnkronos) - \"I problemi cardiovascolari sono la prima causa di morte, ma anche la prima causa di invalidità, dato che l’ictus cerebrale è a esse collegato. Nel caso dello scompenso cardiaco parliamo di epidemia perché...",
-      "publishedAt": "2026-10-21T10:37:51.000Z",
-      "sourceId": "startupbusiness",
-      "sourceName": "Startupbusiness",
-      "category": "strategia"
-    },
-    {
-      "id": "hacker-news-127hgdq",
-      "title": "PHP2Shell: What Actually Protects You Before the 14:00 UTC PHP RCE Patch, and What Doesn't",
-      "url": "https://thehackernews.com/2026/10/php2shell-what-actually-protects-you.html",
-      "summary": "You cannot fully block the two critical PHP flaws called PHP2Shell before today's fix, and the one setting being passed around as a workaround is not enough on its own, the security firm that suggested it now says. PHP will release the fix at 14:00 UTC on October 21 for two flaws it rates 9.2 out of 10, and has given…",
-      "publishedAt": "2026-10-21T10:36:53.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "The Hacker News",
-      "category": "cyber"
-    },
-    {
-      "id": "key4biz-ofm72z",
-      "title": "“La fine della realtà”, il nuovo libro di Enrico Pulcini, giornalista pioniere su Internet",
-      "url": "https://www.key4biz.it/la-fine-della-realta/591571",
-      "summary": "Cosa è la realtà? Siamo sicuri che la tecnologia ci stia aiutando a comprendere meglio il mondo in cui viviamo oppure ci stiamo avviando verso un declino culturale le cui conseguenze potrebbero essere incontrollabili? Questo è il quesito, di stretta attualità, con cui Enrico Pulcini, giornalista pioniere su Internet,…",
-      "publishedAt": "2026-10-21T10:36:16.000Z",
-      "sourceId": "key4biz",
-      "sourceName": "Key4biz",
-      "category": "digitale"
     },
     {
       "id": "ai4business-16877b0",
@@ -294,44 +854,14 @@
       "category": "bi"
     },
     {
-      "id": "startupbusiness-z5ux6y",
-      "title": "Ballando, Anna Safroncik chiede scusa: “Mi hanno scritto cose orribili, non sono abituata a sbagliare”",
-      "url": "https://www.startupbusiness.it/ballando-anna-safroncik-chiede-scusa-mi-hanno-scritto-cose-orribili-non-sono-abituata-a-sbagliare/209325",
-      "summary": "(Adnkronos) - Anna Safroncik ritorna sui suoi passi e chiede scusa dopo aver accusato in diretta a Ballando con le stelle il maestro di ballo, Leonardo Lini, di non averla supportata come lei avrebbe voluto. In lacrime...",
-      "publishedAt": "2026-10-21T10:34:54.000Z",
-      "sourceId": "startupbusiness",
-      "sourceName": "Startupbusiness",
-      "category": "strategia"
-    },
-    {
-      "id": "hacker-news-tigvpl",
-      "title": "The Harness Is the Hard Part of Agentic Pentesting",
-      "url": "https://thehackernews.com/2026/10/the-harness-is-hard-part-of-agentic.html",
-      "summary": "An AppSec team can point an AI agent running on a general-purpose model at its own web apps with little setup. Sure, the model writes the attacks. But everything that makes those attacks safe to run against production and worth acting on afterward lives in the harness around the model. The harness is where the…",
-      "publishedAt": "2026-10-21T10:32:40.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "The Hacker News",
-      "category": "cyber"
-    },
-    {
-      "id": "startupbusiness-9h7gmk",
-      "title": "Ieg è tra i primi 20 organizzatori fieristici al mondo",
-      "url": "https://www.startupbusiness.it/ieg-e-tra-i-primi-20-organizzatori-fieristici-al-mondo/209327",
-      "summary": "(Adnkronos) - Italian Exhibition Group (Ieg) è l’unica società italiana nella classifica Grant Thornton Stax che individua e analizza i 20 top player mondiali del settore fieristico. Questa nota e ambitissima classifica...",
-      "publishedAt": "2026-10-21T10:32:15.000Z",
-      "sourceId": "startupbusiness",
-      "sourceName": "Startupbusiness",
-      "category": "strategia"
-    },
-    {
-      "id": "hacker-news-esygxk",
-      "title": "Attackers Hijacked Over 300 Tor Exit Relays to Intercept SSH Connections",
-      "url": "https://thehackernews.com/2026/10/attackers-hijacked-over-300-tor-exit.html",
-      "summary": "Attackers took control of more than 300 Tor exit relays in early October and used them to redirect SSH connections to servers that stole login passwords, a researcher found. Exit relays are the last hop in a Tor circuit, where traffic leaves the network for its destination. Only a password login to an SSH server made…",
-      "publishedAt": "2026-10-21T10:30:27.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "The Hacker News",
-      "category": "cyber"
+      "id": "italia-oggi-13hpxjf",
+      "title": "Librerie, settore in crescita: 3.755 imprese e 1,8 miliardi di euro di fatturato. Ma l’83% dei Comuni non ha un punto vendita",
+      "url": "https://www.italiaoggi.it/marketing-e-media/marketing/librerie-settore-in-crescita-3755-imprese-e-1-8-miliardi-di-euro-di-fatturato-ma-l83-dei-comuni-non-ha-un-punto-vendita-sdqufbls",
+      "summary": "",
+      "publishedAt": "2026-10-21T10:32:00.000Z",
+      "sourceId": "italia-oggi",
+      "sourceName": "Italia Oggi",
+      "category": "fiscale"
     },
     {
       "id": "esgnews-39k0i1",
@@ -344,16 +874,6 @@
       "category": "compliance"
     },
     {
-      "id": "finanza-operativa-qkhsbn",
-      "title": "Bitcoin: volatilità ai minimi, preludio di un’accelerazione al rialzo o al ribasso",
-      "url": "https://www.bluerating.com/mercati/879432/bitcoin-volatilita-ai-minimi-preludio-di-unaccelerazione-al-rialzo-o-al-ribasso",
-      "summary": "Il Bitcoin attraversa una fase di relativa immobilità proprio mentre i mercati finanziari internazionali sono alle prese con nuove tensioni. Una situazione apparentemente tranquilla, ma che sul mercato delle criptovalute potrebbe anticipare una nuova accelerazione dei prezzi, al rialzo oppure al ribasso. A richiamare…",
-      "publishedAt": "2026-10-21T10:29:49.000Z",
-      "sourceId": "finanza-operativa",
-      "sourceName": "Finanza Operativa",
-      "category": "economia"
-    },
-    {
       "id": "economyup-1t4chtm",
       "title": "Offerta Pulsee Luce e Gas: sconto fino a 125 euro in bolletta ed energia da fonti 100 per cento rinnovabili",
       "url": "https://www.economyup.it/energia/pulsee-luce-gas-promozione-codice-puin-125-sconto-bolletta",
@@ -362,26 +882,6 @@
       "sourceId": "economyup",
       "sourceName": "EconomyUp",
       "category": "strategia"
-    },
-    {
-      "id": "bleeping-computer-2zgqve",
-      "title": "Microsoft says October updates didn’t actually fix VPN issues",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-didnt-actually-fix-vpn-issues-caused-by-windows-updates",
-      "summary": "Microsoft says it mistakenly flagged a bug causing Always On VPN connection issues as fixed in the October 2026 Windows 11 cumulative updates. [...]",
-      "publishedAt": "2026-10-21T10:14:53.000Z",
-      "sourceId": "bleeping-computer",
-      "sourceName": "BleepingComputer",
-      "category": "cyber"
-    },
-    {
-      "id": "esgnews-1fkla7a",
-      "title": "EBA: rischi ESG e stress test climatici tra le priorità per le banche nel 2027",
-      "url": "https://esgnews.it/regulator/eba-rischi-esg-e-stress-test-climatici-tra-le-priorita-per-le-banche-nel-2027",
-      "summary": "Il Work Programme dell’EBA prevede un modulo climatico negli stress test, un’analisi dei rischi ambientali e sociali e il monitoraggio dei piani di transizione delle banche. Cosa cambia per gli istituti con il … L'articolo EBA: rischi ESG e stress test climatici tra le priorità per le banche nel 2027 proviene da ESG…",
-      "publishedAt": "2026-10-21T10:14:13.000Z",
-      "sourceId": "esgnews",
-      "sourceName": "ESG News",
-      "category": "compliance"
     },
     {
       "id": "uni-1dal4x7",
@@ -394,26 +894,6 @@
       "category": "compliance"
     },
     {
-      "id": "finanza-operativa-eiigku",
-      "title": "BlackRock incrementa le proprie quote nelle big bank italiane",
-      "url": "https://www.bluerating.com/mercati/879440/blackrock-incrementa-proprie-le-quote-nelle-big-bank-italiane",
-      "summary": "BlackRock ha deciso di incrementare la propria presenza nel capitale delle principali banche italiane. Come riportato da MF, le comunicazioni sulle partecipazioni rilevanti diffuse dalla Consob indicano che il colosso americano del risparmio gestito, con un patrimonio di 15.500 miliardi di dollari, è salito al 7,3% di…",
-      "publishedAt": "2026-10-21T10:01:22.000Z",
-      "sourceId": "finanza-operativa",
-      "sourceName": "Finanza Operativa",
-      "category": "economia"
-    },
-    {
-      "id": "agenda-digitale-ybaing",
-      "title": "Dalla ricerca all’innovazione: il metodo che costruisce il futuro",
-      "url": "https://www.agendadigitale.eu/cultura-digitale/competenze-digitali/dalla-ricerca-allinnovazione-il-metodo-che-costruisce-il-futuro",
-      "summary": "Ogni tecnologia nasce da domande, tentativi, errori e collaborazioni che restano spesso invisibili. Il Research Award della RomeCup mostra come ricerca e innovazione acquistino valore quando università, imprese, istituzioni, scuole e cittadini partecipano insieme alla costruzione delle soluzioni e alla valutazione dei…",
-      "publishedAt": "2026-10-21T10:01:00.000Z",
-      "sourceId": "agenda-digitale",
-      "sourceName": "Agenda Digitale",
-      "category": "bi"
-    },
-    {
       "id": "pmi-it-3ikqos",
       "title": "Diritto alla riparazione dal 22 ottobre: obbligatoria anche fuori garanzia per i produttori",
       "url": "https://www.pmi.it/economia/green-economy/407310/diritto-alla-riparazione.html",
@@ -422,16 +902,6 @@
       "sourceId": "pmi-it",
       "sourceName": "PMI.it",
       "category": "finanziamenti"
-    },
-    {
-      "id": "forbes-italia-1164npg",
-      "title": "Carlsberg prepara l’Ipo in India a dicembre: il gruppo danese punta a raccogliere 700 milioni",
-      "url": "https://forbes.it/2026/10/21/carlsberg-india-ipo-700-milioni",
-      "summary": "Carlsberg si prepara all’ipo della divisione indiana, fino a 700 milioni di dollari. Il lancio potrebbe essere a dicembre L’articolo Carlsberg prepara l’Ipo in India a dicembre: il gruppo danese punta a raccogliere 700 milioni è tratto da Forbes Italia .",
-      "publishedAt": "2026-10-21T10:00:25.000Z",
-      "sourceId": "forbes-italia",
-      "sourceName": "Forbes Italia",
-      "category": "strategia"
     },
     {
       "id": "ai4business-1x6o4wl",
@@ -444,16 +914,6 @@
       "category": "bi"
     },
     {
-      "id": "forbes-italia-142un0m",
-      "title": "Anthropic, perdita da 80,7 miliardi e investimenti fino a 750 miliardi: i rischi dell’Ipo",
-      "url": "https://forbes.it/2026/10/21/anthropic-ipo-perdite-investimenti-intelligenza-artificiale",
-      "summary": "Il boom dei ricavi di Claude si accompagna a costi infrastrutturali crescenti, dipendenza dai fornitori di calcolo e timori sui rischi dei modelli di IA L’articolo Anthropic, perdita da 80,7 miliardi e investimenti fino a 750 miliardi: i rischi dell’Ipo è tratto da Forbes Italia .",
-      "publishedAt": "2026-10-21T09:33:29.000Z",
-      "sourceId": "forbes-italia",
-      "sourceName": "Forbes Italia",
-      "category": "strategia"
-    },
-    {
       "id": "cybersecitalia-1jgb8zy",
       "title": "Data leak Trenord, ecco i dati dei passeggeri finiti nelle mani dei cyber criminali",
       "url": "https://www.cybersecitalia.it/data-leak-trenord-ecco-i-dati-dei-passeggeri-finiti-nelle-mani-dei-cyber-criminali/70728",
@@ -464,24 +924,14 @@
       "category": "cyber"
     },
     {
-      "id": "help-net-security-1ee0f71",
-      "title": "Grafana Labs connects observability and incident response with Knowledge Graph",
-      "url": "https://www.helpnetsecurity.com/2026/10/21/grafana-labs-knowledge-graph",
-      "summary": "Grafana Labs has announced a Knowledge Graph in every Grafana Cloud stack, alongside new Digital Experience Monitoring capabilities and updates to Grafana Cloud Incident Response Management (IRM). The releases connect infrastructure and application dependencies with user experience and incident response, giving people…",
-      "publishedAt": "2026-10-21T09:30:38.000Z",
-      "sourceId": "help-net-security",
-      "sourceName": "Help Net Security",
-      "category": "cyber"
-    },
-    {
-      "id": "key4biz-phs9td",
-      "title": "Educazione finanziaria, nasce alla Sapienza di Roma un’app per avvicinare i giovani agli investimenti",
-      "url": "https://www.key4biz.it/educazione-finanziaria-nasce-alla-sapienza-unapp-per-avvicinare-i-giovani-agli-investimenti/591527",
-      "summary": "Imparare a gestire il proprio denaro, comprendere i mercati finanziari e prendere decisioni consapevoli sui risparmi: competenze fondamentali, ma ancora poco diffuse tra i giovani italiani. È da questa esigenza che nasce FinFast, una piattaforma digitale gratuita dedicata all’educazione finanziaria della Generazione…",
-      "publishedAt": "2026-10-21T09:24:57.000Z",
-      "sourceId": "key4biz",
-      "sourceName": "Key4biz",
-      "category": "digitale"
+      "id": "italia-oggi-5hju8c",
+      "title": "Cdp, via libera a operazioni per 2,1 miliardi per infrastrutture, imprese e cooperazione internazionale",
+      "url": "https://www.italiaoggi.it/economia-e-politica/cdp-via-libera-a-operazioni-per-2-1-miliardi-per-infrastrutture-imprese-e-cooperazione-internazionale-xbtzyocq",
+      "summary": "",
+      "publishedAt": "2026-10-21T09:32:00.000Z",
+      "sourceId": "italia-oggi",
+      "sourceName": "Italia Oggi",
+      "category": "fiscale"
     },
     {
       "id": "commissione-ue-1vdjuzh",
@@ -494,26 +944,6 @@
       "category": "finanziamenti"
     },
     {
-      "id": "key4biz-151i9t0",
-      "title": "Satelliti militari russi stanno stalkerando satelliti (commerciali) alleati dell’Ucraina?",
-      "url": "https://www.key4biz.it/satelliti-militari-russi-stanno-stalkerando-satelliti-commerciali-alleati-dellucraina/591530",
-      "summary": "La manovra ostile di disturbo da parte di un satellite militare russo, passato a pochi metri di distanza da un satellite commerciale americano di un’azienda finlandese che offrirebbe servizi di intelligence all’Ucraina, rappresenta un salto di qualità sostanziale da parte della Russia nel conflitto contro l’Ucraina.…",
-      "publishedAt": "2026-10-21T09:22:11.000Z",
-      "sourceId": "key4biz",
-      "sourceName": "Key4biz",
-      "category": "digitale"
-    },
-    {
-      "id": "ai4business-1xg828u",
-      "title": "AI, l’appello dei vescovi Ue: otto principi per orientare le politiche europee",
-      "url": "https://www.ai4business.it/intelligenza-artificiale/ai-lappello-dei-vescovi-ue-otto-principi-per-orientare-le-politiche-europee",
-      "summary": "La Commissione degli episcopati dell'Unione europea chiede che l'intelligenza artificiale rispetti dignità umana, diritti e bene comune. Dopo l'assemblea di Bruxelles, i vescovi indicano i principi per le politiche della Ue, richiamando l'enciclica Magnifica humanitas di Leone XIV e la necessità di un governo…",
-      "publishedAt": "2026-10-21T09:21:06.000Z",
-      "sourceId": "ai4business",
-      "sourceName": "AI4Business",
-      "category": "bi"
-    },
-    {
       "id": "pmi-it-1cqjofw",
       "title": "Cloud sovrano, Microsoft mette i suoi tecnici sotto controllo UE",
       "url": "https://www.pmi.it/tecnologia/infrastrutture-it/501964/cloud-sovrano-microsoft.html",
@@ -522,26 +952,6 @@
       "sourceId": "pmi-it",
       "sourceName": "PMI.it",
       "category": "finanziamenti"
-    },
-    {
-      "id": "agenda-digitale-q13bzn",
-      "title": "Dati, AI e open source: i tre pilastri dell’indipendenza tecnologica",
-      "url": "https://www.agendadigitale.eu/industry-4-0/dati-ai-e-open-source-i-tre-pilastri-dellindipendenza-tecnologica",
-      "summary": "Il controllo di dati, architetture e modelli diventa decisivo nell’economia degli agenti AI. L’open source riduce la dipendenza dai fornitori proprietari e rende possibili interoperabilità, sovranità digitale e Private AI, tre pilastri per sistemi enterprise resilienti, portabili e governati dalle organizzazioni…",
-      "publishedAt": "2026-10-21T09:14:00.000Z",
-      "sourceId": "agenda-digitale",
-      "sourceName": "Agenda Digitale",
-      "category": "bi"
-    },
-    {
-      "id": "corcom-1r2qtcn",
-      "title": "1NCE, Davide Brandini è SVP Southeast Europe Sales: la carriera",
-      "url": "https://www.corrierecomunicazioni.it/industria-4-0/iot/1nce-davide-brandini-e-svp-southeast-europe-sales-la-carriera",
-      "summary": "Con una consolidata esperienza nei settori delle telecomunicazioni e della tecnologia, Brandini entra nella tedesca 1NCE, specializzata in software e connettività per l’Internet of Things, con l'obiettivo di contribuire alla crescita dell’azienda nei mercati dell’Europa sud-orientale L'articolo 1NCE, Davide Brandini è…",
-      "publishedAt": "2026-10-21T09:13:15.000Z",
-      "sourceId": "corcom",
-      "sourceName": "CorCom",
-      "category": "digitale"
     },
     {
       "id": "sole24ore-management-iwvi9",
@@ -554,26 +964,6 @@
       "category": "strategia"
     },
     {
-      "id": "corcom-idmqbw",
-      "title": "Data center, senza fibra a rischio la corsa all’AI: domanda di banda verso il +500%",
-      "url": "https://www.corrierecomunicazioni.it/data-center/data-center-fibra-ottica-ai-domanda-banda",
-      "summary": "La crescita delle infrastrutture di calcolo richiede collegamenti ad alta capacità, bassa latenza e percorsi ridondanti. Secondo il World Economic Forum, nei prossimi cinque anni il fabbisogno di interconnessione potrebbe aumentare di almeno sei volte. Energia, acqua e disponibilità di terreni condizionano gli…",
-      "publishedAt": "2026-10-21T09:08:26.000Z",
-      "sourceId": "corcom",
-      "sourceName": "CorCom",
-      "category": "digitale"
-    },
-    {
-      "id": "help-net-security-14sizw3",
-      "title": "ThreatLocker adds external controls for AI agent access and execution",
-      "url": "https://www.helpnetsecurity.com/2026/10/21/threatlocker-zero-trust-ai-control-ztaic",
-      "summary": "ThreatLocker has announced the launch of Zero Trust AI Control (ZTAIC), giving organizations a tool to deploy agentic AI without surrendering control of their environments. ZTAIC enables security teams to give AI agents exactly what they need to perform their jobs while keeping everything else out of reach, even as…",
-      "publishedAt": "2026-10-21T09:07:30.000Z",
-      "sourceId": "help-net-security",
-      "sourceName": "Help Net Security",
-      "category": "cyber"
-    },
-    {
       "id": "economyup-1bqe5d4",
       "title": "Word model e world model: perché Amazon offre 7 miliardi di dollari per la startup Decart",
       "url": "https://www.economyup.it/innovazione/word-model-e-world-model-perche-amazon-offre-7-miliardi-di-dollari-per-la-startup-decart",
@@ -582,16 +972,6 @@
       "sourceId": "economyup",
       "sourceName": "EconomyUp",
       "category": "strategia"
-    },
-    {
-      "id": "hacker-news-8we56b",
-      "title": "PHP2Shell: Two Unpatched Critical PHP RCE Flaws (CVSS 9.2) Trigger Emergency Security Alert",
-      "url": "https://thehackernews.com/2026/10/php2shell-two-unpatched-critical-php.html",
-      "summary": "This story is developing and was written before PHP's scheduled 14:00 UTC release on October 21. Once the release is out, the affected and fixed versions below are confirmed by the official advisory. PHP will ship an out-of-cycle security release at 14:00 UTC today, October 21, for two critical vulnerabilities that…",
-      "publishedAt": "2026-10-21T09:05:17.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "The Hacker News",
-      "category": "cyber"
     },
     {
       "id": "pmi-it-14bptbx",
@@ -604,76 +984,6 @@
       "category": "finanziamenti"
     },
     {
-      "id": "cybersecurity360-1ph91ac",
-      "title": "La vulnerabilità dell’AI tra sycophancy e guerra geopolitica",
-      "url": "https://www.cybersecurity360.it/nuove-minacce/la-vulnerabilita-dellai-tra-sycophancy-e-guerra-geopolitica",
-      "summary": "Una vulnerabilità epistemica e sistemica di primaria grandezza, la sycophancy (o piaggeria algoritmica), costituisce un effetto collaterale strutturale e matematicamente connaturato alle attuali metodologie di allineamento. Ecco i rischi per il settore privato, la cyber security, la salute mentale dei minori e i…",
-      "publishedAt": "2026-10-21T09:02:25.000Z",
-      "sourceId": "cybersecurity360",
-      "sourceName": "Cybersecurity360",
-      "category": "cyber"
-    },
-    {
-      "id": "finanza-operativa-mc52r6",
-      "title": "Raccomandazioni di Borsa: i Buy del 21 ottobre da Convergenze a Tradelab",
-      "url": "https://www.bluerating.com/mercati/879353/raccomandazioni-di-borsa-i-buy-del-21-ottobre-da-convergenze-a-tradelab",
-      "summary": "Target price e raccomandazioni degli analisti sulle azioni italiane",
-      "publishedAt": "2026-10-21T09:00:43.000Z",
-      "sourceId": "finanza-operativa",
-      "sourceName": "Finanza Operativa",
-      "category": "economia"
-    },
-    {
-      "id": "forbes-italia-1tieyfq",
-      "title": "Rulen chiude un round da 1,8 milioni di euro per automatizzare il lavoro fiscale con l’intelligenza artificiale",
-      "url": "https://forbes.it/2026/10/21/rulen-round-18-milioni-automatizzare-lavoro-fiscale",
-      "summary": "La startup di automazione per commercialisti ottiene risorse finanziarie da VC Partners per digitalizzare i flussi operativi del settore. L’articolo Rulen chiude un round da 1,8 milioni di euro per automatizzare il lavoro fiscale con l’intelligenza artificiale è tratto da Forbes Italia .",
-      "publishedAt": "2026-10-21T09:00:26.000Z",
-      "sourceId": "forbes-italia",
-      "sourceName": "Forbes Italia",
-      "category": "strategia"
-    },
-    {
-      "id": "forbes-italia-1al6to7",
-      "title": "Big Tech in affanno, Goldman Sachs punta su 23 azioni difensive: ecco quali comprare",
-      "url": "https://forbes.it/2026/10/21/dove-investire-cali-tech-23-azioni-difensive-goldman-sachs-russell-1000",
-      "summary": "Con il tech sotto pressione, Goldman Sachs consiglia 23 titoli difensivi tra sanità e beni di prima necessità. Ecco l'analisi L’articolo Big Tech in affanno, Goldman Sachs punta su 23 azioni difensive: ecco quali comprare è tratto da Forbes Italia .",
-      "publishedAt": "2026-10-21T08:59:59.000Z",
-      "sourceId": "forbes-italia",
-      "sourceName": "Forbes Italia",
-      "category": "strategia"
-    },
-    {
-      "id": "help-net-security-c3cd69",
-      "title": "Info-stealing malware slipped into OVHcloud CLI releases on GitHub",
-      "url": "https://www.helpnetsecurity.com/2026/10/21/ovhcloud-cli-github-malware",
-      "summary": "OVHcloud, the French cloud computing and web hosting company, alerted customers that a hacker tampered with its open-source command-line interface (CLI) tool to spread information-stealing malware. OVHcloud CEO Octave Klaba disclosed the incident on X, warning users who downloaded the latest CLI release that day to…",
-      "publishedAt": "2026-10-21T08:59:57.000Z",
-      "sourceId": "help-net-security",
-      "sourceName": "Help Net Security",
-      "category": "cyber"
-    },
-    {
-      "id": "wall-street-italia-gd3gr5",
-      "title": "Biogenera: ultimi giorni per investire nella campagna di crowdfunding su CrowdFundMe",
-      "url": "https://www.wallstreetitalia.com/news/biogenera-ultimi-giorni-per-investire-nella-campagna-di-crowdfunding-su-crowdfundme",
-      "summary": "Biogenera, biotech company impegnata nello sviluppo di terapie personalizzate a DNA, si avvicina a una fase cruciale del proprio percorso: il passaggio alla sperimentazione clinica di BGA002, candidato farmaco sviluppato contro alcuni dei tumori pediatrici più aggressivi, previsto nel 2027. Fino al 26 ottobre è…",
-      "publishedAt": "2026-10-21T08:58:03.000Z",
-      "sourceId": "wall-street-italia",
-      "sourceName": "Wall Street Italia",
-      "category": "economia"
-    },
-    {
-      "id": "bleeping-computer-1ezuhyh",
-      "title": "CISA: SafePay ransomware hit over 600 critical infrastructure orgs",
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-and-fbi-safepay-ransomware-has-hit-over-600-critical-infrastructure-organizations",
-      "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) says the SafePay ransomware gang has breached over 600 critical infrastructure organizations worldwide since 2024. [...]",
-      "publishedAt": "2026-10-21T08:36:24.000Z",
-      "sourceId": "bleeping-computer",
-      "sourceName": "BleepingComputer",
-      "category": "cyber"
-    },
-    {
       "id": "economyup-1q2whhm",
       "title": "Prima la qualità del dato, poi l’algoritmo: il percorso di Remira per l’AI nella supply chain",
       "url": "https://www.economyup.it/retail/ai-nella-supply-chain-tra-trasparenza-ai-e-data-governance",
@@ -684,44 +994,34 @@
       "category": "strategia"
     },
     {
-      "id": "wall-street-italia-18w9po0",
-      "title": "Kepler Cheuvreux, il futuro dell’Europa in un unico certificato",
-      "url": "https://www.wallstreetitalia.com/kepler-cheuvreux-il-futuro-delleuropa-in-un-unico-certificato",
-      "summary": "Investire in maniera dinamica nelle aziende europee con le maggiori prospettive di crescita, beneficiando dei vantaggi tipici di un certificato. È questo l’obiettivo del nuovo strumento emesso da Kepler Cheuvreux: ne abbiamo parlato con Irene Bellomo, CFA Responsabile mercato italiano e ticinese di Kepler Cheuvreux…",
-      "publishedAt": "2026-10-21T08:35:49.000Z",
-      "sourceId": "wall-street-italia",
-      "sourceName": "Wall Street Italia",
-      "category": "economia"
+      "id": "diritto-it-183znbd",
+      "title": "Decreto sicurezza, cosa cambia dai 14 anni: sanzioni ai genitori e nuove pene per le violenze in piazza",
+      "url": "https://www.diritto.it/decreto-sicurezza-novita-minori-genitori-cortei",
+      "summary": "Approvato il decreto sicurezza: imputabilità dai 14 anni, sanzioni ai genitori e nuovo reato di violenza organizzata. Ecco le misure per la sicurezza.",
+      "publishedAt": "2026-10-21T08:30:00.000Z",
+      "sourceId": "diritto-it",
+      "sourceName": "Diritto.it",
+      "category": "compliance"
     },
     {
-      "id": "corcom-11hxd2d",
-      "title": "La tecnologia di Nokia e Ericsson alla conquista del mondo: gli accordi con Softbank e Telstra",
-      "url": "https://www.corrierecomunicazioni.it/telco/la-tecnologia-di-nokia-e-ericsson-alla-conquista-del-mondo-gli-accordi-con-softbank-e-telstra",
-      "summary": "N okia prepara con SoftBank una sperimentazione AI-RAN sulla rete commerciale giapponese. Ericsson amplia la collaborazione con Telstra sulle reti autonome. Due accordi che rafforzano il ruolo dei fornitori europei nell’integrazione tra telecomunicazioni e intelligenza artificiale L'articolo La tecnologia di Nokia e…",
-      "publishedAt": "2026-10-21T08:28:51.000Z",
-      "sourceId": "corcom",
-      "sourceName": "CorCom",
-      "category": "digitale"
+      "id": "italia-oggi-lok40u",
+      "title": "Netflix, ricavi e utili in crescita ma previsioni al ribasso",
+      "url": "https://www.italiaoggi.it/marketing-e-media/media/netflix-ricavi-e-utili-in-crescita-ma-previsioni-al-ribasso-su3f53l2",
+      "summary": "",
+      "publishedAt": "2026-10-21T08:19:00.000Z",
+      "sourceId": "italia-oggi",
+      "sourceName": "Italia Oggi",
+      "category": "fiscale"
     },
     {
-      "id": "corcom-3daym7",
-      "title": "FiberCop, oltre la fibra: la strategia dei 100 data center per l’AI",
-      "url": "https://www.corrierecomunicazioni.it/data-center/fibercop-edge-data-center-ai",
-      "summary": "Le centrali di telecomunicazioni diventano nodi per l'elaborazione distribuita dei dati. Dai servizi wholesale alle applicazioni per imprese e PA, il gruppo punta a valorizzare la capillarità della propria infrastruttura. Nei primi test tempi di risposta tra 1 e 5 millisecondi L'articolo FiberCop, oltre la fibra: la…",
-      "publishedAt": "2026-10-21T08:18:36.000Z",
-      "sourceId": "corcom",
-      "sourceName": "CorCom",
-      "category": "digitale"
-    },
-    {
-      "id": "wall-street-italia-13xfed6",
-      "title": "Borsa di Tokyo in rialzo: Nikkei chiude a +0,85%",
-      "url": "https://www.wallstreetitalia.com/news/borsa-di-tokyo-in-rialzo-nikkei-chiude-a-085-2",
-      "summary": "La Borsa di Tokyo ha registrato un rialzo, sostenuta dai titoli legati all’intelligenza artificiale e ai semiconduttori, mentre l’indebolimento dello yen ha favorito le esportazioni. Anche la Borsa di Seul ha visto un incremento dell’indice Kospi grazie ai semiconduttori, recuperando da un minimo semestrale.",
-      "publishedAt": "2026-10-21T08:10:17.000Z",
-      "sourceId": "wall-street-italia",
-      "sourceName": "Wall Street Italia",
-      "category": "economia"
+      "id": "italia-oggi-kkqo25",
+      "title": "Fisco e IA, il parlamento chiede di testare le soluzioni in ambiente protetto",
+      "url": "https://www.italiaoggi.it/diritto-e-fisco/fisco/fisco-e-ia-il-parlamento-chiede-di-testare-le-soluzioni-in-ambiente-protetto-aflw4a6h",
+      "summary": "",
+      "publishedAt": "2026-10-21T08:13:00.000Z",
+      "sourceId": "italia-oggi",
+      "sourceName": "Italia Oggi",
+      "category": "fiscale"
     },
     {
       "id": "commissione-ue-a3z57v",
@@ -734,24 +1034,14 @@
       "category": "finanziamenti"
     },
     {
-      "id": "esgnews-1r12jf6",
-      "title": "Eni – Snam: Ravenna CCS selezionato nell’ambito dell’Innovation Fund europeo",
-      "url": "https://esgnews.it/aziende/eni-snam-ravenna-ccs-selezionato-nellambito-dellinnovation-fund-europeo",
-      "summary": "Ravenna CCS, sviluppata da Eni e Snam, rappresenta la più grande infrastruttura del Mediterraneo per la ricezione, il trasporto e lo stoccaggio di CO2. Il progetto Ravenna CCS Fase 2, sviluppato da Eni … L'articolo Eni – Snam: Ravenna CCS selezionato nell’ambito dell’Innovation Fund europeo proviene da ESG News .",
-      "publishedAt": "2026-10-21T08:02:11.000Z",
-      "sourceId": "esgnews",
-      "sourceName": "ESG News",
+      "id": "diritto-it-g4ehmq",
+      "title": "Artigiani in trasferta: i rischi quando si lavora presso il cliente",
+      "url": "https://www.diritto.it/artigiani-trasferta-rischi-coperture-assicurative",
+      "summary": "Lavorare presso il cliente espone gli artigiani a rischi specifici. Scopri quali danni può coprire l'assicurazione e le clausole da verificare.",
+      "publishedAt": "2026-10-21T08:00:00.000Z",
+      "sourceId": "diritto-it",
+      "sourceName": "Diritto.it",
       "category": "compliance"
-    },
-    {
-      "id": "finanza-operativa-1bpq0ak",
-      "title": "Tech e difesa restano i pilastri del portafoglio global equity di Lemanik",
-      "url": "https://www.bluerating.com/mercati/879360/tech-e-difesa-restano-i-pilastri-del-portafoglio-global-equity-di-lemanik",
-      "summary": "Le azioni globali si sono mostrate resilienti durante il terzo trimestre 2026, muovendosi in un contesto complesso, caratterizzato da un cambio di leadership del mercato e dall’intensificarsi di fattori macroeconomici contrari. È la fotografia scattata da Filippo Garbarino, portafoglio manager di Lemanik e gestore del…",
-      "publishedAt": "2026-10-21T08:01:37.000Z",
-      "sourceId": "finanza-operativa",
-      "sourceName": "Finanza Operativa",
-      "category": "economia"
     },
     {
       "id": "uni-x9xobz",
@@ -762,56 +1052,6 @@
       "sourceId": "uni",
       "sourceName": "UNI — Ente Italiano di Normazione",
       "category": "compliance"
-    },
-    {
-      "id": "economyup-33rut9",
-      "title": "L’AI per prevenire i rischi: perché una startup fondata nel 2024 vale già un miliardo",
-      "url": "https://www.economyup.it/fintech/insurtech/lai-per-prevenire-i-rischi-perche-una-startup-fondata-nel-2024-vale-gia-un-miliardo",
-      "summary": "Fondata nel 2024, Stand ha chiuso una Serie C da 70 milioni di dollari a una valutazione di un miliardo. Digital twin, simulazioni fisiche e AI permette di costruire polizze immobile per immobile. Un modello rilevante per l’Europa, dove solo un quarto delle perdite da catastrofi naturali risulta storicamente…",
-      "publishedAt": "2026-10-21T07:41:00.000Z",
-      "sourceId": "economyup",
-      "sourceName": "EconomyUp",
-      "category": "strategia"
-    },
-    {
-      "id": "commissione-ue-a3z57u",
-      "title": "Commission to investigate how Booking.com combats scams and fraud under the Digital Services Act",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2223",
-      "summary": "European Commission Press release Brussels, 21 Oct 2026 Today, the European Commission has opened formal proceedings to assess whether Booking.com may have breached the Digital Services Act (DSA) by not having diligently assessed or effectively mitigated risks related to fraudulent listings and phishing scams.",
-      "publishedAt": "2026-10-21T07:37:53.000Z",
-      "sourceId": "commissione-ue",
-      "sourceName": "Commissione europea — Press corner",
-      "category": "finanziamenti"
-    },
-    {
-      "id": "wall-street-italia-1mce5hs",
-      "title": "Efpa Italia, una nuova guida per proseguire la crescita",
-      "url": "https://www.wallstreetitalia.com/efpa-italia-una-nuova-guida-per-proseguire-la-crescita",
-      "summary": "Un mandato nel segno della continuità. È quello che si propone Fabrizio Quaglio, nominato a luglio presidente di Efpa Italia, la fondazione che si occupa di certificare le competenze dei consulenti finanziari. Nato a Padova nel 1963, laureato in scienze politiche e consulente finanziario dal 1991, Quaglio punta tutto…",
-      "publishedAt": "2026-10-21T07:36:18.000Z",
-      "sourceId": "wall-street-italia",
-      "sourceName": "Wall Street Italia",
-      "category": "economia"
-    },
-    {
-      "id": "zerouno-t78yzn",
-      "title": "Chi autorizza gli agenti AI? La risposta di ServiceNow per portarli in produzione",
-      "url": "https://www.zerounoweb.it/analytics/cognitive-computing/chi-autorizza-gli-agenti-ai-la-risposta-di-servicenow-per-portarli-in-produzione",
-      "summary": "Portare gli agenti AI in produzione significa stabilire quali dati possono usare, quali azioni possono compiere e quando fermarli. ServiceNow amplia la propria piattaforma con AI Passport, strumenti di governance e funzionalità per monitorare i costi L'articolo Chi autorizza gli agenti AI? La risposta di ServiceNow…",
-      "publishedAt": "2026-10-21T07:19:31.000Z",
-      "sourceId": "zerouno",
-      "sourceName": "ZeroUno",
-      "category": "bi"
-    },
-    {
-      "id": "industry4business-19r2ebk",
-      "title": "AI, MIMIT e AI4I mappano la filiera nazionale: questionario aperto fino al 20 novembre",
-      "url": "https://www.innovationpost.it/attualita/politica/ai-mimit-e-ai4i-mappano-la-filiera-nazionale-questionario-aperto-fino-al-20-novembre",
-      "summary": "Ministero delle Imprese e del Made inItaly e Istituto Italiano di Intelligenza Artificiale avviano una consultazione per mappare la filiera nazionale dell'AI: sette segmenti dall'hardware alla compliance, criticità, dipendenze da fornitori esteri e priorità di intervento. Il questionario richiede circa 15 minuti e va…",
-      "publishedAt": "2026-10-21T07:08:21.000Z",
-      "sourceId": "industry4business",
-      "sourceName": "Industry4Business",
-      "category": "digitale"
     },
     {
       "id": "governo-a0g84q",
@@ -864,26 +1104,6 @@
       "category": "compliance"
     },
     {
-      "id": "commissione-ue-1uwaj9k",
-      "title": "Speech by President von der Leyen at the European Parliament plenary debate on the conclusions of the European Council meeting of 15-16 October 2026",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2222",
-      "summary": "European Commission Speech Strasbourg, 21 Oct 2026 President Metsola, dear Roberta, President Costa, dear António, Honourable Members, We have had a long and dense European Council. Let me touch on two of the ma...",
-      "publishedAt": "2026-10-21T06:04:27.000Z",
-      "sourceId": "commissione-ue",
-      "sourceName": "Commissione europea — Press corner",
-      "category": "finanziamenti"
-    },
-    {
-      "id": "zerouno-2uh80w",
-      "title": "Dati pronti per l’AI: controllo, sicurezza e resilienza",
-      "url": "https://www.zerounoweb.it/video/dati-pronti-per-lai-controllo-sicurezza-e-resilienza",
-      "summary": "Come preparare i dati all’intelligenza artificiale e proteggerli nel tempo? Per Luca Palese, Senior Sales Systems Engineer di Everpure, servono visibilità, capacità di governo e affidabilità. L'articolo Dati pronti per l’AI: controllo, sicurezza e resilienza proviene da ZeroUno .",
-      "publishedAt": "2026-10-21T06:00:00.000Z",
-      "sourceId": "zerouno",
-      "sourceName": "ZeroUno",
-      "category": "bi"
-    },
-    {
       "id": "agi-economia-11c9188",
       "title": "Le banche fanno muro sui 5 miliardi. Idea taglio dell'Irpef in due fasi",
       "url": "https://www.agi.it/economia/news/2026-10-20/manovra-stop-banche-energia-contributo-39632959",
@@ -902,16 +1122,6 @@
       "sourceId": "sole24ore-economia",
       "sourceName": "Il Sole 24 Ore — Economia",
       "category": "economia"
-    },
-    {
-      "id": "diritto-it-1db7psk",
-      "title": "Nuovo reato per i gruppi violenti organizzati via chat: la proposta di legge prevede fino a 8 anni di carcere",
-      "url": "https://www.diritto.it/nuovo-reato-associativo-cosa-prevede-il-ddl-3054",
-      "summary": "Nuovo reato associativo: il DDL 3054 propone pene fino a 8 anni per gruppi organizzati per commettere violenze. Ecco cosa prevede la proposta di legge.",
-      "publishedAt": "2026-10-21T05:00:00.000Z",
-      "sourceId": "diritto-it",
-      "sourceName": "Diritto.it",
-      "category": "compliance"
     },
     {
       "id": "commercialista-telematico-1hu7g6p",
@@ -954,16 +1164,6 @@
       "category": "fiscale"
     },
     {
-      "id": "sole24ore-economia-1jb52k0",
-      "title": "«L’era della co-intelligenza»: al via la quarta edizione di Orizzonti Digitali",
-      "url": "https://www.ilsole24ore.com/art/l-era-co-intelligenza-via-quarta-edizione-orizzonti-digitali-AJdPLUpB",
-      "summary": "Fa un salto di qualità e di dimensione ‘Orizzonti Digitali’, il forum di Confindustria Umbria dedicato all’intelligenza artificiale che si terrà dal 21 al 24 ottobre nel centro storico di...",
-      "publishedAt": "2026-10-21T04:02:04.000Z",
-      "sourceId": "sole24ore-economia",
-      "sourceName": "Il Sole 24 Ore — Economia",
-      "category": "economia"
-    },
-    {
       "id": "sole24ore-norme-t2ejli",
       "title": "Troppo alta la sanzione contro la pubblicità del gioco d’azzardo",
       "url": "https://www.ilsole24ore.com/art/troppo-alta-sanzione-contro-pubblicita-gioco-d-azzardo-AJ6JUbpB",
@@ -1002,206 +1202,6 @@
       "sourceId": "esg360",
       "sourceName": "ESG360",
       "category": "compliance"
-    },
-    {
-      "id": "bleeping-computer-9h201o",
-      "title": "Stolen UpdraftCentral keys used to backdoor WordPress sites",
-      "url": "https://www.bleepingcomputer.com/news/security/stolen-updraftcentral-keys-used-to-backdoor-wordpress-sites",
-      "summary": "A threat actor breached TeamUpdraft's website, a developer of popular WordPress backup and security plugins, potentially compromising UpdraftCentral connection keys that can send commands to connected websites. [...]",
-      "publishedAt": "2026-10-21T01:01:50.000Z",
-      "sourceId": "bleeping-computer",
-      "sourceName": "BleepingComputer",
-      "category": "cyber"
-    },
-    {
-      "id": "esg360-azh20n",
-      "title": "L’AI per la fabbrica autonoma: Siemens e NVIDIA al lavoro",
-      "url": "https://www.esg360.it/industria-5-0/lai-per-la-fabbrica-autonoma-siemens-e-nvidia-al-lavoro",
-      "summary": "Intelligenza artificiale e ai Digital Twin sono al centro della collaborazione tra Siemens e NVIDIA per lo sviluppo delle fabbriche autonome. Nello stabilimento tedesco di Erlangen, le nuove soluzioni permettono di ridurre fino all’85% le attività di ingegneria e fino al 20% i costi di pianificazione della produzione.…",
-      "publishedAt": "2026-10-21T01:01:00.000Z",
-      "sourceId": "esg360",
-      "sourceName": "ESG360",
-      "category": "compliance"
-    },
-    {
-      "id": "bleeping-computer-z4nz86",
-      "title": "Mozilla, Google, Apple block compromised eMudhra CA certificates",
-      "url": "https://www.bleepingcomputer.com/news/security/mozilla-google-apple-block-compromised-emudhra-ca-certificates",
-      "summary": "Certificate authority eMudhra revoked eight compromised intermediate certificates after researchers found their private keys were so weak that anyone could recover them almost instantly and use them to forge trusted certificates for legitimate websites. [...]",
-      "publishedAt": "2026-10-21T00:46:42.000Z",
-      "sourceId": "bleeping-computer",
-      "sourceName": "BleepingComputer",
-      "category": "cyber"
-    },
-    {
-      "id": "dark-reading-gf1f7u",
-      "title": "Tech Giants Block eMudhra Certificates Tied to 8 Compromised Keys",
-      "url": "https://www.darkreading.com/cyber-risk/tech-giants-emudhra-certificates-compromised-keys",
-      "summary": "Google, Mozilla, Apple, the Go project and others moved swiftly to block the affected certificates from the Indian CA, though it's unclear how the keys were compromised.",
-      "publishedAt": "2026-10-20T21:45:47.000Z",
-      "sourceId": "dark-reading",
-      "sourceName": "Dark Reading",
-      "category": "cyber"
-    },
-    {
-      "id": "agi-economia-92i7r",
-      "title": "SpaceX supera le attese nel terzo trimestre. Starlink e IA spingono i conti",
-      "url": "https://www.agi.it/economia/news/2026-10-20/spacex-ricavi-2026-starlink-39635263",
-      "summary": "AGI - SpaceX chiude il terzo trimestre del 2026 con ricavi in crescita del 161% su base annua, trainati dalla forte espansione delle attività legate all'intelligenza artificiale e dall'aumento degli abbonati a Starlink. Il fatturato ha raggiunto i 14,58 miliardi di dollari, superando le attese degli analisti, ferme a…",
-      "publishedAt": "2026-10-20T21:14:30.000Z",
-      "sourceId": "agi-economia",
-      "sourceName": "AGI — Economia",
-      "category": "economia"
-    },
-    {
-      "id": "sole24ore-norme-fa0k0t",
-      "title": "Casse di previdenza, i pensionati attivi salgono a 130mila unità in vent’anni",
-      "url": "https://www.ilsole24ore.com/art/casse-previdenza-pensionati-attivi-salgono-130mila-unita-vent-anni-AJ9NXcpB",
-      "summary": "Presentata ieri l’indagine Adepp, il 7,8% degli iscritti attivi è già in quiescenza",
-      "publishedAt": "2026-10-20T19:51:08.000Z",
-      "sourceId": "sole24ore-norme",
-      "sourceName": "Il Sole 24 Ore — Norme e Tributi",
-      "category": "fiscale"
-    },
-    {
-      "id": "governo-1vnrruw",
-      "title": "Comunicato stampa del Consiglio dei Ministri n. 193",
-      "url": "https://www.governo.it/it/articolo/comunicato-stampa-del-consiglio-dei-ministri-n-193/32884",
-      "summary": "Il Consiglio dei Ministri si è riunito martedì 20 ottobre 2026, alle ore 18.21 a Palazzo Chigi, sotto la presidenza del Presidente Giorgia Meloni. Segretario, il Sottosegretario alla Presidenza Alfredo Mantovano. ٠٠٠٠٠ SICUREZZA PUBBLICA E CONTRASTO ALLA CRIMINALITÀ MINORILE Disposizioni urgenti in materia di…",
-      "publishedAt": "2026-10-20T19:28:19.000Z",
-      "sourceId": "governo",
-      "sourceName": "Governo italiano",
-      "category": "compliance"
-    },
-    {
-      "id": "dark-reading-128q3y3",
-      "title": "Ex-OpenAI Engineer Detained After Planting Secret Recorder at HQ",
-      "url": "https://www.darkreading.com/insider-threats/ex-openai-engineer-secret-recorder-saudi-ties",
-      "summary": "The perp, who has Saudi ties, was arrested for allegedly bugging an OpenAI conference room, highlighting a preventable insider threat vector.",
-      "publishedAt": "2026-10-20T19:16:49.000Z",
-      "sourceId": "dark-reading",
-      "sourceName": "Dark Reading",
-      "category": "cyber"
-    },
-    {
-      "id": "agi-economia-i4rxcs",
-      "title": "Dal governo 480 milioni, ma la protesta dei tir continua",
-      "url": "https://www.agi.it/economia/news/2026-10-20/protesta-autotrasportatori-salvini-39623867",
-      "summary": "AGI - Il governo sblocca 480 milioni di euro per l' autotrasporto e annuncia oltre 150 milioni di nuove risorse, ma la protesta dei camionisti non si ferma . La giornata di incontri a Milano, con il ministro delle Infrastrutture e dei Trasporti Matteo Salvini e il viceministro Edoardo Rixi, si chiude con un'apertura…",
-      "publishedAt": "2026-10-20T18:43:25.000Z",
-      "sourceId": "agi-economia",
-      "sourceName": "AGI — Economia",
-      "category": "economia"
-    },
-    {
-      "id": "agi-economia-1n67hz4",
-      "title": "Il ministero del Turismo lancia il nuovo spot: \"Che spettacolo l'Italia\"",
-      "url": "https://www.agi.it/economia/news/2026-10-20/nuovo-spot-turismo-italia-39632214",
-      "summary": "AGI - Promuovere e valorizzare il turismo nazionale e internazionale attraverso il linguaggio e i volti del grande cinema, in un anno che sta registrando numeri record per il settore. È questo l'obiettivo di \"Che spettacolo l'Italia! What a movie Italia is!\" , l'iniziativa istituzionale promossa dal Ministero del…",
-      "publishedAt": "2026-10-20T16:44:10.000Z",
-      "sourceId": "agi-economia",
-      "sourceName": "AGI — Economia",
-      "category": "economia"
-    },
-    {
-      "id": "sole24ore-norme-15p8yp0",
-      "title": "Garante privacy: telemarketing indesiderato, una chiamata ogni 5 minuti",
-      "url": "https://www.ilsole24ore.com/art/garante-privacy-telemarketing-indesiderato-chiamata-ogni-5-minuti-AJIWSLpB",
-      "summary": "Nel 2025 oltre 104 mila segnalazioni. Nei primi sette mesi del 2026 sono state più di 37 mila, oltre 170 al giorno. Serve più tutela dei consumatori",
-      "publishedAt": "2026-10-20T15:48:15.000Z",
-      "sourceId": "sole24ore-norme",
-      "sourceName": "Il Sole 24 Ore — Norme e Tributi",
-      "category": "fiscale"
-    },
-    {
-      "id": "cybersecurity360-1eg1wqn",
-      "title": "AI e cyber security, come proteggere i sistemi critici e rafforzare i SOC",
-      "url": "https://www.cybersecurity360.it/soluzioni-aziendali/ai-e-cyber-security-come-proteggere-i-sistemi-critici-e-rafforzare-i-soc",
-      "summary": "Come integrare l'intelligenza artificiale nei sistemi mission critical senza compromettere la sicurezza? Federico Botti di Kyndryl analizza le nuove minacce legate alla Frontier AI, il ruolo dell'AI nell'evoluzione dei SOC e le strategie per conciliare innovazione, resilienza cyber e conformità normativa L'articolo AI…",
-      "publishedAt": "2026-10-20T15:37:00.000Z",
-      "sourceId": "cybersecurity360",
-      "sourceName": "Cybersecurity360",
-      "category": "cyber"
-    },
-    {
-      "id": "dark-reading-3yh6cy",
-      "title": "Close Identity Gaps in Software Development Before Unleashing AI",
-      "url": "https://www.darkreading.com/application-security/close-identity-gaps-sdlc-before-ai",
-      "summary": "Artificial Intelligence is complicating security in the software development lifecycle, but a Dark Reading roundtable found collaboration, better identity visibility, and reduced testing costs offer CISOs a way ahead.",
-      "publishedAt": "2026-10-20T15:35:45.000Z",
-      "sourceId": "dark-reading",
-      "sourceName": "Dark Reading",
-      "category": "cyber"
-    },
-    {
-      "id": "ai4business-cijth",
-      "title": "Sovranità digitale: il controllo nelle aziende e gli aggiornamenti di Microsoft per l’Europa",
-      "url": "https://www.ai4business.it/sicurezza/sovranita-digitale-il-controllo-nelle-aziende-e-gli-aggiornamenti-di-microsoft-per-leuropa",
-      "summary": "Mentre sistemi e agenti AI interagiscono con dati aziendali sensibili, cresce l’esigenza di governare la tecnologia lungo l’intero flusso. “La sovranità digitale non riguarda più soltanto la residenza dei dati, ma il controllo operativo completo su modelli, codice e infrastrutture”, rileva Satya Nadella, presidente e…",
-      "publishedAt": "2026-10-20T15:20:45.000Z",
-      "sourceId": "ai4business",
-      "sourceName": "AI4Business",
-      "category": "bi"
-    },
-    {
-      "id": "cybersecurity360-f1za3i",
-      "title": "Proton VPN in offerta biennale con sconto del 70%: crittografia open source, giurisdizione svizzera e audit no-log pubblic",
-      "url": "https://www.cybersecurity360.it/cultura-cyber/proton-vpn-sconto-70-per-cento-open-source-no-log",
-      "summary": "Proton VPN propone il piano biennale a 2,99 euro al mese, con uno sconto del 70%. L'offerta include server in oltre 140 Paesi, protezione per dieci dispositivi e una garanzia di rimborso di 30 giorni L'articolo Proton VPN in offerta biennale con sconto del 70%: crittografia open source, giurisdizione svizzera e audit…",
-      "publishedAt": "2026-10-20T14:53:12.000Z",
-      "sourceId": "cybersecurity360",
-      "sourceName": "Cybersecurity360",
-      "category": "cyber"
-    },
-    {
-      "id": "industry4business-n74nc6",
-      "title": "Dalla compliance alla governance: perché la cyber security è anche una questione di business",
-      "url": "https://www.innovationpost.it/tecnologie/industrial-security/dalla-compliance-alla-governance-perche-la-cyber-security-e-anche-una-questione-di-business",
-      "summary": "La crescente esposizione delle fabbriche agli attacchi informatici e le nuove normative spingono le imprese a ripensare la gestione del rischio. La cybersecurity entra nelle responsabilità del management e diventa un fattore di continuità operativa e competitività, anche nei rapporti di filiera. L'articolo Dalla…",
-      "publishedAt": "2026-10-20T14:48:28.000Z",
-      "sourceId": "industry4business",
-      "sourceName": "Industry4Business",
-      "category": "digitale"
-    },
-    {
-      "id": "industry4business-16exeyc",
-      "title": "Cyber security industriale, come proteggere i vecchi macchinari senza fermare la produzione",
-      "url": "https://www.innovationpost.it/tecnologie/industrial-security/cyber-security-industriale-come-proteggere-i-vecchi-macchinari-senza-fermare-la-produzione",
-      "summary": "Le fabbriche devono mettere in sicurezza impianti progettati quando le minacce informatiche non erano una priorità. Aggiornare i sistemi non è sempre possibile e una patch può compromettere il funzionamento delle macchine. Le soluzioni e le strategie per proteggere il patrimonio industriale esistente. L'articolo Cyber…",
-      "publishedAt": "2026-10-20T14:44:59.000Z",
-      "sourceId": "industry4business",
-      "sourceName": "Industry4Business",
-      "category": "digitale"
-    },
-    {
-      "id": "cybersecitalia-aaqnv2",
-      "title": "Revolut down (anche) in Italia. La causa i problemi al cloud di Google?",
-      "url": "https://www.cybersecitalia.it/revolut-down-anche-in-italia-la-causa-i-problemi-al-cloud-di-google/70724",
-      "summary": "Per leggere la newsletter n.315 del 20 ottobre 2026 clicca qui. L'articolo Revolut down (anche) in Italia. La causa i problemi al cloud di Google? sembra essere il primo su CyberSecurity Italia .",
-      "publishedAt": "2026-10-20T14:43:31.000Z",
-      "sourceId": "cybersecitalia",
-      "sourceName": "Cybersec Italia",
-      "category": "cyber"
-    },
-    {
-      "id": "dark-reading-1xrflma",
-      "title": "Hackers Abuse AI Pen-Test Tool Cairn to Automate Massive Attack Spree",
-      "url": "https://www.darkreading.com/cyberattacks-data-breaches/hackers-abuse-ai-pen-test-tool-cairn",
-      "summary": "A Chinese-speaking attacker has compromised hundreds of websites across the globe, looting from big fish like John Deere, SharkNinja, and engine manufacturer Cummins.",
-      "publishedAt": "2026-10-20T14:36:05.000Z",
-      "sourceId": "dark-reading",
-      "sourceName": "Dark Reading",
-      "category": "cyber"
-    },
-    {
-      "id": "cybersecurity360-yjmzhn",
-      "title": "Attack Surface Management: proteggere gli asset ibridi",
-      "url": "https://www.cybersecurity360.it/soluzioni-aziendali/attack-surface-management-proteggere-gli-asset-ibridi",
-      "summary": "Come mappare, monitorare e ridurre la superficie d'attacco di cloud, endpoint e infrastrutture on-premise, proteggendo il patrimonio informativo dell'azienda nei modelli di lavoro ibridi L'articolo Attack Surface Management: proteggere gli asset ibridi proviene da Cyber Security 360 .",
-      "publishedAt": "2026-10-20T14:19:00.000Z",
-      "sourceId": "cybersecurity360",
-      "sourceName": "Cybersecurity360",
-      "category": "cyber"
     }
   ],
   "sources": [
@@ -1283,7 +1283,7 @@
       "homepage": "https://www.ansa.it/sito/notizie/economia/pmi/pmi.html",
       "category": "economia",
       "status": "ok",
-      "itemCount": 125
+      "itemCount": 135
     },
     {
       "sourceId": "aodv231",
@@ -1396,7 +1396,7 @@
       "homepage": "https://www.darkreading.com/",
       "category": "cyber",
       "status": "ok",
-      "itemCount": 9
+      "itemCount": 16
     },
     {
       "sourceId": "data-manager",
@@ -1459,8 +1459,9 @@
       "name": "ESMA",
       "homepage": "https://www.esma.europa.eu/",
       "category": "economia",
-      "status": "ok",
-      "itemCount": 10
+      "status": "error",
+      "itemCount": 0,
+      "error": "HTTP 403"
     },
     {
       "sourceId": "fasi",
@@ -1582,7 +1583,7 @@
       "homepage": "https://www.industry4business.it/",
       "category": "digitale",
       "status": "ok",
-      "itemCount": 12
+      "itemCount": 15
     },
     {
       "sourceId": "invitalia",
@@ -1614,7 +1615,7 @@
       "homepage": "https://www.italiaoggi.it/",
       "category": "fiscale",
       "status": "ok",
-      "itemCount": 69
+      "itemCount": 114
     },
     {
       "sourceId": "kdnuggets",
@@ -1622,7 +1623,7 @@
       "homepage": "https://www.kdnuggets.com/",
       "category": "bi",
       "status": "ok",
-      "itemCount": 5
+      "itemCount": 7
     },
     {
       "sourceId": "key4biz",
@@ -1630,7 +1631,7 @@
       "homepage": "https://www.key4biz.it/",
       "category": "digitale",
       "status": "ok",
-      "itemCount": 29
+      "itemCount": 36
     },
     {
       "sourceId": "mckinsey",
@@ -1654,7 +1655,7 @@
       "homepage": "https://www.milanofinanza.it/",
       "category": "economia",
       "status": "ok",
-      "itemCount": 325
+      "itemCount": 329
     },
     {
       "sourceId": "mimit-incentivi",
@@ -1777,7 +1778,7 @@
       "homepage": "https://thehackernews.com/",
       "category": "cyber",
       "status": "ok",
-      "itemCount": 31
+      "itemCount": 38
     },
     {
       "sourceId": "uni",

@@ -1,8 +1,88 @@
 {
-  "generatedAt": "2026-11-01T14:13:56.293Z",
-  "slot": "morning",
+  "generatedAt": "2026-11-01T22:42:48.526Z",
+  "slot": "evening",
   "windowHours": 72,
   "items": [
+    {
+      "id": "milano-finanza-1tx0o91",
+      "title": "Formula 1, Kimi Antonelli è campione del mondo: ecco quanto guadagna tra stipendio e bonus",
+      "url": "https://www.milanofinanza.it/news/kimi-antonelli-e-campione-del-mondo-di-formula-uno-ma-ha-lo-stipendio-di-un-esordiente-ecco-quanto-202610301541462801",
+      "summary": "",
+      "publishedAt": "2026-11-01T22:24:00.000Z",
+      "sourceId": "milano-finanza",
+      "sourceName": "Milano Finanza",
+      "category": "economia"
+    },
+    {
+      "id": "startupbusiness-7n9sl1",
+      "title": "Usa, jet privato precipita su quartiere residenziale a Palm Beach: 9 morti",
+      "url": "https://www.startupbusiness.it/usa-jet-privato-precipita-su-quartiere-residenziale-a-palm-beach-9-morti/213161",
+      "summary": "(Adnkronos) - Nove persone sono morte nello schianto di un jet privato Learjet 60 precipitato in una zona residenziale della contea di Palm Beach, nel sud della Florida. Lo hanno riferito le autorità americane...",
+      "publishedAt": "2026-11-01T21:27:00.000Z",
+      "sourceId": "startupbusiness",
+      "sourceName": "Startupbusiness",
+      "category": "strategia"
+    },
+    {
+      "id": "startupbusiness-128bykg",
+      "title": "Veltroni: “Nessuno prende Trump sul serio, è come Bombolo”",
+      "url": "https://www.startupbusiness.it/veltroni-nessuno-prende-trump-sul-serio-e-come-bombolo/213163",
+      "summary": "(Adnkronos) - \"E' come avere Bombolo presidente degli Stati Uniti\". Walter Veltroni, ospite di Che tempo che fa, si esprime così su Donald Trump a poche ore dalle elezioni di midterm in programma il 3 novembre negli...",
+      "publishedAt": "2026-11-01T21:02:00.000Z",
+      "sourceId": "startupbusiness",
+      "sourceName": "Startupbusiness",
+      "category": "strategia"
+    },
+    {
+      "id": "startupbusiness-970210",
+      "title": "Gp Messico, scintille al via tra le Ferrari di Hamilton e Leclerc: cos’è successo",
+      "url": "https://www.startupbusiness.it/gp-messico-scintille-al-via-tra-le-ferrari-di-hamilton-e-leclerc-cose-successo/213159",
+      "summary": "(Adnkronos) - Partenza col brivido per le Ferrari nel Gp del Messico oggi, domenica 1 novembre. Lewis Hamilton, partito dalla pole position, è stato subito superato dal compagno di squadra Charles Leclerc, scattato...",
+      "publishedAt": "2026-11-01T20:21:00.000Z",
+      "sourceId": "startupbusiness",
+      "sourceName": "Startupbusiness",
+      "category": "strategia"
+    },
+    {
+      "id": "bleeping-computer-14gj9vu",
+      "title": "FBI links $6.3 billion Binance crypto heist to North Korean hackers",
+      "url": "https://www.bleepingcomputer.com/news/security/fbi-links-63-billion-binance-crypto-heist-to-north-korean-hackers",
+      "summary": "The FBI has confirmed that North Korean state-sponsored hackers known as TraderTraitor were behind the $6.3 billion crypto-theft attack on Binance, making it the largest cryptocurrency heist on record. [...]",
+      "publishedAt": "2026-11-01T19:57:53.000Z",
+      "sourceId": "bleeping-computer",
+      "sourceName": "BleepingComputer",
+      "category": "cyber"
+    },
+    {
+      "id": "startupbusiness-18j9txp",
+      "title": "Burioni: “I medici no vax avevano torto, bugie dei politici sono intollerabili”",
+      "url": "https://www.startupbusiness.it/burioni-i-medici-no-vax-avevano-torto-bugie-dei-politici-sono-intollerabili/213153",
+      "summary": "(Adnkronos) - \"Quando sento ogni giorno politici, deputati e senatori che diffondono quotidianamente bugie pericolose sui vaccini, è intollerabile\". Il professor Roberto Burioni, ospite di Che tempo che fa oggi nella...",
+      "publishedAt": "2026-11-01T19:15:04.000Z",
+      "sourceId": "startupbusiness",
+      "sourceName": "Startupbusiness",
+      "category": "strategia"
+    },
+    {
+      "id": "ansa-pmi-ze8kh1",
+      "title": "Confindustria Romagna, Silvestrini protagonista di progetti di rilevanza nazionale",
+      "url": "https://www.ansa.it/sito/notizie/economia/pmi/2026/11/01/confindustria-romagna-silvestrini-protagonista-di-progetti-di-rilevanza-nazionale_3f264666-bfce-4870-a08a-d37815432dec.html",
+      "summary": "(v. 'Morto Giuseppe Silvestrini, presidente...' delle 10.58) (ANSA) - BOLOGNA, 01 NOV - Il presidente di Confindustria Romagna, Mario Riciputi e il consiglio di presidenza, \"profondamente commossi, partecipano al dolore per la scomparsa\" del presidente di Fa, la società di gestione dell'Aeroporto di Forlì-Ravenna,…",
+      "publishedAt": "2026-11-01T16:27:04.000Z",
+      "sourceId": "ansa-pmi",
+      "sourceName": "ANSA — PMI",
+      "category": "economia"
+    },
+    {
+      "id": "bleeping-computer-113d71g",
+      "title": "Alpine Linux rebuilds GitLab after attempted RCE attack",
+      "url": "https://www.bleepingcomputer.com/news/security/alpine-linux-rebuilds-gitlab-after-attempted-rce-attack",
+      "summary": "Hackers attempted to exploit a critical GitLab vulnerability in Alpine Linux's development infrastructure on October 20-21, prompting the open-source project to rebuild its GitLab server and reset all passwords over concerns of a possible compromise. [...]",
+      "publishedAt": "2026-11-01T15:11:21.000Z",
+      "sourceId": "bleeping-computer",
+      "sourceName": "BleepingComputer",
+      "category": "cyber"
+    },
     {
       "id": "ansa-pmi-acsfjy",
       "title": "Pd, tradimento su pensioni, perché Durigon è ancora al ministero?",
@@ -11,6 +91,16 @@
       "publishedAt": "2026-11-01T13:57:18.000Z",
       "sourceId": "ansa-pmi",
       "sourceName": "ANSA — PMI",
+      "category": "economia"
+    },
+    {
+      "id": "milano-finanza-9puvcn",
+      "title": "Finanza pubblica: Perrotta, vi spiego cosa fa la Ragioneria Generale",
+      "url": "https://www.milanofinanza.it/news/finanza-pubblica-perrotta-vi-spiego-cosa-fa-la-ragioneria-generale-202611011459319998",
+      "summary": "",
+      "publishedAt": "2026-11-01T13:56:00.000Z",
+      "sourceId": "milano-finanza",
+      "sourceName": "Milano Finanza",
       "category": "economia"
     },
     {
@@ -44,16 +134,6 @@
       "category": "economia"
     },
     {
-      "id": "milano-finanza-ne8kru",
-      "title": "Previdenza, per far iscrivere i giovani i fondi pensione studiano il modello del cashback: come funziona",
-      "url": "https://www.milanofinanza.it/news/previdenza-per-far-iscrivere-i-giovani-i-fondi-pensione-studiano-il-modello-del-cashback-come-202610301744326711",
-      "summary": "",
-      "publishedAt": "2026-11-01T13:00:00.000Z",
-      "sourceId": "milano-finanza",
-      "sourceName": "Milano Finanza",
-      "category": "economia"
-    },
-    {
       "id": "agi-economia-ijvn36",
       "title": "Manovra, è scontro su scuola e pensioni",
       "url": "https://www.agi.it/economia/news/2026-11-01/manovra-tagli-scuola-pensioni--39807614",
@@ -62,46 +142,6 @@
       "sourceId": "agi-economia",
       "sourceName": "AGI — Economia",
       "category": "economia"
-    },
-    {
-      "id": "startupbusiness-1ogw2mo",
-      "title": "COP17 a Yerevan, il primo tagliando del patto globale sulla natura",
-      "url": "https://www.startupbusiness.it/cop17-a-yerevan-il-primo-tagliando-del-patto-globale-sulla-natura/213064",
-      "summary": "17esima Conferenza delle Parti della Convenzione ONU sulla diversità biologica nata dal Vertice della Terra del '92, si riunisce ogni due anni",
-      "publishedAt": "2026-11-01T12:37:21.000Z",
-      "sourceId": "startupbusiness",
-      "sourceName": "Startupbusiness",
-      "category": "strategia"
-    },
-    {
-      "id": "startupbusiness-y9u2r8",
-      "title": "Israele, media: formazioni arabe verso indicazione di Eisenkot come premier",
-      "url": "https://www.startupbusiness.it/israele-media-formazioni-arabe-verso-indicazione-di-eisenkot-come-premier/213067",
-      "summary": "(Adnkronos) - La Lista Unita e Ra'am, le formazioni arabe considerate l'ago della bilancia per la formazione del nuovo governo in Israele, dovrebbero indicare Gadi Eisenkot come candidato premier durante le...",
-      "publishedAt": "2026-11-01T12:37:12.000Z",
-      "sourceId": "startupbusiness",
-      "sourceName": "Startupbusiness",
-      "category": "strategia"
-    },
-    {
-      "id": "startupbusiness-1osbuhx",
-      "title": "Dazi, Carney: “Canada pronto ad aspettare un nuovo presidente Usa per l’accordo”",
-      "url": "https://www.startupbusiness.it/dazi-carney-canada-pronto-ad-aspettare-un-nuovo-presidente-usa-per-laccordo/213069",
-      "summary": "(Adnkronos) - Il Canada è pronto ad aspettare l'arrivo di un nuovo presidente degli Stati Uniti se non sarà possibile raggiungere un accordo sui dazi soddisfacente con l'amministrazione di Donald Trump. Lo ha...",
-      "publishedAt": "2026-11-01T12:26:35.000Z",
-      "sourceId": "startupbusiness",
-      "sourceName": "Startupbusiness",
-      "category": "strategia"
-    },
-    {
-      "id": "startupbusiness-azpw48",
-      "title": "Calcio di rigore revocato al Venezia, Como salvato. Cosa è successo",
-      "url": "https://www.startupbusiness.it/calcio-di-rigore-revocato-al-venezia-como-salvato-cosa-e-successo/213071",
-      "summary": "(Adnkronos) - Calcio di rigore prima assegnato e poi revocato al Venezia nella sfida contro il Como dall'arbitro Maria Sole Ferrieri Caputi al 28' del primo tempo della sfida del Sinigaglia, valida per la decima...",
-      "publishedAt": "2026-11-01T12:24:54.000Z",
-      "sourceId": "startupbusiness",
-      "sourceName": "Startupbusiness",
-      "category": "strategia"
     },
     {
       "id": "ansa-pmi-1pccfqe",
@@ -121,26 +161,6 @@
       "publishedAt": "2026-11-01T10:57:19.000Z",
       "sourceId": "ansa-pmi",
       "sourceName": "ANSA — PMI",
-      "category": "economia"
-    },
-    {
-      "id": "ansa-pmi-bholmc",
-      "title": "Nasce Osservatorio civico, chiarimenti da Tari a welfare comuni",
-      "url": "https://www.ansa.it/sito/notizie/economia/pmi/2026/11/01/nasce-osservatorio-civico-chiarimenti-da-tari-a-welfare-comuni_34d1b2fb-efbf-4b57-a035-021ba2e7eca0.html",
-      "summary": "(ANSA) - ROMA, 01 NOV - Dalla tassa sui rifiuti all'Imu, passando per trasporti pubblici, asili nido, mense scolastiche, e molto altro, le decisioni prese dai Comuni non saranno più un mistero per i cittadini. Parte infatti un servizio gratuito che sfrutta l'Intelligenza artificiale per avvicinare i cittadini alla…",
-      "publishedAt": "2026-11-01T10:21:20.000Z",
-      "sourceId": "ansa-pmi",
-      "sourceName": "ANSA — PMI",
-      "category": "economia"
-    },
-    {
-      "id": "milano-finanza-1l35om",
-      "title": "Risiko sì, ma il credito? Utili record per le banche che però si dimenticano dei prestiti a famiglie e imprese",
-      "url": "https://www.milanofinanza.it/news/risiko-si-ma-il-credito-utili-record-per-le-banche-che-pero-si-dimenticano-dei-prestiti-a-famiglie-e-202610302218164711",
-      "summary": "",
-      "publishedAt": "2026-11-01T10:00:00.000Z",
-      "sourceId": "milano-finanza",
-      "sourceName": "Milano Finanza",
       "category": "economia"
     },
     {
@@ -294,16 +314,6 @@
       "category": "bi"
     },
     {
-      "id": "bleeping-computer-1vkq62s",
-      "title": "New Android SMS of Death exploit can remotely crash unpatched phones",
-      "url": "https://www.bleepingcomputer.com/news/security/new-android-sms-of-death-exploit-can-remotely-crash-unpatched-phones",
-      "summary": "A security researcher has released a proof-of-concept exploit for a recently patched Android vulnerability, dubbed \"SMS of Death\" and tracked as CVE-2026-58882, that lets attackers remotely disrupt cellular service or crash phones by sending a specially crafted text message. [...]",
-      "publishedAt": "2026-10-31T15:35:11.000Z",
-      "sourceId": "bleeping-computer",
-      "sourceName": "BleepingComputer",
-      "category": "cyber"
-    },
-    {
       "id": "sole24ore-economia-1cr911o",
       "title": "Valle d’Aosta, Bovard: la viticoltura e il nostro lavoro rischiano di cambiare",
       "url": "https://www.ilsole24ore.com/art/valle-d-aosta-bovard-viticoltura-e-nostro-lavoro-rischiano-cambiare-AJ9AdQ0B",
@@ -322,16 +332,6 @@
       "sourceId": "sole24ore-economia",
       "sourceName": "Il Sole 24 Ore — Economia",
       "category": "economia"
-    },
-    {
-      "id": "bleeping-computer-1h3pisg",
-      "title": "Reddit to lock content behind logins to fight scrapers",
-      "url": "https://www.bleepingcomputer.com/news/security/reddit-to-lock-content-behind-logins-to-fight-scrapers",
-      "summary": "Reddit announced in a post by co-founder Steve Huffman that the site will gradually become a \"logged-in service,\" offering limited access to visitors without accounts. [...]",
-      "publishedAt": "2026-10-31T14:05:15.000Z",
-      "sourceId": "bleeping-computer",
-      "sourceName": "BleepingComputer",
-      "category": "cyber"
     },
     {
       "id": "agi-economia-1653psn",
@@ -494,6 +494,16 @@
       "category": "cyber"
     },
     {
+      "id": "pmi-it-4y0gb1",
+      "title": "Cedolare secca per negozi in Manovra 2027: tassa piatta al 21% sugli affitti commerciali fino a 200 mq",
+      "url": "https://www.pmi.it/economia/mercati/477734/cedolare-secca-negozi-affitti-commerciali.html",
+      "summary": "Cedolare secca per negozi nel testo della Manovra 2027: 21% sui contratti C/1 fino a 200 mq stipulati nel 2027, 10% nei capoluoghi delle città metropolitane",
+      "publishedAt": "2026-10-30T20:29:39.000Z",
+      "sourceId": "pmi-it",
+      "sourceName": "PMI.it",
+      "category": "finanziamenti"
+    },
+    {
       "id": "dark-reading-91z4a4",
       "title": "Devs Hit by Trojanized Claude Code Extension for Cursor",
       "url": "https://www.darkreading.com/cyberattacks-data-breaches/devs-trojanized-claude-code-extension-cursor",
@@ -504,6 +514,26 @@
       "category": "cyber"
     },
     {
+      "id": "pmi-it-1rm7o53",
+      "title": "Riforma pensioni 2027 in Manovra: proroga APE Sociale e rinvio uscita a 64 anni",
+      "url": "https://www.pmi.it/economia/lavoro/498653/riforma-pensioni-manovra.html",
+      "summary": "Riforma pensioni 2027 nel ddl di Bilancio: 850 milioni l'anno per l'uscita anticipata da definire, carta da 300 euro agli over 75 e niente Quota 41",
+      "publishedAt": "2026-10-30T20:01:29.000Z",
+      "sourceId": "pmi-it",
+      "sourceName": "PMI.it",
+      "category": "finanziamenti"
+    },
+    {
+      "id": "pmi-it-eh9xss",
+      "title": "Aumento pensioni 2027: rivalutazione stimata al 2,9% e tabella al netto",
+      "url": "https://www.pmi.it/economia/lavoro/481281/rivalutazione-pensioni-stime-perequazione.html",
+      "summary": "Aumento pensioni 2027 con la rivalutazione stimata al 2,9%: su 2.000 euro lordi 58 euro in più al mese, circa 41 netti, e tabelle lorde e nette per importo",
+      "publishedAt": "2026-10-30T20:00:40.000Z",
+      "sourceId": "pmi-it",
+      "sourceName": "PMI.it",
+      "category": "finanziamenti"
+    },
+    {
       "id": "dark-reading-73ej21",
       "title": "Behind the Scenes of How Operation Blackout Went Down",
       "url": "https://www.darkreading.com/cybersecurity-operations/behind-the-scenes-how-operation-blackout-went-down",
@@ -512,6 +542,26 @@
       "sourceId": "dark-reading",
       "sourceName": "Dark Reading",
       "category": "cyber"
+    },
+    {
+      "id": "pmi-it-1418cbr",
+      "title": "Taglio pensioni 2027: la Manovra riduce l’adeguamento all’inflazione sopra 2.447 euro lordi al mese",
+      "url": "https://www.pmi.it/economia/lavoro/451899/taglio-pensioni.html",
+      "summary": "Taglio pensioni 2027: il ddl di Bilancio riconosce dall'85% al 32% dell'inflazione su tutto l'assegno, con perdite da 139 a oltre 1.800 euro l'anno",
+      "publishedAt": "2026-10-30T19:30:28.000Z",
+      "sourceId": "pmi-it",
+      "sourceName": "PMI.it",
+      "category": "finanziamenti"
+    },
+    {
+      "id": "pmi-finanziamenti-yd6ipy",
+      "title": "Credito d’imposta 4.0 agricoltura, la Manovra 2027 aggiunge 160 milioni e l’efficienza energetica",
+      "url": "https://www.pmi.it/economia/finanziamenti/481297/credito-imposta-4-0-agricoltura.html",
+      "summary": "Credito d'imposta 4.0 agricoltura nel testo della Manovra 2027: 82,1 milioni l'anno nel 2027 e nel 2028, anche per l'efficienza energetica, ed esempio di calcolo",
+      "publishedAt": "2026-10-30T17:57:26.000Z",
+      "sourceId": "pmi-finanziamenti",
+      "sourceName": "PMI.it — Finanziamenti",
+      "category": "finanziamenti"
     },
     {
       "id": "agenda-digitale-14v34b4",
@@ -532,16 +582,6 @@
       "sourceId": "zerouno",
       "sourceName": "ZeroUno",
       "category": "bi"
-    },
-    {
-      "id": "pmi-it-18vxmhh",
-      "title": "Pensioni di novembre 2026 pagate lunedì 2: nel cedolino addizionali e acconto IRPEF",
-      "url": "https://www.pmi.it/economia/lavoro/479307/cedolino-pensione-novembre.html",
-      "summary": "Cedolino pensione di novembre con l'ultima rata delle addizionali IRPEF e il secondo acconto da 730: le voci da controllare e quanto sale il netto a dicembre",
-      "publishedAt": "2026-10-30T16:20:43.000Z",
-      "sourceId": "pmi-it",
-      "sourceName": "PMI.it",
-      "category": "finanziamenti"
     },
     {
       "id": "cybersecurity360-mhd7dq",
@@ -624,16 +664,6 @@
       "category": "bi"
     },
     {
-      "id": "key4biz-1rk6xb8",
-      "title": "Binance, cyber colpo da 6 miliardi di dollari",
-      "url": "https://www.key4biz.it/binance-cyber-colpo-da-6-miliardi-di-dollari/592348",
-      "summary": "Per leggere la newsletter del 30 ottobre 2026 clicca qui. The post Binance, cyber colpo da 6 miliardi di dollari appeared first on Key4biz .",
-      "publishedAt": "2026-10-30T15:44:21.000Z",
-      "sourceId": "key4biz",
-      "sourceName": "Key4biz",
-      "category": "digitale"
-    },
-    {
       "id": "pmi-finanziamenti-drrj74",
       "title": "Investimenti sostenibili 4.0, graduatoria online: 224 PMI in istruttoria, 368 sospese",
       "url": "https://www.pmi.it/economia/finanziamenti/467973/pmi-del-sud-contributi-per-investimenti-sostenibili-4-0.html",
@@ -712,16 +742,6 @@
       "sourceId": "finanza-operativa",
       "sourceName": "Finanza Operativa",
       "category": "economia"
-    },
-    {
-      "id": "key4biz-jwlz7o",
-      "title": "Editori costretti a fornire contenuti per l’AI di Meta, l’indagine dell’Antitrust UK",
-      "url": "https://www.key4biz.it/editori-costretti-a-fornire-contenuti-per-lai-di-meta-lindagine-dellantitrust-uk/592336",
-      "summary": "Meta, indagine della Cma sui termini commerciali e sull’uso dei contenuti per l’AI La Competition and Markets Authority (Cma), l’autorità Antitrust britannica, ha avviato un’indagine sui nuovi termini commerciali di Meta. Il procedimento riguarda le condizioni che il gruppo creato da Mark Zuckerberg vorrebbe applicare…",
-      "publishedAt": "2026-10-30T14:41:57.000Z",
-      "sourceId": "key4biz",
-      "sourceName": "Key4biz",
-      "category": "digitale"
     },
     {
       "id": "forbes-italia-wgl80z",
@@ -834,16 +854,6 @@
       "category": "compliance"
     },
     {
-      "id": "key4biz-b5zu3t",
-      "title": "Lunedì 2 novembre parte Sky Voices, il canale Sky dedicato ai podcast",
-      "url": "https://www.key4biz.it/lunedi-2-novembre-parte-sky-voices-il-canale-sky-dedicato-ai-podcast/592334",
-      "summary": "Il 2 novembre si accende Sky Voices, il primo canale interamente dedicato ai video podcast, disponibile su Sky (canale 118) e su NOW. Lo spazio che riunisce in un unico posto cronaca e attualità, sport, crime, economia, cultura, società e intrattenimento, offrendo al pubblico un nuovo modo di scoprire e seguire…",
-      "publishedAt": "2026-10-30T13:32:14.000Z",
-      "sourceId": "key4biz",
-      "sourceName": "Key4biz",
-      "category": "digitale"
-    },
-    {
       "id": "forbes-italia-mg9jui",
       "title": "Il nuovo stadio di Inter e Milan si chiamerà Generali Stadium: accordo da 650 milioni di euro in 25 anni",
       "url": "https://forbes.it/2026/10/30/nuovo-stadio-inter-milan-chiamera-generali-stadium",
@@ -862,16 +872,6 @@
       "sourceId": "governo",
       "sourceName": "Governo italiano",
       "category": "compliance"
-    },
-    {
-      "id": "key4biz-cveex2",
-      "title": "Il grande inganno dell’AI",
-      "url": "https://www.key4biz.it/il-grande-inganno-dellai/592330",
-      "summary": "“Se vuoi resto qui con te”. È una frase che può sembrare innocua, finché a pronunciarla non è una macchina. Da questa esperienza in una notte milanese ha origine un viaggio dentro la tecnologia più discussa, fraintesa e potente di quest’epoca. Uno strumento entrato nella nostra vita quotidiana prima che fossimo pronti…",
-      "publishedAt": "2026-10-30T13:23:14.000Z",
-      "sourceId": "key4biz",
-      "sourceName": "Key4biz",
-      "category": "digitale"
     },
     {
       "id": "esgnews-oxylee",
@@ -984,6 +984,16 @@
       "category": "compliance"
     },
     {
+      "id": "pmi-finanziamenti-1m5f7n0",
+      "title": "Misure per le imprese in Manovra 2027: ritenuta B2B raddoppiata, credito cloud e ZES",
+      "url": "https://www.pmi.it/economia/finanziamenti/501263/misure-imprese-2027-manovra.html",
+      "summary": "Nella Manovra 2027 più fondi ZES e sgravi a chi assume, credito cloud ed energia per le PMI e una ritenuta B2B raddoppiata: effetti ed esempi di calcolo",
+      "publishedAt": "2026-10-30T11:45:19.000Z",
+      "sourceId": "pmi-finanziamenti",
+      "sourceName": "PMI.it — Finanziamenti",
+      "category": "finanziamenti"
+    },
+    {
       "id": "ai4business-b4uehj",
       "title": "Ariston Group, l’AI agentica applicata alla catena di fornitura mondiale",
       "url": "https://www.ai4business.it/storie/ariston-group-e-lai-agentica-applicata-alla-catena-di-fornitura-mondiale",
@@ -1034,16 +1044,6 @@
       "category": "strategia"
     },
     {
-      "id": "pmi-it-y7afq9",
-      "title": "Taglio rivalutazione pensioni 2027: sei fasce in una bozza della Manovra",
-      "url": "https://www.pmi.it/economia/lavoro/451899/taglio-rivalutazione-pensioni.html",
-      "summary": "Una bozza non ufficiale della Manovra 2027 arrivata alla stampa applica la percentuale ridotta all'intero assegno oltre 2.447,40 euro lordi: perdite annue stimate fino a 1.245 euro",
-      "publishedAt": "2026-10-30T10:45:28.000Z",
-      "sourceId": "pmi-it",
-      "sourceName": "PMI.it",
-      "category": "finanziamenti"
-    },
-    {
       "id": "corcom-2ed9pc",
       "title": "Offerta fibra ultrabroadband e domotica: router Wi-Fi 7, SIM IoT dedicata e canone promozionale a 23,99 euro al mese",
       "url": "https://www.corrierecomunicazioni.it/digital-economy/offerta-fibra-domotica-router-wifi-7-sim-iot-smart-home",
@@ -1052,26 +1052,6 @@
       "sourceId": "corcom",
       "sourceName": "CorCom",
       "category": "digitale"
-    },
-    {
-      "id": "pmi-it-1sdndmn",
-      "title": "Social Media Manager interno o agenzia: come fare la scelta giusta",
-      "url": "https://www.pmi.it/impresa/pubblicita-e-marketing/502772/social-media-manager-interno-o-agenzia.html",
-      "summary": "Assumere un social media manager o affidare i social aziendali a un'agenzia: vantaggi e limiti dei due modelli, costi da confrontare e formula ibrida",
-      "publishedAt": "2026-10-30T10:28:37.000Z",
-      "sourceId": "pmi-it",
-      "sourceName": "PMI.it",
-      "category": "finanziamenti"
-    },
-    {
-      "id": "pmi-it-omopnn",
-      "title": "Il Valore dell’Impresa 2026 il 3 novembre a Milano: il programma completo",
-      "url": "https://www.pmi.it/impresa/business-e-project-management/502802/il-valore-impresa-2026-programma-relatori.html",
-      "summary": "Il 3 novembre a Milano, dopo l'apertura di Assolombarda, parlano alle PMI gli esperti di AI, finanza d'impresa, energia e passaggio generazionale per le aziende italiane",
-      "publishedAt": "2026-10-30T10:26:18.000Z",
-      "sourceId": "pmi-it",
-      "sourceName": "PMI.it",
-      "category": "finanziamenti"
     },
     {
       "id": "cybersecitalia-wirgv7",
@@ -1202,6 +1182,26 @@
       "sourceId": "diritto-it",
       "sourceName": "Diritto.it",
       "category": "compliance"
+    },
+    {
+      "id": "esg360-1e65y7z",
+      "title": "ClimateSET: dati climatici che guidano gli investimenti",
+      "url": "https://www.esg360.it/sustainability-management/climateset-dati-climatici-che-guidano-gli-investimenti",
+      "summary": "Il nuovo strumento digitale della Banca europea per gli investimenti sviluppato con Copernicus aiuta imprese e istituzioni a valutare i rischi climatici. ClimateSET verrà resa disponibile entro il 2026 e permetterà di individuare interventi di adattamento e orientare gli investimenti sostenibili The post ClimateSET:…",
+      "publishedAt": "2026-10-30T02:04:00.000Z",
+      "sourceId": "esg360",
+      "sourceName": "ESG360",
+      "category": "compliance"
+    },
+    {
+      "id": "mckinsey-1apgv9z",
+      "title": "Closing banking’s AI value gap: A CEO guide",
+      "url": "https://www.mckinsey.com/industries/financial-services/our-insights/closing-bankings-ai-value-gap-a-ceo-guide",
+      "summary": "As AI adoption races ahead, great value is being left behind. Leaders need an operating model that turns investment into AI capital that can be deployed again and again.",
+      "publishedAt": "2026-10-30T00:00:00.000Z",
+      "sourceId": "mckinsey",
+      "sourceName": "McKinsey Insights",
+      "category": "aigovernance"
     }
   ],
   "sources": [
@@ -1260,7 +1260,7 @@
       "homepage": "https://www.agi.it/economia/",
       "category": "economia",
       "status": "ok",
-      "itemCount": 14
+      "itemCount": 7
     },
     {
       "sourceId": "ai4business",
@@ -1268,7 +1268,7 @@
       "homepage": "https://www.ai4business.it/",
       "category": "bi",
       "status": "ok",
-      "itemCount": 8
+      "itemCount": 6
     },
     {
       "sourceId": "anac",
@@ -1284,7 +1284,7 @@
       "homepage": "https://www.ansa.it/sito/notizie/economia/pmi/pmi.html",
       "category": "economia",
       "status": "ok",
-      "itemCount": 53
+      "itemCount": 43
     },
     {
       "sourceId": "aodv231",
@@ -1381,7 +1381,7 @@
       "homepage": "https://www.cybersecitalia.it/",
       "category": "cyber",
       "status": "ok",
-      "itemCount": 4
+      "itemCount": 3
     },
     {
       "sourceId": "cybersecurity360",
@@ -1397,7 +1397,7 @@
       "homepage": "https://www.darkreading.com/",
       "category": "cyber",
       "status": "ok",
-      "itemCount": 10
+      "itemCount": 5
     },
     {
       "sourceId": "data-manager",
@@ -1429,7 +1429,7 @@
       "homepage": "https://www.economyup.it/",
       "category": "strategia",
       "status": "ok",
-      "itemCount": 6
+      "itemCount": 3
     },
     {
       "sourceId": "enisa",
@@ -1445,7 +1445,7 @@
       "homepage": "https://www.esgnews.it/",
       "category": "compliance",
       "status": "ok",
-      "itemCount": 7
+      "itemCount": 3
     },
     {
       "sourceId": "esg360",
@@ -1477,7 +1477,7 @@
       "homepage": "https://www.finanzaoperativa.com/",
       "category": "economia",
       "status": "ok",
-      "itemCount": 13
+      "itemCount": 12
     },
     {
       "sourceId": "firstonline",
@@ -1526,7 +1526,7 @@
       "homepage": "https://www.governo.it/",
       "category": "compliance",
       "status": "ok",
-      "itemCount": 10
+      "itemCount": 8
     },
     {
       "sourceId": "hbr-italia",
@@ -1566,7 +1566,7 @@
       "homepage": "https://www.ilsole24ore.com/sez/norme-e-tributi",
       "category": "fiscale",
       "status": "ok",
-      "itemCount": 4
+      "itemCount": 3
     },
     {
       "sourceId": "industria-italiana",
@@ -1583,7 +1583,7 @@
       "homepage": "https://www.industry4business.it/",
       "category": "digitale",
       "status": "ok",
-      "itemCount": 12
+      "itemCount": 10
     },
     {
       "sourceId": "invitalia",
@@ -1630,8 +1630,9 @@
       "name": "Key4biz",
       "homepage": "https://www.key4biz.it/",
       "category": "digitale",
-      "status": "ok",
-      "itemCount": 17
+      "status": "error",
+      "itemCount": 0,
+      "error": "HTTP 415"
     },
     {
       "sourceId": "mckinsey",
@@ -1655,7 +1656,7 @@
       "homepage": "https://www.milanofinanza.it/",
       "category": "economia",
       "status": "ok",
-      "itemCount": 184
+      "itemCount": 150
     },
     {
       "sourceId": "mimit-incentivi",
@@ -1713,7 +1714,7 @@
       "homepage": "https://www.pmi.it/",
       "category": "finanziamenti",
       "status": "ok",
-      "itemCount": 13
+      "itemCount": 20
     },
     {
       "sourceId": "pmi-finanziamenti",
@@ -1721,7 +1722,7 @@
       "homepage": "https://www.pmi.it/economia/finanziamenti",
       "category": "finanziamenti",
       "status": "ok",
-      "itemCount": 2
+      "itemCount": 4
     },
     {
       "sourceId": "regione-sicilia",
@@ -1778,15 +1779,15 @@
       "homepage": "https://thehackernews.com/",
       "category": "cyber",
       "status": "ok",
-      "itemCount": 21
+      "itemCount": 18
     },
     {
       "sourceId": "uni",
       "name": "UNI — Ente Italiano di Normazione",
       "homepage": "https://www.uni.com/",
       "category": "compliance",
-      "status": "ok",
-      "itemCount": 2
+      "status": "empty",
+      "itemCount": 0
     },
     {
       "sourceId": "wall-street-italia",

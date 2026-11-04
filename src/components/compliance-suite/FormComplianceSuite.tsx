@@ -32,13 +32,13 @@ const statoComplianceOptions = [
 
 const complianceSuiteSchema = z.object({
   nome: z.string().min(1, "Campo obbligatorio"),
-  email: z.string().email("Inserisci un indirizzo email valido"),
+  email: z.string().email("Indicare un indirizzo email valido"),
   telefono: z.string().optional(),
   ragioneSociale: z.string().min(1, "Campo obbligatorio"),
   settore: z.string().min(1, "Campo obbligatorio"),
-  dipendenti: z.string().min(1, "Seleziona il numero di dipendenti"),
+  dipendenti: z.string().min(1, "Selezionare il numero di dipendenti"),
   ambiti: z.array(z.string()).optional(),
-  statoCompliance: z.string().min(1, "Seleziona lo stato attuale"),
+  statoCompliance: z.string().min(1, "Selezionare lo stato attuale"),
   note: z.string().max(1000).optional(),
   consensoGdpr: z.literal(true, {
     message: "Il consenso è obbligatorio per procedere",
@@ -86,11 +86,11 @@ export function FormComplianceSuite() {
         router.push("/compliance-suite/inviato")
       } else {
         setServerError(
-          result.error || "Si è verificato un errore. Riprova più tardi."
+          result.error || "Si è verificato un errore. Riprovare più tardi."
         )
       }
     } catch {
-      setServerError("Errore di rete. Verifica la connessione e riprova.")
+      setServerError("Errore di rete: verificare la connessione e riprovare.")
     }
   }
 
@@ -220,7 +220,7 @@ export function FormComplianceSuite() {
             {...register("dipendenti")}
           >
             <option value="" disabled>
-              Seleziona
+              Selezionare
             </option>
             {dipendentiOptions.map((opt) => (
               <option key={opt} value={opt}>
@@ -269,7 +269,7 @@ export function FormComplianceSuite() {
             {...register("statoCompliance")}
           >
             <option value="" disabled>
-              Seleziona
+              Selezionare
             </option>
             {statoComplianceOptions.map((opt) => (
               <option key={opt} value={opt}>
@@ -361,7 +361,7 @@ export function FormComplianceSuite() {
           disabled={isSubmitting}
           className="w-full bg-brand text-white py-3 font-medium rounded-md hover:bg-brand-dark transition-colors disabled:opacity-50 disabled:cursor-not-allowed focus-visible:ring-2 focus-visible:ring-brand-light focus-visible:ring-offset-2"
         >
-          {isSubmitting ? "Invio in corso..." : "Richiedi una demo"}
+          {isSubmitting ? "Invio in corso…" : "Richiedi una demo"}
         </button>
       </form>
     </div>

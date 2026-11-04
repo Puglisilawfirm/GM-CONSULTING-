@@ -30,7 +30,7 @@ export async function POST(request: Request) {
     if (!apiKey) {
       console.error("RESEND_API_KEY not configured")
       return NextResponse.json(
-        { error: "Servizio email non configurato. Scrivi a info@gmconsulting.one." },
+        { error: "Servizio email non configurato. Scrivere a info@gmconsulting.one." },
         { status: 503 }
       )
     }
@@ -82,14 +82,14 @@ export async function POST(request: Request) {
   } catch (error) {
     if (error instanceof z.ZodError) {
       return NextResponse.json(
-        { error: "Dati non validi. Verifica i campi e riprova." },
+        { error: "Dati non validi. Verificare i campi e riprovare." },
         { status: 400 }
       )
     }
 
     console.error("Compliance Suite submission error:", error)
     return NextResponse.json(
-      { error: "Errore interno del server. Riprova più tardi." },
+      { error: "Errore interno del server. Riprovare più tardi." },
       { status: 500 }
     )
   }

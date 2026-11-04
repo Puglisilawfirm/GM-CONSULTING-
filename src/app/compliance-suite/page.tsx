@@ -70,7 +70,7 @@ const ambitiFondamentali = [
   {
     icon: Network,
     title: "NIS2",
-    sub: "Sicurezza delle reti e dei sistemi informativi — Dir. (UE) 2022/2555, D.Lgs. 138/2024",
+    sub: "Sicurezza delle reti e dei sistemi informativi — Dir. UE 2022/2555, D.Lgs. 138/2024",
     text: "Qualificazione del soggetto (essenziale o importante), registrazione, misure di gestione del rischio, gestione e notifica degli incidenti, continuità operativa; raccordo con l'ambito ISO/IEC 27001.",
   },
   {

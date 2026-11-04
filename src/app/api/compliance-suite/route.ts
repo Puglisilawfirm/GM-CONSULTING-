@@ -71,12 +71,26 @@ export async function POST(request: Request) {
       </table>
     `
 
-    await resend.emails.send({
+    const { error: sendError } = await resend.emails.send({
       from: "GM Consulting Compliance Suite <assessment@gmconsulting.one>",
       to: [notifyEmail],
       subject: `[Compliance Suite] Nuova richiesta di demo — ${data.ragioneSociale}`,
       html: htmlBody,
     })
+
+    // Resend segnala il rifiuto nel risultato, non con un'eccezione: senza
+    // questo controllo il visitatore riceverebbe una conferma mentre la
+    // richiesta non è mai arrivata.
+    if (sendError) {
+      console.error("Compliance Suite email delivery error:", sendError)
+      return NextResponse.json(
+        {
+          error:
+            "Invio non riuscito. Riprovare fra qualche minuto oppure scrivere a info@gmconsulting.one.",
+        },
+        { status: 502 }
+      )
+    }
 
     return NextResponse.json({ success: true })
   } catch (error) {

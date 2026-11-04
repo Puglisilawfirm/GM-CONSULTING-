@@ -17,9 +17,9 @@ export interface InsightEntry {
 export const insights: InsightEntry[] = [
   {
     slug: "rapporto-clusit-2026-pmi-presidio-cybersecurity",
-    title: "Rapporto Clusit 2026: i numeri che riguardano le PMI, e il presidio che li governa",
+    title: "Rapporto Clusit 2026: analisi dei dati e architettura di presidio per le PMI",
     subtitle:
-      "507 incidenti gravi nel 2025, manifatturiero primo bersaglio: le due edizioni del Rapporto lette dalla fonte e la valutazione indipendente di GM — un'architettura a sei strati, misurabile",
+      "Le due edizioni del Rapporto lette dalla fonte e la valutazione indipendente di GM Consulting: un'architettura di presidio a sei strati, con un indicatore di esito per ciascuno",
     readingTime: "15 min",
     date: "4 novembre 2026",
     datePublished: "2026-11-04",

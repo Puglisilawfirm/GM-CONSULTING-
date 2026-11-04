@@ -123,11 +123,11 @@ const standards = [
 
 const articles = [
   {
-    title: "Rapporto Clusit 2026: i numeri che riguardano le PMI, e il presidio che li governa",
+    title: "Rapporto Clusit 2026: analisi dei dati e architettura di presidio per le PMI",
     date: "4 NOVEMBRE 2026",
     category: "CYBERSECURITY & NIS2",
     href: "/insights/rapporto-clusit-2026-pmi-presidio-cybersecurity",
-    excerpt: "507 incidenti gravi nel 2025, manifatturiero primo bersaglio: le due edizioni del Rapporto lette dalla fonte e la valutazione indipendente di GM, un'architettura a sei strati misurabile.",
+    excerpt: "Le due edizioni del Rapporto lette dalla fonte e la valutazione indipendente di GM Consulting: un'architettura di presidio a sei strati, con un indicatore di esito per ciascuno.",
   },
   {
     title: "L'integrazione fra ISO 37001:2025, ISO 37301 e D.Lgs. 231/2001",
@@ -245,10 +245,10 @@ export default function HomePage() {
               IN EVIDENZA &middot; RAPPORTO CLUSIT 2026
             </p>
             <h2 id="clusit-evidenza" className="mt-4 font-display font-bold text-display-md text-navy-950">
-              507 incidenti gravi in Italia nel 2025. Il manifatturiero è il primo bersaglio.
+              Rapporto Clusit 2026: analisi dei dati e architettura di presidio per le PMI
             </h2>
             <p className="mt-4 max-w-2xl text-body-lg text-ink-scale-700">
-              Le due edizioni del Rapporto Clusit lette dalla fonte: il rischio cambia natura, il cybercrime vale l&apos;82% degli incidenti e un attacco su sei al manifatturiero mondiale colpisce un&apos;impresa italiana. La valutazione indipendente di GM Consulting: perché la risposta «a piattaforma» parte dalla fine, e quale architettura a sei strati — identità, esposizione, OT, rilevazione, ripristino, fornitori — regge davvero.
+              507 incidenti gravi in Italia nel 2025 e 245 nel primo semestre 2026, con il manifatturiero al primo posto fra le vittime e il cybercrime all&apos;82%. La valutazione indipendente di GM Consulting sui limiti dell&apos;approccio centrato sulla rilevazione e l&apos;architettura di presidio a sei strati — identità, superficie esposta, OT, rilevazione, ripristino, catena di fornitura — con un indicatore di esito per ciascuno.
             </p>
           </div>
           <div className="lg:col-span-4 flex flex-col sm:flex-row lg:flex-col gap-4">

@@ -58,6 +58,72 @@ const esempi = [
   ["250 o più", "fino a 10 mln", "fino a 10 mln", "Grande"],
 ]
 
+const provvedimenti = [
+  {
+    titolo: "FAQ ACN — Ambito di applicazione (AMB.GE, AMB.DI)",
+    href: "https://www.acn.gov.it/portale/faq/nis/ambito",
+    data: "aggiornate nel 2025",
+    rilievo: "Regola di lettura delle soglie, esempi numerici, aggregazione di gruppo, clausola di salvaguardia, art. 3 c. 10",
+    stato: "Vigente",
+  },
+  {
+    titolo: "FAQ ACN — Dettaglio degli ambiti di applicazione (FAQ 1-5)",
+    href: "https://www.acn.gov.it/portale/documents/d/guest/faq-1-5_dettaglio-ambiti-di-applicazione",
+    data: "2025",
+    rilievo: "Lettura settoriale delle tipologie degli Allegati I e II",
+    stato: "Vigente",
+  },
+  {
+    titolo: "Determinazione n. 38565/2024 — piattaforma digitale e registrazione",
+    href: "https://www.dirittobancario.it/wp-content/uploads/2024/12/Determinazione-del-Direttore-generale-dellAgenzia-per-la-cybersicurezza-nazionale-26-novembre-2024-n.-38565.pdf",
+    data: "26/11/2024",
+    rilievo: "Definizioni di impresa autonoma, collegata e gruppo; prima disciplina dei dati dimensionali da dichiarare",
+    stato: "Sostituita",
+  },
+  {
+    titolo: "Determinazione n. 379887/2025 — piattaforma NIS e registrazione 2026",
+    href: "https://www.acn.gov.it/portale/documents/d/guest/detacn_piattaformanis_251218-v9_signed",
+    data: "19/12/2025",
+    rilievo: "Registrazione annuale; dichiarazione precompilata per i soggetti già in elenco",
+    stato: "Sostituita",
+  },
+  {
+    titolo: "Determinazione n. 379907/2025 — obblighi di base",
+    href: "https://www.acn.gov.it/portale/documents/d/guest/detacn_obblighi_2511-v3_signed",
+    data: "18/12/2025",
+    rilievo: "Misure di sicurezza e incidenti significativi: l'allegato applicabile dipende dalla qualifica di soggetto essenziale o importante",
+    stato: "Vigente dal 15/01/2026",
+  },
+  {
+    titolo: "Determinazione n. 127434/2026 — termini per i soggetti inseriti nel 2026",
+    href: "https://www.acn.gov.it/portale/documents/d/guest/detacn_misuresicurezza-v4_post",
+    data: "13/04/2026",
+    rilievo: "Decorrenza degli obblighi per la coorte 2026; nessun criterio dimensionale",
+    stato: "Vigente dal 30/04/2026",
+  },
+  {
+    titolo: "Determinazione n. 127437/2026 — piattaforma NIS, fornitori rilevanti e categorizzazione",
+    href: "https://www.acn.gov.it/portale/w/acn-convoca-il-tavolo-per-l-attuazione-della-disciplina-nis",
+    data: "13/04/2026",
+    rilievo: "Aggiornamento annuale delle informazioni; conferma dei dati dimensionali",
+    stato: "Sostituita",
+  },
+  {
+    titolo: "Determinazione sulla categorizzazione delle attività e dei servizi (art. 30, c. 2)",
+    href: "https://www.acn.gov.it/portale/documents/d/guest/detacn_categorizzazione_260409-v8_signed",
+    data: "aprile 2026",
+    rilievo: "Categorie di rilevanza delle attività; non incide sulla dimensione",
+    stato: "Vigente dal 01/05/2026",
+  },
+  {
+    titolo: "Determinazione n. 314287/2026 — piattaforma NIS e registrazione 2027",
+    href: "https://www.acn.gov.it/portale/documents/d/guest/detacn_piattaforma_314287-2026_signeddg",
+    data: "20/10/2026",
+    rilievo: "Dichiarazione del soggetto (art. 11): dati dimensionali con aggregazione, capogruppo, collegate ex art. 3 c. 10; clausola di salvaguardia (art. 12); esonero per chi è già in elenco senza modifiche",
+    stato: "Vigente dal 25/10/2026",
+  },
+]
+
 const faq = [
   {
     question: "Un'impresa con 50 dipendenti è sempre soggetta alla NIS2?",
@@ -338,6 +404,52 @@ export default function Nis2PerimetroPage() {
               </li>
             ))}
           </ul>
+        </div>
+      </section>
+
+      <section className="bg-white py-16">
+        <div className="mx-auto max-w-[1200px] px-6 lg:px-12">
+          <h2 className="text-h2 text-ink mb-6 max-w-3xl">I provvedimenti ACN sul perimetro</h2>
+          <p className="text-body text-steel max-w-3xl mb-8">
+            Le determinazioni del Direttore Generale non fissano soglie proprie: rinviano alla
+            raccomandazione 2003/361/CE e disciplinano come la dimensione si dichiara. Il testo
+            vigente sulla registrazione è, dal 25 ottobre 2026, la determinazione n. 314287/2026.
+          </p>
+          <div className="overflow-x-auto rounded-lg border border-mist">
+            <table className="w-full text-left text-body">
+              <thead className="bg-paper text-caption text-steel">
+                <tr>
+                  <th className="px-4 py-3">Provvedimento</th>
+                  <th className="px-4 py-3">Data</th>
+                  <th className="px-4 py-3">Rilievo per la dimensione</th>
+                  <th className="px-4 py-3">Stato</th>
+                </tr>
+              </thead>
+              <tbody>
+                {provvedimenti.map((riga) => (
+                  <tr key={riga.titolo} className="border-t border-mist align-top">
+                    <td className="px-4 py-3 font-medium text-ink">
+                      {riga.href ? (
+                        <a href={riga.href} className="text-brand underline" rel="noopener noreferrer" target="_blank">
+                          {riga.titolo}
+                        </a>
+                      ) : (
+                        riga.titolo
+                      )}
+                    </td>
+                    <td className="px-4 py-3 text-steel whitespace-nowrap">{riga.data}</td>
+                    <td className="px-4 py-3 text-steel">{riga.rilievo}</td>
+                    <td className="px-4 py-3 text-steel whitespace-nowrap">{riga.stato}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-caption text-steel mt-4 max-w-3xl">
+            Le determinazioni sostituite restano consultabili per ricostruire la posizione dei soggetti
+            iscritti negli anni precedenti; i termini decorrono dalla comunicazione individuale di
+            inserimento in elenco.
+          </p>
         </div>
       </section>
 

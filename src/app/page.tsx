@@ -5,11 +5,11 @@ import { ArrowRight } from "lucide-react"
 
 export const metadata: Metadata = {
   title: { absolute: "GM Consulting S.r.l. — Architettura di rischio d'impresa" },
-  description: "Consulenza direzionale a Catania: compliance strategica, governance, finanza-controllo e automazione dei processi. Sei aree integrate, otto standard.",
+  description: "Consulenza direzionale a Catania: compliance strategica, governance, finanza-controllo e automazione dei processi. Sei aree integrate, dieci standard.",
   alternates: { canonical: "https://www.gmconsulting.one/" },
   openGraph: {
     title: "GM Consulting — Architettura di rischio. Tecnicamente abilitata.",
-    description: "Sei aree di intervento integrate, otto standard di compliance presidiati. Consulenza professionale per imprese e organizzazioni complesse, in convenzione con Studio Legale Avv. Maria Puglisi.",
+    description: "Sei aree di intervento integrate, dieci standard di compliance presidiati. Consulenza professionale per imprese e organizzazioni complesse, in convenzione con Studio Legale Avv. Maria Puglisi.",
     type: "website",
     locale: "it_IT",
     siteName: "GM Consulting",
@@ -97,9 +97,9 @@ const stats = [
     caption: "Capabilities integrate dalla compliance strategica all’emergency management.",
   },
   {
-    value: "8",
+    value: "10",
     label: "STANDARD PRESIDIATI",
-    caption: "Da ISO 27001 a UNI 11871:2022, sino al D.Lgs. 231/2001 e a NIS2.",
+    caption: "Da GDPR e NIS2 a ISO 27001, sino al D.Lgs. 231/2001 e a ISO 22301.",
   },
   {
     value: "3",
@@ -109,14 +109,16 @@ const stats = [
 ]
 
 const standards = [
-  { sigla: "ISO 27001", description: "Sicurezza delle informazioni" },
-  { sigla: "ISO 37001", description: "Sistema di gestione anti-corruzione" },
-  { sigla: "ISO 9001", description: "Sistema di gestione per la qualità" },
-  { sigla: "ISO 14001", description: "Sistema di gestione ambientale" },
-  { sigla: "UNI 11871:2022", description: "Requisiti per sistemi di gestione degli studi professionali" },
-  { sigla: "D.Lgs. 231/2001", description: "Modelli di organizzazione gestione e controllo" },
-  { sigla: "GDPR", description: "Reg. UE 2016/679 — Protezione dei dati personali" },
-  { sigla: "NIS2", description: "Dir. UE 2022/2555 — Sicurezza reti e sistemi informativi" },
+  { sigla: "GDPR", description: "Reg. UE 2016/679 — Protezione dei dati personali", href: "/compliance#gdpr" },
+  { sigla: "NIS2", description: "Dir. UE 2022/2555 — Sicurezza reti e sistemi informativi", href: "/compliance#nis2" },
+  { sigla: "D.Lgs. 231/2001", description: "Modelli di organizzazione gestione e controllo", href: "/compliance#dlgs-231" },
+  { sigla: "ISO 27001", description: "Sicurezza delle informazioni", href: "/compliance#iso-27001" },
+  { sigla: "ISO 37001", description: "Sistema di gestione anti-corruzione", href: "/compliance#iso-37001" },
+  { sigla: "ISO 37301", description: "Compliance management system", href: "/compliance#iso-37301" },
+  { sigla: "ISO 31000", description: "Risk management", href: "/compliance#iso-31000" },
+  { sigla: "ISO 45001", description: "Salute e sicurezza sul lavoro", href: "/compliance#iso-45001" },
+  { sigla: "ISO 22301", description: "Business continuity management", href: "/compliance#iso-22301" },
+  { sigla: "UNI/PdR 125:2022", description: "Parità di genere", href: "/compliance#uni-pdr-125" },
 ]
 
 const articles = [
@@ -197,7 +199,7 @@ export default function HomePage() {
           </h1>
 
           <p className="mt-8 max-w-2xl text-body-lg text-paper-200">
-            Sei aree di intervento integrate, otto standard di compliance presidiati, prodotti verticali in continua evoluzione. Una società di consulenza che progetta architetture di rischio per imprese e organizzazioni complesse.
+            Sei aree di intervento integrate, dieci standard di compliance presidiati, prodotti verticali in continua evoluzione. Una società di consulenza che progetta architetture di rischio per imprese e organizzazioni complesse.
           </p>
 
           <div className="mt-10 flex flex-wrap gap-4">
@@ -403,14 +405,15 @@ export default function HomePage() {
             COMPLIANCE FRAMEWORK
           </p>
           <h2 className="mt-4 font-display font-bold text-display-md text-navy-950">
-            Otto standard. Un solo presidio integrato.
+            Dieci standard. Un solo presidio integrato.
           </h2>
 
-          <div className="mt-14 grid grid-cols-2 lg:grid-cols-4 gap-4">
+          <div className="mt-14 grid grid-cols-2 lg:grid-cols-5 gap-4">
             {standards.map((std) => (
-              <div
+              <Link
                 key={std.sigla}
-                className="p-6 bg-surface border border-border rounded-md hover:border-gold-500 transition-colors"
+                href={std.href}
+                className="block p-6 bg-surface border border-border rounded-md hover:border-gold-500 transition-colors"
               >
                 <span className="block font-mono text-[18px] text-navy-950 font-semibold">
                   {std.sigla}
@@ -418,8 +421,25 @@ export default function HomePage() {
                 <p className="mt-2 text-[13px] text-ink-scale-700">
                   {std.description}
                 </p>
-              </div>
+              </Link>
             ))}
+          </div>
+
+          <div className="mt-10 flex flex-wrap gap-4">
+            <Link
+              href="/compliance"
+              className="inline-flex items-center gap-2 border border-navy-900 text-navy-900 hover:bg-navy-900/5 font-semibold px-6 py-3 rounded-md transition-colors"
+            >
+              I sistemi di gestione integrati
+              <ArrowRight className="h-4 w-4" aria-hidden="true" />
+            </Link>
+            <Link
+              href="/compliance-suite"
+              className="inline-flex items-center gap-2 bg-navy-900 hover:bg-navy-800 text-paper-50 font-semibold px-6 py-3 rounded-md transition-colors"
+            >
+              Il programma gestito: Compliance Suite
+              <ArrowRight className="h-4 w-4" aria-hidden="true" />
+            </Link>
           </div>
 
           <p className="mt-10 text-sm text-ink-scale-500 max-w-3xl">

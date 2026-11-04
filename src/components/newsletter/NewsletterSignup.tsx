@@ -77,7 +77,7 @@ export function NewsletterSignup({ source, variant = "panel" }: NewsletterSignup
         Newsletter
       </h2>
       <p className={isFooter ? "text-sm text-paper-200" : "text-body mt-3 max-w-2xl text-steel"}>
-        Finanziamenti pubblici, strategia, business intelligence e cybersecurity: la
+        Finanziamenti pubblici, strategia, business intelligence, compliance e cybersecurity: la
         selezione della rassegna nella tua casella. Nessuna cessione dei dati a terzi,
         disiscrizione in ogni momento.
       </p>

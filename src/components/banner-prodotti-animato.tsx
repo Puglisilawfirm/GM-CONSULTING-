@@ -27,6 +27,17 @@ const PRODOTTI: Prodotto[] = [
     href: "/nis2/calcolatore",
   },
   {
+    slug: "compliance-suite",
+    nome: "Compliance Suite",
+    claim: null,
+    subclaim: null,
+    tagline: "Programma di compliance multi-ambito per le PMI: GDPR, NIS2, 231, adeguati assetti, antiriciclaggio",
+    eyebrow: null,
+    statoLabel: "Disponibile",
+    statoTone: "attivo",
+    href: "/compliance-suite",
+  },
+  {
     slug: "protocollo-23",
     nome: "Protocollo 23",
     claim: null,
@@ -83,8 +94,19 @@ function RadarIcon() {
   )
 }
 
+function LayersIcon() {
+  return (
+    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" stroke="currentColor" strokeWidth="1.5" className="text-gold-500 shrink-0">
+      <path d="M20 6L4 14l16 8 16-8-16-8z" />
+      <path d="M4 20l16 8 16-8" />
+      <path d="M4 26l16 8 16-8" />
+    </svg>
+  )
+}
+
 const glyphs: Record<string, () => React.JSX.Element> = {
   "nis2-perimetro": RadarIcon,
+  "compliance-suite": LayersIcon,
   "protocollo-23": ShieldIcon,
   "healthcare-continuity": PulseIcon,
 }

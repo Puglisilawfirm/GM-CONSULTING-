@@ -4,9 +4,9 @@ import { CTAButton } from "@/components/ui/CTAButton"
 import { ArrowRight } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Suite Compliance — Otto standard integrati",
+  title: "Sistemi di gestione integrati — Dieci standard",
   description:
-    "ISO 37001, ISO 37301, ISO 31000, D.Lgs. 231/2001, ISO 27001, ISO 45001, UNI/PdR 125, ISO 22301. Sistemi di gestione integrati.",
+    "GDPR, NIS2, ISO 37001, 37301, 31000, 27001, 45001, 22301, UNI/PdR 125 e D.Lgs. 231/2001 come un unico sistema. Il programma gestito: Compliance Suite.",
   alternates: { canonical: "https://www.gmconsulting.one/compliance" },
 }
 
@@ -25,6 +25,38 @@ interface ComplianceStandard {
 }
 
 const standards: ComplianceStandard[] = [
+  {
+    id: "gdpr",
+    code: "GDPR",
+    title: "Protezione dei dati personali",
+    badge: { label: "Reg. UE 2016/679", variant: "brand" },
+    description:
+      "Impianto di accountability del titolare: registro dei trattamenti, basi giuridiche, informative, accordi con i responsabili, diritti degli interessati, gestione delle violazioni e valutazioni d'impatto. Nel programma Compliance Suite è l'ambito di partenza, perché la mappa dei dati e dei sistemi serve a tutti gli altri.",
+    ambito: [
+      "registro dei trattamenti e dei sistemi",
+      "basi giuridiche, informative e consensi",
+      "accordi ex art. 28 e trasferimenti",
+      "diritti degli interessati e violazioni",
+      "DPIA, videosorveglianza, sito e marketing",
+    ],
+    integration: ["NIS2", "ISO 27001", "D.Lgs. 231/2001"],
+  },
+  {
+    id: "nis2",
+    code: "NIS2",
+    title: "Sicurezza delle reti e dei sistemi informativi",
+    badge: { label: "Dir. (UE) 2022/2555 · D.Lgs. 138/2024", variant: "brand" },
+    description:
+      "Qualificazione del soggetto (essenziale o importante), registrazione presso l'Agenzia per la cybersicurezza nazionale, misure di gestione del rischio, gestione e notifica degli incidenti, continuità operativa e responsabilità dell'organo di amministrazione.",
+    ambito: [
+      "verifica del perimetro e registrazione",
+      "misure di gestione del rischio",
+      "gestione e notifica degli incidenti",
+      "sicurezza della catena di fornitura",
+      "formazione dell'organo amministrativo",
+    ],
+    integration: ["ISO 27001", "GDPR", "ISO 22301"],
+  },
   {
     id: "iso-37001",
     code: "ISO 37001:2025",
@@ -235,9 +267,9 @@ export default function CompliancePage() {
       {/* Hero */}
       <Hero
         variant="compact"
-        eyebrow="Suite Compliance"
-        title="Otto standard, un'architettura integrata"
-        lead="Implementiamo i principali sistemi di gestione con approccio integrato: una sola architettura documentale, controlli condivisi, audit interno coordinato. Le certificazioni che si sovrappongono per requisiti vengono progettate come un unico sistema, riducendo duplicazioni e costo totale di esercizio."
+        eyebrow="Sistemi di gestione integrati"
+        title="Dieci standard, un'architettura integrata"
+        lead="Implementiamo i principali sistemi di gestione e gli obblighi normativi che vi si sovrappongono con approccio integrato: una sola architettura documentale, controlli condivisi, audit interno coordinato. Le certificazioni che si sovrappongono per requisiti vengono progettate come un unico sistema, riducendo duplicazioni e costo totale di esercizio."
       />
 
       {/* Il principio metodologico */}
@@ -258,6 +290,31 @@ export default function CompliancePage() {
               certificazioni con minor onere documentale e minore impatto
               operativo sul personale.
             </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Rinvio a Compliance Suite */}
+      <section className="bg-white pt-16">
+        <div className="mx-auto max-w-[1200px] px-6 lg:px-12">
+          <div className="rounded-lg border border-brand bg-brand-soft p-8 lg:p-10 grid gap-6 lg:grid-cols-12 items-center">
+            <div className="lg:col-span-8">
+              <p className="text-eyebrow uppercase tracking-[0.12em] text-brand mb-3">
+                Il programma gestito
+              </p>
+              <h2 className="text-h3 text-ink">
+                Compliance Suite: GDPR, NIS2, 231, adeguati assetti e antiriciclaggio su un&apos;unica architettura.
+              </h2>
+              <p className="text-body text-steel mt-3">
+                Gli standard di questa pagina descrivono che cosa sappiamo implementare. Compliance Suite è il programma con cui li gestiamo per l&apos;impresa, ambito per ambito, con registri, controlli, scadenze e report direzionale — senza software da installare.
+              </p>
+            </div>
+            <div className="lg:col-span-4 lg:text-right">
+              <CTAButton variant="primary" href="/compliance-suite">
+                Scopri Compliance Suite
+                <ArrowRight className="ml-2 h-4 w-4" />
+              </CTAButton>
+            </div>
           </div>
         </div>
       </section>

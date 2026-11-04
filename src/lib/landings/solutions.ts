@@ -219,6 +219,7 @@ export const solutionLandings: SolutionLanding[] = [
       },
     ],
     related: [
+      { href: "/compliance-suite#ambiti", label: "Adeguati assetti in Compliance Suite" },
       { href: "/soluzioni/business-intelligence-dati", label: "Business intelligence e dati" },
       { href: "/soluzioni/finanziamenti-pubblici-investimenti", label: "Finanziamenti pubblici per investimenti" },
       { href: "/metodo", label: "Il metodo" },
@@ -400,6 +401,7 @@ export const solutionLandings: SolutionLanding[] = [
       },
     ],
     related: [
+      { href: "/compliance-suite#ambiti", label: "NIS2 in Compliance Suite" },
       { href: "/nis2", label: "Rientri nel perimetro NIS2?" },
       { href: "/nis2/calcolatore", label: "Calcolatore del perimetro NIS2" },
       { href: "/compliance#iso-27001", label: "ISO/IEC 27001" },

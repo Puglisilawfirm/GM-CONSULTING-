@@ -17,6 +17,8 @@ const navigazione = [
 ]
 
 const complianceLinks = [
+  { href: "/compliance#gdpr", label: "GDPR" },
+  { href: "/compliance#nis2", label: "NIS2" },
   { href: "/compliance#iso-27001", label: "ISO 27001" },
   { href: "/compliance#iso-37001", label: "ISO 37001" },
   { href: "/compliance#iso-37301", label: "ISO 37301" },
@@ -28,6 +30,8 @@ const complianceLinks = [
 ]
 
 const soluzioniLinks = [
+  { href: "/compliance-suite", label: "Compliance Suite" },
+  { href: "/protocollo-23", label: "Protocollo 23" },
   { href: "/soluzioni/finanziamenti-pubblici-investimenti", label: "Finanziamenti per investimenti" },
   { href: "/soluzioni/pianificazione-strategica", label: "Pianificazione strategica" },
   { href: "/soluzioni/business-intelligence-dati", label: "Business intelligence" },

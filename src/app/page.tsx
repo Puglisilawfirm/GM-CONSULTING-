@@ -127,7 +127,7 @@ const articles = [
     date: "4 NOVEMBRE 2026",
     category: "CYBERSECURITY & NIS2",
     href: "/insights/rapporto-clusit-2026-pmi-presidio-cybersecurity",
-    excerpt: "507 incidenti gravi in Italia nel 2025, 245 nel primo semestre 2026, manifatturiero primo bersaglio: le due edizioni del Rapporto lette dalla fonte e tradotte in un presidio.",
+    excerpt: "507 incidenti gravi nel 2025, manifatturiero primo bersaglio: le due edizioni del Rapporto lette dalla fonte e la valutazione indipendente di GM, un'architettura a sei strati misurabile.",
   },
   {
     title: "L'integrazione fra ISO 37001:2025, ISO 37301 e D.Lgs. 231/2001",
@@ -248,7 +248,7 @@ export default function HomePage() {
               507 incidenti gravi in Italia nel 2025. Il manifatturiero è il primo bersaglio.
             </h2>
             <p className="mt-4 max-w-2xl text-body-lg text-ink-scale-700">
-              Le due edizioni del Rapporto Clusit lette dalla fonte: il rischio cambia natura, il cybercrime vale l&apos;82% degli incidenti e un attacco su sei al manifatturiero mondiale colpisce un&apos;impresa italiana. I numeri, le tavole e il presidio che li governa, dalla verifica del perimetro NIS2 alla procedura di notifica in 24/72 ore.
+              Le due edizioni del Rapporto Clusit lette dalla fonte: il rischio cambia natura, il cybercrime vale l&apos;82% degli incidenti e un attacco su sei al manifatturiero mondiale colpisce un&apos;impresa italiana. La valutazione indipendente di GM Consulting: perché la risposta «a piattaforma» parte dalla fine, e quale architettura a sei strati — identità, esposizione, OT, rilevazione, ripristino, fornitori — regge davvero.
             </p>
           </div>
           <div className="lg:col-span-4 flex flex-col sm:flex-row lg:flex-col gap-4">

@@ -19,8 +19,8 @@ export const insights: InsightEntry[] = [
     slug: "rapporto-clusit-2026-pmi-presidio-cybersecurity",
     title: "Rapporto Clusit 2026: i numeri che riguardano le PMI, e il presidio che li governa",
     subtitle:
-      "507 incidenti gravi in Italia nel 2025, 245 nel primo semestre 2026, manifatturiero primo bersaglio: le due edizioni del Rapporto lette dalla fonte e tradotte in un presidio",
-    readingTime: "13 min",
+      "507 incidenti gravi nel 2025, manifatturiero primo bersaglio: le due edizioni del Rapporto lette dalla fonte e la valutazione indipendente di GM — un'architettura a sei strati, misurabile",
+    readingTime: "15 min",
     date: "4 novembre 2026",
     datePublished: "2026-11-04",
   },

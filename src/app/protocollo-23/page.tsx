@@ -550,6 +550,14 @@ export default function Protocollo23Page() {
               Leggi i termini della convenzione
             </CTAButton>
           </div>
+          <p className="text-caption text-steel mt-8 max-w-3xl">
+            Protocollo 23 è rivolto agli studi professionali. Per le imprese,
+            l&apos;antiriciclaggio è uno degli ambiti del programma{" "}
+            <a href="/compliance-suite" className="text-brand hover:underline">
+              Compliance Suite
+            </a>
+            , insieme a GDPR, NIS2, D.Lgs. 231/2001 e adeguati assetti.
+          </p>
         </div>
       </section>
 

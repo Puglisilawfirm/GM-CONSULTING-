@@ -23,6 +23,24 @@ export default function SoluzioniPage() {
 
       <section className="bg-paper py-16 lg:py-24">
         <div className="mx-auto max-w-[1200px] px-6 lg:px-12">
+          <div className="mb-10 rounded-lg border border-brand bg-brand-soft p-8 grid gap-6 lg:grid-cols-12 items-center">
+            <div className="lg:col-span-8">
+              <p className="text-eyebrow uppercase tracking-[0.12em] text-brand mb-3">Programma gestito</p>
+              <h2 className="text-h3 text-ink mb-3">Compliance Suite</h2>
+              <p className="text-body text-steel">
+                GDPR, NIS2, D.Lgs. 231/2001, adeguati assetti e antiriciclaggio su un&apos;unica architettura di registri, controlli e scadenze, gestita da GM Consulting in collaborazione con Puglisi Law Firm. Senza software da installare.
+              </p>
+            </div>
+            <div className="lg:col-span-4 lg:text-right">
+              <Link
+                href="/compliance-suite"
+                className="inline-flex items-center gap-2 text-body font-medium text-brand hover:underline"
+              >
+                Scopri Compliance Suite
+                <ArrowRight className="h-4 w-4" aria-hidden />
+              </Link>
+            </div>
+          </div>
           <div className="grid gap-8 lg:grid-cols-2">
             {solutionLandings.map((landing) => (
               <article key={landing.slug} className="rounded-lg border border-mist bg-white p-8">

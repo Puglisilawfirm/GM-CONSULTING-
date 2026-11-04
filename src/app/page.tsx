@@ -102,9 +102,9 @@ const stats = [
     caption: "Da ISO 27001 a UNI 11871:2022, sino al D.Lgs. 231/2001 e a NIS2.",
   },
   {
-    value: "2",
+    value: "3",
     label: "PRODOTTI VERTICALI",
-    caption: "Protocollo 23 attivo; Healthcare Continuity Toolkit work in progress.",
+    caption: "Compliance Suite e Protocollo 23 disponibili; Healthcare Continuity Toolkit work in progress.",
   },
 ]
 
@@ -213,6 +213,13 @@ export default function HomePage() {
               className="inline-flex items-center gap-2 border border-paper-200 text-paper-100 hover:bg-paper-50/10 font-semibold px-6 py-3 rounded-md transition-colors"
             >
               Richiedi un primo contatto
+              <ArrowRight className="h-4 w-4" aria-hidden="true" />
+            </Link>
+            <Link
+              href="/compliance-suite"
+              className="inline-flex items-center gap-2 border border-gold-500/60 text-gold-300 hover:bg-gold-500/10 font-semibold px-6 py-3 rounded-md transition-colors"
+            >
+              Compliance Suite
               <ArrowRight className="h-4 w-4" aria-hidden="true" />
             </Link>
           </div>

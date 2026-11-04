@@ -60,7 +60,15 @@ export default function ConvenzioneStudioPage() {
               >
                 puglisilawfirm.it
               </a>
-              .
+              . La convenzione opera, fra l&apos;altro, nei programmi{" "}
+              <a href="/compliance-suite" className="text-brand underline underline-offset-4">
+                Compliance Suite
+              </a>{" "}
+              e{" "}
+              <a href="/protocollo-23" className="text-brand underline underline-offset-4">
+                Protocollo 23
+              </a>
+              , per le attività che richiedono valutazione giuridica o sottoscrizione professionale.
             </p>
             {sections.map((section) => (
               <div key={section.title}>

@@ -376,6 +376,62 @@ export default function Nis2PerimetroPage() {
         </div>
       </section>
 
+      <section className="bg-paper-50 py-16 md:py-24 border-t border-gold-500/30" aria-labelledby="tandem-studio">
+        <div className="max-w-7xl mx-auto px-6 md:px-10 lg:px-14 grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
+          <div className="lg:col-span-7">
+            <p className="font-mono text-mono-label uppercase tracking-[0.22em] text-gold-600">
+              CONSULENZA E DIRITTO
+            </p>
+            <h2 id="tandem-studio" className="mt-4 font-display font-bold text-display-md text-navy-950">
+              Consulenza e diritto, <span className="italic text-gold-600">in tandem</span>.
+            </h2>
+            <p className="mt-6 text-body-lg text-ink-scale-700 max-w-2xl">
+              La qualificazione NIS2 è una valutazione giuridica prima che tecnica: la lettura
+              delle soglie, i rapporti di gruppo, l&apos;art. 3 c. 10 e la clausola di salvaguardia si
+              decidono su norme, atti dell&apos;Autorità e documenti societari. Per questo GM Consulting
+              lavora in tandem con lo Studio Legale Avv. Maria Puglisi, con cui opera in convenzione:
+              la verifica dell&apos;ambito nasce già con il presidio giuridico, e la nota motivata che ne
+              risulta è utilizzabile anche in sede di vigilanza.
+            </p>
+            <p className="mt-4 text-body text-ink-scale-700 max-w-2xl">
+              Gli aspetti che richiedono patrocinio o parere legale sono resi dallo Studio su autonomo
+              mandato del cliente, con preventivazione, fatturazione e copertura assicurativa
+              separate.
+            </p>
+          </div>
+          <aside className="lg:col-span-5 rounded-md border border-border bg-surface p-8 hover:border-gold-500 transition-colors">
+            <p className="font-mono text-mono-label uppercase tracking-[0.22em] text-gold-600">
+              IN CONVENZIONE
+            </p>
+            <p className="mt-4 font-display font-semibold text-h3 text-navy-950">
+              Studio Legale Avv. Maria Carmen Puglisi
+            </p>
+            <p className="mt-2 text-body text-ink-scale-700">
+              Foro di Catania &middot; diritto ambientale, compliance d&apos;impresa, governance e
+              regolazione tecnologica.
+            </p>
+            <div className="mt-6 flex flex-col gap-3">
+              <a
+                href="https://www.puglisilawfirm.it"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center gap-2 bg-navy-900 hover:bg-navy-800 text-paper-50 font-semibold px-6 py-3 rounded-md transition-colors"
+              >
+                puglisilawfirm.it
+                <ArrowRight className="h-4 w-4" aria-hidden="true" />
+              </a>
+              <Link
+                href="/convenzione-studio"
+                className="inline-flex items-center justify-center gap-2 border border-navy-900 text-navy-900 hover:bg-navy-900/5 font-semibold px-6 py-3 rounded-md transition-colors"
+              >
+                Come opera la convenzione
+                <ArrowRight className="h-4 w-4" aria-hidden="true" />
+              </Link>
+            </div>
+          </aside>
+        </div>
+      </section>
+
       <section className="bg-gradient-to-br from-navy-900 via-navy-800 to-navy-700 py-20 md:py-28">
         <div className="max-w-3xl mx-auto px-6 md:px-10 lg:px-14 text-center">
           <p className="font-mono text-mono-label uppercase tracking-[0.22em] text-gold-400">CALCOLATORE</p>

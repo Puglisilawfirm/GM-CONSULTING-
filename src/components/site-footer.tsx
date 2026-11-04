@@ -37,6 +37,7 @@ const soluzioniLinks = [
 
 const legalLinks = [
   { href: "/convenzione-studio", label: "Convenzione Studio" },
+  { href: "https://www.puglisilawfirm.it", label: "Studio Legale Puglisi ↗" },
   { href: "/note-legali", label: "Note legali" },
   { href: "/note-legali#privacy", label: "Privacy" },
   { href: "/accessibilita", label: "Accessibilità" },
@@ -94,7 +95,11 @@ export function SiteFooter() {
             <ul className="space-y-2">
               {legalLinks.map((item) => (
                 <li key={item.href}>
-                  <Link href={item.href} className="text-sm text-paper-200 hover:text-paper-50 transition-colors">
+                  <Link
+                    href={item.href}
+                    className="text-sm text-paper-200 hover:text-paper-50 transition-colors"
+                    {...(item.href.startsWith("http") ? { target: "_blank", rel: "noopener noreferrer" } : {})}
+                  >
                     {item.label}
                   </Link>
                 </li>

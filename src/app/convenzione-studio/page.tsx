@@ -50,6 +50,18 @@ export default function ConvenzioneStudioPage() {
       <section className="bg-paper py-20 lg:py-28">
         <div className="mx-auto max-w-[1200px] px-6 lg:px-12">
           <div className="max-w-3xl space-y-16">
+            <p className="text-body text-graphite">
+              Lo Studio Legale Avv. Maria Carmen Puglisi presenta la propria attività sul sito{" "}
+              <a
+                href="https://www.puglisilawfirm.it"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-brand underline underline-offset-4"
+              >
+                puglisilawfirm.it
+              </a>
+              .
+            </p>
             {sections.map((section) => (
               <div key={section.title}>
                 <h2 className="text-h2 text-ink mb-6">{section.title}</h2>

@@ -425,6 +425,18 @@ export function CalcolatorePerimetro() {
             comunicazione dell&apos;Autorità; nei casi dubbi, in particolare nei gruppi, è opportuna
             una verifica professionale.
           </p>
+          <p className="mt-3 text-sm text-ink-scale-500">
+            La qualificazione è una valutazione giuridica: GM Consulting opera in tandem con lo{" "}
+            <a
+              href="https://www.puglisilawfirm.it"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gold-700 underline underline-offset-4 hover:text-gold-600"
+            >
+              Studio Legale Avv. Maria Puglisi
+            </a>
+            , in convenzione, per la verifica dell&apos;ambito e la nota motivata.
+          </p>
           <div className="mt-6 flex flex-wrap gap-4">
             <Link
               href="/assessment"

@@ -35,7 +35,18 @@ export function Nis2Table({ table }: { table: Nis2TableData }) {
                         riga.tone ? toneMarker[riga.tone] : ""
                       }`}
                     >
-                      {cella}
+                      {riga.href ? (
+                        <a
+                          href={riga.href}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-brand underline decoration-brand/40 underline-offset-4 hover:decoration-brand"
+                        >
+                          {cella}
+                        </a>
+                      ) : (
+                        cella
+                      )}
                     </th>
                   ) : (
                     <td key={`${cella}-${indice}`} className="px-4 py-3 align-top text-body-sm text-steel">

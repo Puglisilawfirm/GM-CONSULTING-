@@ -12,6 +12,8 @@ export interface Nis2GlossaryEntry {
   title: string
   body: string[]
   source: string
+  /** Collegamento al testo ufficiale della fonte principale. */
+  sourceHref?: string
 }
 
 export const nis2Glossary = {
@@ -22,6 +24,7 @@ export const nis2Glossary = {
       "Conseguenze: 43 misure di base declinate in 116 requisiti, vigilanza anche preventiva e sistematica, massimale sanzionatorio di 10 milioni di euro o 2% del fatturato mondiale.",
     ],
     source: "Art. 6 D.Lgs. 138/2024; Allegato 2 Det. ACN 379907/2025",
+    sourceHref: "https://www.acn.gov.it/portale/documents/d/guest/detacn_obblighi_2511-v3_signed",
   },
   "soggetto-importante": {
     title: "Soggetto importante",
@@ -30,6 +33,7 @@ export const nis2Glossary = {
       "Conseguenze: 37 misure di base e 87 requisiti, vigilanza prevalentemente successiva (solo in presenza di elementi che suggeriscano violazioni), massimale di 7 milioni di euro o 1,4% del fatturato.",
     ],
     source: "Art. 6 e art. 36, comma 2, D.Lgs. 138/2024; Allegato 1 Det. ACN 379907/2025",
+    sourceHref: "https://www.acn.gov.it/portale/documents/d/guest/detacn_obblighi_2511-v3_signed",
   },
   "criterio-dimensionale": {
     title: "Criterio dimensionale",
@@ -38,6 +42,7 @@ export const nis2Glossary = {
       "I dati delle imprese collegate e associate si aggregano, salva la clausola di proporzionalità che tiene conto dell'indipendenza del soggetto quanto ai sistemi informativi usati per fornire i servizi. La qualifica si acquista o si perde solo se il superamento si verifica in due esercizi consecutivi.",
     ],
     source: "Art. 3, commi 2 e 4, D.Lgs. 138/2024; Raccomandazione 2003/361/CE, artt. 4 e 6 dell'allegato",
+    sourceHref: "https://www.acn.gov.it/portale/faq/nis/ambito",
   },
   "deroga-dimensionale": {
     title: "Deroghe alla dimensione",
@@ -46,6 +51,7 @@ export const nis2Glossary = {
       "Vi rientra anche l'unico fornitore nazionale di un servizio essenziale o il soggetto critico a livello regionale, e l'impresa collegata a un soggetto essenziale o importante che decida sulla gestione del rischio informatico, gestisca i sistemi da cui dipende il servizio, ne curi la sicurezza o le fornisca servizi TIC.",
     ],
     source: "Art. 3, commi 9 e 10, D.Lgs. 138/2024",
+    sourceHref: "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2024-09-04;138",
   },
   "gestione-rifiuti": {
     title: "Gestione dei rifiuti: l'errore ricorrente",
@@ -54,6 +60,7 @@ export const nis2Glossary = {
       "Chi tratta anche acque reflue guardi l'Allegato I: quelle stanno fra i settori ad alta criticità, con il regime più severo. La «fabbricazione» dell'Allegato II è invece circoscritta a sei categorie NACE tassative.",
     ],
     source: "Allegati I e II D.Lgs. 138/2024",
+    sourceHref: "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2024-09-04;138",
   },
   "comunicazione-individuale": {
     title: "Comunicazione individuale di inserimento",
@@ -62,6 +69,7 @@ export const nis2Glossary = {
       "Nove mesi dalla comunicazione per l'avvio dell'obbligo di notifica degli incidenti; diciotto mesi per l'adozione delle misure di sicurezza di base. Ciascun soggetto deve reperire e conservare la data della propria comunicazione: chi l'ha ricevuta il 12 aprile 2025 non dispone dell'intero mese di ottobre 2026.",
     ],
     source: "Art. 7, comma 3, D.Lgs. 138/2024; art. 3 Det. ACN 379907/2025",
+    sourceHref: "https://www.acn.gov.it/portale/documents/d/guest/detacn_obblighi_2511-v3_signed",
   },
   "conferma-permanenza": {
     title: "La conferma di permanenza non riapre i termini",
@@ -70,6 +78,7 @@ export const nis2Glossary = {
       "Per la coorte 2026 la determinazione ha invece abbandonato il criterio mobile e fissato date certe. La data fissa del 31 luglio 2027 è più severa del criterio mobile: per comunicazioni della primavera 2026 i diciotto mesi sarebbero caduti nell'autunno.",
     ],
     source: "Det. ACN 127434/2026",
+    sourceHref: "https://www.acn.gov.it/portale/documents/d/guest/detacn_misuresicurezza-v4_post",
   },
   "misure-di-base": {
     title: "Misure di sicurezza di base",
@@ -78,6 +87,7 @@ export const nis2Glossary = {
       "L'analisi del rischio non è criterio di selezione delle misure minime — obbligatorie per tutti — ma di modulazione della loro profondità: non si può invocare una bassa esposizione per disapplicare una misura di base, si deve dimostrare di averla implementata coerentemente con il proprio contesto.",
     ],
     source: "Allegati 1 e 2 Det. ACN 379907/2025; Guida alla lettura delle specifiche di base, dicembre 2025",
+    sourceHref: "https://www.acn.gov.it/portale/documents/d/guest/detacn_obblighi_2511-v3_signed",
   },
   "atti-organo": {
     title: "Atti riservati all'organo di amministrazione",
@@ -94,6 +104,7 @@ export const nis2Glossary = {
       "Il termine decorre dalla conoscenza dell'incidente, non dalla sua comprensione: la notifica tardiva è sanzionata anche quando l'incidente sia stato gestito bene. La rappresentazione tecnica dell'evento deve essere coerente con la Tassonomia Cyber ACN 2.0 di novembre 2025.",
     ],
     source: "Art. 25 D.Lgs. 138/2024; Allegati 3 e 4 Det. ACN 379907/2025",
+    sourceHref: "https://www.acn.gov.it/portale/documents/d/guest/detacn_obblighi_2511-v3_signed",
   },
   "fornitori-rilevanti": {
     title: "Fornitori rilevanti",
@@ -102,6 +113,7 @@ export const nis2Glossary = {
       "L'elenco dei fornitori rilevanti si comunica sulla piattaforma secondo il criterio della non fungibilità, e serve a individuare fra essi chi debba a sua volta entrare in perimetro. Fuori dal perimetro non significa fuori dalla catena: l'onere arriva per contratto, capitolato o qualifica di fornitura.",
     ],
     source: "Art. 24, commi 2, lett. d), e 3, D.Lgs. 138/2024; art. 18 Det. ACN 127437/2026",
+    sourceHref: "https://www.acn.gov.it/portale/w/acn-convoca-il-tavolo-per-l-attuazione-della-disciplina-nis",
   },
   "comma-13": {
     title: "Art. 38, comma 13: il cumulo da omessa registrazione",
@@ -110,6 +122,7 @@ export const nis2Glossary = {
       "Ne discende che l'omessa registrazione produce un'esposizione superiore a quella del soggetto regolarmente iscritto che non abbia adottato le misure. In chiave difensiva: il comma 10, lett. a), sanziona la registrazione «mancata», mentre il comma 13 discorre di registrazione «mancata o tardiva».",
     ],
     source: "Art. 38, commi 10, 12 e 13, D.Lgs. 138/2024",
+    sourceHref: "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2024-09-04;138",
   },
   "soglia-indifferenza": {
     title: "Soglia di indifferenza: 500 milioni",
@@ -118,6 +131,7 @@ export const nis2Glossary = {
       "Conseguenza pratica per la media impresa: il minimo edittale di 500.000 euro, come soggetto essenziale, può eccedere il 2% del fatturato di diversi ordini di grandezza.",
     ],
     source: "Art. 38, commi 8 e 9, D.Lgs. 138/2024",
+    sourceHref: "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2024-09-04;138",
   },
   "strumenti-deflattivi": {
     title: "Invito a conformarsi e pagamento ridotto",
@@ -126,6 +140,7 @@ export const nis2Glossary = {
       "Il pagamento in misura ridotta entro sessanta giorni dalla contestazione è pari a un terzo del massimo ovvero, se più favorevole e ove stabilito, al doppio del minimo edittale.",
     ],
     source: "Art. 38, comma 15, D.Lgs. 138/2024",
+    sourceHref: "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2024-09-04;138",
   },
   "onere-della-prova": {
     title: "Che cosa guarda la vigilanza",
@@ -243,21 +258,24 @@ export interface Nis2Table {
   note?: string
   columns: string[]
   /** La prima cella di ogni riga è l'intestazione di riga. */
-  rows: { cells: string[]; tone?: Nis2Tone }[]
+  /** `href`: collegamento al testo ufficiale, reso sulla prima cella. */
+  rows: { cells: string[]; tone?: Nis2Tone; href?: string }[]
 }
 
 export const nis2Sources: Nis2Table = {
   id: "fonti",
   caption: "Le fonti applicabili e la loro decorrenza",
+  note: "Ogni fonte rinvia al testo ufficiale; tabella aggiornata al 4 novembre 2026.",
   columns: ["Fonte", "Oggetto", "Applicabilità"],
   rows: [
-    { cells: ["D.Lgs. 138/2024", "Recepimento della direttiva NIS2", "16 ottobre 2024"], tone: "brand" },
-    { cells: ["Reg. di esecuzione (UE) 2024/2690", "Requisiti tecnici per categorie di fornitori digitali", "18 ottobre 2024"], tone: "brand" },
-    { cells: ["Det. ACN 379887/2025 del 19 dicembre 2025", "Piattaforma NIS, registrazioni, designazioni", "31 dicembre 2025"], tone: "gold" },
-    { cells: ["Det. ACN 379907/2025 del 19 dicembre 2025", "Misure di sicurezza e incidenti significativi di base; abroga la Det. 164179/2025", "15 gennaio 2026"], tone: "danger" },
-    { cells: ["Det. ACN 127434/2026 del 13 aprile 2026", "Termini per i soggetti inseriti nell'elenco nel 2026", "30 aprile 2026"], tone: "warning" },
-    { cells: ["Det. ACN 127437/2026 del 13 aprile 2026", "Elenco dei fornitori rilevanti", "30 aprile 2026"], tone: "warning" },
-    { cells: ["Det. ACN 155238/2026 del 20 aprile 2026", "Categorizzazione di attività e servizi ex art. 30", "maggio 2026"], tone: "success" },
+    { cells: ["D.Lgs. 138/2024", "Recepimento della direttiva NIS2", "16 ottobre 2024"], tone: "brand", href: "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2024-09-04;138" },
+    { cells: ["Reg. di esecuzione (UE) 2024/2690", "Requisiti tecnici per categorie di fornitori digitali", "18 ottobre 2024"], tone: "brand", href: "https://eur-lex.europa.eu/eli/reg_impl/2024/2690/oj" },
+    { cells: ["Det. ACN 379887/2025 del 19 dicembre 2025", "Piattaforma NIS, registrazioni, designazioni; sostituita dalla Det. 127437/2026", "31 dicembre 2025"], tone: "gold", href: "https://www.acn.gov.it/portale/documents/d/guest/detacn_piattaformanis_251218-v9_signed" },
+    { cells: ["Det. ACN 379907/2025 del 19 dicembre 2025", "Misure di sicurezza e incidenti significativi di base; abroga la Det. 164179/2025", "15 gennaio 2026"], tone: "danger", href: "https://www.acn.gov.it/portale/documents/d/guest/detacn_obblighi_2511-v3_signed" },
+    { cells: ["Det. ACN 127434/2026 del 13 aprile 2026", "Termini per i soggetti inseriti nell'elenco nel 2026", "30 aprile 2026"], tone: "warning", href: "https://www.acn.gov.it/portale/documents/d/guest/detacn_misuresicurezza-v4_post" },
+    { cells: ["Det. ACN 127437/2026 del 13 aprile 2026", "Elenco dei fornitori rilevanti; sostituita dalla Det. 314287/2026", "30 aprile 2026"], tone: "warning", href: "https://www.acn.gov.it/portale/w/acn-convoca-il-tavolo-per-l-attuazione-della-disciplina-nis" },
+    { cells: ["Det. ACN 155238/2026 del 20 aprile 2026", "Categorizzazione di attività e servizi ex art. 30", "maggio 2026"], tone: "success", href: "https://www.acn.gov.it/portale/documents/d/guest/detacn_categorizzazione_260409-v8_signed" },
+    { cells: ["Det. ACN 314287/2026 del 20 ottobre 2026", "Piattaforma NIS e registrazione 2027: dichiarazione del soggetto, clausola di salvaguardia, verifiche di coerenza", "25 ottobre 2026"], tone: "gold", href: "https://www.acn.gov.it/portale/documents/d/guest/detacn_piattaforma_314287-2026_signeddg" },
   ],
 }
 

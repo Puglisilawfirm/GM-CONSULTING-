@@ -1,7 +1,7 @@
 "use client"
 
 import { useEffect, useRef, useState } from "react"
-import { nis2Glossary, type Nis2GlossaryKey } from "@/lib/landings/nis2-dossier"
+import { nis2Glossary, type Nis2GlossaryEntry, type Nis2GlossaryKey } from "@/lib/landings/nis2-dossier"
 
 /**
  * Parola del testo che apre la scheda del concetto. La scheda è sempre nel
@@ -15,7 +15,7 @@ export function Nis2Term({
   id: Nis2GlossaryKey
   children: React.ReactNode
 }) {
-  const entry = nis2Glossary[id]
+  const entry: Nis2GlossaryEntry = nis2Glossary[id]
   const [open, setOpen] = useState(false)
   const container = useRef<HTMLSpanElement>(null)
   const panelId = `nis2-glossario-${id}`
@@ -72,7 +72,13 @@ export function Nis2Term({
           </span>
         ))}
         <span className="block border-t border-mist pt-3 text-caption uppercase tracking-wide text-brand">
-          {entry.source}
+          {entry.sourceHref ? (
+            <a href={entry.sourceHref} target="_blank" rel="noopener noreferrer" className="underline underline-offset-4">
+              {entry.source}
+            </a>
+          ) : (
+            entry.source
+          )}
         </span>
         {open && (
           <button

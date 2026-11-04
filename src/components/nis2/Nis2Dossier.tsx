@@ -25,7 +25,7 @@ export function Nis2Dossier() {
     <section className="bg-white py-16" aria-labelledby="dossier-nis2">
       <div className="mx-auto max-w-[1200px] px-6 lg:px-12">
         <p className="text-eyebrow mb-4 uppercase tracking-[0.12em] text-brand">
-          Dossier tecnico — aggiornato ad agosto 2026
+          Dossier tecnico — aggiornato ad agosto 2026; fonti e collegamenti al 4 novembre 2026
         </p>
         <h2 id="dossier-nis2" className="text-h2 text-ink mb-4 max-w-3xl">
           Il calendario degli adempimenti e l&apos;architettura sanzionatoria

@@ -17,6 +17,14 @@ export const metadata: Metadata = {
     title: "Calcolatore NIS2 — valutazione preliminare del perimetro",
     description:
       "Inserisci occupati, fatturato e bilancio, le imprese del gruppo e la tipologia di attività: l'esito applica la lettura ACN del D.Lgs. 138/2024.",
+    images: [{ url: `${baseUrl}/og/nis2-calcolatore.jpg`, width: 1200, height: 630, alt: "Calcolatore NIS2 — GM Consulting" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Calcolatore NIS2 — valutazione preliminare del perimetro",
+    description:
+      "Inserisci occupati, fatturato e bilancio, le imprese del gruppo e la tipologia di attività: l'esito applica la lettura ACN del D.Lgs. 138/2024.",
+    images: [`${baseUrl}/og/nis2-calcolatore.jpg`],
   },
 }
 

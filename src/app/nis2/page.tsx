@@ -16,6 +16,14 @@ export const metadata: Metadata = {
     title: "Rientri nel perimetro NIS2?",
     description:
       "Soglie dimensionali, gruppi di imprese, clausola di salvaguardia e un calcolatore per la valutazione preliminare.",
+    images: [{ url: `${baseUrl}/og/nis2.jpg`, width: 1200, height: 630, alt: "Rientri nel perimetro NIS2? — GM Consulting" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Rientri nel perimetro NIS2?",
+    description:
+      "Soglie dimensionali, gruppi di imprese, clausola di salvaguardia e un calcolatore per la valutazione preliminare.",
+    images: [`${baseUrl}/og/nis2.jpg`],
   },
 }
 

@@ -49,15 +49,15 @@ const toneEsito: Record<Esito, string> = {
   "fuori-ambito": "border-success/40 bg-success/5 text-success",
   importante: "border-warning/40 bg-warning/5 text-warning",
   essenziale: "border-danger/40 bg-danger/5 text-danger",
-  "in-ambito": "border-brand/40 bg-brand-soft text-brand",
+  "in-ambito": "border-navy-700/40 bg-navy-700/10 text-navy-700",
 }
 
 const campo =
-  "w-full rounded-md border border-mist bg-white px-3 py-2 text-body text-ink focus:border-brand focus:outline-none focus:ring-2 focus:ring-brand-light"
+  "w-full rounded-md border border-border bg-surface px-3 py-2 font-mono text-sm text-navy-950 focus:border-gold-500 focus:outline-none focus:ring-2 focus:ring-gold-500/40"
 
 function Etichetta({ children, htmlFor }: { children: React.ReactNode; htmlFor?: string }) {
   return (
-    <label htmlFor={htmlFor} className="block text-caption text-steel mb-1">
+    <label htmlFor={htmlFor} className="block text-sm text-ink-scale-500 mb-1">
       {children}
     </label>
   )
@@ -129,7 +129,7 @@ function RigheGruppo({
   return (
     <div className="space-y-4">
       {righe.map((riga, indice) => (
-        <div key={riga.id} className="rounded-md border border-mist bg-paper p-4">
+        <div key={riga.id} className="rounded-md border border-border bg-paper-100 p-4">
           <div className="mb-3 flex items-center justify-between gap-3">
             <input
               aria-label={`Denominazione ${lista === "collegate" ? "collegata" : "associata"} ${indice + 1}`}
@@ -141,7 +141,7 @@ function RigheGruppo({
             <button
               type="button"
               onClick={() => rimuovi(lista, riga.id)}
-              className="inline-flex items-center gap-1 text-caption text-steel hover:text-danger"
+              className="inline-flex items-center gap-1 text-sm text-ink-scale-500 hover:text-danger"
             >
               <Minus className="h-4 w-4" aria-hidden /> Rimuovi
             </button>
@@ -227,9 +227,9 @@ export function CalcolatorePerimetro() {
 
   return (
     <div className="space-y-10">
-      <section className="rounded-lg border border-mist bg-white p-6 lg:p-8">
-        <h2 className="text-h3 text-ink mb-1">1. Dati dell&apos;impresa — ultimo esercizio chiuso</h2>
-        <p className="text-caption text-steel mb-6">
+      <section className="rounded-md border border-border bg-surface p-6 lg:p-8">
+        <h2 className="font-display font-semibold text-h3 text-navy-950 mb-1">1. Dati dell&apos;impresa — ultimo esercizio chiuso</h2>
+        <p className="text-sm text-ink-scale-500 mb-6">
           Occupati in unità lavorative annue; fatturato al netto dell&apos;IVA; totale attivo di bilancio,
           cioè il totale dell&apos;attivo dello stato patrimoniale alla chiusura dell&apos;esercizio (non
           l&apos;utile né il patrimonio netto). Importi in milioni di euro.
@@ -241,10 +241,10 @@ export function CalcolatorePerimetro() {
           bilancio={attuale.bilancio}
           onChange={(c, v) => setAttuale((d) => ({ ...d, [c]: v }))}
         />
-        <label className="mt-6 flex items-start gap-3 text-body text-steel">
+        <label className="mt-6 flex items-start gap-3 text-body text-ink-scale-700">
           <input
             type="checkbox"
-            className="mt-1 h-4 w-4 accent-brand"
+            className="mt-1 h-4 w-4 accent-gold-600"
             checked={usaPrecedente}
             onChange={(e) => setUsaPrecedente(e.target.checked)}
           />
@@ -263,9 +263,9 @@ export function CalcolatorePerimetro() {
         )}
       </section>
 
-      <section className="rounded-lg border border-mist bg-white p-6 lg:p-8">
-        <h2 className="text-h3 text-ink mb-1">2. Gruppo di imprese</h2>
-        <p className="text-caption text-steel mb-6">
+      <section className="rounded-md border border-border bg-surface p-6 lg:p-8">
+        <h2 className="font-display font-semibold text-h3 text-navy-950 mb-1">2. Gruppo di imprese</h2>
+        <p className="text-sm text-ink-scale-500 mb-6">
           Collegate: controllo o influenza dominante, dati sommati al 100%. Associate: partecipazione
           dal 25% in su senza controllo, dati sommati in proporzione alla quota. Se l&apos;impresa è
           autonoma, lasciare vuoto.
@@ -273,11 +273,11 @@ export function CalcolatorePerimetro() {
         <div className="grid gap-8 lg:grid-cols-2">
           <div>
             <div className="mb-3 flex items-center justify-between">
-              <h3 className="text-h4 text-ink">Imprese collegate</h3>
+              <h3 className="font-display font-semibold text-h4 text-navy-950">Imprese collegate</h3>
               <button
                 type="button"
                 onClick={() => aggiungi("collegate")}
-                className="inline-flex items-center gap-1 text-caption font-medium text-brand hover:underline"
+                className="inline-flex items-center gap-1 text-sm font-semibold text-gold-700 hover:text-gold-600"
               >
                 <Plus className="h-4 w-4" aria-hidden /> Aggiungi
               </button>
@@ -286,11 +286,11 @@ export function CalcolatorePerimetro() {
           </div>
           <div>
             <div className="mb-3 flex items-center justify-between">
-              <h3 className="text-h4 text-ink">Imprese associate</h3>
+              <h3 className="font-display font-semibold text-h4 text-navy-950">Imprese associate</h3>
               <button
                 type="button"
                 onClick={() => aggiungi("associate")}
-                className="inline-flex items-center gap-1 text-caption font-medium text-brand hover:underline"
+                className="inline-flex items-center gap-1 text-sm font-semibold text-gold-700 hover:text-gold-600"
               >
                 <Plus className="h-4 w-4" aria-hidden /> Aggiungi
               </button>
@@ -300,9 +300,9 @@ export function CalcolatorePerimetro() {
         </div>
       </section>
 
-      <section className="rounded-lg border border-mist bg-white p-6 lg:p-8">
-        <h2 className="text-h3 text-ink mb-1">3. Tipologia di attività</h2>
-        <p className="text-caption text-steel mb-6">
+      <section className="rounded-md border border-border bg-surface p-6 lg:p-8">
+        <h2 className="font-display font-semibold text-h3 text-navy-950 mb-1">3. Tipologia di attività</h2>
+        <p className="text-sm text-ink-scale-500 mb-6">
           Basta una sola attività riconducibile agli allegati, anche svolta in forma residuale (salvo
           i settori acqua potabile, acque reflue e gestione dei rifiuti, per i quali conta
           l&apos;attività principale).
@@ -316,11 +316,11 @@ export function CalcolatorePerimetro() {
               ["nessuna", "Nessuna attività riconducibile agli Allegati I e II"],
             ] as [Tipologia, string][]
           ).map(([valore, testo]) => (
-            <label key={valore} className="flex items-start gap-3 text-body text-steel">
+            <label key={valore} className="flex items-start gap-3 text-body text-ink-scale-700">
               <input
                 type="radio"
                 name="tipologia"
-                className="mt-1 h-4 w-4 accent-brand"
+                className="mt-1 h-4 w-4 accent-gold-600"
                 checked={tipologia === valore}
                 onChange={() => setTipologia(valore)}
               />
@@ -328,11 +328,11 @@ export function CalcolatorePerimetro() {
             </label>
           ))}
         </fieldset>
-        <div className="mt-6 space-y-3 border-t border-mist pt-6">
-          <label className="flex items-start gap-3 text-body text-steel">
+        <div className="mt-6 space-y-3 border-t border-border pt-6">
+          <label className="flex items-start gap-3 text-body text-ink-scale-700">
             <input
               type="checkbox"
-              className="mt-1 h-4 w-4 accent-brand"
+              className="mt-1 h-4 w-4 accent-gold-600"
               checked={art3c5}
               onChange={(e) => setArt3c5(e.target.checked)}
             />
@@ -342,10 +342,10 @@ export function CalcolatorePerimetro() {
               di nomi di dominio (art. 3, c. 5)
             </span>
           </label>
-          <label className="flex items-start gap-3 text-body text-steel">
+          <label className="flex items-start gap-3 text-body text-ink-scale-700">
             <input
               type="checkbox"
-              className="mt-1 h-4 w-4 accent-brand"
+              className="mt-1 h-4 w-4 accent-gold-600"
               checked={art3c10}
               onChange={(e) => setArt3c10(e.target.checked)}
             />
@@ -364,12 +364,12 @@ export function CalcolatorePerimetro() {
           type="button"
           disabled={!datiInseriti}
           onClick={() => setMostraEsito(true)}
-          className="inline-flex items-center gap-2 rounded-md bg-brand px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-brand-dark disabled:cursor-not-allowed disabled:opacity-50"
+          className="inline-flex items-center gap-2 rounded-md bg-gold-500 px-6 py-3 font-semibold text-navy-950 transition-colors hover:bg-gold-400 disabled:cursor-not-allowed disabled:opacity-50"
         >
           Calcola l&apos;esito
           <ArrowRight className="h-4 w-4" aria-hidden />
         </button>
-        <p className="text-caption text-steel">
+        <p className="text-sm text-ink-scale-500">
           Il calcolo avviene nel browser: nessun dato viene trasmesso o conservato.
         </p>
       </div>
@@ -377,39 +377,39 @@ export function CalcolatorePerimetro() {
       {risultato && (
         <section
           aria-live="polite"
-          className={`rounded-lg border p-6 lg:p-8 ${toneEsito[risultato.esito]}`}
+          className={`rounded-md border p-6 lg:p-8 ${toneEsito[risultato.esito]}`}
         >
-          <p className="text-eyebrow uppercase tracking-[0.12em] mb-2">Esito preliminare</p>
-          <h2 className="text-h2 mb-4">{ETICHETTE_ESITO[risultato.esito]}</h2>
-          <dl className="grid gap-4 sm:grid-cols-3 text-ink">
-            <div className="rounded-md bg-white/70 p-4">
-              <dt className="text-caption text-steel">Classe sui dati propri</dt>
-              <dd className="text-h4">{ETICHETTE_CLASSE[risultato.classePropria]}</dd>
+          <p className="font-mono text-mono-label uppercase tracking-[0.22em] mb-2">Esito preliminare</p>
+          <h2 className="font-display font-bold text-display-md mb-6">{ETICHETTE_ESITO[risultato.esito]}</h2>
+          <dl className="grid gap-4 sm:grid-cols-3 text-navy-950">
+            <div className="rounded-md bg-surface/80 p-4">
+              <dt className="text-sm text-ink-scale-500">Classe sui dati propri</dt>
+              <dd className="font-display font-semibold text-h4">{ETICHETTE_CLASSE[risultato.classePropria]}</dd>
             </div>
-            <div className="rounded-md bg-white/70 p-4">
-              <dt className="text-caption text-steel">Classe aggregata (gruppo)</dt>
-              <dd className="text-h4">{ETICHETTE_CLASSE[risultato.classeAggregata]}</dd>
-              <dd className="text-caption text-steel mt-1">
+            <div className="rounded-md bg-surface/80 p-4">
+              <dt className="text-sm text-ink-scale-500">Classe aggregata (gruppo)</dt>
+              <dd className="font-display font-semibold text-h4">{ETICHETTE_CLASSE[risultato.classeAggregata]}</dd>
+              <dd className="text-sm text-ink-scale-500 mt-1 font-mono">
                 {risultato.aggregato.ula} ULA · {risultato.aggregato.fatturato} mln fatturato ·{" "}
                 {risultato.aggregato.bilancio} mln bilancio
               </dd>
             </div>
-            <div className="rounded-md bg-white/70 p-4">
-              <dt className="text-caption text-steel">Esercizio precedente</dt>
-              <dd className="text-h4">
+            <div className="rounded-md bg-surface/80 p-4">
+              <dt className="text-sm text-ink-scale-500">Esercizio precedente</dt>
+              <dd className="font-display font-semibold text-h4">
                 {risultato.classePrecedente
                   ? ETICHETTE_CLASSE[risultato.classePrecedente]
                   : "Non inserito"}
               </dd>
               {risultato.classePrecedente && (
-                <dd className="text-caption text-steel mt-1">
+                <dd className="text-sm text-ink-scale-500 mt-1 font-mono">
                   {risultato.classeConsolidata ? "Classe consolidata" : "Classe in transizione"}
                 </dd>
               )}
             </div>
           </dl>
           {risultato.note.length > 0 && (
-            <ul className="mt-6 space-y-3 text-body text-ink">
+            <ul className="mt-6 space-y-3 text-body text-navy-950">
               {risultato.note.map((nota) => (
                 <li key={nota} className="flex gap-3">
                   <span aria-hidden className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-current" />
@@ -418,7 +418,7 @@ export function CalcolatorePerimetro() {
               ))}
             </ul>
           )}
-          <p className="mt-6 text-caption text-steel">
+          <p className="mt-6 text-sm text-ink-scale-500">
             Valutazione preliminare e non vincolante, costruita sulla lettura dell&apos;Agenzia per la
             cybersicurezza nazionale (FAQ AMB.DI.1) e sull&apos;art. 3 del D.Lgs. 138/2024. La
             qualificazione definitiva risulta dalla registrazione sulla piattaforma ACN e dalla
@@ -428,14 +428,14 @@ export function CalcolatorePerimetro() {
           <div className="mt-6 flex flex-wrap gap-4">
             <Link
               href="/assessment"
-              className="inline-flex items-center gap-2 rounded-md bg-brand px-5 py-2.5 text-sm font-medium text-white hover:bg-brand-dark"
+              className="inline-flex items-center gap-2 rounded-md bg-navy-900 px-5 py-2.5 text-sm font-semibold text-paper-50 hover:bg-navy-800 transition-colors"
             >
               Richiedi una verifica dell&apos;ambito
               <ArrowRight className="h-4 w-4" aria-hidden />
             </Link>
             <Link
               href="/nis2"
-              className="inline-flex items-center gap-2 rounded-md border border-brand px-5 py-2.5 text-sm font-medium text-brand hover:bg-brand-soft"
+              className="inline-flex items-center gap-2 rounded-md border border-navy-900 px-5 py-2.5 text-sm font-semibold text-navy-900 hover:bg-navy-900/5 transition-colors"
             >
               Come funziona il calcolo
             </Link>

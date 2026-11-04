@@ -38,13 +38,26 @@ export default function CalcolatoreNis2Page() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
 
-      <section className="bg-white py-16 lg:py-20">
-        <div className="mx-auto max-w-[1200px] px-6 lg:px-12">
-          <p className="text-eyebrow uppercase tracking-[0.12em] text-brand mb-6">
-            NIS2 — D.Lgs. 138/2024
+      <section
+        className="relative bg-navy-900 pt-28 pb-16 md:pt-32 md:pb-20 overflow-hidden"
+        style={{
+          backgroundImage: "repeating-linear-gradient(0deg, transparent 0, transparent 2px, rgba(15,30,54,0.6) 2px, rgba(15,30,54,0.6) 3px)",
+        }}
+      >
+        <span
+          className="absolute bottom-0 right-0 font-display font-black text-[clamp(180px,24vw,320px)] text-gold-500/[0.05] leading-none select-none pointer-events-none"
+          aria-hidden="true"
+        >
+          NIS2
+        </span>
+        <div className="relative max-w-7xl mx-auto px-6 md:px-10 lg:px-14">
+          <p className="font-mono text-mono-label uppercase tracking-[0.22em] text-gold-400">
+            NIS2 &middot; D.Lgs. 138/2024
           </p>
-          <h1 className="text-h1 text-ink">Calcolatore del perimetro NIS2</h1>
-          <p className="text-body-lg text-steel max-w-3xl mt-6">
+          <h1 className="mt-6 font-display font-bold text-display-lg text-paper-50">
+            Calcolatore del <span className="italic text-gold-400">perimetro NIS2</span>
+          </h1>
+          <p className="mt-8 max-w-2xl text-body-lg text-paper-200">
             Valutazione preliminare in tre passaggi: dati dell&apos;impresa, gruppo, tipologia di
             attività. Il calcolo applica la raccomandazione 2003/361/CE nella lettura
             dell&apos;Agenzia per la cybersicurezza nazionale e l&apos;art. 3 del decreto NIS. Tutto
@@ -52,16 +65,16 @@ export default function CalcolatoreNis2Page() {
           </p>
           <Link
             href="/nis2"
-            className="mt-6 inline-flex items-center gap-2 text-body text-brand hover:underline"
+            className="mt-8 inline-flex items-center gap-2 text-gold-400 font-semibold hover:text-gold-300 transition-colors"
           >
             Come funziona il calcolo
-            <ArrowRight className="h-4 w-4" aria-hidden />
+            <ArrowRight className="h-4 w-4" aria-hidden="true" />
           </Link>
         </div>
       </section>
 
-      <section className="bg-paper py-12 lg:py-16">
-        <div className="mx-auto max-w-[1200px] px-6 lg:px-12">
+      <section className="bg-paper-50 py-14 md:py-20">
+        <div className="max-w-7xl mx-auto px-6 md:px-10 lg:px-14">
           <CalcolatorePerimetro />
         </div>
       </section>

@@ -1,8 +1,6 @@
 import type { Metadata } from "next"
 import Link from "next/link"
 import { ArrowRight, Check } from "lucide-react"
-import { Hero } from "@/components/ui/Hero"
-import { CTAButton } from "@/components/ui/CTAButton"
 
 const baseUrl = "https://www.gmconsulting.one"
 const url = `${baseUrl}/nis2`
@@ -179,62 +177,90 @@ export default function Nis2PerimetroPage() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
 
-      <Hero
-        variant="compact"
-        eyebrow="NIS2 — D.Lgs. 138/2024"
-        title="Rientri nel perimetro NIS2?"
-        lead="La risposta dipende da tre condizioni che vanno verificate insieme: giurisdizione, dimensione e tipologia di attività. La dimensione si calcola con i criteri della raccomandazione europea sulle PMI, nella lettura data dall'Agenzia per la cybersicurezza nazionale, e nei gruppi si misura sui dati aggregati. Qui il metodo, le soglie e un calcolatore per la valutazione preliminare."
+      <section
+        className="relative bg-navy-900 pt-28 pb-20 md:pt-32 md:pb-24 overflow-hidden"
+        style={{
+          backgroundImage: "repeating-linear-gradient(0deg, transparent 0, transparent 2px, rgba(15,30,54,0.6) 2px, rgba(15,30,54,0.6) 3px)",
+        }}
       >
-        <div className="flex flex-wrap gap-4">
-          <CTAButton variant="primary" href="/nis2/calcolatore">
-            Verifica con il calcolatore
-            <ArrowRight className="ml-2 h-4 w-4" />
-          </CTAButton>
-          <CTAButton variant="secondary" href="/soluzioni/cybersecurity-nis2">
-            Gli adempimenti NIS2
-          </CTAButton>
+        <span
+          className="absolute bottom-0 right-0 font-display font-black text-[clamp(180px,24vw,320px)] text-gold-500/[0.05] leading-none select-none pointer-events-none"
+          aria-hidden="true"
+        >
+          NIS2
+        </span>
+        <div className="relative max-w-7xl mx-auto px-6 md:px-10 lg:px-14">
+          <p className="font-mono text-mono-label uppercase tracking-[0.22em] text-gold-400">
+            NIS2 &middot; D.Lgs. 138/2024
+          </p>
+          <h1 className="mt-6 font-display font-bold text-display-lg text-paper-50">
+            Rientri nel perimetro <span className="italic text-gold-400">NIS2</span>?
+          </h1>
+          <p className="mt-8 max-w-2xl text-body-lg text-paper-200">
+            La risposta dipende da tre condizioni che vanno verificate insieme: giurisdizione,
+            dimensione e tipologia di attività. La dimensione si calcola con i criteri della
+            raccomandazione europea sulle PMI, nella lettura data dall&apos;Agenzia per la
+            cybersicurezza nazionale, e nei gruppi si misura sui dati aggregati. Qui il metodo, le
+            soglie e un calcolatore per la valutazione preliminare.
+          </p>
+          <div className="mt-10 flex flex-wrap gap-4">
+            <Link
+              href="/nis2/calcolatore"
+              className="inline-flex items-center gap-2 bg-gold-500 hover:bg-gold-400 text-navy-950 font-semibold px-6 py-3 rounded-md transition-colors"
+            >
+              Verifica con il calcolatore
+              <ArrowRight className="h-4 w-4" aria-hidden="true" />
+            </Link>
+            <Link
+              href="/soluzioni/cybersecurity-nis2"
+              className="inline-flex items-center gap-2 border border-paper-200 text-paper-100 hover:bg-paper-50/10 font-semibold px-6 py-3 rounded-md transition-colors"
+            >
+              Gli adempimenti NIS2
+              <ArrowRight className="h-4 w-4" aria-hidden="true" />
+            </Link>
+          </div>
         </div>
-      </Hero>
+      </section>
 
-      <section className="bg-paper py-16">
-        <div className="mx-auto max-w-[1200px] px-6 lg:px-12">
-          <h2 className="text-h2 text-ink mb-6 max-w-3xl">Il test in tre passi</h2>
-          <p className="text-body text-steel max-w-3xl mb-10">
+      <section className="bg-paper-100 py-16 md:py-24">
+        <div className="max-w-7xl mx-auto px-6 md:px-10 lg:px-14">
+          <h2 className="font-display font-bold text-display-md text-navy-950 mb-6 max-w-3xl">Il test in tre passi</h2>
+          <p className="text-body text-ink-scale-700 max-w-3xl mb-10">
             È l&apos;ordine indicato dall&apos;Agenzia nel processo di autovalutazione: si verifica per
             singola persona giuridica, anche all&apos;interno di un gruppo, e la dimensione è il secondo
             passo, non il primo.
           </p>
           <div className="grid gap-6 md:grid-cols-3">
             {passi.map((passo) => (
-              <div key={passo.numero} className="rounded-lg border border-mist bg-white p-6">
+              <div key={passo.numero} className="rounded-md border border-border bg-surface p-6 hover:border-gold-500 transition-colors">
                 <span className="font-mono text-mono-label text-gold-600">{passo.numero}</span>
-                <h3 className="text-h3 text-ink mt-3 mb-3">{passo.titolo}</h3>
-                <p className="text-body text-steel">{passo.testo}</p>
+                <h3 className="font-display font-semibold text-h3 text-navy-950 mt-3 mb-3">{passo.titolo}</h3>
+                <p className="text-body text-ink-scale-700">{passo.testo}</p>
               </div>
             ))}
           </div>
         </div>
       </section>
 
-      <section className="bg-white py-16">
-        <div className="mx-auto max-w-[1200px] px-6 lg:px-12">
-          <h2 className="text-h2 text-ink mb-6 max-w-3xl">Le soglie dimensionali</h2>
-          <p className="text-body text-steel max-w-3xl mb-4">
+      <section className="bg-paper-50 py-16 md:py-24">
+        <div className="max-w-7xl mx-auto px-6 md:px-10 lg:px-14">
+          <h2 className="font-display font-bold text-display-md text-navy-950 mb-6 max-w-3xl">Le soglie dimensionali</h2>
+          <p className="text-body text-ink-scale-700 max-w-3xl mb-4">
             Il decreto si applica ai soggetti degli Allegati I e II che superano i massimali della
             piccola impresa (art. 3, c. 2). Nella lettura ACN la classe si determina quando sono
             soddisfatti insieme il criterio degli occupati e almeno uno dei due parametri contabili;
             si sale di classe se si superano entrambi i parametri contabili oppure il solo criterio
             degli occupati.
           </p>
-          <p className="text-body text-steel max-w-3xl mb-8">
+          <p className="text-body text-ink-scale-700 max-w-3xl mb-8">
             In pratica: si entra nel perimetro con almeno 50 occupati, oppure con meno di 50 occupati
             ma più di 10 milioni sia di fatturato sia di totale di bilancio. Si è soggetto essenziale,
             nei settori dell&apos;Allegato I, con almeno 250 occupati oppure con più di 50 milioni di
             fatturato e più di 43 milioni di bilancio.
           </p>
-          <div className="overflow-x-auto rounded-lg border border-mist">
+          <div className="overflow-x-auto rounded-md border border-border bg-surface">
             <table className="w-full text-left text-body">
-              <thead className="bg-paper text-caption text-steel">
+              <thead className="bg-navy-900 text-white text-caption uppercase tracking-wide">
                 <tr>
                   <th className="px-4 py-3">Classe</th>
                   <th className="px-4 py-3">Occupati (ULA)</th>
@@ -244,9 +270,9 @@ export default function Nis2PerimetroPage() {
               </thead>
               <tbody>
                 {soglie.map((riga) => (
-                  <tr key={riga[0]} className="border-t border-mist">
+                  <tr key={riga[0]} className="border-t border-border">
                     {riga.map((cella, i) => (
-                      <td key={i} className={`px-4 py-3 ${i === 0 ? "font-medium text-ink" : "text-steel"}`}>
+                      <td key={i} className={`px-4 py-3 ${i === 0 ? "font-semibold text-navy-950" : "text-ink-scale-700"}`}>
                         {cella}
                       </td>
                     ))}
@@ -256,15 +282,15 @@ export default function Nis2PerimetroPage() {
             </table>
           </div>
 
-          <h3 className="text-h3 text-ink mt-12 mb-4">Gli esempi dell&apos;Agenzia</h3>
-          <p className="text-body text-steel max-w-3xl mb-6">
+          <h3 className="font-display font-semibold text-h3 text-navy-950 mt-12 mb-4">Gli esempi dell&apos;Agenzia</h3>
+          <p className="text-body text-ink-scale-700 max-w-3xl mb-6">
             Sono i sei casi riportati nella FAQ AMB.DI.1 (già 2.3) della sezione «Ambito»: mostrano
             che un&apos;impresa con pochi occupati può essere media o grande per i soli parametri
             contabili, e che un&apos;impresa con molti occupati lo è anche con conti contenuti.
           </p>
-          <div className="overflow-x-auto rounded-lg border border-mist">
+          <div className="overflow-x-auto rounded-md border border-border bg-surface">
             <table className="w-full text-left text-body">
-              <thead className="bg-paper text-caption text-steel">
+              <thead className="bg-navy-900 text-white text-caption uppercase tracking-wide">
                 <tr>
                   <th className="px-4 py-3">Occupati</th>
                   <th className="px-4 py-3">Fatturato</th>
@@ -274,9 +300,9 @@ export default function Nis2PerimetroPage() {
               </thead>
               <tbody>
                 {esempi.map((riga, r) => (
-                  <tr key={r} className="border-t border-mist">
+                  <tr key={r} className="border-t border-border">
                     {riga.map((cella, i) => (
-                      <td key={i} className={`px-4 py-3 ${i === 3 ? "font-medium text-ink" : "text-steel"}`}>
+                      <td key={i} className={`px-4 py-3 ${i === 3 ? "font-semibold text-navy-950" : "text-ink-scale-700"}`}>
                         {cella}
                       </td>
                     ))}
@@ -285,20 +311,20 @@ export default function Nis2PerimetroPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-caption text-steel mt-4 max-w-3xl">
+          <p className="text-sm text-ink-scale-500 mt-4 max-w-3xl">
             Il cambio di classe produce effetto solo se il superamento o la discesa sotto soglia si
             ripete per due esercizi consecutivi (raccomandazione 2003/361/CE, allegato, art. 4, par. 2).
           </p>
         </div>
       </section>
 
-      <section className="bg-paper py-16">
-        <div className="mx-auto max-w-[1200px] px-6 lg:px-12">
-          <h2 className="text-h2 text-ink mb-6 max-w-3xl">Gruppi di imprese: il calcolo cambia</h2>
+      <section className="bg-paper-100 py-16 md:py-24">
+        <div className="max-w-7xl mx-auto px-6 md:px-10 lg:px-14">
+          <h2 className="font-display font-bold text-display-md text-navy-950 mb-6 max-w-3xl">Gruppi di imprese: il calcolo cambia</h2>
           <div className="grid gap-8 lg:grid-cols-2">
             <div>
-              <h3 className="text-h3 text-ink mb-3">L&apos;aggregazione dei dati</h3>
-              <p className="text-body text-steel mb-4">
+              <h3 className="font-display font-semibold text-h3 text-navy-950 mb-3">L&apos;aggregazione dei dati</h3>
+              <p className="text-body text-ink-scale-700 mb-4">
                 Per stabilire la classe si applica l&apos;art. 6, par. 2, dell&apos;allegato alla
                 raccomandazione: i dati delle imprese collegate si sommano per intero, quelli delle
                 associate in proporzione alla quota. Una piccola società di un grande gruppo è, ai fini
@@ -311,16 +337,16 @@ export default function Nis2PerimetroPage() {
                   "Impresa collegata: maggioranza dei voti, potere di nomina dell'organo amministrativo, influenza dominante, anche per il tramite di persone fisiche che agiscono di concerto. Dati sommati al 100%.",
                   "Il collegamento per il tramite di enti pubblici (art. 3, par. 4 dell'allegato) non si applica ai fini NIS (D.Lgs. 138/2024, art. 3, c. 3).",
                 ].map((voce) => (
-                  <li key={voce} className="flex gap-3 text-body text-steel">
-                    <Check className="mt-1 h-4 w-4 shrink-0 text-brand" aria-hidden />
+                  <li key={voce} className="flex gap-3 text-body text-ink-scale-700">
+                    <Check className="mt-1 h-4 w-4 shrink-0 text-gold-600" aria-hidden />
                     <span>{voce}</span>
                   </li>
                 ))}
               </ul>
             </div>
             <div>
-              <h3 className="text-h3 text-ink mb-3">Art. 3, c. 10: dentro a prescindere dalla dimensione</h3>
-              <p className="text-body text-steel mb-4">
+              <h3 className="font-display font-semibold text-h3 text-navy-950 mb-3">Art. 3, c. 10: dentro a prescindere dalla dimensione</h3>
+              <p className="text-body text-ink-scale-700 mb-4">
                 L&apos;impresa associata o collegata a un soggetto essenziale o importante rientra nel
                 perimetro, qualunque sia la sua dimensione, se ricorre anche uno solo di questi criteri:
               </p>
@@ -331,14 +357,14 @@ export default function Nis2PerimetroPage() {
                   "ne effettua le operazioni di sicurezza informatica;",
                   "gli fornisce servizi TIC o di sicurezza, anche gestiti, anche in forma residuale.",
                 ].map((voce) => (
-                  <li key={voce} className="flex gap-3 text-body text-steel">
-                    <Check className="mt-1 h-4 w-4 shrink-0 text-brand" aria-hidden />
+                  <li key={voce} className="flex gap-3 text-body text-ink-scale-700">
+                    <Check className="mt-1 h-4 w-4 shrink-0 text-gold-600" aria-hidden />
                     <span>{voce}</span>
                   </li>
                 ))}
               </ul>
-              <h3 className="text-h3 text-ink mb-3">La clausola di salvaguardia</h3>
-              <p className="text-body text-steel">
+              <h3 className="font-display font-semibold text-h3 text-navy-950 mb-3">La clausola di salvaguardia</h3>
+              <p className="text-body text-ink-scale-700">
                 Consente di disapplicare l&apos;aggregazione quando i sistemi informativi e i servizi NIS
                 del soggetto sono totalmente indipendenti da quelli delle imprese collegate (DPCM 9
                 dicembre 2024, n. 221). Si chiede in registrazione, dichiarando i dati con e senza
@@ -350,30 +376,33 @@ export default function Nis2PerimetroPage() {
         </div>
       </section>
 
-      <section className="bg-brand py-16 lg:py-24">
-        <div className="mx-auto max-w-[1200px] px-6 lg:px-12 text-center">
-          <p className="text-eyebrow uppercase tracking-[0.12em] text-brand-soft mb-4">Calcolatore</p>
-          <h2 className="text-h2 text-white mb-4">Verifica la tua posizione in tre minuti</h2>
-          <p className="text-body-lg text-brand-soft max-w-2xl mx-auto mb-8">
-            Inserisci occupati, fatturato e bilancio, aggiungi le imprese del gruppo e la tipologia di
-            attività: il calcolatore applica la lettura ACN e restituisce la classe dimensionale e
-            l&apos;esito preliminare. Nessun dato viene trasmesso o conservato.
+      <section className="bg-gradient-to-br from-navy-900 via-navy-800 to-navy-700 py-20 md:py-28">
+        <div className="max-w-3xl mx-auto px-6 md:px-10 lg:px-14 text-center">
+          <p className="font-mono text-mono-label uppercase tracking-[0.22em] text-gold-400">CALCOLATORE</p>
+          <h2 className="mt-6 font-display font-bold text-display-md text-paper-50">
+            Verifica la tua posizione in <span className="italic text-gold-400">tre minuti</span>.
+          </h2>
+          <p className="mt-8 text-body-lg text-paper-200">
+            Inserisci occupati, fatturato e totale attivo, aggiungi le imprese del gruppo e la
+            tipologia di attività: il calcolatore applica la lettura ACN e restituisce la classe
+            dimensionale e l&apos;esito preliminare. Nessun dato viene trasmesso o conservato.
           </p>
-          <CTAButton
-            variant="secondary"
-            href="/nis2/calcolatore"
-            className="border-white text-white hover:bg-white hover:text-brand"
-          >
-            Apri il calcolatore
-            <ArrowRight className="ml-2 h-4 w-4" />
-          </CTAButton>
+          <div className="mt-10">
+            <Link
+              href="/nis2/calcolatore"
+              className="inline-flex items-center gap-2 bg-gold-500 hover:bg-gold-400 text-navy-950 font-semibold px-8 py-4 rounded-md transition-colors text-lg"
+            >
+              Apri il calcolatore
+              <ArrowRight className="h-5 w-5" aria-hidden="true" />
+            </Link>
+          </div>
         </div>
       </section>
 
-      <section className="bg-white py-16">
-        <div className="mx-auto max-w-[1200px] px-6 lg:px-12">
-          <h2 className="text-h2 text-ink mb-6 max-w-3xl">Dichiarazione e registrazione</h2>
-          <p className="text-body text-steel max-w-3xl mb-4">
+      <section className="bg-paper-50 py-16 md:py-24">
+        <div className="max-w-7xl mx-auto px-6 md:px-10 lg:px-14">
+          <h2 className="font-display font-bold text-display-md text-navy-950 mb-6 max-w-3xl">Dichiarazione e registrazione</h2>
+          <p className="text-body text-ink-scale-700 max-w-3xl mb-4">
             La qualificazione non è un accertamento una tantum: si rinnova ogni anno con la
             registrazione o l&apos;aggiornamento sulla piattaforma ACN, dal 1° gennaio al 28 febbraio,
             secondo le modalità della determinazione del Direttore Generale in vigore. Il Punto di
@@ -381,7 +410,7 @@ export default function Nis2PerimetroPage() {
             con l&apos;aggregazione di gruppo, l&apos;eventuale capogruppo, le imprese collegate rilevanti
             ai fini dell&apos;art. 3, c. 10, i codici ATECO e le tipologie di soggetto.
           </p>
-          <p className="text-body text-steel max-w-3xl mb-8">
+          <p className="text-body text-ink-scale-700 max-w-3xl mb-8">
             La piattaforma restituisce una valutazione preliminare automatica; l&apos;Autorità aggiorna
             l&apos;elenco entro il 31 marzo e comunica inserimento, permanenza o espunzione. Dai termini
             di quella comunicazione decorrono gli obblighi: nove mesi per le notifiche di incidente,
@@ -396,7 +425,7 @@ export default function Nis2PerimetroPage() {
               <li key={link.href}>
                 <Link
                   href={link.href}
-                  className="inline-flex items-center gap-2 rounded-md border border-mist bg-paper px-4 py-3 text-body text-brand hover:bg-brand-soft"
+                  className="inline-flex items-center gap-2 rounded-md border border-border bg-surface px-4 py-3 text-body font-semibold text-navy-900 hover:border-gold-500 transition-colors"
                 >
                   {link.label}
                   <ArrowRight className="h-4 w-4" aria-hidden />
@@ -407,17 +436,17 @@ export default function Nis2PerimetroPage() {
         </div>
       </section>
 
-      <section className="bg-white py-16">
-        <div className="mx-auto max-w-[1200px] px-6 lg:px-12">
-          <h2 className="text-h2 text-ink mb-6 max-w-3xl">I provvedimenti ACN sul perimetro</h2>
-          <p className="text-body text-steel max-w-3xl mb-8">
+      <section className="bg-paper-50 py-16 md:py-24">
+        <div className="max-w-7xl mx-auto px-6 md:px-10 lg:px-14">
+          <h2 className="font-display font-bold text-display-md text-navy-950 mb-6 max-w-3xl">I provvedimenti ACN sul perimetro</h2>
+          <p className="text-body text-ink-scale-700 max-w-3xl mb-8">
             Le determinazioni del Direttore Generale non fissano soglie proprie: rinviano alla
             raccomandazione 2003/361/CE e disciplinano come la dimensione si dichiara. Il testo
             vigente sulla registrazione è, dal 25 ottobre 2026, la determinazione n. 314287/2026.
           </p>
-          <div className="overflow-x-auto rounded-lg border border-mist">
+          <div className="overflow-x-auto rounded-md border border-border bg-surface">
             <table className="w-full text-left text-body">
-              <thead className="bg-paper text-caption text-steel">
+              <thead className="bg-navy-900 text-white text-caption uppercase tracking-wide">
                 <tr>
                   <th className="px-4 py-3">Provvedimento</th>
                   <th className="px-4 py-3">Data</th>
@@ -427,25 +456,25 @@ export default function Nis2PerimetroPage() {
               </thead>
               <tbody>
                 {provvedimenti.map((riga) => (
-                  <tr key={riga.titolo} className="border-t border-mist align-top">
-                    <td className="px-4 py-3 font-medium text-ink">
+                  <tr key={riga.titolo} className="border-t border-border align-top">
+                    <td className="px-4 py-3 font-semibold text-navy-950">
                       {riga.href ? (
-                        <a href={riga.href} className="text-brand underline" rel="noopener noreferrer" target="_blank">
+                        <a href={riga.href} className="text-gold-700 underline underline-offset-4" rel="noopener noreferrer" target="_blank">
                           {riga.titolo}
                         </a>
                       ) : (
                         riga.titolo
                       )}
                     </td>
-                    <td className="px-4 py-3 text-steel whitespace-nowrap">{riga.data}</td>
-                    <td className="px-4 py-3 text-steel">{riga.rilievo}</td>
-                    <td className="px-4 py-3 text-steel whitespace-nowrap">{riga.stato}</td>
+                    <td className="px-4 py-3 text-ink-scale-700 whitespace-nowrap">{riga.data}</td>
+                    <td className="px-4 py-3 text-ink-scale-700">{riga.rilievo}</td>
+                    <td className="px-4 py-3 text-ink-scale-700 whitespace-nowrap">{riga.stato}</td>
                   </tr>
                 ))}
               </tbody>
             </table>
           </div>
-          <p className="text-caption text-steel mt-4 max-w-3xl">
+          <p className="text-sm text-ink-scale-500 mt-4 max-w-3xl">
             Le determinazioni sostituite restano consultabili per ricostruire la posizione dei soggetti
             iscritti negli anni precedenti; i termini decorrono dalla comunicazione individuale di
             inserimento in elenco.
@@ -453,45 +482,45 @@ export default function Nis2PerimetroPage() {
         </div>
       </section>
 
-      <section className="bg-paper py-16">
-        <div className="mx-auto max-w-[1200px] px-6 lg:px-12">
-          <h2 className="text-h2 text-ink mb-8">Domande frequenti</h2>
+      <section className="bg-paper-100 py-16 md:py-24">
+        <div className="max-w-7xl mx-auto px-6 md:px-10 lg:px-14">
+          <h2 className="font-display font-bold text-display-md text-navy-950 mb-8">Domande frequenti</h2>
           <div className="grid gap-6 lg:grid-cols-2">
             {faq.map((voce) => (
-              <div key={voce.question} className="rounded-lg border border-mist bg-white p-6">
-                <h3 className="text-h3 text-ink mb-3">{voce.question}</h3>
-                <p className="text-body text-steel">{voce.answer}</p>
+              <div key={voce.question} className="rounded-md border border-border bg-surface p-6 hover:border-gold-500 transition-colors">
+                <h3 className="font-display font-semibold text-h3 text-navy-950 mb-3">{voce.question}</h3>
+                <p className="text-body text-ink-scale-700">{voce.answer}</p>
               </div>
             ))}
           </div>
         </div>
       </section>
 
-      <section className="bg-white py-12">
-        <div className="mx-auto max-w-[1200px] px-6 lg:px-12">
-          <h2 className="text-h3 text-ink mb-4">Fonti</h2>
-          <ul className="space-y-2 text-caption text-steel">
+      <section className="bg-paper-100 py-12 md:py-16 border-t border-gold-500/30">
+        <div className="max-w-7xl mx-auto px-6 md:px-10 lg:px-14">
+          <h2 className="font-display font-semibold text-h3 text-navy-950 mb-4">Fonti</h2>
+          <ul className="space-y-2 text-sm text-ink-scale-500">
             <li>
-              <a href="https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2024-09-04;138" className="text-brand underline" rel="noopener noreferrer" target="_blank">
+              <a href="https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2024-09-04;138" className="text-gold-700 underline underline-offset-4" rel="noopener noreferrer" target="_blank">
                 D.Lgs. 4 settembre 2024, n. 138
               </a>
               , art. 3 (ambito di applicazione) e art. 6 (soggetti essenziali e importanti).
             </li>
             <li>
-              <a href="https://www.normattiva.it/eli/id/2025/02/10/25G00017/ORIGINAL" className="text-brand underline" rel="noopener noreferrer" target="_blank">
+              <a href="https://www.normattiva.it/eli/id/2025/02/10/25G00017/ORIGINAL" className="text-gold-700 underline underline-offset-4" rel="noopener noreferrer" target="_blank">
                 DPCM 9 dicembre 2024, n. 221
               </a>
               , criteri per l&apos;applicazione della clausola di salvaguardia.
             </li>
             <li>
-              <a href="https://www.acn.gov.it/portale/faq/nis/ambito" className="text-brand underline" rel="noopener noreferrer" target="_blank">
+              <a href="https://www.acn.gov.it/portale/faq/nis/ambito" className="text-gold-700 underline underline-offset-4" rel="noopener noreferrer" target="_blank">
                 ACN, FAQ sull&apos;ambito di applicazione
               </a>
               (AMB.GE e AMB.DI), e determinazioni del Direttore Generale sulla piattaforma NIS.
             </li>
             <li>Raccomandazione 2003/361/CE della Commissione, allegato, artt. 2-6, e Guida dell&apos;utente alla definizione di PMI (2020).</li>
           </ul>
-          <p className="text-caption text-steel mt-6 max-w-3xl">
+          <p className="text-sm text-ink-scale-500 mt-6 max-w-3xl">
             Contenuto informativo aggiornato a novembre 2026; non costituisce parere professionale. La
             qualificazione di un soggetto dipende dalla sua situazione concreta e va verificata sui
             testi ufficiali e sulla piattaforma ACN.

@@ -101,7 +101,7 @@ function CampiImpresa({
         />
       </div>
       <div>
-        <Etichetta htmlFor={`${prefisso}-bilancio`}>Totale di bilancio (mln €)</Etichetta>
+        <Etichetta htmlFor={`${prefisso}-bilancio`}>Totale attivo di bilancio (mln €)</Etichetta>
         <input
           id={`${prefisso}-bilancio`}
           inputMode="decimal"
@@ -230,8 +230,9 @@ export function CalcolatorePerimetro() {
       <section className="rounded-lg border border-mist bg-white p-6 lg:p-8">
         <h2 className="text-h3 text-ink mb-1">1. Dati dell&apos;impresa — ultimo esercizio chiuso</h2>
         <p className="text-caption text-steel mb-6">
-          Occupati in unità lavorative annue; fatturato al netto dell&apos;IVA; totale dell&apos;attivo
-          dello stato patrimoniale. Importi in milioni di euro.
+          Occupati in unità lavorative annue; fatturato al netto dell&apos;IVA; totale attivo di bilancio,
+          cioè il totale dell&apos;attivo dello stato patrimoniale alla chiusura dell&apos;esercizio (non
+          l&apos;utile né il patrimonio netto). Importi in milioni di euro.
         </p>
         <CampiImpresa
           prefisso="attuale"

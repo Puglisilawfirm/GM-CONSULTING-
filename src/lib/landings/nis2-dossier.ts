@@ -34,7 +34,7 @@ export const nis2Glossary = {
   "criterio-dimensionale": {
     title: "Criterio dimensionale",
     body: [
-      "Si entra in perimetro superando i massimali della piccola impresa: cinquanta occupati, ovvero dieci milioni di euro di fatturato o di totale di bilancio.",
+      "Si entra in perimetro superando i massimali della piccola impresa: almeno cinquanta occupati, oppure, con meno di cinquanta occupati, più di dieci milioni di euro sia di fatturato sia di totale di bilancio (nella lettura ACN, FAQ AMB.DI.1, i due parametri contabili sono alternativi per restare nella classe inferiore).",
       "I dati delle imprese collegate e associate si aggregano, salva la clausola di proporzionalità che tiene conto dell'indipendenza del soggetto quanto ai sistemi informativi usati per fornire i servizi. La qualifica si acquista o si perde solo se il superamento si verifica in due esercizi consecutivi.",
     ],
     source: "Art. 3, commi 2 e 4, D.Lgs. 138/2024; Raccomandazione 2003/361/CE, artt. 4 e 6 dell'allegato",

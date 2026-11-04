@@ -32,6 +32,7 @@ const soluzioniLinks = [
   { href: "/soluzioni/pianificazione-strategica", label: "Pianificazione strategica" },
   { href: "/soluzioni/business-intelligence-dati", label: "Business intelligence" },
   { href: "/soluzioni/cybersecurity-nis2", label: "Cybersecurity e NIS2" },
+  { href: "/nis2/calcolatore", label: "Calcolatore NIS2" },
 ]
 
 const legalLinks = [

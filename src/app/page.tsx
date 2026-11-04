@@ -228,6 +228,39 @@ export default function HomePage() {
         </span>
       </section>
 
+      {/* 6.1-bis — NIS2 in evidenza */}
+      <section className="bg-paper-100 border-y border-gold-500/30" aria-labelledby="nis2-evidenza">
+        <div className="max-w-7xl mx-auto px-6 md:px-10 lg:px-14 py-12 md:py-16 grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+          <div className="lg:col-span-8">
+            <p className="font-mono text-mono-label uppercase tracking-[0.22em] text-gold-600">
+              IN EVIDENZA &middot; NIS2
+            </p>
+            <h2 id="nis2-evidenza" className="mt-4 font-display font-bold text-display-md text-navy-950">
+              Rientri nel perimetro NIS2?
+            </h2>
+            <p className="mt-4 max-w-2xl text-body-lg text-ink-scale-700">
+              Il D.Lgs. 138/2024 si applica alle imprese dei settori critici che superano i massimali della piccola impresa, calcolati con i dati del gruppo. Le soglie, la lettura dell&apos;Agenzia e un calcolatore gratuito per la valutazione preliminare.
+            </p>
+          </div>
+          <div className="lg:col-span-4 flex flex-col sm:flex-row lg:flex-col gap-4">
+            <Link
+              href="/nis2/calcolatore"
+              className="inline-flex items-center justify-center gap-2 bg-navy-900 hover:bg-navy-800 text-paper-50 font-semibold px-6 py-3 rounded-md transition-colors"
+            >
+              Verifica se rientri
+              <ArrowRight className="h-4 w-4" aria-hidden="true" />
+            </Link>
+            <Link
+              href="/nis2"
+              className="inline-flex items-center justify-center gap-2 border border-navy-900 text-navy-900 hover:bg-navy-900/5 font-semibold px-6 py-3 rounded-md transition-colors"
+            >
+              Approfondisci
+              <ArrowRight className="h-4 w-4" aria-hidden="true" />
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* 6.2 — Banner istituzionale */}
       <section className="bg-navy-950" aria-labelledby="banner-istituzionale">
         <h2 id="banner-istituzionale" className="sr-only">

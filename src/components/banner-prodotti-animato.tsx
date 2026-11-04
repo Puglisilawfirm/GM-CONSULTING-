@@ -16,6 +16,17 @@ interface Prodotto {
 
 const PRODOTTI: Prodotto[] = [
   {
+    slug: "nis2-perimetro",
+    nome: "Calcolatore NIS2",
+    claim: null,
+    subclaim: null,
+    tagline: "Rientri nel perimetro? Soglie, gruppi e valutazione preliminare in tre minuti",
+    eyebrow: null,
+    statoLabel: "Gratuito",
+    statoTone: "attivo",
+    href: "/nis2/calcolatore",
+  },
+  {
     slug: "protocollo-23",
     nome: "Protocollo 23",
     claim: null,
@@ -61,7 +72,19 @@ function PulseIcon() {
   )
 }
 
+function RadarIcon() {
+  return (
+    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" stroke="currentColor" strokeWidth="1.5" className="text-gold-500 shrink-0">
+      <circle cx="20" cy="20" r="16" />
+      <circle cx="20" cy="20" r="9" />
+      <circle cx="20" cy="20" r="2" fill="currentColor" stroke="none" />
+      <path d="M20 20L31 9" />
+    </svg>
+  )
+}
+
 const glyphs: Record<string, () => React.JSX.Element> = {
+  "nis2-perimetro": RadarIcon,
   "protocollo-23": ShieldIcon,
   "healthcare-continuity": PulseIcon,
 }

@@ -16,6 +16,15 @@ export interface InsightEntry {
 
 export const insights: InsightEntry[] = [
   {
+    slug: "rapporto-clusit-2026-pmi-presidio-cybersecurity",
+    title: "Rapporto Clusit 2026: analisi dei dati e architettura di presidio per le PMI",
+    subtitle:
+      "Le due edizioni del Rapporto lette dalla fonte e la valutazione indipendente di GM Consulting: un'architettura di presidio a sei strati, con un indicatore di esito per ciascuno",
+    readingTime: "15 min",
+    date: "4 novembre 2026",
+    datePublished: "2026-11-04",
+  },
+  {
     slug: "sentiero-resilienza-nis2-dlgs-138-2024",
     title: "Le porte socchiuse: NIS2 e il Sentiero della Resilienza",
     subtitle:

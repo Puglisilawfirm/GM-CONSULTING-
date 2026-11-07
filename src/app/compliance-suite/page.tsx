@@ -525,7 +525,16 @@ export default function ComplianceSuitePage() {
               title="La compliance non è solo una questione giuridica. Quando lo è, c'è l'Avvocato."
             />
             <p className="text-body-lg text-graphite mt-8">
-              Sviluppiamo la Compliance Suite in collaborazione con Puglisi Law Firm. Noi di GM Consulting ci
+              Sviluppiamo la Compliance Suite in collaborazione con{" "}
+              <a
+                href="https://www.puglisilawfirm.it"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-semibold text-brand hover:underline"
+              >
+                Puglisi Law Firm
+              </a>
+              . Noi di GM Consulting ci
               occupiamo di organizzazione, processi, documenti e presidio continuo; lo Studio interviene quando ti
               serve una valutazione giuridica o una firma professionale.
             </p>

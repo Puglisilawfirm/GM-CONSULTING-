@@ -16,6 +16,15 @@ export interface InsightEntry {
 
 export const insights: InsightEntry[] = [
   {
+    slug: "servizi-sicurezza-gestiti-dlgs-191-2026-certificazione",
+    title: "SOC, risposta agli incidenti, test di penetrazione: come qualificare il fornitore",
+    subtitle:
+      "D.Lgs. 191/2026: i servizi di sicurezza gestiti rientrano nella disciplina della certificazione di cybersicurezza. Che cosa cambia per chi li acquista e sei aree di evidenza per qualificare il fornitore",
+    readingTime: "12 min",
+    date: "11 novembre 2026",
+    datePublished: "2026-11-11",
+  },
+  {
     slug: "rapporto-clusit-2026-pmi-presidio-cybersecurity",
     title: "Rapporto Clusit 2026: analisi dei dati e architettura di presidio per le PMI",
     subtitle:

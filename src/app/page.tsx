@@ -123,6 +123,13 @@ const standards = [
 
 const articles = [
   {
+    title: "SOC, risposta agli incidenti, test di penetrazione: come qualificare il fornitore",
+    date: "11 NOVEMBRE 2026",
+    category: "CYBERSECURITY & NIS2",
+    href: "/insights/servizi-sicurezza-gestiti-dlgs-191-2026-certificazione",
+    excerpt: "D.Lgs. 191/2026: i servizi di sicurezza gestiti rientrano nella disciplina della certificazione di cybersicurezza. Che cosa cambia per chi li acquista e sei aree di evidenza per qualificare il fornitore.",
+  },
+  {
     title: "Rapporto Clusit 2026: analisi dei dati e architettura di presidio per le PMI",
     date: "4 NOVEMBRE 2026",
     category: "CYBERSECURITY & NIS2",
@@ -135,13 +142,6 @@ const articles = [
     category: "COMPLIANCE INTEGRATA",
     href: "/insights/iso-37001-37301-dlgs-231-architettura-integrata",
     excerpt: "Architettura unica per tre sistemi sovrapposti: compliance anticorruzione, conformità normativa e responsabilità amministrativa degli enti.",
-  },
-  {
-    title: "Certificazione UNI/PdR 125:2022 e premialità PNRR",
-    date: "20 MAGGIO 2026",
-    category: "PARITÀ DI GENERE",
-    href: "/insights/uni-pdr-125-2022-premialita-pnrr",
-    excerpt: "Guida tecnica all’accesso agli sgravi contributivi e ai bandi pubblici attraverso la certificazione della parità di genere.",
   },
 ]
 
@@ -237,33 +237,33 @@ export default function HomePage() {
         </span>
       </section>
 
-      {/* 6.1-bis — In evidenza: Rapporto Clusit 2026 */}
-      <section className="bg-paper-100 border-y border-gold-500/30" aria-labelledby="clusit-evidenza">
+      {/* 6.1-bis — In evidenza: D.Lgs. 191/2026, servizi di sicurezza gestiti */}
+      <section className="bg-paper-100 border-y border-gold-500/30" aria-labelledby="insight-evidenza">
         <div className="max-w-7xl mx-auto px-6 md:px-10 lg:px-14 py-12 md:py-16 grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
           <div className="lg:col-span-8">
             <p className="font-mono text-mono-label uppercase tracking-[0.22em] text-gold-600">
-              IN EVIDENZA &middot; RAPPORTO CLUSIT 2026
+              IN EVIDENZA &middot; D.LGS. 191/2026 &middot; SERVIZI DI SICUREZZA GESTITI
             </p>
-            <h2 id="clusit-evidenza" className="mt-4 font-display font-bold text-display-md text-navy-950">
-              Rapporto Clusit 2026: analisi dei dati e architettura di presidio per le PMI
+            <h2 id="insight-evidenza" className="mt-4 font-display font-bold text-display-md text-navy-950">
+              SOC, risposta agli incidenti, test di penetrazione: come qualificare il fornitore
             </h2>
             <p className="mt-4 max-w-2xl text-body-lg text-ink-scale-700">
-              507 incidenti gravi in Italia nel 2025 e 245 nel primo semestre 2026, con il manifatturiero al primo posto fra le vittime e il cybercrime all&apos;82%. La valutazione indipendente di GM Consulting sui limiti dell&apos;approccio centrato sulla rilevazione e l&apos;architettura di presidio a sei strati — identità, superficie esposta, OT, rilevazione, ripristino, catena di fornitura — con un indicatore di esito per ciascuno.
+              Dal 6 novembre 2026 SOC, risposta agli incidenti, test di penetrazione e audit rientrano nella disciplina nazionale della certificazione di cybersicurezza. La certificazione resta volontaria e lo schema europeo non è ancora adottato. Per chi acquista questi servizi, l&apos;analisi del decreto e sei aree di evidenza, ciascuna con la prova che la rende verificabile, per qualificare il fornitore.
             </p>
           </div>
           <div className="lg:col-span-4 flex flex-col sm:flex-row lg:flex-col gap-4">
             <Link
-              href="/insights/rapporto-clusit-2026-pmi-presidio-cybersecurity"
+              href="/insights/servizi-sicurezza-gestiti-dlgs-191-2026-certificazione"
               className="inline-flex items-center justify-center gap-2 bg-navy-900 hover:bg-navy-800 text-paper-50 font-semibold px-6 py-3 rounded-md transition-colors"
             >
               Leggi l&apos;analisi
               <ArrowRight className="h-4 w-4" aria-hidden="true" />
             </Link>
             <Link
-              href="/nis2/calcolatore"
+              href="/insights/rapporto-clusit-2026-pmi-presidio-cybersecurity"
               className="inline-flex items-center justify-center gap-2 border border-navy-900 text-navy-900 hover:bg-navy-900/5 font-semibold px-6 py-3 rounded-md transition-colors"
             >
-              Verifica se rientri nella NIS2
+              Rapporto Clusit 2026: l&apos;analisi
               <ArrowRight className="h-4 w-4" aria-hidden="true" />
             </Link>
           </div>

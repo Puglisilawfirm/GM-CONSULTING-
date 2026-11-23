@@ -1,74 +1,184 @@
 {
-  "generatedAt": "2026-11-22T15:12:35.061Z",
-  "slot": "morning",
+  "generatedAt": "2026-11-23T00:11:11.646Z",
+  "slot": "evening",
   "windowHours": 72,
   "items": [
     {
-      "id": "startupbusiness-1x9xywg",
-      "title": "Follini: “Servono partiti autentici per rimettere in piedi coalizioni autentiche”",
-      "url": "https://www.startupbusiness.it/follini-servono-partiti-autentici-per-rimettere-in-piedi-coalizioni-autentiche/219577",
-      "summary": "(Adnkronos) - \"La politica delle coalizioni, nostra croce e delizia, si avvita ogni giorno nella sua stessa crisi. E’ pur vero che la croce è sempre stata più della delizia. Ma da ultimo quel tanto di delizia che c’era...",
-      "publishedAt": "2026-11-22T14:34:02.000Z",
+      "id": "01net-95g6j5",
+      "title": "Riassunto: Persona ottiene la certificazione CEN/TS 18099 di livello “Alto” per il rilevamento degli attacchi di iniezione",
+      "url": "https://www.01net.it/riassunto-persona-ottiene-la-certificazione-cen-ts-18099-di-livello-alto-per-il-rilevamento-degli-attacchi-di-iniezione",
+      "summary": "La valutazione indipendente di Persona SDK Android conferma difese contro deepfake e altri contenuti multimediali iniettati al massimo livello del primo standard SAN FRANCISCO--(BUSINESS WIRE)--Persona, la piattaforma globale all’avanguardia nella ges... L'articolo Riassunto: Persona ottiene la certificazione CEN/TS…",
+      "publishedAt": "2026-11-22T23:20:00.000Z",
+      "sourceId": "01net",
+      "sourceName": "01net",
+      "category": "digitale"
+    },
+    {
+      "id": "help-net-security-u3yt0w",
+      "title": "Debian 13.8 bundles kernel and Chromium security fixes with a 122-package bugfix list",
+      "url": "https://www.helpnetsecurity.com/2026/11/23/debian-13-8-released",
+      "summary": "The Debian project released Debian 13.8, the eighth update to its stable “trixie” series. It mainly carries security fixes, plus corrections for a few serious bugs, and it bundles advisories Debian had already published separately. If you run trixie, here is what to check. The security table runs from DSA-6408 to…",
+      "publishedAt": "2026-11-22T23:05:09.000Z",
+      "sourceId": "help-net-security",
+      "sourceName": "Help Net Security",
+      "category": "cyber"
+    },
+    {
+      "id": "ansa-pmi-rro30",
+      "title": "NOTIZIARIO PICCOLE E MEDIE IMPRESE",
+      "url": "https://www.ansa.it/sito/notizie/economia/pmi/2026/11/23/notiziario-piccole-e-medie-imprese_e272d4b4-40b6-48da-a787-a80b4b81d854.html",
+      "summary": "AGENZIA ANSA - AGENZIA NAZIONALE STAMPA ASSOCIATA - - SOCIETA' COOPERATIVA - VIA DELLA DATARIA, 94 - 00187 ROMA REGISTRATA AL N. 212/48 DEL TRIBUNALE DI ROMA ------------------------------------------------------- DIRETTORE RESPONSABILE: LUIGI CONTU ------------------------------------------------------- AI SENSI DEL…",
+      "publishedAt": "2026-11-22T23:01:28.000Z",
+      "sourceId": "ansa-pmi",
+      "sourceName": "ANSA — PMI",
+      "category": "economia"
+    },
+    {
+      "id": "startupbusiness-3sik28",
+      "title": "Petrolio, gas e carbone dividono il mondo: alla Cop31 manca l’accordo, l’Europa boccia il testo finale",
+      "url": "https://www.startupbusiness.it/petrolio-gas-e-carbone-dividono-il-mondo-alla-cop31-manca-laccordo-leuropa-boccia-il-testo-finale/219625",
+      "summary": "(Adnkronos) - La rottura è arrivata sul nodo più controverso della crisi climatica: l’uscita dai combustibili fossili. Dopo oltre 44 ore di negoziati supplementari, la Cop31 di Antalya non è riuscita a trovare un’intesa...",
+      "publishedAt": "2026-11-22T22:10:22.000Z",
       "sourceId": "startupbusiness",
       "sourceName": "Startupbusiness",
       "category": "strategia"
     },
     {
-      "id": "milano-finanza-1jgfki4",
-      "title": "Perché il caso Ferretti è il paradigma del metodo di conquista di Pechino e della fragilità dell’Occidente",
-      "url": "https://www.milanofinanza.it/news/perche-la-cina-vuole-assumere-il-controllo-di-un-produttore-di-yacht-il-gruppo-ferretti-202611211226532394",
+      "id": "startupbusiness-sxrbx0",
+      "title": "Manovra, FdI propone spray colorati per i violenti ai cortei. Avs insorge: “Come il Cile di Pinochet”",
+      "url": "https://www.startupbusiness.it/manovra-fdi-propone-spray-colorati-per-i-violenti-ai-cortei-avs-insorge-come-il-cile-di-pinochet/219627",
+      "summary": "(Adnkronos) - Cortei, manifestazioni e partite di calcio entrano in legge di bilancio, con una serie di emendamenti per l'ordine pubblico, di maggioranza e opposizione, che spaziano dagli straordinari delle forze di...",
+      "publishedAt": "2026-11-22T22:02:13.000Z",
+      "sourceId": "startupbusiness",
+      "sourceName": "Startupbusiness",
+      "category": "strategia"
+    },
+    {
+      "id": "startupbusiness-l4xg88",
+      "title": "Zappacosta ‘para’ su Thuram, poi mano di Bastoni: due rigori in Atalanta-Inter",
+      "url": "https://www.startupbusiness.it/zappacosta-para-su-thuram-poi-mano-di-bastoni-due-rigori-in-atalanta-inter/219621",
+      "summary": "(Adnkronos) - Proteste in Atalanta-Inter. Oggi, domenica 22 novembre, la Dea ha ospitato i nerazzurri nel posticipo della 12esima giornata di Serie A, in una partita condizionata anche da un episodio arbitrale. Al...",
+      "publishedAt": "2026-11-22T21:30:00.000Z",
+      "sourceId": "startupbusiness",
+      "sourceName": "Startupbusiness",
+      "category": "strategia"
+    },
+    {
+      "id": "startupbusiness-162fmyq",
+      "title": "Alcaraz, trionfo alle Atp Finals e sfida all’Italia per la Davis: “Darò il massimo”",
+      "url": "https://www.startupbusiness.it/alcaraz-trionfo-alle-atp-finals-e-sfida-allitalia-per-la-davis-daro-il-massimo/219623",
+      "summary": "(Adnkronos) - \"Anche la Coppa Davis è molto importante. Farò tutto il possibile per arrivare a Bologna nella condizione fisica migliore. Per dare il massimo\". Carlos Alcaraz sorride dopo il trionfo alle Atp Finals. Si...",
+      "publishedAt": "2026-11-22T21:13:00.000Z",
+      "sourceId": "startupbusiness",
+      "sourceName": "Startupbusiness",
+      "category": "strategia"
+    },
+    {
+      "id": "sole24ore-economia-zy3rl1",
+      "title": "Al via il Torino Film Industry, focus su talenti emergenti e partnership internazionali",
+      "url": "https://www.ilsole24ore.com/art/al-via-torino-film-industry-focus-talenti-emergenti-e-partnership-internazionali-AJDq7nFC",
+      "summary": "Dal 26 al 30 novembre l’evento Business, in concomitanza con il Torino Film Festival - Manera (Film Commission): «Il 2026 anno di grande visibilità, sosteniamo la filiera dei servizi e della post produzione»",
+      "publishedAt": "2026-11-22T19:39:53.000Z",
+      "sourceId": "sole24ore-economia",
+      "sourceName": "Il Sole 24 Ore — Economia",
+      "category": "economia"
+    },
+    {
+      "id": "bleeping-computer-1xpyqdj",
+      "title": "Hackers exploit GL.iNet cloud flaw to infect routers, KVM devices",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices",
+      "summary": "GL.iNet has confirmed that hackers exploited a vulnerability in its cloud remote management services to install custom malware on customers' routers and KVM devices, with some affected users reporting backdoors and reverse shells giving remote access to infected devices. [...]",
+      "publishedAt": "2026-11-22T18:45:37.000Z",
+      "sourceId": "bleeping-computer",
+      "sourceName": "BleepingComputer",
+      "category": "cyber"
+    },
+    {
+      "id": "agi-economia-9htjjw",
+      "title": "Tutti i bonus e gli incentivi contenuti nella Manovra",
+      "url": "https://www.agi.it/economia/news/2026-11-22/manovra-bonus-incentivi-40144869",
+      "summary": "AGI -&nbsp;Ci sono i contributi per chi ha un figlio, gli aiuti alle mamme che lavorano, i voucher per i servizi all'infanzia, le agevolazioni per la casa e gli incentivi destinati alle imprese. La legge di bilancio 2027 contiene interventi molto diversi per importi, destinatari e durata. La CNA ha esaminato 50 misure…",
+      "publishedAt": "2026-11-22T17:50:41.000Z",
+      "sourceId": "agi-economia",
+      "sourceName": "AGI — Economia",
+      "category": "economia"
+    },
+    {
+      "id": "milano-finanza-in40u7",
+      "title": "Benessere, dai test fai da te agli integratori una miniera d'oro che vale 2.700 miliardi",
+      "url": "https://www.milanofinanza.it/news/wellness-un-mercato-globale-da-2-700-miliardi-di-dollari-mckinsey-fotografa-il-boom-del-benessere-202611201209552642",
       "summary": "",
-      "publishedAt": "2026-11-22T14:25:00.000Z",
+      "publishedAt": "2026-11-22T17:00:00.000Z",
       "sourceId": "milano-finanza",
       "sourceName": "Milano Finanza",
       "category": "economia"
     },
     {
-      "id": "startupbusiness-7p203d",
-      "title": "Marc Marquez campione del mondo per la decima volta. La dedica ai tifosi: “Questo è per voi”",
-      "url": "https://www.startupbusiness.it/marc-marquez-campione-del-mondo-per-la-decima-volta-la-dedica-ai-tifosi-questo-e-per-voi/219579",
-      "summary": "(Adnkronos) - \"L'anno scorso ho detto che il Mondiale lo dedicavo a me stesso, questo invece è per voi\". Queste le prime parole di Marc Marquez, rivolgendosi ai tifosi sugli spalti, dopo la conquista in Portogallo del...",
-      "publishedAt": "2026-11-22T14:22:48.000Z",
-      "sourceId": "startupbusiness",
-      "sourceName": "Startupbusiness",
-      "category": "strategia"
-    },
-    {
-      "id": "startupbusiness-1q5elt2",
-      "title": "Valerio Scanu e i chili persi: “Sto bene, non devo giustificarmi”",
-      "url": "https://www.startupbusiness.it/valerio-scanu-e-i-chili-persi-sto-bene-non-devo-giustificarmi/219581",
-      "summary": "(Adnkronos) - \"Volevo rassicurare tutti: sto bene!\". Valerio Scanu pubblica una storia su Instagram per rassicurare sulle proprie condizioni di salute. Il cantante interviene per sgombrare il campo da voci legate al...",
-      "publishedAt": "2026-11-22T14:00:11.000Z",
-      "sourceId": "startupbusiness",
-      "sourceName": "Startupbusiness",
-      "category": "strategia"
-    },
-    {
-      "id": "milano-finanza-5iutj8",
-      "title": "Il calcio italiano piace agli investitori: 27 operazioni nel 2026, quattro in Serie A",
-      "url": "https://www.milanofinanza.it/news/calcio-in-10-mesi-le-squadre-italiane-hanno-attirato-piu-investitori-di-tutte-in-europa-202611191705516695",
+      "id": "milano-finanza-1gkdy2p",
+      "title": "In Svizzera il vero lusso è quello degli orologi, mentre soffrono borse e abbigliamento",
+      "url": "https://www.milanofinanza.it/news/orologi-svizzeri-export-in-crescita-del-9-1-a-ottobre-il-lusso-si-divide-tra-gioielli-e-moda-202611201150027335",
       "summary": "",
-      "publishedAt": "2026-11-22T14:00:00.000Z",
+      "publishedAt": "2026-11-22T16:00:00.000Z",
       "sourceId": "milano-finanza",
       "sourceName": "Milano Finanza",
       "category": "economia"
     },
     {
-      "id": "startupbusiness-kqmgn2",
-      "title": "“Il calcio paghi per l’ordine pubblico”, l’emendamento di Futuro Nazionale alla manovra",
-      "url": "https://www.startupbusiness.it/il-calcio-paghi-per-lordine-pubblico-lemendamento-di-futuro-nazionale-alla-manovra/219575",
-      "summary": "(Adnkronos) - Un contributo pari al 5% degli incassi da parte delle società di calcio per sostenere le spese di ordine pubblico in occasione delle partite. Lo propone Futuro Nazionale in un emendamento alla Manovra 2027...",
-      "publishedAt": "2026-11-22T13:26:34.000Z",
-      "sourceId": "startupbusiness",
-      "sourceName": "Startupbusiness",
-      "category": "strategia"
+      "id": "bleeping-computer-6otryr",
+      "title": "Cleverbridge warns hackers stole credit card numbers, CVVs in data breach",
+      "url": "https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach",
+      "summary": "E-commerce platform Cleverbridge is warning that hackers breached its systems and stole customers' payment card information, including credit card numbers and CVV security codes. [...]",
+      "publishedAt": "2026-11-22T15:43:04.000Z",
+      "sourceId": "bleeping-computer",
+      "sourceName": "BleepingComputer",
+      "category": "cyber"
     },
     {
-      "id": "milano-finanza-xikh6m",
-      "title": "Dal nuovo esercito europeo ai robot, le 6 leve che possono cambiare l’economia nel 2027",
-      "url": "https://www.milanofinanza.it/news/euro-ai-e-controlli-sui-capitali-ecco-i-sei-scenari-che-potrebbero-cambiare-l-economia-globale-nel-202611171510007280",
+      "id": "ansa-pmi-1sxvaq6",
+      "title": "Salvini, meno tasse e pensioni più giuste le priorità della Lega al tavolo manovra",
+      "url": "https://www.ansa.it/sito/notizie/economia/pmi/2026/11/22/salvini-meno-tasse-e-pensioni-piu-giuste-le-priorita-della-lega-al-tavolo_16d9362a-b633-4c5b-ab96-c7995e1c7066.html",
+      "summary": "(ANSA) - ROMA, 22 NOV - \"Meno tasse, pensioni più giuste, più sicurezza e sostegno alle famiglie. Sono queste le priorità che abbiamo portato al tavolo della manovra, presentando alla Camera le nostre proposte per il 2027. Dalla rottamazione delle cartelle a Quota 64, fino alla richiesta di un ulteriore contributo…",
+      "publishedAt": "2026-11-22T15:30:49.000Z",
+      "sourceId": "ansa-pmi",
+      "sourceName": "ANSA — PMI",
+      "category": "economia"
+    },
+    {
+      "id": "agi-economia-xzd066",
+      "title": "Intesa-Mps, parte la sfida da 34,5 miliardi. Adesioni dal 24 novembre",
+      "url": "https://www.agi.it/economia/news/2026-11-22/intesa-sanpaolo-mps-opas-40143940",
+      "summary": "AGI - Da martedì prossimo la parola passerà agli azionisti. Alle 8,30 del 24 novembre prenderanno il via le adesioni all'offerta pubblica di acquisto e scambio di Intesa Sanpaolo su Monte dei Paschi di Siena . Saranno i soci della banca senese a decidere se il Monte, dopo oltre cinque secoli di storia autonoma,…",
+      "publishedAt": "2026-11-22T15:19:19.000Z",
+      "sourceId": "agi-economia",
+      "sourceName": "AGI — Economia",
+      "category": "economia"
+    },
+    {
+      "id": "bleeping-computer-5c6xtl",
+      "title": "Signal to block Siri, Gemini AI from capturing chats on iOS, Android",
+      "url": "https://www.bleepingcomputer.com/news/security/signal-to-block-siri-gemini-ai-from-capturing-chats-on-ios-android",
+      "summary": "Signal has announced new protections that block screenshots on iOS 27 and prevent AI assistants from capturing conversations on supported Android devices. [...]",
+      "publishedAt": "2026-11-22T15:15:25.000Z",
+      "sourceId": "bleeping-computer",
+      "sourceName": "BleepingComputer",
+      "category": "cyber"
+    },
+    {
+      "id": "milano-finanza-u8asjt",
+      "title": "Dividendi, il 23 novembre è il D-Day di Piazza Affari: 9,7 miliardi solo dalle banche. L’impatto sull’indice Ftse Mib",
+      "url": "https://www.milanofinanza.it/news/dividendi-il-23-novembre-e-il-d-day-di-piazza-affari-9-7-miliardi-solo-dalle-banche-l-impatto-sull-indice-202611211502008591",
       "summary": "",
-      "publishedAt": "2026-11-22T13:00:00.000Z",
+      "publishedAt": "2026-11-22T15:00:00.000Z",
+      "sourceId": "milano-finanza",
+      "sourceName": "Milano Finanza",
+      "category": "economia"
+    },
+    {
+      "id": "milano-finanza-10ldgcu",
+      "title": "I farmaci per dimagrire mettono a dieta anche il carrello della spesa: nei supermercati si compra meno",
+      "url": "https://www.milanofinanza.it/news/farmaci-dimagranti-effetto-ozempic-sui-supermercati-nel-regno-unito-la-spesa-alimentare-cala-di-1-202611191618312466",
+      "summary": "",
+      "publishedAt": "2026-11-22T15:00:00.000Z",
       "sourceId": "milano-finanza",
       "sourceName": "Milano Finanza",
       "category": "economia"
@@ -81,16 +191,6 @@
       "publishedAt": "2026-11-22T12:27:24.000Z",
       "sourceId": "agi-economia",
       "sourceName": "AGI — Economia",
-      "category": "economia"
-    },
-    {
-      "id": "milano-finanza-1xjrm73",
-      "title": "Smeg, il caso dei 9,1 milioni sottratti all’erede Bertazzoni",
-      "url": "https://www.milanofinanza.it/news/smeg-il-caso-dei-9-1-milioni-sottratti-all-erede-bertazzoni-202611201853585241",
-      "summary": "",
-      "publishedAt": "2026-11-22T12:00:00.000Z",
-      "sourceId": "milano-finanza",
-      "sourceName": "Milano Finanza",
       "category": "economia"
     },
     {
@@ -234,16 +334,6 @@
       "category": "fiscale"
     },
     {
-      "id": "ansa-pmi-oq9ffl",
-      "title": "NOTIZIARIO PICCOLE E MEDIE IMPRESE",
-      "url": "https://www.ansa.it/sito/notizie/economia/pmi/2026/11/22/notiziario-piccole-e-medie-imprese_d1df09bf-787a-4319-8b43-19ac7119aa7e.html",
-      "summary": "AGENZIA ANSA - AGENZIA NAZIONALE STAMPA ASSOCIATA - - SOCIETA' COOPERATIVA - VIA DELLA DATARIA, 94 - 00187 ROMA REGISTRATA AL N. 212/48 DEL TRIBUNALE DI ROMA ------------------------------------------------------- DIRETTORE RESPONSABILE: LUIGI CONTU ------------------------------------------------------- AI SENSI DEL…",
-      "publishedAt": "2026-11-21T23:01:48.000Z",
-      "sourceId": "ansa-pmi",
-      "sourceName": "ANSA — PMI",
-      "category": "economia"
-    },
-    {
       "id": "bleeping-computer-1e0lt2a",
       "title": "Rackspace Spot breach let hackers access customer Kubernetes secrets",
       "url": "https://www.bleepingcomputer.com/news/security/rackspace-spot-breach-let-hackers-access-customer-kubernetes-secrets",
@@ -284,16 +374,6 @@
       "category": "digitale"
     },
     {
-      "id": "bleeping-computer-1es3iec",
-      "title": "Microsoft Entra Connect Health flaw exploited to steal tenant data",
-      "url": "https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data",
-      "summary": "Microsoft is warning organizations that it suffered a data breach after attackers exploited a vulnerability in its Entra Connect Health service to gain unauthorized access to administrator email addresses and tenant configuration information. [...]",
-      "publishedAt": "2026-11-21T18:01:58.000Z",
-      "sourceId": "bleeping-computer",
-      "sourceName": "BleepingComputer",
-      "category": "cyber"
-    },
-    {
       "id": "01net-p1ci4l",
       "title": "Persona Earns CEN/TS 18099 High Certification for Injection Attack Detection",
       "url": "https://www.01net.it/persona-earns-cen-ts-18099-high-certification-for-injection-attack-detection",
@@ -314,16 +394,6 @@
       "category": "compliance"
     },
     {
-      "id": "ansa-pmi-16rlnr1",
-      "title": "FdI, torni Opzione Donna a caregiver,invalide e disoccupate, risorse da fondo pensioni",
-      "url": "https://www.ansa.it/sito/notizie/economia/pmi/2026/11/21/fdi-torni-opzione-donna-a-caregiverinvalide-e-disoccupate-risorse-da-fondo-pensioni_cc2c0739-1658-4ffe-a679-41106f398369.html",
-      "summary": "(ANSA) - ROMA, 21 NOV - Ripristinare 'Opzione donna' per le lavoratrici che entro il 31 dicembre 2026 hanno maturato un'anzianità contributiva pari o superiore a trentacinque anni e un'età anagrafica di almeno sessantuno anni, ridotta di un anno per ogni figlio, e che siano caregiver, invalide o disoccupate. Lo chiede…",
-      "publishedAt": "2026-11-21T17:14:19.000Z",
-      "sourceId": "ansa-pmi",
-      "sourceName": "ANSA — PMI",
-      "category": "economia"
-    },
-    {
       "id": "governo-154xstx",
       "title": "Nota di Palazzo Chigi",
       "url": "https://www.governo.it/it/articolo/nota-di-palazzo-chigi/33169",
@@ -342,46 +412,6 @@
       "sourceId": "cybersecitalia",
       "sourceName": "Cybersec Italia",
       "category": "cyber"
-    },
-    {
-      "id": "bleeping-computer-zv2m87",
-      "title": "BADBOX botnet returns with record-breaking 40 billion daily ad requests",
-      "url": "https://www.bleepingcomputer.com/news/security/badbox-30-botnet-returns-with-record-breaking-40-billion-daily-ad-requests",
-      "summary": "The BADBOX malware found in a broad range of generic Android TV boxes has returned to large-scale ad-fraud operations following last year's disruptions. [...]",
-      "publishedAt": "2026-11-21T15:17:27.000Z",
-      "sourceId": "bleeping-computer",
-      "sourceName": "BleepingComputer",
-      "category": "cyber"
-    },
-    {
-      "id": "agi-economia-ntzjiw",
-      "title": "È morta Raffaella Curiel, addio all'intellettuale della moda",
-      "url": "https://www.agi.it/economia/news/2026-11-21/moda-addio-raffaella-curiel-40132343",
-      "summary": "AGI - Raffaella Curiel è morta nella notte tra venerdì e sabato in un ospedale di Milano, la città in cui aveva sempre vissuto, dove era ricoverata per una polmonite. Aveva 83 anni. A dare la notizia sono stati i figli Gaetano e Gigliola. Il suo vero nome era Raffaella Bettinelli ed era nata a Gardone Riviera , nel…",
-      "publishedAt": "2026-11-21T14:38:11.000Z",
-      "sourceId": "agi-economia",
-      "sourceName": "AGI — Economia",
-      "category": "economia"
-    },
-    {
-      "id": "bleeping-computer-8gqkw6",
-      "title": "FBI reportedly hacked again, this time targeting nationwide police database",
-      "url": "https://www.bleepingcomputer.com/news/security/fbi-reportedly-hacked-again-this-time-targeting-nationwide-police-database",
-      "summary": "FBI systems have reportedly been breached for the second time in two months, this time targeting the agency's National Crime Information Center (NCIC), which is used to share information between local, state, and federal law enforcement agencies. [...]",
-      "publishedAt": "2026-11-21T14:26:04.000Z",
-      "sourceId": "bleeping-computer",
-      "sourceName": "BleepingComputer",
-      "category": "cyber"
-    },
-    {
-      "id": "agi-economia-qxqp80",
-      "title": "Addio a Paolo Bulgari, il re dei gioielli che si fingeva commesso: \"Mi diverto come un pazzo\"",
-      "url": "https://www.agi.it/economia/news/2026-11-21/morto-paolo-bulgari-89-anni-40131359",
-      "summary": "AGI -&nbsp; \"Il più grande gioielliere dei nostri tempi\" aveva uno spiccato senso dell'umorismo. Paolo Bulgari , morto oggi all'età di 89 anni , era il classico uomo di poche parole ma con una classe d'altri tempi. Rafforzato dai suoi circa due metri di statura, non disdegnava di stare al banco di vendita della sua…",
-      "publishedAt": "2026-11-21T14:01:23.000Z",
-      "sourceId": "agi-economia",
-      "sourceName": "AGI — Economia",
-      "category": "economia"
     },
     {
       "id": "industry4business-k6s8iq",
@@ -482,26 +512,6 @@
       "sourceId": "sole24ore-economia",
       "sourceName": "Il Sole 24 Ore — Economia",
       "category": "economia"
-    },
-    {
-      "id": "sole24ore-economia-52klag",
-      "title": "Pellet, rincari oltre il 30%. Ma resta più conveniente del metano",
-      "url": "https://www.ilsole24ore.com/art/pellet-rincari-oltre-30percento-ma-resta-piu-conveniente-metano-AJNbTVNC",
-      "summary": "I rialzi del costo del gas spingono la domanda e i prezzi dei combustibili da biomasse. Come difendersi da speculazioni e truffe",
-      "publishedAt": "2026-11-21T08:02:01.000Z",
-      "sourceId": "sole24ore-economia",
-      "sourceName": "Il Sole 24 Ore — Economia",
-      "category": "economia"
-    },
-    {
-      "id": "01net-tu31yv",
-      "title": "Riassunto: SatSure raccoglie un finanziamento di Serie B per ampliare la sua piattaforma full-stack di Earth Intelligence per i mercati globali",
-      "url": "https://www.01net.it/riassunto-satsure-raccoglie-un-finanziamento-di-serie-b-per-ampliare-la-sua-piattaforma-full-stack-di-earth-intelligence-per-i-mercati-globali",
-      "summary": "Il fondo sovrano dell'India per la tecnologia spaziale guida la prima chiusura del round di finanziamento in corso del valore di 200 crore di rupie indiane (INR) (circa 21 milioni di dollari)BENGALURU, India e LONDRA--(BUSINESS WIRE)--SatSure, società... L'articolo Riassunto: SatSure raccoglie un finanziamento di…",
-      "publishedAt": "2026-11-21T05:37:00.000Z",
-      "sourceId": "01net",
-      "sourceName": "01net",
-      "category": "digitale"
     },
     {
       "id": "commercialista-telematico-s9e3yi",
@@ -924,6 +934,16 @@
       "category": "compliance"
     },
     {
+      "id": "dark-reading-99rs6y",
+      "title": "Microsoft Debuts Offensive, Defensive Security Tools for the AI Era",
+      "url": "https://www.darkreading.com/endpoint-security/microsoft-offense-defense-ai-security-tools",
+      "summary": "Microsoft announces new AI agent security tools and transparency standards to protect enterprise systems at its Ignite technical conference.",
+      "publishedAt": "2026-11-20T13:51:30.000Z",
+      "sourceId": "dark-reading",
+      "sourceName": "Dark Reading",
+      "category": "cyber"
+    },
+    {
       "id": "wall-street-italia-1r5k2fq",
       "title": "Portafogli gestiti e depositi, nuovo record a metà 2026: superati 4.600 miliardi",
       "url": "https://www.wallstreetitalia.com/portafogli-gestiti-e-depositi-nuovo-record-a-meta-2026-superati-4-600-miliardi",
@@ -1182,26 +1202,6 @@
       "sourceId": "industry4business",
       "sourceName": "Industry4Business",
       "category": "digitale"
-    },
-    {
-      "id": "pmi-it-1chz6w3",
-      "title": "Dazi USA sulle merci UE: dal 5 gennaio stretta sugli importatori esteri",
-      "url": "https://www.pmi.it/economia/mercati/476360/dazi-usa-aliquote-regole-doganali.html",
-      "summary": "Merci europee negli USA al 10% (compreso il dazio ordinario) e auto al 15% ma da gennaio 2027 la dogana americana limita chi può sdoganare: export in DDP a rischio",
-      "publishedAt": "2026-11-20T11:06:26.000Z",
-      "sourceId": "pmi-it",
-      "sourceName": "PMI.it",
-      "category": "finanziamenti"
-    },
-    {
-      "id": "economyup-t92usb",
-      "title": "Innovazione aperta e intelligenza artificiale: ecco che cosa sta cambiando",
-      "url": "https://www.economyup.it/innovazione/innovazione-aperta-e-intelligenza-artificiale-ecco-che-cosa-sta-cambiando",
-      "summary": "Budget digitali stabili e investimenti più selettivi accompagnano la diffusione dell’intelligenza artificiale nelle imprese. Le startup indicano una possibile direzione per ripensare i modelli di business, mentre l’open innovation entra in una fase di maturità. I dati e il confronto il 1° dicembre al Politecnico di…",
-      "publishedAt": "2026-11-20T11:06:13.000Z",
-      "sourceId": "economyup",
-      "sourceName": "EconomyUp",
-      "category": "strategia"
     }
   ],
   "sources": [
@@ -1259,7 +1259,7 @@
       "homepage": "https://www.agi.it/economia/",
       "category": "economia",
       "status": "ok",
-      "itemCount": 15
+      "itemCount": 13
     },
     {
       "sourceId": "ai4business",
@@ -1267,7 +1267,7 @@
       "homepage": "https://www.ai4business.it/",
       "category": "bi",
       "status": "ok",
-      "itemCount": 8
+      "itemCount": 6
     },
     {
       "sourceId": "anac",
@@ -1283,7 +1283,7 @@
       "homepage": "https://www.ansa.it/sito/notizie/economia/pmi/pmi.html",
       "category": "economia",
       "status": "ok",
-      "itemCount": 78
+      "itemCount": 41
     },
     {
       "sourceId": "aodv231",
@@ -1315,7 +1315,7 @@
       "homepage": "https://www.bigdata4innovation.it/",
       "category": "bi",
       "status": "ok",
-      "itemCount": 8
+      "itemCount": 6
     },
     {
       "sourceId": "bleeping-computer",
@@ -1396,7 +1396,7 @@
       "homepage": "https://www.darkreading.com/",
       "category": "cyber",
       "status": "ok",
-      "itemCount": 7
+      "itemCount": 4
     },
     {
       "sourceId": "data-manager",
@@ -1411,8 +1411,8 @@
       "name": "Digital4 Executive",
       "homepage": "https://www.digital4.biz/executive/",
       "category": "strategia",
-      "status": "ok",
-      "itemCount": 1
+      "status": "empty",
+      "itemCount": 0
     },
     {
       "sourceId": "diritto-it",
@@ -1428,7 +1428,7 @@
       "homepage": "https://www.economyup.it/",
       "category": "strategia",
       "status": "ok",
-      "itemCount": 9
+      "itemCount": 8
     },
     {
       "sourceId": "enisa",
@@ -1524,7 +1524,7 @@
       "homepage": "https://www.governo.it/",
       "category": "compliance",
       "status": "ok",
-      "itemCount": 10
+      "itemCount": 9
     },
     {
       "sourceId": "hbr-italia",
@@ -1540,7 +1540,7 @@
       "homepage": "https://www.helpnetsecurity.com/",
       "category": "cyber",
       "status": "ok",
-      "itemCount": 10
+      "itemCount": 9
     },
     {
       "sourceId": "sole24ore-economia",
@@ -1581,7 +1581,7 @@
       "homepage": "https://www.industry4business.it/",
       "category": "digitale",
       "status": "ok",
-      "itemCount": 7
+      "itemCount": 6
     },
     {
       "sourceId": "invitalia",
@@ -1613,7 +1613,7 @@
       "homepage": "https://www.italiaoggi.it/",
       "category": "fiscale",
       "status": "ok",
-      "itemCount": 86
+      "itemCount": 76
     },
     {
       "sourceId": "kdnuggets",
@@ -1629,7 +1629,7 @@
       "homepage": "https://www.key4biz.it/",
       "category": "digitale",
       "status": "ok",
-      "itemCount": 16
+      "itemCount": 12
     },
     {
       "sourceId": "mckinsey",
@@ -1653,7 +1653,7 @@
       "homepage": "https://www.milanofinanza.it/",
       "category": "economia",
       "status": "ok",
-      "itemCount": 169
+      "itemCount": 43
     },
     {
       "sourceId": "mimit-incentivi",
@@ -1711,7 +1711,7 @@
       "homepage": "https://www.pmi.it/",
       "category": "finanziamenti",
       "status": "ok",
-      "itemCount": 20
+      "itemCount": 18
     },
     {
       "sourceId": "pmi-finanziamenti",
@@ -1776,7 +1776,7 @@
       "homepage": "https://thehackernews.com/",
       "category": "cyber",
       "status": "ok",
-      "itemCount": 19
+      "itemCount": 16
     },
     {
       "sourceId": "uni",
@@ -1816,7 +1816,7 @@
       "homepage": "https://www.zerounoweb.it/",
       "category": "bi",
       "status": "ok",
-      "itemCount": 8
+      "itemCount": 6
     }
   ]
 }
